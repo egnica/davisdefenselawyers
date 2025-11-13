@@ -2,6 +2,56 @@
 
 # Practice Areas JSON Reference
 
+```
+    {
+      "slug": "",
+      "category": "",
+      "navTitle": "",
+
+      "metaTitle": "",
+      "metaDescription": "",
+      "schemaServiceType": "",
+
+      "pageTitle": "",
+      "tagline": "",
+      "heroImage": "",
+      "heroImageAlt": "",
+      "heroSummary": "",
+
+      "audience": "",
+      "faqTitle": "",
+      "faq": [],
+      "ctaLabel": "",
+      "ctaBody": "",
+      "icon": "",
+      "relatedAreas": [],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "image": "",
+          "title": "",
+          "body": ""
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "",
+          "body": "",
+          "items": []
+        },
+        {
+          "type": "steps-section",
+          "image": "",
+          "title": "",
+          "body": "",
+          "steps": [{}]
+        }
+      ]
+    }
+  ]
+}
+```
+
 Each practice area in `app/data/practices.json` uses the following structure.  
 This section explains the purpose of every key and how it is used throughout the site.
 
