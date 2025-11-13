@@ -1,0 +1,49 @@
+{
+  "master": [
+    {
+      "slug": "",
+      "category": "",
+      "navTitle": "",
+
+      "metaTitle": "",
+      "metaDescription": "",
+      "schemaServiceType": "",
+
+      "pageTitle": "",
+      "tagline": "",
+      "heroImage": "",
+      "heroImageAlt": "",
+      "heroSummary": "",
+
+      "audience": "",
+      "faqTitle": "",
+      "faq": [],
+      "ctaLabel": "",
+      "ctaBody": "",
+      "icon": "",
+      "relatedAreas": [],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "image": "",
+          "title": "",
+          "body": ""
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "",
+          "body": "",
+          "items": []
+        },
+        {
+          "type": "steps-section",
+          "image": "",
+          "title": "",
+          "body": "",
+          "steps": [{}]
+        }
+      ]
+    }
+  ]
+}
