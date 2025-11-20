@@ -14,6 +14,8 @@
       "heroImage": "",
       "heroImageAlt": "",
       "heroSummary": "",
+      "video": "",
+      "videoThumbnail": "",
 
       "audience": "",
       "faqTitle": "",
@@ -45,5 +47,1523 @@
         }
       ]
     }
+  ],
+  "practiceAreas": [
+    {
+      "slug": "assault",
+      "category": "Criminal Defense",
+      "navTitle": "Assault",
+
+      "metaTitle": "Minnesota Assault Lawyer | Assault & Domestic Assault Defense",
+      "metaDescription": "Charged with assault or domestic assault in Minnesota? Attorney Andrew Davis provides aggressive defense, clear explanations of charges, and strategic representation. Get a free consultation today.",
+      "schemaServiceType": "LegalService",
+
+      "pageTitle": "Minnesota Assault Defense Attorney",
+      "tagline": "Accused of assault? Get clarity, strategy, and a proven defense on your side.",
+      "heroImage": "",
+      "heroImageAlt": "",
+      "heroSummary": "Assault and domestic assault cases often begin with misunderstandings, false accusations, or actions that were taken in self-defense. With over 25 years of criminal defense experience, Attorney Andrew Davis understands how fast these situations escalate—and how important a strong defense is from day one.",
+
+      "video": "",
+      "videoThumbnail": "",
+
+      "audience": "Individuals facing assault or domestic assault charges in Minnesota, or anyone seeking legal guidance after an argument escalated and resulted in police involvement.",
+
+      "faqTitle": "Minnesota Assault Defense FAQ",
+      "faq": [
+        {
+          "q": "What is the difference between assault and domestic assault?",
+          "a": "Domestic assault involves family or household members, which often results in immediate arrest and automatic no-contact orders. Though the legal elements are similar, domestic cases carry additional restrictions that impact home life, employment, and firearm rights."
+        },
+        {
+          "q": "What penalties could I face?",
+          "a": "Penalties depend on the degree of assault. Fifth-degree assault (misdemeanor) carries up to 90 days in jail, while first-degree assault (felony) can result in up to 20 years in prison. The severity hinges on the level of harm, the use of a weapon, and the status of the alleged victim."
+        },
+        {
+          "q": "What if I acted in self-defense?",
+          "a": "Self-defense is one of the most common and strongest defenses to assault charges. If you reasonably believed harm was coming to you or someone else, your actions may be legally justified. Andrew will evaluate all evidence to determine whether self-defense applies."
+        },
+        {
+          "q": "How does a no-contact order work?",
+          "a": "A no-contact order prohibits any communication with the protected person. Only a judge can lift the order—even if the other person invites contact. Any violation can lead to additional criminal charges."
+        },
+        {
+          "q": "Should I talk to police before hiring a lawyer?",
+          "a": "No. Assault cases are highly emotional, and statements can easily be misinterpreted. Always speak with a lawyer before giving any statement to police."
+        }
+      ],
+
+      "ctaLabel": "Get Your Free Consultation",
+      "ctaBody": "Facing assault or domestic assault charges? You need clear guidance and strong defense immediately. Call Attorney Andrew Davis at (952) 994-1568 or contact us online to protect your rights.",
+      "icon": "",
+
+      "relatedAreas": [
+        "domestic-assault",
+        "disorderly-conduct",
+        "harassment",
+        "gun-rights"
+      ],
+
+      "contentBlocks": [
+        {
+          "type": "section",
+          "image": "",
+          "title": "Understanding Minnesota Assault Charges",
+          "body": "Minnesota assault laws are complex, and charges often don’t match the reality of what happened. People are frequently overcharged, charged based on incomplete information, or charged after acting in self-defense. Andrew breaks down the exact degree of assault you are facing, explains the possible outcomes, and begins building a defense strategy based on facts—not assumptions."
+        },
+
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "Degrees of Assault in Minnesota",
+          "body": "Minnesota has five degrees of assault, ranging from misdemeanors to serious felonies. Here’s what each level means:",
+          "items": [
+            "**Fifth-Degree Assault (§ 609.224):** Intent to cause fear or bodily harm; misdemeanor; up to 90 days in jail.",
+            "**Fourth-Degree Assault (§ 609.2231):** Assault against police, firefighters, medical staff, DNR officers, and other protected workers; gross misdemeanor or felony.",
+            "**Third-Degree Assault (§ 609.223):** Substantial bodily harm; felony; up to 5 years in prison.",
+            "**Second-Degree Assault (§ 609.222):** Assault with a dangerous weapon; felony; up to 7 years in prison.",
+            "**First-Degree Assault (§ 609.221):** Great bodily harm or deadly force used against a police officer; felony; up to 20 years in prison."
+          ]
+        },
+
+        {
+          "type": "section",
+          "image": "",
+          "title": "Domestic Assault & No-Contact Orders",
+          "body": "A heated argument that escalates or is misinterpreted can quickly turn into a domestic assault charge. Police often make automatic arrests to separate people, even when the situation is unclear. No-contact orders can keep you out of your home, prevent you from seeing family, and restrict firearm access—especially important for military and law enforcement personnel. Andrew helps clients fight these orders, request modifications, and challenge the underlying accusations."
+        },
+
+        {
+          "type": "section",
+          "image": "",
+          "title": "Common Defense Strategies",
+          "body": "Every assault case is unique, and the right strategy depends on a deep understanding of the facts. Andrew examines every detail—witness statements, medical reports, body-cam footage, and police conduct—to identify strong defense angles, including:\n\n• Self-defense or defense of another\n• Defense of property\n• False accusations or exaggeration\n• Mutual combat\n• Insufficient evidence\n• Mistaken identity\n• Violation of your constitutional rights"
+        },
+
+        {
+          "type": "steps-section",
+          "image": "",
+          "title": "What to Expect After an Assault Charge",
+          "body": "Assault cases move fast. Here’s what the process usually looks like:",
+          "steps": [
+            { "step": "Immediate arrest and possible no-contact order" },
+            { "step": "Reviewing the complaint and understanding the charges" },
+            { "step": "Collecting evidence and identifying defense strategy" },
+            { "step": "Negotiations, motions, or preparing for trial" },
+            {
+              "step": "Working toward the best possible outcome—reduction, dismissal, or acquittal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "drug-crimes",
+      "category": "Criminal Defense",
+      "navTitle": "Drug Crimes",
+
+      "metaTitle": "Minnesota Drug Crime Lawyer | Defense for Possession, Sales & Trafficking",
+      "metaDescription": "Charged with a drug crime in Minnesota? Attorney Andrew Davis defends clients facing possession, sale, trafficking, and prescription drug charges. Learn your options with a free consultation.",
+      "schemaServiceType": "LegalService",
+
+      "pageTitle": "Minnesota Drug Crime Defense Attorney",
+      "tagline": "Arrested for a drug charge? Get experienced, non-judgmental defense focused on second chances and real outcomes.",
+      "heroImage": "",
+      "heroImageAlt": "",
+      "heroSummary": "Felony drug cases continue to fill courtrooms in Hennepin, Ramsey, Dakota, and the surrounding counties. Good people make mistakes, and sometimes innocent people get pulled into the criminal justice system because of police errors or being in the wrong place at the wrong time. At Davis Defense, we believe in clean slates and second chances. Attorney Andrew Davis uses more than 25 years of criminal defense experience to protect your future.",
+
+      "video": "",
+      "videoThumbnail": "",
+
+      "audience": "People charged with drug possession, possession with intent to sell, distribution, manufacturing, trafficking, or prescription drug offenses in Minnesota, as well as families seeking guidance after a loved one’s drug-related arrest.",
+
+      "faqTitle": "Minnesota Drug Crime FAQ",
+      "faq": [
+        {
+          "q": "What types of drug charges does Davis Defense handle?",
+          "a": "We handle the full range of Minnesota drug crimes, including possession, possession with intent to sell or deliver, sale and distribution, manufacturing, trafficking, conspiracy, paraphernalia charges, and prescription drug offenses involving painkillers or other controlled substances."
+        },
+        {
+          "q": "What are the possible penalties for a drug conviction?",
+          "a": "Penalties depend on the degree of the offense, the type and amount of the drug, whether there was an alleged intent to sell, and your prior record. A low-level possession case may carry the possibility of diversion or probation, while higher-degree controlled substance crimes can involve years in prison, heavy fines, forfeiture of property, and a permanent felony record."
+        },
+        {
+          "q": "Can a drug conviction affect my job, housing, or education?",
+          "a": "Yes. A drug conviction can make it harder to find employment, qualify for housing, or receive student financial aid. It may also affect professional licenses. That’s why it’s critical to work with a lawyer focused not just on the criminal case, but on protecting your long-term future."
+        },
+        {
+          "q": "What if the police searched my car or home—can that be challenged?",
+          "a": "Often. Many drug cases turn on whether the police had a lawful reason to stop your vehicle, enter your home, or search your belongings. If your rights were violated, Andrew may be able to challenge the search and move to suppress illegally obtained evidence."
+        },
+        {
+          "q": "Do I need a lawyer if I think I’m guilty?",
+          "a": "Yes. Even if you believe you made a mistake, there may be legal defenses, weaknesses in the evidence, or alternative resolutions such as treatment-focused programs or reduced charges. An experienced drug crime lawyer can often improve the outcome significantly."
+        }
+      ],
+
+      "ctaLabel": "Talk to a Minnesota Drug Crime Lawyer",
+      "ctaBody": "If you’ve been arrested for a drug charge, you don’t have to face the system alone. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation. We will explain your options, answer your questions, and start building a strategy to protect your record and your future.",
+      "icon": "",
+
+      "relatedAreas": ["assault", "dwi", "weapon-charges", "forfeiture"],
+
+      "contentBlocks": [
+        {
+          "type": "section",
+          "image": "",
+          "title": "Charged With a Drug Crime in Minnesota?",
+          "body": "Drug arrests are intimidating. You may feel like the system has already decided your fate the moment the handcuffs went on. At Davis Defense, we see the bigger picture—how the arrest happened, what the police actually found, whether procedures were followed, and how a conviction would affect your life. Our goal is to put you back in control by giving you clear information, a realistic view of the case, and a strategy tailored to your situation."
+        },
+
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "Types of Drug Charges We Handle",
+          "body": "Any illegal activity involving a controlled substance can lead to criminal charges in Minnesota. We defend clients in state and local courts on charges involving:",
+          "items": [
+            "Simple possession of controlled substances",
+            "Possession with intent to sell or deliver",
+            "Sale, distribution, or trafficking of drugs",
+            "Manufacturing or cultivation offenses",
+            "Conspiracy to commit a drug crime",
+            "Drug paraphernalia charges",
+            "Marijuana and THC-related offenses",
+            "Cocaine, heroin, methamphetamine, and other street drugs",
+            "Synthetic drugs such as K2, Spice, or bath salts",
+            "Prescription medications, including painkillers like oxycodone or similar drugs"
+          ]
+        },
+
+        {
+          "type": "section",
+          "image": "",
+          "title": "How Andrew Builds a Drug Crime Defense",
+          "body": "Drug cases are rarely as simple as the police report makes them sound. The prosecutor must prove every element of the offense beyond a reasonable doubt. Andrew investigates how the case started, whether there was a confidential informant, how the search was conducted, and how the substances were tested and handled. He looks for:\n\n• Illegal stops, searches, or seizures\n• Problems with warrants or lack of probable cause\n• Unreliable witnesses or informants\n• Breaks in the chain of custody for the drugs\n• Overcharging or inflated weight calculations\n\nIf the government’s evidence is weak, we push hard for dismissal, reduced charges, or an outcome that avoids a damaging conviction."
+        },
+
+        {
+          "type": "section",
+          "image": "",
+          "title": "Consequences of a Drug Conviction",
+          "body": "Minnesota has made some reforms for first-time offenders, but drug crimes still carry serious consequences. Depending on the level of the offense, you may be facing:\n\n• Jail or prison time\n• Significant fines and court costs\n• Loss of eligibility for certain student loans or financial aid\n• Forfeiture of cash, vehicles, or other property\n• Long probation terms with strict conditions\n• A criminal record that can limit employment and housing options\n\nIf your case involves driving under the influence of drugs, you may also face driver’s license suspension or revocation. Allegations involving weapons or large quantities of drugs can lead to enhanced penalties and mandatory minimum sentences."
+        },
+
+        {
+          "type": "steps-section",
+          "image": "",
+          "title": "What to Do After a Drug Arrest",
+          "body": "The steps you take right after an arrest can make a big difference in your case. Here’s what usually happens and how Andrew helps at each stage:",
+          "steps": [
+            {
+              "step": "Arrest and booking, followed by a bail or conditions-of-release decision"
+            },
+            {
+              "step": "Review of the complaint and police reports to understand the exact charges"
+            },
+            {
+              "step": "Independent investigation into the stop, search, and seizure of evidence"
+            },
+            {
+              "step": "Challenging illegal searches, questionable evidence, or unreliable witnesses"
+            },
+            {
+              "step": "Negotiating for reduced charges, treatment-based resolutions, or, when necessary, preparing for trial"
+            }
+          ]
+        }
+      ]
+    },
+{
+  "slug": "dwi-dui",
+  "category": "Criminal Defense",
+  "navTitle": "DWI / DUI",
+
+  "metaTitle": "Carver County DWI Lawyer | Minnesota DUI & DWI Defense Attorney",
+  "metaDescription": "Charged with DWI or DUI in Minnesota? Carver County DWI lawyer Andrew Davis defends drivers facing alcohol- and drug-related impaired driving charges statewide. Free consultation.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Carver County & Minnesota DWI / DUI Defense Attorney",
+  "tagline": "Charged with DWI or DUI in Minnesota? Get experienced, focused defense before you make any decisions.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "A DWI arrest is stressful and confusing, but it is not the same as a conviction. Whether your case involves alcohol, prescription medication, or other drugs, you still have rights and options. As a dedicated DWI/DUI attorney serving Carver County and clients throughout Minnesota, Andrew Davis focuses on criminal law, understands the complexities of impaired driving cases, and has guided hundreds of clients through the system with clarity and strategy.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "Drivers in Carver County, Ramsey County, Hennepin County, and across Minnesota who have been arrested or charged with DWI/DUI, including those facing test refusals, high test results, prior offenses, or felony-level DWI charges.",
+
+  "faqTitle": "Minnesota DWI / DUI FAQ",
+  "faq": [
+    {
+      "q": "Will I go to jail if I am charged with DWI in Minnesota?",
+      "a": "Not necessarily. Many people spend a night in jail after arrest, but that may be the only time behind bars depending on the facts of the case, your prior record, and how the case is handled. Some cases resolve with probation, treatment, or reduced charges instead of lengthy jail time. An experienced DWI defense lawyer can help you understand realistic outcomes for your situation."
+    },
+    {
+      "q": "What should I do if I am pulled over for suspected DWI in Carver County, MN?",
+      "a": "Remain calm, be polite, and provide your license, registration, and insurance. Do not argue with the officer or volunteer extra information. Avoid admitting guilt or guessing your alcohol level. Once you are safe to do so, contact a DWI attorney immediately to get advice tailored to your situation—especially before deciding whether to take or refuse any tests."
+    },
+    {
+      "q": "If I blew .08 or higher, should I just plead guilty?",
+      "a": "No. A test result at or above .08 does not automatically mean you will be convicted. The traffic stop, field sobriety tests, testing equipment, and procedures all matter. There may be legal defenses, issues with the test, or opportunities to reduce the charges or penalties. Always talk to a DWI defense lawyer before pleading guilty."
+    },
+    {
+      "q": "What is Minnesota’s implied consent law?",
+      "a": "Under implied consent, anyone who drives in Minnesota is considered to have agreed to chemical testing if lawfully arrested for DWI. Refusing a breath, blood, or urine test can lead to additional penalties, including longer license revocation and separate criminal charges. Because the decision to test or refuse has serious consequences, it’s critical to understand your rights as early as possible."
+    },
+    {
+      "q": "Do you handle DWI cases involving drugs or prescription medications?",
+      "a": "Yes. You can be charged with DWI if illegal drugs, prescription medications, or even some over-the-counter substances affect your ability to drive safely. Drug-related DWIs rely on blood or urine testing and officer observations, which can be challenged. Andrew defends cases involving both alcohol and drugs."
+    }
+  ],
+
+  "ctaLabel": "Get a Free DWI Case Evaluation",
+  "ctaBody": "Facing a DWI or DUI charge in Carver County or anywhere in Minnesota? Don’t plead guilty before you understand your options. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free, confidential consultation.",
+  "icon": "",
+
+  "relatedAreas": [
+    "driver-license-revocation",
+    "felony-dwi",
+    "drug-crimes",
+    "traffic-offenses"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "Trusted DWI / DUI Attorney Serving Carver County and All of Minnesota",
+      "body": "When you are accused of impaired driving, the stakes are high: your license, your job, your finances, and your record are all on the line. At Davis Defense, we focus on criminal law and have extensive experience with DWI and DUI cases. From first-time offenses to complex felony-level charges, Andrew Davis provides experienced, hands-on representation—listening to your story, explaining the law in plain language, and developing a strategy around your goals."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Serving Carver, Ramsey, Hennepin, and Every Minnesota County",
+      "body": "Our office is based in Carver County, but we represent clients across Minnesota, including Ramsey County, Hennepin County, and surrounding areas. Each county has its own procedures and personalities in the courthouse. Andrew’s experience in courts across the Twin Cities and greater Minnesota allows him to tailor your defense strategy to the local rules, prosecutors, and judges you’ll be dealing with."
+    },
+
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "What’s on the Line in a Minnesota DWI Case",
+      "body": "A DWI is more than just a traffic ticket. Depending on your record and the facts of the case, a conviction can result in:",
+      "items": [
+        "Suspension or revocation of your driver’s license, including a CDL",
+        "Jail or prison time, especially for repeat or felony-level offenses",
+        "Significant fines and surcharges",
+        "Vehicle forfeiture in certain cases",
+        "Ignition interlock requirements at your expense",
+        "Long probation terms with strict conditions",
+        "Increased insurance premiums and long-term financial impact",
+        "A permanent criminal record that can affect jobs, housing, and education"
+      ]
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Alcohol, Drugs, and Minnesota DWI Law",
+      "body": "Minnesota’s DWI laws apply to more than just alcohol. You can be charged with DWI if drugs—illegal substances, prescription medications, or a combination of substances—impact your ability to drive safely. Unlike alcohol, which is often measured with a roadside breath test, drug-related DWI cases rely heavily on blood or urine testing and the officer’s observations. These tests must be properly administered, stored, and documented. Andrew carefully reviews the circumstances of your stop, the officer’s training, and the handling of any chemical tests to identify weaknesses in the state’s case."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Felony vs. Misdemeanor DWI in Minnesota",
+      "body": "Not all DWI charges are the same. Many first-time DWIs are misdemeanors, but the consequences quickly escalate with prior offenses, high test results, or aggravating factors such as a child in the vehicle. Multiple DWIs within a ten-year period, or a prior felony DWI, can lead to felony-level charges with the possibility of years in prison, large fines, and loss of firearm rights. If your case involves injury, criminal vehicular operation or homicide charges may also be filed. Early, skilled representation is critical when the stakes are this high."
+    },
+
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "How Andrew Handles Your DWI Case",
+      "body": "You don’t have to guess what comes next. Here’s how the process typically works and how Andrew stays with you at each step:",
+      "steps": [
+        {
+          "step": "Free Initial Consultation – Andrew listens to your side, explains the charges, and identifies immediate deadlines, including license issues."
+        },
+        {
+          "step": "Reviewing the Evidence – We obtain police reports, videos, and test results, and we go through them with you so you understand the strengths and weaknesses of the case."
+        },
+        {
+          "step": "Challenging the Stop and Tests – We examine whether the officer had a lawful reason to stop you, whether field sobriety tests were properly conducted, and whether breath, blood, or urine tests were reliable and admissible."
+        },
+        {
+          "step": "Strategy: Negotiation or Trial – Depending on the evidence, your goals, and your record, we decide whether to pursue dismissal, reduced charges, or prepare for trial."
+        },
+        {
+          "step": "Resolving the Case – We work toward the best possible outcome, whether that is minimized penalties, treatment-focused options, or a not-guilty verdict."
+        }
+      ]
+    }
+  ]
+},
+{
+  "slug": "expungement",
+  "category": "Criminal Defense",
+  "navTitle": "Expungement",
+
+  "metaTitle": "Minnesota Expungement Lawyer | Clear or Seal Your Criminal Record",
+  "metaDescription": "Denied a job, housing, or a license because of your criminal record? Minnesota expungement lawyer Andrew Davis helps clients seal records and move forward. Free consultation.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Minnesota Expungement & Criminal Record Sealing",
+  "tagline": "You can’t change the past—but you may be able to seal it from your future.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "If a past mistake is following you every time you apply for a job, housing, or a professional license, an expungement may give you a real second chance. In Minnesota, expungement is the process of asking a judge to seal your criminal record so it is no longer available to the general public. At Davis Defense, we help clients understand whether they qualify, build a compelling petition, and guide them through every step of the expungement process.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "People in Minnesota who were arrested, charged, or convicted of a crime and are now being held back by their criminal record when applying for jobs, housing, education, or professional licenses.",
+
+  "faqTitle": "Minnesota Expungement FAQ",
+  "faq": [
+    {
+      "q": "What is an expungement in Minnesota?",
+      "a": "An expungement is a court order sealing your criminal record from public view. It does not physically destroy the record, but it removes it from most background checks and generally means you no longer have to disclose it on job or housing applications unless specifically required by law."
+    },
+    {
+      "q": "If I was arrested but never charged, can I get an expungement?",
+      "a": "Often, yes. If you were arrested but never formally charged—or if charges were dismissed early in the process—you may qualify for a full expungement. This can include sealing records and requiring agencies to return or seal fingerprints, booking photos, and other identifying information."
+    },
+    {
+      "q": "Can I get an expungement if I was convicted?",
+      "a": "In many cases, yes. Minnesota law allows expungement of certain convictions if you have remained law-abiding for a required period of time after completing your sentence, including probation. The waiting period is generally two years for petty misdemeanors and misdemeanors, four years for gross misdemeanors, and five years for many felonies. Not all felonies are eligible, and an attorney can help you review your options."
+    },
+    {
+      "q": "Does an expungement erase my record completely?",
+      "a": "No. The record typically still exists but is sealed from public access. Certain government agencies may still be able to view the record under limited circumstances, but employers, landlords, and most background checks will no longer see it."
+    },
+    {
+      "q": "How long does the expungement process take?",
+      "a": "Most expungement cases take several months. The process includes drafting a detailed petition, notifying all agencies that hold your records, attending a court hearing, and waiting for the court’s decision and appeal period. Timelines can vary by county and by the specific facts of your case."
+    }
+  ],
+
+  "ctaLabel": "Find Out If You Qualify for Expungement",
+  "ctaBody": "If your criminal record is holding you back, you don’t have to guess about your options. Call Davis Defense at (952) 994-1568 or contact us online for a free consultation about expungement.",
+  "icon": "",
+
+  "relatedAreas": [
+    "assault",
+    "drug-crimes",
+    "dwi-dui",
+    "domestic-assault"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "You Can Clear Your Criminal Record",
+      "body": "Many people are denied employment, housing, or professional licenses because of a mistake in their past—often something they’ve already learned from and moved on from in their daily life. In Minnesota, expungement gives you a legal way to ask a judge to seal those records so they no longer appear on routine background checks. While an expungement does not physically destroy your record, sealing it can dramatically reduce how often it affects your opportunities."
+    },
+
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "Who May Qualify for Expungement?",
+      "body": "Eligibility depends on the outcome of your case and how much time has passed. You may qualify for expungement if:",
+      "items": [
+        "You were arrested but never charged with a crime.",
+        "Charges were filed but later dismissed.",
+        "You were found not guilty at trial.",
+        "You completed a diversion program or continuance for dismissal without admitting guilt.",
+        "You entered a plea agreement that did not involve a conviction.",
+        "You were convicted but have remained law-abiding for a required waiting period after completing your sentence, including probation:\n  • Two years for many petty misdemeanors and misdemeanors.\n  • Four years for many gross misdemeanors.\n  • Five years for many felonies (with some felonies not eligible at all)."
+      ]
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Types of Expungements in Minnesota",
+      "body": "Minnesota law recognizes different types of expungements depending on your situation. Some cases are handled under “statutory” expungement laws, while others may rely on the court’s “inherent authority.” Which path applies will depend on factors such as whether your case was dismissed, whether you were convicted, and what type of offense was involved. Andrew will explain which approach fits your situation and what records can realistically be sealed."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "How Expungement Can Help You Move Forward",
+      "body": "A criminal record can affect far more than just the original sentence. It can:\n\n• Make it hard to pass employment background checks\n• Limit housing options\n• Complicate applications for professional licenses\n• Interfere with certain educational and financial aid opportunities\n\nSealing eligible records can remove major barriers to living the life you’ve worked hard to rebuild. An expungement can’t guarantee any particular job or license, but it can keep old mistakes from overshadowing who you are today."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "How Andrew Builds Your Expungement Case",
+      "body": "There is no automatic right to expungement. Judges weigh your request against public safety concerns and the interests of agencies holding the records. Andrew helps you present the strongest possible case by:\n\n• Confirming your eligibility under Minnesota expungement laws\n• Gathering records of your original case and outcome\n• Documenting your rehabilitation, employment history, community involvement, and education\n• Explaining how your record has harmed your opportunities and why sealing it is justified\n• Responding to any objections from prosecutors or agencies\n\nThe goal is to show the court that you have moved forward from the past and that sealing your record serves both your interests and the interests of justice."
+    },
+
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "What to Expect in the Expungement Process",
+      "body": "Expungement is a formal legal process, but you don’t have to navigate it alone. Here’s how it typically works:",
+      "steps": [
+        {
+          "step": "Initial Consultation – Andrew reviews your criminal history and helps determine whether expungement is possible and which cases to target."
+        },
+        {
+          "step": "Gathering Information – We obtain court records, sentencing information, and other documents needed to support your petition."
+        },
+        {
+          "step": "Drafting and Filing the Petition – We prepare a detailed expungement petition explaining your eligibility, rehabilitation, and reasons for seeking relief, then file it with the court and serve all required agencies."
+        },
+        {
+          "step": "Court Hearing – Andrew appears with you in court, presents arguments on your behalf, and responds to any objections from the prosecutor or government agencies."
+        },
+        {
+          "step": "Order and Implementation – If the judge grants your expungement, agencies are ordered to seal the records. Over the following months, your record becomes inaccessible to most public background checks."
+        }
+      ]
+    }
+  ]
+},
+{
+  "slug": "implied-consent-test-refusal",
+  "category": "Criminal Defense",
+  "navTitle": "Implied Consent / Test Refusal",
+
+  "metaTitle": "Minnesota Implied Consent Lawyer | Breath Test Refusal Defense",
+  "metaDescription": "Refused the breath test in Minnesota? You may face a separate criminal charge and license consequences under the implied consent law. Learn your options with Attorney Andrew Davis.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Minnesota Implied Consent & Breath Test Refusal Defense",
+  "tagline": "Refusing the test doesn’t end the case—it often creates a new one. Get help before you make another move.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "Minnesota’s implied consent law is one of the most confusing parts of a DWI arrest. If you refuse a breath, blood, or urine test, you can be charged with an additional crime and face serious license penalties on top of any DWI charge. At Davis Defense, Attorney Andrew Davis helps drivers understand what they’re facing, challenges the legality of tests and refusals, and fights to protect both your record and your ability to drive.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "Drivers in Minnesota who refused a breath, blood, or urine test after a DWI arrest, or who are worried about implied consent penalties, license revocation, or facing both DWI and test refusal charges.",
+
+  "faqTitle": "Implied Consent & Test Refusal FAQ",
+  "faq": [
+    {
+      "q": "What does “implied consent” mean in Minnesota?",
+      "a": "Minnesota is an implied consent state. By driving on Minnesota roads, you are legally considered to have given your consent to a breath, blood, or urine test if law enforcement has probable cause to believe you are impaired. Refusing that test can itself be a separate crime and can trigger license consequences."
+    },
+    {
+      "q": "Can I be charged with both DWI and test refusal?",
+      "a": "Yes. Test refusal is its own crime under Minnesota Statute § 169A.51. If you refuse the test and are also alleged to have driven while impaired, you can face two separate charges: one for the DWI and one for the refusal."
+    },
+    {
+      "q": "What are the penalties for refusing a breath test?",
+      "a": "A criminal test refusal is a gross misdemeanor in many cases and can carry up to one year in jail, a fine of up to $3,000, and significant driver’s license consequences. The exact penalties depend on your prior record and other factors, which is why it is critical to speak with a lawyer as soon as possible."
+    },
+    {
+      "q": "Are blood and urine test refusals treated the same as breath test refusals?",
+      "a": "Not exactly. Changes in the law, driven in part by decisions from the United States Supreme Court, limit when the state can criminalize refusal of a warrantless blood test. In many situations, officers must obtain a warrant before demanding a blood sample. The rules for breath tests and blood/urine tests are different and continue to evolve, which is why these cases require close legal analysis."
+    },
+    {
+      "q": "Does a test refusal automatically mean I lose my license?",
+      "a": "A refusal almost always triggers separate driver’s license consequences under the civil implied consent process, which can include longer revocation periods than a simple DWI. However, you may have the right to challenge the revocation in court. Andrew can help you understand deadlines and options for fighting the license side of your case."
+    }
+  ],
+
+  "ctaLabel": "Talk to a Minnesota Implied Consent Lawyer",
+  "ctaBody": "If you refused a breath, blood, or urine test—or are being charged with test refusal—you need clear guidance immediately. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation.",
+  "icon": "",
+
+  "relatedAreas": [
+    "dwi-dui",
+    "felony-dwi",
+    "driver-license-revocation",
+    "blood-tests-dwi"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "Can I Be Punished for Refusing the Breath Test?",
+      "body": "In Minnesota, the answer is often yes. Under the implied consent law, if you are lawfully arrested on suspicion of DWI and refuse a requested breath test, you can be charged with a separate crime—test refusal—on top of any impaired driving charge. Many people believe that refusing to blow will protect them from a DWI conviction. In reality, refusal frequently leads to harsher penalties, both in criminal court and with the Department of Public Safety. Davis Defense helps you understand exactly what you are facing and how best to respond."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "How Minnesota’s Implied Consent Law Works",
+      "body": "Minnesota’s implied consent law says that anyone who drives on Minnesota roads is considered to have consented to chemical testing—breath, blood, or urine—to determine the presence of alcohol or drugs, if law enforcement has probable cause. The test is treated as a legal “search,” and refusing that search can itself be a crime. In many cases, the officer does not need a warrant for a breath test but may need one for blood or urine, depending on the situation and current law. The result is a complicated mix of criminal charges and civil license penalties that can be overwhelming without experienced legal help."
+    },
+
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "Consequences of a Breath Test Refusal",
+      "body": "Refusing the test may feel like taking control, but the consequences are serious. A refusal can lead to:",
+      "items": [
+        "A separate gross misdemeanor charge for test refusal, often punishable by up to 1 year in jail and a $3,000 fine.",
+        "Longer driver’s license revocation periods than a standard DWI in many situations.",
+        "Ignition interlock requirements or limited driving privileges, at your own expense.",
+        "Complicated court proceedings involving both the criminal case and the civil implied consent case.",
+        "Collateral consequences for employment, professional licenses, insurance, and more."
+      ]
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Breath, Blood, and Urine Tests After Legal Changes",
+      "body": "Minnesota DWI law has changed significantly in recent years, especially regarding blood draws and warrants. Following decisions from the United States Supreme Court, it is unconstitutional in many situations to criminalize refusal of a warrantless blood test. As a result, for incidents after July 1, 2017, officers typically must choose: either offer a breath test and pursue refusal charges if you decline, or obtain a search warrant for a blood sample. These distinctions matter. Whether the officer read the correct advisory, obtained a valid warrant, and followed proper procedures can all affect the strength of the state’s case and the legality of any refusal charge."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Challenging Implied Consent and Test Refusal Cases",
+      "body": "A refusal charge is not a foregone conclusion. Andrew looks closely at:\n\n• Whether the officer had a lawful basis to stop your vehicle\n• Whether there was probable cause for a DWI arrest\n• Whether the implied consent advisory was correctly read and explained\n• Whether you actually refused, or whether there were equipment or communication issues\n• Whether any blood or urine tests were properly requested, including warrants where required\n\nMistakes in any of these areas can provide grounds to challenge the refusal charge, the underlying DWI, or the license revocation."
+    },
+
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "What to Do After a Test Refusal in Minnesota",
+      "body": "If you refused a test or are accused of refusing, your next steps are critical. Here’s how the process usually unfolds and how Davis Defense can help:",
+      "steps": [
+        {
+          "step": "Arrest and Advisory – You are arrested on suspicion of DWI and read the implied consent advisory explaining your testing options and potential consequences."
+        },
+        {
+          "step": "Refusal or Test Result – You either refuse the test or provide a sample that may later be used against you in court."
+        },
+        {
+          "step": "License Action – The state may move quickly to revoke your driver’s license based on the alleged refusal or test result, often with strict deadlines to challenge the revocation."
+        },
+        {
+          "step": "Criminal Charges – You may be charged with DWI, test refusal, or both. Andrew reviews the reports, videos, and advisory to identify legal issues and defense strategies."
+        },
+        {
+          "step": "Defense Strategy – We decide how to challenge the criminal case and the implied consent case, whether through motions, negotiations, or preparing for trial, with the goal of reducing or avoiding the long-term impact on your record and your ability to drive."
+        }
+      ]
+    }
+  ]
+},
+{
+  "slug": "probation-violation",
+  "category": "Criminal Defense",
+  "navTitle": "Probation Violation",
+
+  "metaTitle": "Minnesota Probation Violation Lawyer | Probation Revocation Defense",
+  "metaDescription": "Accused of violating probation in Minnesota? Attorney Andrew Davis defends clients at probation violation and revocation hearings statewide. Learn your options before you go to court.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Minnesota Probation Violation & Revocation Defense",
+  "tagline": "Probation is better than jail—but it’s not freedom. If you’re accused of a violation, don’t go to court alone.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "Probation can keep you out of jail—but it also comes with strict conditions. Missing a meeting, failing a test, or being charged with a new crime can send you back into court facing probation revocation and possible jail or prison time. At Davis Defense, Attorney Andrew Davis uses more than 25 years of criminal defense experience to protect your freedom, explain your options, and fight for a second chance.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "People on probation in Minnesota who received a violation notice, warrant, or court date—or who know they have violated terms and need to understand what happens next.",
+
+  "faqTitle": "Minnesota Probation Violation FAQ",
+  "faq": [
+    {
+      "q": "What is a probation violation?",
+      "a": "A probation violation happens when you do not follow the conditions the court ordered as part of your sentence. That might include new criminal charges, missed appointments with your probation officer, failed drug or alcohol tests, not completing treatment, or not paying fines or restitution, depending on your specific terms."
+    },
+    {
+      "q": "What can happen at a probation violation or revocation hearing?",
+      "a": "At a violation hearing, the judge reviews the probation officer’s report and any evidence about the alleged violation. The judge can dismiss the violation, give you another chance with modified conditions, or revoke probation and impose some or all of the jail or prison time that was previously stayed. Because judges have wide discretion, having a defense lawyer is critical."
+    },
+    {
+      "q": "What is the burden of proof for a probation violation?",
+      "a": "The state must prove a probation violation by clear and convincing evidence—a lower standard than beyond a reasonable doubt, but still requiring evidence that a violation occurred. You have the right to be represented by an attorney and to challenge the allegations."
+    },
+    {
+      "q": "Can one violation send me to jail?",
+      "a": "Yes, it can. Sometimes judges give people another chance, especially on a first or minor violation. In other cases—such as repeated violations, new offenses, or serious non-compliance—the judge may revoke probation and order you to serve some or all of the suspended sentence. The outcome often depends on how the violation is explained and what plan is presented to the court."
+    },
+    {
+      "q": "Do I really need a lawyer for a probation violation?",
+      "a": "Absolutely. A violation hearing is a criminal proceeding where your liberty is at stake. An experienced probation violation lawyer can negotiate with the probation officer and prosecutor, present mitigating information to the judge, and argue for alternatives to jail such as treatment, community-based sanctions, or continued probation."
+    }
+  ],
+
+  "ctaLabel": "Talk to a Minnesota Probation Violation Lawyer",
+  "ctaBody": "If you’ve been accused of violating probation, do not walk into a revocation hearing alone. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation.",
+  "icon": "",
+
+  "relatedAreas": [
+    "assault",
+    "drug-crimes",
+    "dwi-dui",
+    "expungement"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "Accused of Violating the Terms of Your Probation?",
+      "body": "Probation is often a lifeline—it keeps you in the community, working and living with your family instead of serving your whole sentence behind bars. But probation is not the same as freedom. It comes with conditions that can be strict and easy to misunderstand. When the court or probation officer believes you’ve violated those conditions, you may find yourself back in court for a probation revocation hearing with a lot on the line. Davis Defense helps you understand the accusations, your rights, and what can be done to protect your future."
+    },
+
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "Common Probation Violations",
+      "body": "Probation terms are tailored to each case, but some alleged violations show up again and again. You may face a violation for:",
+      "items": [
+        "Being arrested for or charged with a new crime.",
+        "Failing or missing a drug or alcohol test.",
+        "Skipping a scheduled meeting with your probation officer.",
+        "Failing to appear for court dates.",
+        "Not completing treatment, counseling, or community service as ordered.",
+        "Falling behind on fines, fees, or restitution without addressing it with the court.",
+        "Contacting a person or visiting a place that your probation conditions prohibit."
+      ]
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "What Happens if You Violate Probation?",
+      "body": "When a probation officer believes a violation has occurred, they may file a report and request a hearing. You might receive a notice in the mail with a court date, or you could be arrested and brought directly to court. At the probation violation hearing, the judge can:\n\n• Find no violation and continue your existing probation;\n• Find a violation but give you another chance with the same or modified conditions;\n• Order you to serve some or all of the jail or prison time that was previously stayed.\n\nBecause judges have significant discretion, the way your violation is presented—and how your progress, challenges, and support system are explained—can make a major difference."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "How Andrew Defends Probation Violation Cases",
+      "body": "The best strategy in a probation case often starts before you ever step in front of the judge. Andrew works to:\n\n• Review the original sentence and all probation conditions;\n• Analyze the probation officer’s report and any alleged violations;\n• Identify whether the violation can be contested on the facts or law;\n• Present context and mitigation—such as health issues, transportation problems, or steps you’ve already taken to get back on track;\n• Negotiate with probation and the prosecutor for alternatives to jail, like treatment, community-based sanctions, or a structured plan to finish your conditions.\n\nThe goal is to convince the court that you are still a good candidate for probation and that revoking your freedom is not necessary."
+    },
+
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "What to Do If You Think You Violated Probation",
+      "body": "If you know—or suspect—that you have violated probation, time matters. Here’s what you should do:",
+      "steps": [
+        {
+          "step": "Do not ignore letters, calls, or notices from probation or the court. A missed court date can make things worse."
+        },
+        {
+          "step": "Contact a probation violation defense lawyer immediately so you understand your exposure and options."
+        },
+        {
+          "step": "Gather documents that show your efforts to comply—pay stubs, treatment records, proof of job search, medical documentation, or anything else that helps explain your situation."
+        },
+        {
+          "step": "Work with your attorney to prepare a clear, honest explanation and a realistic plan for moving forward that the judge can consider instead of revoking probation."
+        },
+        {
+          "step": "Appear at all hearings with your lawyer and follow any interim conditions the court sets while your case is pending."
+        }
+      ]
+    }
+  ]
+},
+{
+  "slug": "sex-offenses",
+  "category": "Criminal Defense",
+  "navTitle": "Sex Offenses",
+
+  "metaTitle": "Minnesota Sex Crimes Lawyer | Criminal Sexual Conduct & Prostitution Defense",
+  "metaDescription": "Falsely accused of a sex crime in Minnesota? Attorney Andrew Davis defends clients facing criminal sexual conduct, solicitation, and prostitution charges. Protect your future with experienced defense.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Minnesota Sex Crimes & Criminal Sexual Conduct Defense",
+  "tagline": "Sex offense accusations are life-changing. You need a defense lawyer who takes your side from day one.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "You didn’t do what they’re saying you did—or the story the police heard is not the full truth. Allegations of sexual assault, criminal sexual conduct, solicitation, or prostitution are some of the most serious and stigmatizing charges in Minnesota. A conviction can mean prison time, lifetime registration, and damage to your name that never really goes away. At Davis Defense, we are on your side. From our Bloomington-based law firm, Attorney Andrew Davis draws on more than 25 years of criminal defense experience to challenge the allegations, protect your rights, and fight for your future.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "Adults and juveniles in Minnesota who are under investigation for, or charged with, criminal sexual conduct, sexual assault, solicitation, prostitution, or related sex offenses—and family members seeking help for a loved one.",
+
+  "faqTitle": "Minnesota Sex Offense FAQ",
+  "faq": [
+    {
+      "q": "What counts as a “sex crime” or criminal sexual conduct in Minnesota?",
+      "a": "Sex offenses include a wide range of allegations: rape, sexual assault, criminal sexual conduct (1st–5th degree), child molestation, statutory rape, solicitation of a minor, indecent exposure, possession or distribution of child pornography, prostitution, and solicitation of prostitution. The exact charge depends on factors like age, alleged conduct, use of force, and relationship between the parties."
+    },
+    {
+      "q": "I was falsely accused. Do I really need a lawyer?",
+      "a": "Yes. False allegations happen for many reasons—revenge, custody disputes, misinterpretation of consensual encounters, or pressure on a complaining witness. Once an accusation is made, police and prosecutors move quickly. Anything you say on your own can be used against you. Having a lawyer early in the process is often the best way to protect yourself and correct the record."
+    },
+    {
+      "q": "What are the consequences if I’m convicted of a sex offense?",
+      "a": "Penalties can include years or even decades in prison, large fines, long-term probation, and mandatory predatory offender registration—often for 10 years or for life. You may also face sex offender treatment, restrictions on where you can live or work, and serious damage to your reputation and relationships."
+    },
+    {
+      "q": "What are the degrees of criminal sexual conduct?",
+      "a": "Minnesota has five degrees of Criminal Sexual Conduct (CSC). First Degree is the most serious and can involve sexual penetration with a minor or with an adult under circumstances like force, weapons, or severe injury. Fifth Degree is still serious, but carries the lowest maximum penalty. The degree charged depends on factors like age, whether the conduct was contact or penetration, use of force, alleged mental or physical helplessness, and any position of authority or significant relationship."
+    },
+    {
+      "q": "Do you handle prostitution and solicitation cases too?",
+      "a": "Yes. We defend clients accused of prostitution, patronizing prostitutes, and related solicitation offenses, including hotel stings and online operations. These cases can involve entrapment issues, undercover operations, and heavy collateral consequences for employment and professional licenses."
+    }
+  ],
+
+  "ctaLabel": "Talk to a Minnesota Sex Crimes Defense Lawyer",
+  "ctaBody": "If you’ve been accused of a sex offense, do not talk to police or anyone else about the allegations before speaking with a lawyer. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a confidential, no-obligation consultation.",
+  "icon": "",
+
+  "relatedAreas": [
+    "expungement",
+    "probation-violation",
+    "felony-dwi",
+    "domestic-assault"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "Have You Been Falsely Accused of a Sex Crime?",
+      "body": "You didn’t do it—or at least not the way it’s being described. Maybe the encounter was consensual. Maybe the story has changed over time. Maybe the accusation is being used as leverage in a divorce or custody dispute. Whatever the circumstances, an accusation of sexual assault, criminal sexual conduct, or solicitation is devastating. The police are not on your side, and trying to “explain things” without a lawyer can make matters worse. At Davis Defense, we listen to your side first, investigate the facts, and build a defense that treats you as a person—not a headline."
+    },
+
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "Types of Sex Offense Cases We Handle",
+      "body": "Sex crime charges are complex and highly fact-specific. We defend clients facing allegations such as:",
+      "items": [
+        "Criminal Sexual Conduct in the First, Second, Third, Fourth, and Fifth Degree",
+        "Sexual assault and rape allegations",
+        "Statutory rape and age-based consent offenses",
+        "Date rape and intoxication-related accusations",
+        "Solicitation of a minor or electronic solicitation",
+        "Possession, distribution, or production of child pornography",
+        "Indecent exposure and lewd conduct",
+        "Prostitution and solicitation of prostitution, including hotel and online stings",
+        "Internet-based sex offenses and undercover operations"
+      ]
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Degrees of Criminal Sexual Conduct in Minnesota",
+      "body": "Minnesota’s Criminal Sexual Conduct statutes are broken down into five degrees, each with its own elements and potential penalties:\n\n• **Fifth Degree CSC** – Often involves nonconsensual sexual contact or lewd exhibition of genitals, sometimes in the presence of a child. Still serious, but carries the lowest maximum jail time.\n• **Fourth Degree CSC** – Typically involves sexual contact (not penetration) with an adult or minor under circumstances such as mental impairment, physical helplessness (including sleeping or unconscious), force or coercion, or a prohibited relationship (therapist, clergy, caregiver, position of authority).\n• **Third Degree CSC** – Involves sexual penetration under circumstances similar to Fourth Degree: force or coercion, mental impairment, physical helplessness, certain age differences with minors, or prohibited relationships.\n• **Second Degree CSC** – Involves sexual contact where aggravating factors are present, such as a dangerous weapon, threats of imminent great bodily harm, force with personal injury, or an accomplice.\n• **First Degree CSC** – The most serious charge, often involving sexual penetration with minors under certain ages, use of weapons, force or threats of serious harm, personal injury, or an accomplice. Penalties can reach up to 30 years in prison and very large fines.\n\nWhich degree is charged depends on the specific facts, ages, relationships, methods alleged, and any aggravating factors."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Prostitution, Solicitation, and Sting Operations",
+      "body": "Prostitution and solicitation charges often arise from undercover stings—hotel operations, online ads, or street-level enforcement. People caught in these operations frequently feel they were set up or entrapped. An experienced defense lawyer will look closely at what was said, how the conversation unfolded, and whether law enforcement crossed the line from offering an opportunity to committing true entrapment.\n\nIn Minnesota, prostitution-related penalties can escalate quickly based on age, location, and prior history. Cases can involve:\n\n• Alleged patronizing or hiring someone for sexual services\n• Online communication leading to in-person meetings\n• Undercover officers posing as sex workers or clients\n• Enhanced penalties when minors are involved\n\nEven a first prostitution conviction can carry jail time, fines, lasting damage to your reputation, and a criminal record that affects employment, licensing, and immigration status."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Consequences of a Sex Crime Conviction",
+      "body": "Sex offense convictions are among the most severe in Minnesota. Depending on the charge and degree, you may face:\n\n• Long jail or prison sentences\n• Heavy fines and restitution\n• Predatory offender registration for at least 10 years, and sometimes life\n• Strict probation terms and mandatory sex offender treatment\n• Limitations on where you can live or work\n• Loss of professional licenses and certain employment opportunities\n• Damage to your reputation, relationships, and standing in the community\n\nBecause the stakes are so high, you need a defense that takes every allegation seriously and explores every viable strategy."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Defending Against Sex Crime Allegations",
+      "body": "There are always at least two sides to the story. In sex crime cases, the details matter: prior relationships, text messages, witnesses, physical evidence, and the timing and motivation of the accusation. Defense strategies may include:\n\n• Challenging the credibility and consistency of the complaining witness\n• Highlighting motives to lie, exaggerate, or misinterpret events\n• Establishing consent in adult cases where the issue is not age but alleged force or coercion\n• Questioning forensic evidence and the reliability of medical or digital evidence\n• Exposing constitutional violations in how evidence was obtained or statements were taken\n\nAndrew understands how devastating these accusations are and works to make sure your voice is heard, your rights are protected, and the prosecution is put to its proof."
+    },
+
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "What to Do If You’re Under Investigation or Charged",
+      "body": "In sex crime cases, early decisions can shape the entire outcome. If you suspect you are under investigation—or have already been charged—take these steps:",
+      "steps": [
+        {
+          "step": "Do not talk to police, child protection workers, or alleged victims about the accusations without a lawyer present. Politely assert your right to remain silent and to have an attorney."
+        },
+        {
+          "step": "Contact a sex crimes defense lawyer immediately so you understand your rights before any interviews, lineups, or searches."
+        },
+        {
+          "step": "Preserve evidence that could help your case—text messages, emails, social media communications, photos, and names of potential witnesses."
+        },
+        {
+          "step": "Follow any no-contact orders or release conditions exactly, even if you believe they are unfair. Violating them can make your situation much worse."
+        },
+        {
+          "step": "Work closely with your attorney to prepare for each stage of the case—from investigation and charging decisions to motions, negotiations, and, if necessary, trial."
+        }
+      ]
+    }
+  ]
+},
+{
+  "slug": "theft-crimes",
+  "category": "Criminal Defense",
+  "navTitle": "Theft Crimes",
+
+  "metaTitle": "Minnesota Theft Crimes Lawyer | Burglary, Robbery & Theft Defense",
+  "metaDescription": "Charged with theft, burglary, or robbery in Minnesota? Attorney Andrew Davis defends all levels of theft crimes, from shoplifting to felony burglary, throughout the Twin Cities and statewide.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Minnesota Theft, Burglary & Robbery Defense",
+  "tagline": "From shoplifting to felony burglary, one accusation can damage your record for life. Get an experienced theft defense lawyer on your side.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "In Minnesota, the value of the property and the type of conduct can turn a simple mistake into a serious felony. Taking property worth $1,000 or more can be charged as a felony theft offense, punishable by at least a year in prison. Burglary and robbery charges are even more serious and can carry long prison sentences and heavy fines. At Davis Defense, Attorney Andrew Davis draws on more than 25 years of criminal defense experience to defend clients against theft, burglary, and robbery charges throughout the Twin Cities and greater Minnesota.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "People in Minnesota who have been arrested, charged, or are under investigation for theft, shoplifting, burglary, robbery, embezzlement, or other property and theft-related offenses.",
+
+  "faqTitle": "Minnesota Theft Crimes FAQ",
+  "faq": [
+    {
+      "q": "What counts as a theft crime in Minnesota?",
+      "a": "Theft in Minnesota covers a wide range of conduct: shoplifting, taking someone else’s property without permission, writing bad checks, using someone’s services without paying, embezzling funds from an employer, receiving stolen property, motor vehicle theft, and more. Burglary and robbery are related but involve entering buildings or using force."
+    },
+    {
+      "q": "When does theft become a felony in Minnesota?",
+      "a": "Generally, when the value of the property or money is $1,000 or more, the state can charge felony theft. As the dollar amount goes up, so do the potential penalties. Certain types of property, prior theft convictions, or aggravating circumstances can also elevate the charge."
+    },
+    {
+      "q": "What is the difference between theft, burglary, and robbery?",
+      "a": "Theft usually involves taking property without consent. Burglary typically means entering a building without permission with the intent to commit a crime inside. Robbery involves taking property from a person using force or the threat of force. All are serious, but burglary and robbery charges often carry higher penalties."
+    },
+    {
+      "q": "Will a theft conviction stay on my record?",
+      "a": "Yes. Theft crimes are crimes of dishonesty and can create long-term problems for employment, housing, loans, and professional licenses. Even lower-level shoplifting convictions can make background checks difficult. In some cases, there may be options down the road for expungement, but it is always better to avoid a conviction if possible."
+    },
+    {
+      "q": "Do I need a lawyer for a misdemeanor shoplifting charge?",
+      "a": "Absolutely. Even a misdemeanor theft conviction can follow you for life and may affect jobs and housing. An experienced theft defense lawyer can look for ways to challenge the evidence, negotiate for reduced charges, or pursue outcomes that protect your record and future."
+    }
+  ],
+
+  "ctaLabel": "Talk to a Minnesota Theft Crimes Lawyer",
+  "ctaBody": "If you’ve been accused of theft, burglary, or robbery, don’t wait to get help. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation.",
+  "icon": "",
+
+  "relatedAreas": [
+    "white-collar-crimes",
+    "burglary",
+    "robbery",
+    "probation-violation",
+    "expungement"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "Were You Accused of Taking Someone Else’s Property?",
+      "body": "The value of the property taken in a theft crime often determines how serious the charge will be. In Minnesota, taking property worth $1,000 or more can be charged as a felony, punishable by at least a year in prison. Even when the value is lower, a theft conviction leaves a permanent mark on your record that can affect jobs, housing, and your reputation. At Davis Defense, we understand that good people make mistakes, misunderstandings happen, and not every accusation is true. We work to tell your side of the story and protect your future."
+    },
+
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "Types of Theft Crimes We Defend",
+      "body": "Theft cases come in many forms, from one-time incidents to ongoing allegations. Davis Defense handles cases involving:",
+      "items": [
+        "Shoplifting and retail theft",
+        "General theft of money, goods, or personal property",
+        "Writing checks with insufficient funds or “bounced” checks",
+        "Receiving or possessing stolen property",
+        "Motor vehicle theft and related auto theft charges",
+        "Burglary of homes, garages, businesses, and other buildings",
+        "Robbery and simple robbery involving use or threat of force",
+        "Possession of burglary or theft tools",
+        "White collar theft such as embezzlement, fraud, or misuse of company funds",
+        "Public assistance or benefits fraud and other financial crimes"
+      ]
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Burglary: Entering a Building to Commit a Crime",
+      "body": "Burglary is more than just stealing—it is about entering a building without consent with the intent to commit a crime inside. Minnesota recognizes different degrees of burglary based on factors like whether the building is a home, whether anyone was inside, whether a weapon was present, and what type of crime was intended.\n\n• **First-Degree Burglary** – The most serious, often involving a dwelling where someone is present, a dangerous weapon, or an assault. Penalties can reach up to 20 years in prison and large fines.\n• **Second-Degree Burglary** – May involve a dwelling, a bank or pharmacy, or using tools to break into locked containers or areas.\n• **Third-Degree Burglary** – Involves entering a building to commit a felony or gross misdemeanor.\n• **Fourth-Degree Burglary** – Usually involves entering to commit a misdemeanor (other than stealing) and is typically charged as a gross misdemeanor.\n\nBecause burglary charges can easily become felony-level and carry long prison sentences, having a lawyer who knows how to challenge the state’s version of events is critical."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Robbery: Theft Involving Force or Threats",
+      "body": "Robbery is different from simple theft because it involves force or the threat of imminent force. Even if little or no property is actually taken, using or threatening force during a theft can lead to a felony robbery charge. Simple robbery, for example, involves intentionally taking property from another person while using or threatening force and carries the possibility of significant prison time and large fines. These cases often turn on witness credibility, surveillance footage, and what actually happened in those critical moments."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Minnesota Theft Penalties and Dollar Amounts",
+      "body": "The punishment for a theft crime in Minnesota depends heavily on the value of the property and the circumstances of the case. As a general guide:\n\n• Theft of property or services up to $500 is usually a **misdemeanor**, punishable by up to 90 days in jail and a fine up to $1,000.\n• Theft between $501 and $1,000 is commonly a **gross misdemeanor**, punishable by up to 1 year in jail and a fine up to $3,000.\n• Theft over $1,000 is generally a **felony**, with potential prison time of a year or more. As the dollar amount increases, so do the possible penalties.\n\nCertain types of property (like firearms or trade secrets), prior convictions, or special circumstances can increase the severity of the charge and the potential sentence."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Why Acting Quickly Matters in Theft Cases",
+      "body": "The earlier you involve a lawyer, the more options you may have. In some cases, it may be possible to negotiate a resolution that avoids a conviction, reduces a felony to a misdemeanor, or focuses on restitution and rehabilitation rather than jail. In others, the key is to challenge weak or incomplete evidence, unreliable witnesses, or assumptions about value and intent. Andrew analyzes police reports, video, receipts, digital records, and witness statements to build a defense strategy tailored to your situation."
+    },
+
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "What to Do If You’ve Been Charged With a Theft Crime",
+      "body": "If you’ve been accused of theft, burglary, or robbery, what you do next can make a big difference:",
+      "steps": [
+        {
+          "step": "Do not explain your side of the story to police, store security, or alleged victims without a lawyer. Anything you say can be used against you."
+        },
+        {
+          "step": "Contact a theft crimes defense lawyer as soon as possible to understand the exact charges, potential penalties, and options."
+        },
+        {
+          "step": "Gather documents and information that may help your case—receipts, messages, bank records, employment records, or names of witnesses."
+        },
+        {
+          "step": "Appear at all court dates and follow any conditions of release, including no-contact orders or curfew, to avoid making the situation worse."
+        },
+        {
+          "step": "Work closely with your attorney to decide whether to challenge the charges, negotiate a plea, or take the case to trial, focusing on protecting your record and your future."
+        }
+      ]
+    }
+  ]
+},
+{
+  "slug": "interference-with-911-call",
+  "category": "Criminal Defense",
+  "navTitle": "Interference With a 911 Call",
+
+  "metaTitle": "Interference With a 911 Call Lawyer | Minnesota 911 Interference Defense",
+  "metaDescription": "Charged with interference with a 911 call in Minnesota? Davis Defense Lawyers defends gross misdemeanor 911 interference, often tied to domestic disputes. Get experienced help now.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Minnesota Interference With a 911 Call Defense",
+  "tagline": "One heated moment. One grabbed phone. Now you’re facing a gross misdemeanor.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "At Davis Defense Lawyers, we understand that being accused of interfering with a 911 call usually comes out of emotionally charged situations—arguments between partners, family disputes, or misunderstandings where someone panics and reaches for a phone. Minnesota takes these allegations seriously. A single incident can result in a gross misdemeanor charge, possible jail time, fines, and a damaging criminal record. With more than 25 years of criminal defense experience, Attorney Andrew Davis knows how to uncover what really happened, challenge weak evidence, and fight for your future.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "Individuals in Minnesota who have been arrested or charged with interference with a 911 call—often in connection with domestic disputes, family arguments, or alleged assaults—and family members seeking help for a loved one.",
+
+  "faqTitle": "Interference With a 911 Call FAQ",
+  "faq": [
+    {
+      "q": "What is “interference with a 911 call” in Minnesota?",
+      "a": "Interference with a 911 call generally means intentionally blocking or interrupting someone’s attempt to contact emergency services. This can include grabbing a phone, hanging up, breaking the phone, hiding it, or threatening someone to stop them from calling 911 during an emergency situation."
+    },
+    {
+      "q": "Is interference with a 911 call a felony?",
+      "a": "In most cases, interference with a 911 call is charged as a gross misdemeanor, punishable by up to one year in jail and a fine up to $3,000. Depending on the circumstances and accompanying charges, the overall exposure in your case can be much higher."
+    },
+    {
+      "q": "Can I be charged even if no one was hurt?",
+      "a": "Yes. You can be charged with interference with a 911 call even if no one is injured and even if no assault charge is filed. Prosecutors often add this charge when police respond to domestic calls or disputes, even where the underlying incident is minor or disputed."
+    },
+    {
+      "q": "What if I only took the phone for a second or hung up once?",
+      "a": "The law focuses on intent. If the state claims you intentionally interfered with someone’s attempt to call for help, they may still file charges. A defense lawyer can argue that any interference was accidental, brief, or not intended to stop a legitimate emergency call."
+    },
+    {
+      "q": "Do I need a lawyer if it’s “just” a gross misdemeanor?",
+      "a": "Yes. A gross misdemeanor still carries up to a year in jail, thousands of dollars in fines, and a permanent criminal record. Because interference with a 911 call is often tied to domestic allegations, it can also affect no-contact orders, housing, employment, and family court issues."
+    }
+  ],
+
+  "ctaLabel": "Talk to a Minnesota 911 Interference Defense Lawyer",
+  "ctaBody": "If you’ve been charged with interference with a 911 call, don’t face it alone. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free, confidential consultation.",
+  "icon": "",
+
+  "relatedAreas": [
+    "domestic-assault",
+    "assault",
+    "dwi-dui",
+    "probation-violation",
+    "expungement"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "Charged After a Heated Moment?",
+      "body": "Interference with a 911 call charges often follow a single, emotional moment: someone reaches for a phone, voices get loud, a device gets grabbed or knocked away, and suddenly the police are at the door. When officers arrive, they may arrest first and sort out the details later. That can leave you facing a gross misdemeanor even when there was no serious injury and no intent to harm anyone.\n\nAt Davis Defense Lawyers, we know these cases are rarely as simple as the police report makes them sound. We take the time to understand what really happened, how emotions were running high, and whether the incident is being exaggerated, misunderstood, or used for leverage in a separate dispute."
+    },
+
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "What Can Count as Interference With a 911 Call?",
+      "body": "Under Minnesota law, interference with a 911 call can include many different actions. Common allegations we see include:",
+      "items": [
+        "Grabbing or taking a phone out of someone’s hand during an argument.",
+        "Hanging up while the other person is trying to call 911.",
+        "Throwing, breaking, or hiding a phone during a dispute.",
+        "Blocking someone’s path to a phone or preventing them from leaving to get help.",
+        "Yelling or threatening someone to stop them from calling 911.",
+        "Stopping a child from calling 911 when they are scared or confused."
+      ]
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Potential Consequences",
+      "body": "Interference with a 911 call is usually charged as a gross misdemeanor. That means you may face:\n\n• Up to 1 year in jail;\n• Fines up to $3,000;\n• Probation, treatment, or counseling requirements;\n• No-contact orders that remove you from your home or family;\n• A permanent criminal record that can affect employment, housing, and future background checks.\n\nWhen this charge is filed alongside domestic assault or other offenses, the total stakes can be even higher, including potential firearm restrictions and long-term consequences for your rights and reputation."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Defenses to Interference With a 911 Call",
+      "body": "Every case is different, but there are recurring themes in 911 interference charges. Andrew examines the 911 recordings, dispatch logs, body camera footage, text messages, and witness statements to look for defenses such as:\n\n• **No intent to interfere:** The phone was dropped, knocked aside, or damaged accidentally.\n• **No actual interference:** The call went through, help arrived, or the person had other ways to call.\n• **Exaggerated or false allegations:** The accusation is being used in a divorce, custody dispute, or to gain leverage.\n• **Self-defense or defense of others:** You acted to prevent harm, not to stop a legitimate request for help.\n• **Conflicting stories:** Witnesses or the alleged victim give inconsistent accounts of what happened.\n\nThe goal is to show the court or prosecutor that this incident does not justify a gross misdemeanor conviction and all the consequences that come with it."
+    },
+
+    {
+      "type": "section",
+      "image": "",
+      "title": "Often Added to Domestic and Assault Cases",
+      "body": "Interference with a 911 call is frequently charged alongside domestic assault or other assault-related offenses. Police sometimes add it as an extra charge when they believe a phone was touched, moved, or taken during a dispute. That makes it especially important to have a lawyer who understands how these cases are built and how to challenge assumptions baked into the police report.\n\nAndrew has years of experience defending domestic-related charges in Minnesota and knows how interference with a 911 call fits into the bigger picture of your case, including bail, no-contact orders, and long-term consequences."
+    },
+
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "What to Do If You’re Charged With Interference With a 911 Call",
+      "body": "Taking the right steps early can make a major difference in your case:",
+      "steps": [
+        {
+          "step": "Do not discuss the incident with police, the alleged victim, or on social media. Anything you say can be used against you."
+        },
+        {
+          "step": "Contact a criminal defense lawyer immediately so you understand the charge, possible penalties, and your options."
+        },
+        {
+          "step": "Follow any no-contact orders or release conditions strictly, even if the other person asks you to ignore them."
+        },
+        {
+          "step": "Save any evidence that may help, including text messages, call logs, voicemails, or witness contact information."
+        },
+        {
+          "step": "Work closely with your attorney to prepare for court, explore defenses, and decide whether to negotiate a resolution or contest the charge."
+        }
+      ]
+    }
+  ]
+},
+{
+  "slug": "traffic-offenses",
+  "category": "Criminal Defense",
+  "navTitle": "Traffic Offenses",
+
+  "metaTitle": "Minnesota Traffic Offense Lawyer | Speeding, Hit & Run, Driving After Revocation",
+  "metaDescription": "Charged with a traffic offense in Minnesota? Davis Defense handles speeding, hit & run, driving after revocation, no insurance, reckless driving, and more. Protect your record and driving future.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Minnesota Traffic Offense Defense Attorney",
+  "tagline": "Even a minor ticket can lead to major consequences. We protect your license, your record, and your future.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "At Davis Defense Lawyers, we understand how quickly a traffic violation can disrupt your life. Whether you’re dealing with a simple ticket, a serious misdemeanor, or a criminal traffic charge, the consequences can include fines, insurance spikes, license suspension, and even jail time. With more than 25 years of defense experience, Attorney Andrew Davis knows how to challenge evidence, uncover police errors, and defend your rights so you can move forward with confidence.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "Drivers in Minnesota facing traffic tickets, criminal traffic charges, license-related offenses, hit and run allegations, and individuals seeking to protect their driving privileges and record.",
+
+  "faqTitle": "Traffic Offense FAQ",
+  "faq": [
+    {
+      "q": "Can a traffic ticket really affect my criminal record?",
+      "a": "Yes. While some traffic tickets are minor, others carry misdemeanor or even gross misdemeanor penalties that can leave a permanent criminal record. Even simple citations can increase insurance rates or lead to license suspension if too many accumulate."
+    },
+    {
+      "q": "What should I do if my license was revoked or suspended?",
+      "a": "Do not drive. Driving after revocation, suspension, or cancellation is a criminal offense in Minnesota. Contact a defense attorney to help resolve the issue and work toward getting your driving privileges restored."
+    },
+    {
+      "q": "Can a lawyer help me avoid insurance increases?",
+      "a": "Often, yes. By getting charges reduced, avoiding convictions, or challenging the underlying evidence, we can frequently prevent insurance spikes or keep violations off your driving record."
+    },
+    {
+      "q": "Is speeding over 100 MPH really that serious?",
+      "a": "Yes. Speeding over 100 MPH triggers an automatic license revocation in Minnesota and can result in significant fines, probation, or even jail time. Strong legal representation is crucial."
+    },
+    {
+      "q": "Should I contest a ticket if no one was hurt?",
+      "a": "In many cases, yes. Even minor violations can compound into major problems, including insurance increases or a suspended license. Fighting the ticket now can save significant time and money later."
+    }
+  ],
+
+  "ctaLabel": "Speak With a Minnesota Traffic Defense Attorney",
+  "ctaBody": "Don’t let a ticket derail your future. Call Davis Defense at (952) 994-1568 or contact us online for a free consultation.",
+  "icon": "",
+
+  "relatedAreas": [
+    "dwi-dui",
+    "probation-violation",
+    "hit-and-run",
+    "vehicle-property-forfeiture",
+    "assault"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "Minnesota Traffic Charges We Handle",
+      "body": "From minor traffic citations to serious criminal charges, Davis Defense Lawyers helps drivers throughout Minnesota protect their rights. Traffic cases often involve more than just a fine—they can affect employment, insurance, background checks, and your ability to legally drive. We review every detail, identify weaknesses in the state's case, and work to reduce or dismiss the charges."
+    },
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "Common Traffic Offenses We Defend",
+      "body": "We represent clients charged with all types of Minnesota traffic offenses, including:",
+      "items": [
+        "Driving After Revocation, Cancellation, or Suspension",
+        "No Proof of Insurance",
+        "Speeding & Speeding Over 100 MPH",
+        "Illegal or Unsafe Lane Change",
+        "Careless or Reckless Driving",
+        "Failure to Signal",
+        "Failing to Yield to an Emergency Vehicle",
+        "Leaving the Scene of an Accident (Hit and Run)",
+        "Distracted Driving / Texting and Driving",
+        "Passing a School Bus (Stop-Arm Violation)"
+      ]
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Driving After Revocation, Cancellation, or Suspension",
+      "body": "Driving without a valid license in Minnesota is more than a simple ticket—it can be a misdemeanor or gross misdemeanor offense. Whether your license was suspended for unpaid fines, DWI, insurance issues, or prior violations, we work to uncover errors in the case, resolve the underlying license problem, and fight to avoid criminal penalties and further restrictions."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "No Proof of Insurance",
+      "body": "Failure to provide proof of insurance can lead to fines, a misdemeanor conviction, and even license suspension. We help clients provide proper documentation, negotiate reductions, and avoid long-term penalties whenever possible."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Speeding & Speeding Over 100 MPH",
+      "body": "Speeding violations are among the most common traffic offenses, but high-speed cases—especially those exceeding 100 MPH—carry major consequences. Minnesota law requires a mandatory license revocation for speeds over 100 MPH. We challenge radar evidence, traffic stop procedures, and documentation errors to protect your record."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Illegal Lane Change",
+      "body": "Improper lane changes can add points to your license and affect insurance rates. These tickets can often be reduced or dismissed with the right approach. Let us fight to minimize the impact."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Careless and Reckless Driving",
+      "body": "Careless or reckless driving charges are more serious than standard traffic offenses and may result in criminal consequences. We analyze police reports, witness statements, and dash cam footage to build a strong defense and protect your record."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Failure to Signal & Failure to Yield",
+      "body": "Small mistakes can lead to costly penalties. Many of these tickets are defensible, and our team works to keep them off your driving record and prevent insurance increases."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Leaving the Scene of an Accident (Hit and Run)",
+      "body": "Minnesota’s Hit and Run laws carry severe penalties depending on whether property damage, injuries, or fatalities occurred. A simple failure to exchange information can still lead to criminal charges. We investigate the circumstances, challenge assumptions, and work aggressively to reduce the impact on your life."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Texting and Driving",
+      "body": "Distracted driving tickets are increasingly common in Minnesota. We fight to reduce fines and prevent the citation from impacting your insurance or driving record."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Passing a School Bus (Stop-Arm Violation)",
+      "body": "Minnesota takes school bus violations extremely seriously. A stop-arm ticket can result in large fines and possible license suspension. We know how to handle these sensitive cases and protect your rights."
+    },
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "Protect Your Driving Future",
+      "body": "A single traffic charge can create long-term consequences. Here’s how Davis Defense Lawyers can help:",
+      "steps": [
+        { "step": "Review the evidence—radar, dash cam, officer reports, witness statements." },
+        { "step": "Challenge the legality of the traffic stop." },
+        { "step": "Negotiate for reduced charges or no-point violations." },
+        { "step": "Work to avoid license suspensions or revocations." },
+        { "step": "Fight for dismissals when evidence is weak or procedure was improper." }
+      ]
+    }
+  ]
+},
+{
+  "slug": "criminal-vehicular-homicide",
+  "category": "Criminal Defense",
+  "navTitle": "Criminal Vehicular Homicide",
+
+  "metaTitle": "Minnesota Criminal Vehicular Homicide Lawyer | Davis Defense",
+  "metaDescription": "Charged with criminal vehicular homicide in Minnesota? Davis Defense provides experienced, compassionate representation in serious traffic-related death cases. Protect your rights and your future.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Minnesota Criminal Vehicular Homicide Defense",
+  "tagline": "When a tragic accident becomes a serious criminal charge, you need experienced, steady guidance on your side.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "Facing a criminal vehicular homicide charge is one of the most challenging experiences anyone can endure. In a single moment, a serious crash can turn into a life-changing criminal case with the possibility of years in prison, overwhelming grief, and enormous stress for you and your family. At Davis Defense Lawyers, we bring decades of experience, compassion, and a commitment to justice to these emotionally charged cases. We meticulously review accident reports, reconstruction findings, medical records, and witness statements to understand what really happened and to build the strongest defense possible.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "Drivers and passengers in Minnesota who are under investigation for, or have been charged with, criminal vehicular homicide or related serious injury offenses, as well as family members seeking help on their behalf.",
+
+  "faqTitle": "Criminal Vehicular Homicide FAQ",
+  "faq": [
+    {
+      "q": "What is criminal vehicular homicide in Minnesota?",
+      "a": "Criminal vehicular homicide generally involves causing the death of another person while operating a motor vehicle in a criminally negligent manner or while committing certain offenses, such as driving while impaired (DWI), leaving the scene of a crash, or grossly disregarding the safety of others. The exact definition and elements depend on the specific statute charged."
+    },
+    {
+      "q": "Is criminal vehicular homicide the same as murder?",
+      "a": "No. Criminal vehicular homicide is a separate offense that specifically involves the operation of a motor vehicle. It is still a very serious felony that can result in substantial prison time and long-term consequences, but it is distinct from intentional homicide or murder charges."
+    },
+    {
+      "q": "Do I automatically go to prison if I am charged?",
+      "a": "A charge is not a conviction. While criminal vehicular homicide carries the possibility of a lengthy prison sentence, the outcome depends on the facts of your case, your prior record, how the incident is charged, and the strength of your defense. An experienced defense lawyer can often make a significant difference in the result."
+    },
+    {
+      "q": "How does DWI affect a criminal vehicular homicide case?",
+      "a": "Allegations of driving while impaired by alcohol or drugs often play a central role in criminal vehicular homicide charges. The state may rely on breath, blood, or urine test results, officer observations, and field sobriety tests. These tests and procedures can be challenged if they were not done correctly or if your rights were violated."
+    },
+    {
+      "q": "What should I do if I am being investigated after a fatal crash?",
+      "a": "Do not discuss the incident with law enforcement, insurance companies, or anyone else about what happened before speaking with an attorney. Anything you say may be used against you later. Contact a criminal defense lawyer immediately to protect your rights and guide you through the investigation."
+    }
+  ],
+
+  "ctaLabel": "Talk to a Minnesota Criminal Vehicular Homicide Attorney",
+  "ctaBody": "If you or a loved one is facing a criminal vehicular homicide charge, you do not have to go through it alone. Call Davis Defense at (952) 994-1568 or contact us online for a confidential, free consultation.",
+  "icon": "",
+
+  "relatedAreas": [
+    "dwi-dui",
+    "felony-dwi",
+    "criminal-vehicular-operation",
+    "hit-and-run",
+    "probation-violation"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "A Life Changed in an Instant",
+      "body": "A serious crash is traumatic for everyone involved. When a person loses their life and prosecutors decide to file criminal vehicular homicide charges, the situation becomes even more overwhelming. You may be grieving, in shock, and trying to process what happened while also facing the possibility of prison, a permanent felony record, and long-term restrictions on your driving and civil rights. At Davis Defense Lawyers, we understand how devastating this is. Our role is to bring calm, clarity, and experienced guidance to an extremely difficult moment in your life."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "How Criminal Vehicular Homicide Cases Are Built",
+      "body": "These cases often involve detailed and complex evidence. Law enforcement may use crash reconstruction, event data recorders (“black box” data), vehicle inspections, toxicology reports, and witness statements to build their case. Prosecutors frequently allege:\n\n• Driving while impaired by alcohol or drugs;\n• Grossly negligent or reckless driving behavior;\n• Excessive speeding, racing, or passing in dangerous conditions;\n• Texting or other distracted driving;\n• Leaving the scene of a crash involving injury or death.\n\nOur job is to carefully review every piece of evidence, identify weaknesses or inconsistencies, and make sure that the state is held to its burden of proof."
+    },
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "Key Issues We Investigate",
+      "body": "A strong defense begins with a thorough investigation. In criminal vehicular homicide cases, we focus on:",
+      "items": [
+        "Accident reconstruction and whether it supports the state’s version of events.",
+        "Weather, road, and traffic conditions at the time of the crash.",
+        "The conduct of other drivers, pedestrians, or cyclists involved in the incident.",
+        "The accuracy and reliability of speed estimates and collision calculations.",
+        "The validity of breath, blood, or urine testing, including chain of custody.",
+        "Whether your constitutional rights were violated during the stop, arrest, or questioning.",
+        "Potential mechanical failures or defects in the vehicles involved."
+      ]
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "DWI and Criminal Vehicular Homicide",
+      "body": "In many cases, a criminal vehicular homicide charge is tied to an allegation of driving while impaired. That means the strength of the state’s case may depend on:\n\n• How the traffic stop occurred and whether it was lawful;\n• Whether field sobriety tests were properly administered;\n• Whether breath or blood tests were taken according to procedure;\n• The timing of any testing and the handling of samples.\n\nChallenging the underlying DWI evidence can be a crucial part of defending against criminal vehicular homicide. If the state’s proof of impairment is weak or unreliable, it may significantly impact how the case is charged and resolved."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Potential Consequences",
+      "body": "Criminal vehicular homicide is a serious felony offense. A conviction can result in:\n\n• A lengthy prison sentence;\n• Substantial fines and restitution claims;\n• Long-term or permanent loss of driving privileges;\n• Felony probation with strict conditions;\n• A permanent criminal record that affects employment and housing;\n• Emotional and family consequences that can last for years.\n\nBecause the stakes are so high, it is critical to have a lawyer who understands both the legal and human sides of these cases."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Compassionate, Strategic Defense",
+      "body": "These cases are emotionally charged for everyone involved—families, survivors, and the accused. At Davis Defense, we believe it is possible to respect the seriousness of the loss while still insisting on a fair process and a strong defense. We will:\n\n• Listen to your story and explain your options in clear, honest terms;\n• Conduct a thorough, independent review of the evidence;\n• Work with experts when appropriate, such as accident reconstructionists or toxicologists;\n• Explore all possible resolutions, including reduced charges or alternative outcomes, when available;\n• Be prepared to take your case to trial if that is in your best interest."
+    },
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "What to Do If You’re Facing a Criminal Vehicular Homicide Charge",
+      "body": "Taking the right steps early can make a meaningful difference in your case:",
+      "steps": [
+        {
+          "step": "Do not discuss the incident with police, insurance adjusters, or anyone else without first speaking to an attorney. Politely invoke your right to remain silent and your right to counsel."
+        },
+        {
+          "step": "Contact a criminal defense lawyer immediately. Early involvement allows your attorney to protect your rights during the investigation and preserve important evidence."
+        },
+        {
+          "step": "Gather any documents or information you have, including photos, messages, medical information, and contact information for potential witnesses."
+        },
+        {
+          "step": "Follow all court orders and release conditions, including any restrictions on driving or alcohol use."
+        },
+        {
+          "step": "Work closely with your attorney to understand the charges, review the evidence, and decide on the best strategy going forward—whether that means negotiating a resolution or preparing for trial."
+        }
+      ]
+    }
+  ]
+},
+{
+  "slug": "criminal-vehicular-operation",
+  "category": "Criminal Defense",
+  "navTitle": "Criminal Vehicular Operation",
+
+  "metaTitle": "Minnesota Criminal Vehicular Operation Lawyer | Davis Defense",
+  "metaDescription": "Charged with Criminal Vehicular Operation (CVO) in Minnesota? Davis Defense provides aggressive, experienced representation for serious injury and DWI-related accident cases.",
+  "schemaServiceType": "LegalService",
+
+  "pageTitle": "Minnesota Criminal Vehicular Operation Defense",
+  "tagline": "When an accident leads to criminal charges, experience, strategy, and immediate action matter.",
+  "heroImage": "",
+  "heroImageAlt": "",
+  "heroSummary": "If you’ve been charged with Criminal Vehicular Operation (CVO), you’re facing one of the most serious motor-vehicle-related criminal accusations under Minnesota law. These cases often involve allegations of impairment, reckless driving, or gross negligence — and the consequences can include years in prison, long-term license loss, and a permanent felony record. At Davis Defense Lawyers, we provide aggressive representation, carefully investigate every detail, and work tirelessly to challenge the prosecution’s claims. You are not alone. We’re here to protect your rights and your future.",
+
+  "video": "",
+  "videoThumbnail": "",
+
+  "audience": "Drivers in Minnesota accused of causing injury or death while operating a motor vehicle — including cases involving DWI, distracted driving, alleged negligence, or hit-and-run allegations.",
+
+  "faqTitle": "Criminal Vehicular Operation FAQ",
+  "faq": [
+    {
+      "q": "What is Criminal Vehicular Operation in Minnesota?",
+      "a": "CVO involves causing bodily harm, substantial bodily harm, great bodily harm, or death while operating a motor vehicle in a grossly negligent manner, while impaired, or during certain other unlawful acts such as fleeing the scene. Penalties vary based on the level of injury involved."
+    },
+    {
+      "q": "Is Criminal Vehicular Operation always a felony?",
+      "a": "Many CVO charges are felonies, especially those involving substantial bodily harm, great bodily harm, or death. Some cases involving lower-level injuries may be charged as gross misdemeanors."
+    },
+    {
+      "q": "Does a DWI automatically mean I’ll be charged with CVO?",
+      "a": "No. A DWI alone does not automatically result in CVO charges. Prosecutors must also prove that your driving caused a specific level of injury or harm to another person."
+    },
+    {
+      "q": "What are the penalties for a CVO conviction?",
+      "a": "Penalties may include up to 10 years in prison for cases involving death, up to 5 years for great bodily harm, thousands in fines, long-term loss of driving privileges, and a permanent criminal record. Sentencing guidelines depend on the severity of the injuries."
+    },
+    {
+      "q": "What should I do if I’m under investigation for CVO?",
+      "a": "Do not speak to law enforcement or insurance investigators without a lawyer. Contact a criminal defense attorney immediately so evidence can be preserved and your rights protected."
+    }
+  ],
+
+  "ctaLabel": "Talk to a Criminal Vehicular Operation Attorney",
+  "ctaBody": "If you’re facing CVO charges, timing matters. Call Davis Defense at (952) 994-1568 or contact us online for a confidential, free consultation.",
+  "icon": "",
+
+  "relatedAreas": [
+    "dwi-dui",
+    "felony-dwi",
+    "criminal-vehicular-homicide",
+    "hit-and-run",
+    "implied-consent-refusal"
+  ],
+
+  "contentBlocks": [
+    {
+      "type": "section",
+      "image": "",
+      "title": "Understanding Criminal Vehicular Operation in Minnesota",
+      "body": "Minnesota has some of the strictest laws in the country when it comes to driving offenses involving injuries. Criminal Vehicular Operation charges often arise from serious accidents involving alleged impairment, reckless driving, texting while driving, or other forms of negligence. These allegations can lead to felony charges even for first-time offenders."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "How CVO Charges Are Built",
+      "body": "Prosecutors often rely on:\n\n• Accident reconstruction reports\n• Witness statements\n• Officer observations\n• Toxicology tests (breath, blood, or urine)\n• Dashcam or surveillance video\n• Vehicle inspection and defect reports\n• Cell phone analysis (in distracted driving claims)\n\nAt Davis Defense, we challenge every piece of this evidence to ensure the state meets its burden of proof."
+    },
+    {
+      "type": "list-section",
+      "image": "",
+      "title": "What Can Lead to a CVO Charge?",
+      "body": "You may be charged with Criminal Vehicular Operation if injuries result from:",
+      "items": [
+        "Driving while impaired by alcohol or drugs",
+        "Driving in a grossly negligent manner",
+        "Leaving the scene of a crash involving injury or death",
+        "Operating a vehicle known to have dangerous mechanical defects",
+        "Texting or distracted driving (in some cases)",
+        "Failure to exercise reasonable care on the road"
+      ]
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Levels of Injury and Penalties",
+      "body": "CVO penalties depend heavily on the injury involved:\n\n• **Death or death of an unborn child** — Up to 10 years in prison and/or $20,000 fine\n• **Great bodily harm** (serious permanent injury) — Up to 5 years in prison and/or $10,000 fine\n• **Substantial bodily harm** (temporary but serious injury) — Up to 3 years in prison and/or $10,000 fine\n• **Bodily harm** (pain, visible injury) — Gross misdemeanor, up to 1 year in jail and/or $3,000 fine\n\nYou may also face **driver’s license revocation for up to 10 years** and long-term insurance consequences."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "When CVO Involves a DWI",
+      "body": "Many CVO charges involve allegations of drunk or drugged driving. But DWI evidence is not always reliable. Officers may misinterpret behavior, mishandle testing procedures, or improperly administer field sobriety tests. Our team scrutinizes every step to determine whether your rights were violated or whether the evidence is flawed."
+    },
+    {
+      "type": "section",
+      "image": "",
+      "title": "Challenging the State’s Case",
+      "body": "Every detail matters. We investigate:\n\n• How the crash occurred\n• Whether police followed proper procedures\n• Whether injuries were caused by the crash or unrelated factors\n• The credibility of witnesses\n• Whether mechanical defects contributed to the accident\n• If weather or road conditions played a role\n\nWe build a defense based on facts, expert analysis, and strategic legal arguments."
+    },
+    {
+      "type": "steps-section",
+      "image": "",
+      "title": "What to Do If You’ve Been Charged with CVO",
+      "body": "Taking the right steps early can significantly impact your case:",
+      "steps": [
+        { "step": "Do not give statements to police or insurance companies without your lawyer present." },
+        { "step": "Contact a criminal defense attorney as soon as possible — before evidence disappears or becomes harder to challenge." },
+        { "step": "Document everything you remember, including weather, traffic, road conditions, and statements made at the scene." },
+        { "step": "Collect photos, messages, or other evidence that may support your version of events." },
+        { "step": "Follow all court orders and work closely with your attorney to prepare your defense." }
+      ]
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
   ]
 }

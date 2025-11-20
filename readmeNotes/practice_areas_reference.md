@@ -17,6 +17,8 @@
       "heroImage": "",
       "heroImageAlt": "",
       "heroSummary": "",
+      "video":"",
+      "videoThumbnail":"",
 
       "audience": "",
       "faqTitle": "",
@@ -140,6 +142,10 @@ This section explains the purpose of every key and how it is used throughout the
 ### `heroImageAlt`
 
 - Alt text for accessibility and SEO
+
+### `video`
+
+- for video content if available
 
 ### `icon`
 
