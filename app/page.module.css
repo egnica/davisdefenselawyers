@@ -1,3 +1,48 @@
+/* NAV BAR */
+.navGrid {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 0.5fr 2.5fr 1fr;
+  place-content: center;
+  background-color: #0693e3;
+}
+.navItems {
+  border: #464646 solid 2px;
+  display: grid;
+  place-content: center;
+}
+
+.navItems ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navItem {
+  text-decoration: none;
+  border: #464646 solid 2px;
+}
+.callToAction {
+  text-align: center;
+  display: grid;
+  width: 100%;
+}
+.contNav {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 5px;
+}
+.phoneNum {
+  display: flex;
+  background-color: #cc3333;
+  color: #ffffff;
+  height: auto;
+  font-size: 1.7rem;
+}
+.phoneNum svg {
+  padding: 2px;
+}
+
 /* HERO COMPONENT */
 
 .heroContain {
@@ -6,7 +51,7 @@
   /* Banner height - tweak this until it feels right */
   height: 560px;
   overflow: hidden;
-  background: #000; /* in case video is still loading */
+  background: #464646; /* in case video is still loading */
 }
 
 .heroContain > video {
@@ -20,12 +65,50 @@
   inset: 0; /* top:0; right:0; bottom:0; left:0 */
   background: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.7) 0%,
     rgba(0, 0, 0, 0.15) 35%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.1) 100%
   );
   z-index: 1;
   pointer-events: none; /* ensures clicking doesn't hit overlay */
+}
+
+.content {
+  position: absolute;
+  z-index: 5;
+  left: clamp(1.5rem, 4vw, 3rem);
+  bottom: 3rem;
+
+  width: 65%;
+  color: #ffffff;
+
+  background-color: rgba(0, 0, 0, 0.45); /* cleaner shadow */
+  padding: 24px 28px;
+  border-radius: 4px; /* very subtle polish */
+  backdrop-filter: blur(2px); /* optional, looks premium */
+}
+
+.aboveH1 {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.content h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contentPara {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  opacity: 0.95;
 }
 
 /* Make the video fill that box without spilling */
@@ -38,6 +121,7 @@
   align-items: flex-end;
   z-index: 2;
 }
+
 .heroAndrew :global(img) {
   height: 100%; /* fills hero height */
   width: auto; /* keep aspect ratio */
@@ -45,10 +129,5 @@
 @media (max-width: 768px) {
   .heroContain {
     height: 380px;
-  }
-
-  .heroAndrew {
-    right: 50%;
-    transform: translateX(50%); /* center him on small screens if you want */
   }
 }
