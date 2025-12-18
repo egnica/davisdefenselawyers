@@ -1,0 +1,131 @@
+.mainContain {
+  padding: 2% 5%;
+  background-color: #f6f6f6;
+}
+
+.mainH1 {
+  margin: 20px 0 0 0;
+}
+.tagline {
+  margin: 0;
+  font-style: italic;
+}
+
+/* HERO COMPONENT */
+.heroPractice {
+  background-image: url("https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/minneapolis-skyline-night.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.heroInner {
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 0 2%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.heroText {
+  position: relative;
+  color: #fff;
+  padding: 42px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.heroText::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.heroText > * {
+  position: relative;
+  z-index: 1; /* keeps text above blur/tint */
+}
+
+.heroText h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+/* Right side */
+.heroImage {
+  height: 100%;
+  display: flex;
+  justify-content: left; /* or flex-end if you want him tighter right */
+  align-items: flex-end; /* THIS pins him to the bottom */
+}
+
+.heroImage :global(img) {
+  height: auto;
+  max-height: 340px;
+  width: auto;
+}
+
+.heroPractice h1 {
+  margin: 0;
+}
+
+.bodyImage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bodyImage > img {
+  width: 300px;
+  margin: auto;
+}
+
+.bodyNoImage {
+  margin: 4%;
+}
+.faqSection {
+  margin-top: 4rem;
+}
+
+.faqHeading {
+  margin-bottom: 1.5rem;
+}
+
+.faqItem {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+}
+
+.faqQuestion {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.faqAnswer {
+  margin-top: 0.75rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .heroText h1 {
+    font-size: 1.5rem;
+  }
+  .heroText{
+    padding: 10px
+  }
+}

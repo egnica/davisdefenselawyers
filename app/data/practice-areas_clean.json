@@ -57,7 +57,7 @@
       "tagline": "Accused of assault? Get clarity, strategy, and a proven defense on your side.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "Assault and domestic assault cases often begin with misunderstandings, false accusations, or actions that were taken in self-defense. With over 10 years of criminal defense experience, Attorney Andrew Davis understands how fast these situations escalate—and how important a strong defense is from day one.",
+      "heroSummary": "Assault and domestic assault cases often begin with misunderstandings, false accusations, or actions that were taken in self-defense. With over 10 years of criminal defense experience, Attorney Andrew Davis understands how fast these situations escalate, and how important a strong defense is from day one.",
       "video": "",
       "videoThumbnail": "",
       "audience": "Individuals facing assault or domestic assault charges in Minnesota, or anyone seeking legal guidance after an argument escalated and resulted in police involvement.",
@@ -77,7 +77,7 @@
         },
         {
           "q": "How does a no-contact order work?",
-          "a": "A no-contact order prohibits any communication with the protected person. Only a judge can lift the order—even if the other person invites contact. Any violation can lead to additional criminal charges."
+          "a": "A no-contact order prohibits any communication with the protected person. Only a judge can lift the order even if the other person invites contact. Any violation can lead to additional criminal charges."
         },
         {
           "q": "Should I talk to police before hiring a lawyer?",
@@ -91,9 +91,9 @@
       "contentBlocks": [
         {
           "type": "section",
-          "image": "",
+          "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/assult-2.webp",
           "title": "Understanding Minnesota Assault Charges",
-          "body": "Minnesota assault laws are complex, and charges often don’t match the reality of what happened. People are frequently overcharged, charged based on incomplete information, or charged after acting in self-defense. Andrew breaks down the exact degree of assault you are facing, explains the possible outcomes, and begins building a defense strategy based on facts—not assumptions."
+          "body": "Minnesota assault laws are complex, and charges often don’t match the reality of what happened. People are frequently overcharged, charged based on incomplete information, or charged after acting in self-defense. Andrew breaks down the exact degree of assault you are facing, explains the possible outcomes, and begins building a defense strategy based on facts, not assumptions."
         },
         {
           "type": "list-section",
@@ -101,25 +101,51 @@
           "title": "Degrees of Assault in Minnesota",
           "body": "Minnesota has five degrees of assault, ranging from misdemeanors to serious felonies. Here’s what each level means:",
           "items": [
-            "**Fifth-Degree Assault (§ 609.224):** Intent to cause fear or bodily harm; misdemeanor; up to 90 days in jail.",
-            "**Fourth-Degree Assault (§ 609.2231):** Assault against police, firefighters, medical staff, DNR officers, and other protected workers; gross misdemeanor or felony.",
-            "**Third-Degree Assault (§ 609.223):** Substantial bodily harm; felony; up to 5 years in prison.",
-            "**Second-Degree Assault (§ 609.222):** Assault with a dangerous weapon; felony; up to 7 years in prison.",
-            "**First-Degree Assault (§ 609.221):** Great bodily harm or deadly force used against a police officer; felony; up to 20 years in prison."
+            {
+              "lead": "Fifth-Degree Assault (§ 609.224):",
+              "text": "Intent to cause fear or bodily harm; misdemeanor; up to 90 days in jail."
+            },
+            {
+              "lead": "Fourth-Degree Assault (§ 609.2231):",
+              "text": "Assault against police, firefighters, medical staff, DNR officers, and other protected workers; gross misdemeanor or felony."
+            },
+            {
+              "lead": "Third-Degree Assault (§ 609.223):",
+              "text": "Substantial bodily harm; felony; up to 5 years in prison."
+            },
+            {
+              "lead": "Second-Degree Assault (§ 609.222):",
+              "text": "Assault with a dangerous weapon; felony; up to 7 years in prison."
+            },
+            {
+              "lead": "First-Degree Assault (§ 609.221):",
+              "text": "Great bodily harm or deadly force used against a police officer; felony; up to 20 years in prison."
+            }
           ]
         },
         {
           "type": "section",
           "image": "",
           "title": "Domestic Assault & No-Contact Orders",
-          "body": "A heated argument that escalates or is misinterpreted can quickly turn into a domestic assault charge. Police often make automatic arrests to separate people, even when the situation is unclear. No-contact orders can keep you out of your home, prevent you from seeing family, and restrict firearm access—especially important for military and law enforcement personnel. Andrew helps clients fight these orders, request modifications, and challenge the underlying accusations."
+          "body": "A heated argument that escalates or is misinterpreted can quickly turn into a domestic assault charge. Police often make automatic arrests to separate people, even when the situation is unclear. No-contact orders can keep you out of your home, prevent you from seeing family, and restrict firearm access especially important for military and law enforcement personnel. Andrew helps clients fight these orders, request modifications, and challenge the underlying accusations."
         },
+
         {
-          "type": "section",
-          "image": "",
+          "type": "list-section",
+          "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/assult-1.webp",
           "title": "Common Defense Strategies",
-          "body": "Every assault case is unique, and the right strategy depends on a deep understanding of the facts. Andrew examines every detail—witness statements, medical reports, body-cam footage, and police conduct—to identify strong defense angles, including:\n\n• Self-defense or defense of another\n• Defense of property\n• False accusations or exaggeration\n• Mutual combat\n• Insufficient evidence\n• Mistaken identity\n• Violation of your constitutional rights"
+          "body": "Every assault case is unique, and the right strategy depends on a deep understanding of the facts. Andrew examines every detail witness statements, medical reports, body-cam footage, and police conduct to identify strong defense angles, including:",
+          "items": [
+            "Self-defense or defense of another",
+            "Defense of property",
+            "False accusations or exaggeration",
+            "Mutual combat",
+            "Insufficient evidence",
+            "Mistaken identity",
+            "Violation of your constitutional rights"
+          ]
         },
+
         {
           "type": "steps-section",
           "image": "",
@@ -139,7 +165,7 @@
               "step": "Negotiations, motions, or preparing for trial"
             },
             {
-              "step": "Working toward the best possible outcome—reduction, dismissal, or acquittal"
+              "step": "Working toward the best possible outcome reduction, dismissal, or acquittal"
             }
           ]
         }
@@ -175,7 +201,7 @@
           "a": "Yes. A drug conviction can make it harder to find employment, qualify for housing, or receive student financial aid. It may also affect professional licenses. That’s why it’s critical to work with a lawyer focused not just on the criminal case, but on protecting your long-term future."
         },
         {
-          "q": "What if the police searched my car or home—can that be challenged?",
+          "q": "What if the police searched my car or home can that be challenged?",
           "a": "Often. Many drug cases turn on whether the police had a lawful reason to stop your vehicle, enter your home, or search your belongings. If your rights were violated, Andrew may be able to challenge the search and move to suppress illegally obtained evidence."
         },
         {
@@ -192,7 +218,7 @@
           "type": "section",
           "image": "",
           "title": "Charged With a Drug Crime in Minnesota?",
-          "body": "Drug arrests are intimidating. You may feel like the system has already decided your fate the moment the handcuffs went on. At Davis Defense, we see the bigger picture—how the arrest happened, what the police actually found, whether procedures were followed, and how a conviction would affect your life. Our goal is to put you back in control by giving you clear information, a realistic view of the case, and a strategy tailored to your situation."
+          "body": "Drug arrests are intimidating. You may feel like the system has already decided your fate the moment the handcuffs went on. At Davis Defense, we see the bigger picture how the arrest happened, what the police actually found, whether procedures were followed, and how a conviction would affect your life. Our goal is to put you back in control by giving you clear information, a realistic view of the case, and a strategy tailored to your situation."
         },
         {
           "type": "list-section",
@@ -272,7 +298,7 @@
         },
         {
           "q": "What should I do if I am pulled over for suspected DWI in Carver County, MN?",
-          "a": "Remain calm, be polite, and provide your license, registration, and insurance. Do not argue with the officer or volunteer extra information. Avoid admitting guilt or guessing your alcohol level. Once you are safe to do so, contact a DWI attorney immediately to get advice tailored to your situation—especially before deciding whether to take or refuse any tests."
+          "a": "Remain calm, be polite, and provide your license, registration, and insurance. Do not argue with the officer or volunteer extra information. Avoid admitting guilt or guessing your alcohol level. Once you are safe to do so, contact a DWI attorney immediately to get advice tailored to your situation especially before deciding whether to take or refuse any tests."
         },
         {
           "q": "If I blew .08 or higher, should I just plead guilty?",
@@ -296,7 +322,7 @@
           "type": "section",
           "image": "",
           "title": "Trusted DWI / DUI Attorney Serving Carver County and All of Minnesota",
-          "body": "When you are accused of impaired driving, the stakes are high: your license, your job, your finances, and your record are all on the line. At Davis Defense, we focus on criminal law and have extensive experience with DWI and DUI cases. From first-time offenses to complex felony-level charges, Andrew Davis provides experienced, hands-on representation—listening to your story, explaining the law in plain language, and developing a strategy around your goals."
+          "body": "When you are accused of impaired driving, the stakes are high: your license, your job, your finances, and your record are all on the line. At Davis Defense, we focus on criminal law and have extensive experience with DWI and DUI cases. From first-time offenses to complex felony-level charges, Andrew Davis provides experienced, hands-on representation listening to your story, explaining the law in plain language, and developing a strategy around your goals."
         },
         {
           "type": "section",
@@ -324,7 +350,7 @@
           "type": "section",
           "image": "",
           "title": "Alcohol, Drugs, and Minnesota DWI Law",
-          "body": "Minnesota’s DWI laws apply to more than just alcohol. You can be charged with DWI if drugs—illegal substances, prescription medications, or a combination of substances—impact your ability to drive safely. Unlike alcohol, which is often measured with a roadside breath test, drug-related DWI cases rely heavily on blood or urine testing and the officer’s observations. These tests must be properly administered, stored, and documented. Andrew carefully reviews the circumstances of your stop, the officer’s training, and the handling of any chemical tests to identify weaknesses in the state’s case."
+          "body": "Minnesota’s DWI laws apply to more than just alcohol. You can be charged with DWI if drugs illegal substances, prescription medications, or a combination of substances impact your ability to drive safely. Unlike alcohol, which is often measured with a roadside breath test, drug-related DWI cases rely heavily on blood or urine testing and the officer’s observations. These tests must be properly administered, stored, and documented. Andrew carefully reviews the circumstances of your stop, the officer’s training, and the handling of any chemical tests to identify weaknesses in the state’s case."
         },
         {
           "type": "section",
@@ -365,7 +391,7 @@
       "metaDescription": "Denied a job, housing, or a license because of your criminal record? Minnesota expungement lawyer Andrew Davis helps clients seal records and move forward. Free consultation. Serving clients in Hennepin County and throughout the Twin Cities metro.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Expungement & Criminal Record Sealing",
-      "tagline": "You can’t change the past—but you may be able to seal it from your future.",
+      "tagline": "You can’t change the past but you may be able to seal it from your future.",
       "heroImage": "",
       "heroImageAlt": "",
       "heroSummary": "If a past mistake is following you every time you apply for a job, housing, or a professional license, an expungement may give you a real second chance. In Minnesota, expungement is the process of asking a judge to seal your criminal record so it is no longer available to the general public. At Davis Defense, we help clients understand whether they qualify, build a compelling petition, and guide them through every step of the expungement process.",
@@ -380,7 +406,7 @@
         },
         {
           "q": "If I was arrested but never charged, can I get an expungement?",
-          "a": "Often, yes. If you were arrested but never formally charged—or if charges were dismissed early in the process—you may qualify for a full expungement. This can include sealing records and requiring agencies to return or seal fingerprints, booking photos, and other identifying information."
+          "a": "Often, yes. If you were arrested but never formally charged or if charges were dismissed early in the process you may qualify for a full expungement. This can include sealing records and requiring agencies to return or seal fingerprints, booking photos, and other identifying information."
         },
         {
           "q": "Can I get an expungement if I was convicted?",
@@ -404,7 +430,7 @@
           "type": "section",
           "image": "",
           "title": "You Can Clear Your Criminal Record",
-          "body": "Many people are denied employment, housing, or professional licenses because of a mistake in their past—often something they’ve already learned from and moved on from in their daily life. In Minnesota, expungement gives you a legal way to ask a judge to seal those records so they no longer appear on routine background checks. While an expungement does not physically destroy your record, sealing it can dramatically reduce how often it affects your opportunities."
+          "body": "Many people are denied employment, housing, or professional licenses because of a mistake in their past often something they’ve already learned from and moved on from in their daily life. In Minnesota, expungement gives you a legal way to ask a judge to seal those records so they no longer appear on routine background checks. While an expungement does not physically destroy your record, sealing it can dramatically reduce how often it affects your opportunities."
         },
         {
           "type": "list-section",
@@ -471,7 +497,7 @@
       "metaDescription": "Refused the breath test in Minnesota? You may face a separate criminal charge and license consequences under the implied consent law. Learn your options with Attorney Andrew Davis. Serving clients in Hennepin County and throughout the Twin Cities metro.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Implied Consent & Breath Test Refusal Defense",
-      "tagline": "Refusing the test doesn’t end the case—it often creates a new one. Get help before you make another move.",
+      "tagline": "Refusing the test doesn’t end the case it often creates a new one. Get help before you make another move.",
       "heroImage": "",
       "heroImageAlt": "",
       "heroSummary": "Minnesota’s implied consent law is one of the most confusing parts of a DWI arrest. If you refuse a breath, blood, or urine test, you can be charged with an additional crime and face serious license penalties on top of any DWI charge. At Davis Defense, Attorney Andrew Davis helps drivers understand what they’re facing, challenges the legality of tests and refusals, and fights to protect both your record and your ability to drive.",
@@ -502,7 +528,7 @@
         }
       ],
       "ctaLabel": "Talk to a Minnesota Implied Consent Lawyer",
-      "ctaBody": "If you refused a breath, blood, or urine test—or are being charged with test refusal—you need clear guidance immediately. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation.",
+      "ctaBody": "If you refused a breath, blood, or urine test or are being charged with test refusal you need clear guidance immediately. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation.",
       "icon": "",
       "relatedAreas": ["dwi-dui"],
       "contentBlocks": [
@@ -510,13 +536,13 @@
           "type": "section",
           "image": "",
           "title": "Can I Be Punished for Refusing the Breath Test?",
-          "body": "In Minnesota, the answer is often yes. Under the implied consent law, if you are lawfully arrested on suspicion of DWI and refuse a requested breath test, you can be charged with a separate crime—test refusal—on top of any impaired driving charge. Many people believe that refusing to blow will protect them from a DWI conviction. In reality, refusal frequently leads to harsher penalties, both in criminal court and with the Department of Public Safety. Davis Defense helps you understand exactly what you are facing and how best to respond."
+          "body": "In Minnesota, the answer is often yes. Under the implied consent law, if you are lawfully arrested on suspicion of DWI and refuse a requested breath test, you can be charged with a separate crime test refusal on top of any impaired driving charge. Many people believe that refusing to blow will protect them from a DWI conviction. In reality, refusal frequently leads to harsher penalties, both in criminal court and with the Department of Public Safety. Davis Defense helps you understand exactly what you are facing and how best to respond."
         },
         {
           "type": "section",
           "image": "",
           "title": "How Minnesota’s Implied Consent Law Works",
-          "body": "Minnesota’s implied consent law says that anyone who drives on Minnesota roads is considered to have consented to chemical testing—breath, blood, or urine—to determine the presence of alcohol or drugs, if law enforcement has probable cause. The test is treated as a legal “search,” and refusing that search can itself be a crime. In many cases, the officer does not need a warrant for a breath test but may need one for blood or urine, depending on the situation and current law. The result is a complicated mix of criminal charges and civil license penalties that can be overwhelming without experienced legal help."
+          "body": "Minnesota’s implied consent law says that anyone who drives on Minnesota roads is considered to have consented to chemical testing breath, blood, or urine to determine the presence of alcohol or drugs, if law enforcement has probable cause. The test is treated as a legal “search,” and refusing that search can itself be a crime. In many cases, the officer does not need a warrant for a breath test but may need one for blood or urine, depending on the situation and current law. The result is a complicated mix of criminal charges and civil license penalties that can be overwhelming without experienced legal help."
         },
         {
           "type": "list-section",
@@ -576,13 +602,13 @@
       "metaDescription": "Accused of violating probation in Minnesota? Attorney Andrew Davis defends clients at probation violation and revocation hearings statewide. Learn your options before you go to court. Serving clients in Hennepin County and throughout the Twin Cities metro.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Probation Violation & Revocation Defense",
-      "tagline": "Probation is better than jail—but it’s not freedom. If you’re accused of a violation, don’t go to court alone.",
+      "tagline": "Probation is better than jail but it’s not freedom. If you’re accused of a violation, don’t go to court alone.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "Probation can keep you out of jail—but it also comes with strict conditions. Missing a meeting, failing a test, or being charged with a new crime can send you back into court facing probation revocation and possible jail or prison time. At Davis Defense, Attorney Andrew Davis uses more than 10 years of criminal defense experience to protect your freedom, explain your options, and fight for a second chance.",
+      "heroSummary": "Probation can keep you out of jail but it also comes with strict conditions. Missing a meeting, failing a test, or being charged with a new crime can send you back into court facing probation revocation and possible jail or prison time. At Davis Defense, Attorney Andrew Davis uses more than 10 years of criminal defense experience to protect your freedom, explain your options, and fight for a second chance.",
       "video": "",
       "videoThumbnail": "",
-      "audience": "People on probation in Minnesota who received a violation notice, warrant, or court date—or who know they have violated terms and need to understand what happens next.",
+      "audience": "People on probation in Minnesota who received a violation notice, warrant, or court date or who know they have violated terms and need to understand what happens next.",
       "faqTitle": "Minnesota Probation Violation FAQ",
       "faq": [
         {
@@ -595,11 +621,11 @@
         },
         {
           "q": "What is the burden of proof for a probation violation?",
-          "a": "The state must prove a probation violation by clear and convincing evidence—a lower standard than beyond a reasonable doubt, but still requiring evidence that a violation occurred. You have the right to be represented by an attorney and to challenge the allegations."
+          "a": "The state must prove a probation violation by clear and convincing evidence a lower standard than beyond a reasonable doubt, but still requiring evidence that a violation occurred. You have the right to be represented by an attorney and to challenge the allegations."
         },
         {
           "q": "Can one violation send me to jail?",
-          "a": "Yes, it can. Sometimes judges give people another chance, especially on a first or minor violation. In other cases—such as repeated violations, new offenses, or serious non-compliance—the judge may revoke probation and order you to serve some or all of the suspended sentence. The outcome often depends on how the violation is explained and what plan is presented to the court."
+          "a": "Yes, it can. Sometimes judges give people another chance, especially on a first or minor violation. In other cases such as repeated violations, new offenses, or serious non-compliance the judge may revoke probation and order you to serve some or all of the suspended sentence. The outcome often depends on how the violation is explained and what plan is presented to the court."
         },
         {
           "q": "Do I really need a lawyer for a probation violation?",
@@ -615,7 +641,7 @@
           "type": "section",
           "image": "",
           "title": "Accused of Violating the Terms of Your Probation?",
-          "body": "Probation is often a lifeline—it keeps you in the community, working and living with your family instead of serving your whole sentence behind bars. But probation is not the same as freedom. It comes with conditions that can be strict and easy to misunderstand. When the court or probation officer believes you’ve violated those conditions, you may find yourself back in court for a probation revocation hearing with a lot on the line. Davis Defense helps you understand the accusations, your rights, and what can be done to protect your future."
+          "body": "Probation is often a lifeline it keeps you in the community, working and living with your family instead of serving your whole sentence behind bars. But probation is not the same as freedom. It comes with conditions that can be strict and easy to misunderstand. When the court or probation officer believes you’ve violated those conditions, you may find yourself back in court for a probation revocation hearing with a lot on the line. Davis Defense helps you understand the accusations, your rights, and what can be done to protect your future."
         },
         {
           "type": "list-section",
@@ -636,19 +662,19 @@
           "type": "section",
           "image": "",
           "title": "What Happens if You Violate Probation?",
-          "body": "When a probation officer believes a violation has occurred, they may file a report and request a hearing. You might receive a notice in the mail with a court date, or you could be arrested and brought directly to court. At the probation violation hearing, the judge can:\n\n• Find no violation and continue your existing probation;\n• Find a violation but give you another chance with the same or modified conditions;\n• Order you to serve some or all of the jail or prison time that was previously stayed.\n\nBecause judges have significant discretion, the way your violation is presented—and how your progress, challenges, and support system are explained—can make a major difference."
+          "body": "When a probation officer believes a violation has occurred, they may file a report and request a hearing. You might receive a notice in the mail with a court date, or you could be arrested and brought directly to court. At the probation violation hearing, the judge can:\n\n• Find no violation and continue your existing probation;\n• Find a violation but give you another chance with the same or modified conditions;\n• Order you to serve some or all of the jail or prison time that was previously stayed.\n\nBecause judges have significant discretion, the way your violation is presented and how your progress, challenges, and support system are explained can make a major difference."
         },
         {
           "type": "section",
           "image": "",
           "title": "How Andrew Defends Probation Violation Cases",
-          "body": "The best strategy in a probation case often starts before you ever step in front of the judge. Andrew works to:\n\n• Review the original sentence and all probation conditions;\n• Analyze the probation officer’s report and any alleged violations;\n• Identify whether the violation can be contested on the facts or law;\n• Present context and mitigation—such as health issues, transportation problems, or steps you’ve already taken to get back on track;\n• Negotiate with probation and the prosecutor for alternatives to jail, like treatment, community-based sanctions, or a structured plan to finish your conditions.\n\nThe goal is to convince the court that you are still a good candidate for probation and that revoking your freedom is not necessary."
+          "body": "The best strategy in a probation case often starts before you ever step in front of the judge. Andrew works to:\n\n• Review the original sentence and all probation conditions;\n• Analyze the probation officer’s report and any alleged violations;\n• Identify whether the violation can be contested on the facts or law;\n• Present context and mitigation such as health issues, transportation problems, or steps you’ve already taken to get back on track;\n• Negotiate with probation and the prosecutor for alternatives to jail, like treatment, community-based sanctions, or a structured plan to finish your conditions.\n\nThe goal is to convince the court that you are still a good candidate for probation and that revoking your freedom is not necessary."
         },
         {
           "type": "steps-section",
           "image": "",
           "title": "What to Do If You Think You Violated Probation",
-          "body": "If you know—or suspect—that you have violated probation, time matters. Here’s what you should do:",
+          "body": "If you know or suspect that you have violated probation, time matters. Here’s what you should do:",
           "steps": [
             {
               "step": "Do not ignore letters, calls, or notices from probation or the court. A missed court date can make things worse."
@@ -657,7 +683,7 @@
               "step": "Contact a probation violation defense lawyer immediately so you understand your exposure and options."
             },
             {
-              "step": "Gather documents that show your efforts to comply—pay stubs, treatment records, proof of job search, medical documentation, or anything else that helps explain your situation."
+              "step": "Gather documents that show your efforts to comply pay stubs, treatment records, proof of job search, medical documentation, or anything else that helps explain your situation."
             },
             {
               "step": "Work with your attorney to prepare a clear, honest explanation and a realistic plan for moving forward that the judge can consider instead of revoking probation."
@@ -680,10 +706,10 @@
       "tagline": "Sex offense accusations are life-changing. You need a defense lawyer who takes your side from day one.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "You didn’t do what they’re saying you did—or the story the police heard is not the full truth. Allegations of sexual assault, criminal sexual conduct, solicitation, or prostitution are some of the most serious and stigmatizing charges in Minnesota. A conviction can mean prison time, lifetime registration, and damage to your name that never really goes away. At Davis Defense, we are on your side. From our Bloomington-based law firm, Attorney Andrew Davis draws on more than 10 years of criminal defense experience to challenge the allegations, protect your rights, and fight for your future.",
+      "heroSummary": "You didn’t do what they’re saying you did or the story the police heard is not the full truth. Allegations of sexual assault, criminal sexual conduct, solicitation, or prostitution are some of the most serious and stigmatizing charges in Minnesota. A conviction can mean prison time, lifetime registration, and damage to your name that never really goes away. At Davis Defense, we are on your side. From our Bloomington-based law firm, Attorney Andrew Davis draws on more than 10 years of criminal defense experience to challenge the allegations, protect your rights, and fight for your future.",
       "video": "",
       "videoThumbnail": "",
-      "audience": "Adults and juveniles in Minnesota who are under investigation for, or charged with, criminal sexual conduct, sexual assault, solicitation, prostitution, or related sex offenses—and family members seeking help for a loved one.",
+      "audience": "Adults and juveniles in Minnesota who are under investigation for, or charged with, criminal sexual conduct, sexual assault, solicitation, prostitution, or related sex offenses and family members seeking help for a loved one.",
       "faqTitle": "Minnesota Sex Offense FAQ",
       "faq": [
         {
@@ -692,11 +718,11 @@
         },
         {
           "q": "I was falsely accused. Do I really need a lawyer?",
-          "a": "Yes. False allegations happen for many reasons—revenge, custody disputes, misinterpretation of consensual encounters, or pressure on a complaining witness. Once an accusation is made, police and prosecutors move quickly. Anything you say on your own can be used against you. Having a lawyer early in the process is often the best way to protect yourself and correct the record."
+          "a": "Yes. False allegations happen for many reasons revenge, custody disputes, misinterpretation of consensual encounters, or pressure on a complaining witness. Once an accusation is made, police and prosecutors move quickly. Anything you say on your own can be used against you. Having a lawyer early in the process is often the best way to protect yourself and correct the record."
         },
         {
           "q": "What are the consequences if I’m convicted of a sex offense?",
-          "a": "Penalties can include years or even decades in prison, large fines, long-term probation, and mandatory predatory offender registration—often for 10 years or for life. You may also face sex offender treatment, restrictions on where you can live or work, and serious damage to your reputation and relationships."
+          "a": "Penalties can include years or even decades in prison, large fines, long-term probation, and mandatory predatory offender registration often for 10 years or for life. You may also face sex offender treatment, restrictions on where you can live or work, and serious damage to your reputation and relationships."
         },
         {
           "q": "What are the degrees of criminal sexual conduct?",
@@ -720,7 +746,7 @@
           "type": "section",
           "image": "",
           "title": "Have You Been Falsely Accused of a Sex Crime?",
-          "body": "You didn’t do it—or at least not the way it’s being described. Maybe the encounter was consensual. Maybe the story has changed over time. Maybe the accusation is being used as leverage in a divorce or custody dispute. Whatever the circumstances, an accusation of sexual assault, criminal sexual conduct, or solicitation is devastating. The police are not on your side, and trying to “explain things” without a lawyer can make matters worse. At Davis Defense, we listen to your side first, investigate the facts, and build a defense that treats you as a person—not a headline."
+          "body": "You didn’t do it or at least not the way it’s being described. Maybe the encounter was consensual. Maybe the story has changed over time. Maybe the accusation is being used as leverage in a divorce or custody dispute. Whatever the circumstances, an accusation of sexual assault, criminal sexual conduct, or solicitation is devastating. The police are not on your side, and trying to “explain things” without a lawyer can make matters worse. At Davis Defense, we listen to your side first, investigate the facts, and build a defense that treats you as a person not a headline."
         },
         {
           "type": "list-section",
@@ -749,7 +775,7 @@
           "type": "section",
           "image": "",
           "title": "Prostitution, Solicitation, and Sting Operations",
-          "body": "Prostitution and solicitation charges often arise from undercover stings—hotel operations, online ads, or street-level enforcement. People caught in these operations frequently feel they were set up or entrapped. An experienced defense lawyer will look closely at what was said, how the conversation unfolded, and whether law enforcement crossed the line from offering an opportunity to committing true entrapment.\n\nIn Minnesota, prostitution-related penalties can escalate quickly based on age, location, and prior history. Cases can involve:\n\n• Alleged patronizing or hiring someone for sexual services\n• Online communication leading to in-person meetings\n• Undercover officers posing as sex workers or clients\n• Enhanced penalties when minors are involved\n\nEven a first prostitution conviction can carry jail time, fines, lasting damage to your reputation, and a criminal record that affects employment, licensing, and immigration status."
+          "body": "Prostitution and solicitation charges often arise from undercover stings hotel operations, online ads, or street-level enforcement. People caught in these operations frequently feel they were set up or entrapped. An experienced defense lawyer will look closely at what was said, how the conversation unfolded, and whether law enforcement crossed the line from offering an opportunity to committing true entrapment.\n\nIn Minnesota, prostitution-related penalties can escalate quickly based on age, location, and prior history. Cases can involve:\n\n• Alleged patronizing or hiring someone for sexual services\n• Online communication leading to in-person meetings\n• Undercover officers posing as sex workers or clients\n• Enhanced penalties when minors are involved\n\nEven a first prostitution conviction can carry jail time, fines, lasting damage to your reputation, and a criminal record that affects employment, licensing, and immigration status."
         },
         {
           "type": "section",
@@ -767,7 +793,7 @@
           "type": "steps-section",
           "image": "",
           "title": "What to Do If You’re Under Investigation or Charged",
-          "body": "In sex crime cases, early decisions can shape the entire outcome. If you suspect you are under investigation—or have already been charged—take these steps:",
+          "body": "In sex crime cases, early decisions can shape the entire outcome. If you suspect you are under investigation or have already been charged take these steps:",
           "steps": [
             {
               "step": "Do not talk to police, child protection workers, or alleged victims about the accusations without a lawyer present. Politely assert your right to remain silent and to have an attorney."
@@ -776,13 +802,13 @@
               "step": "Contact a sex crimes defense lawyer immediately so you understand your rights before any interviews, lineups, or searches."
             },
             {
-              "step": "Preserve evidence that could help your case—text messages, emails, social media communications, photos, and names of potential witnesses."
+              "step": "Preserve evidence that could help your case text messages, emails, social media communications, photos, and names of potential witnesses."
             },
             {
               "step": "Follow any no-contact orders or release conditions exactly, even if you believe they are unfair. Violating them can make your situation much worse."
             },
             {
-              "step": "Work closely with your attorney to prepare for each stage of the case—from investigation and charging decisions to motions, negotiations, and, if necessary, trial."
+              "step": "Work closely with your attorney to prepare for each stage of the case from investigation and charging decisions to motions, negotiations, and, if necessary, trial."
             }
           ]
         }
@@ -863,7 +889,7 @@
           "type": "section",
           "image": "",
           "title": "Burglary: Entering a Building to Commit a Crime",
-          "body": "Burglary is more than just stealing—it is about entering a building without consent with the intent to commit a crime inside. Minnesota recognizes different degrees of burglary based on factors like whether the building is a home, whether anyone was inside, whether a weapon was present, and what type of crime was intended.\n\n• **First-Degree Burglary** – The most serious, often involving a dwelling where someone is present, a dangerous weapon, or an assault. Penalties can reach up to 20 years in prison and large fines.\n• **Second-Degree Burglary** – May involve a dwelling, a bank or pharmacy, or using tools to break into locked containers or areas.\n• **Third-Degree Burglary** – Involves entering a building to commit a felony or gross misdemeanor.\n• **Fourth-Degree Burglary** – Usually involves entering to commit a misdemeanor (other than stealing) and is typically charged as a gross misdemeanor.\n\nBecause burglary charges can easily become felony-level and carry long prison sentences, having a lawyer who knows how to challenge the state’s version of events is critical."
+          "body": "Burglary is more than just stealing it is about entering a building without consent with the intent to commit a crime inside. Minnesota recognizes different degrees of burglary based on factors like whether the building is a home, whether anyone was inside, whether a weapon was present, and what type of crime was intended.\n\n• **First-Degree Burglary** – The most serious, often involving a dwelling where someone is present, a dangerous weapon, or an assault. Penalties can reach up to 20 years in prison and large fines.\n• **Second-Degree Burglary** – May involve a dwelling, a bank or pharmacy, or using tools to break into locked containers or areas.\n• **Third-Degree Burglary** – Involves entering a building to commit a felony or gross misdemeanor.\n• **Fourth-Degree Burglary** – Usually involves entering to commit a misdemeanor (other than stealing) and is typically charged as a gross misdemeanor.\n\nBecause burglary charges can easily become felony-level and carry long prison sentences, having a lawyer who knows how to challenge the state’s version of events is critical."
         },
         {
           "type": "section",
@@ -896,7 +922,7 @@
               "step": "Contact a theft crimes defense lawyer as soon as possible to understand the exact charges, potential penalties, and options."
             },
             {
-              "step": "Gather documents and information that may help your case—receipts, messages, bank records, employment records, or names of witnesses."
+              "step": "Gather documents and information that may help your case receipts, messages, bank records, employment records, or names of witnesses."
             },
             {
               "step": "Appear at all court dates and follow any conditions of release, including no-contact orders or curfew, to avoid making the situation worse."
@@ -919,10 +945,10 @@
       "tagline": "One heated moment. One grabbed phone. Now you’re facing a gross misdemeanor.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "At Davis Defense Lawyers, we understand that being accused of interfering with a 911 call usually comes out of emotionally charged situations—arguments between partners, family disputes, or misunderstandings where someone panics and reaches for a phone. Minnesota takes these allegations seriously. A single incident can result in a gross misdemeanor charge, possible jail time, fines, and a damaging criminal record. With more than 10 years of criminal defense experience, Attorney Andrew Davis knows how to uncover what really happened, challenge weak evidence, and fight for your future.",
+      "heroSummary": "At Davis Defense Lawyers, we understand that being accused of interfering with a 911 call usually comes out of emotionally charged situations arguments between partners, family disputes, or misunderstandings where someone panics and reaches for a phone. Minnesota takes these allegations seriously. A single incident can result in a gross misdemeanor charge, possible jail time, fines, and a damaging criminal record. With more than 10 years of criminal defense experience, Attorney Andrew Davis knows how to uncover what really happened, challenge weak evidence, and fight for your future.",
       "video": "",
       "videoThumbnail": "",
-      "audience": "Individuals in Minnesota who have been arrested or charged with interference with a 911 call—often in connection with domestic disputes, family arguments, or alleged assaults—and family members seeking help for a loved one.",
+      "audience": "Individuals in Minnesota who have been arrested or charged with interference with a 911 call often in connection with domestic disputes, family arguments, or alleged assaults and family members seeking help for a loved one.",
       "faqTitle": "Minnesota Interference With a 911 Call FAQ",
       "faq": [
         {
@@ -1067,7 +1093,7 @@
           "type": "section",
           "image": "",
           "title": "Minnesota Traffic Charges We Handle",
-          "body": "From minor traffic citations to serious criminal charges, Davis Defense Lawyers helps drivers throughout Minnesota protect their rights. Traffic cases often involve more than just a fine—they can affect employment, insurance, background checks, and your ability to legally drive. We review every detail, identify weaknesses in the state's case, and work to reduce or dismiss the charges."
+          "body": "From minor traffic citations to serious criminal charges, Davis Defense Lawyers helps drivers throughout Minnesota protect their rights. Traffic cases often involve more than just a fine they can affect employment, insurance, background checks, and your ability to legally drive. We review every detail, identify weaknesses in the state's case, and work to reduce or dismiss the charges."
         },
         {
           "type": "list-section",
@@ -1091,7 +1117,7 @@
           "type": "section",
           "image": "",
           "title": "Driving After Revocation, Cancellation, or Suspension",
-          "body": "Driving without a valid license in Minnesota is more than a simple ticket—it can be a misdemeanor or gross misdemeanor offense. Whether your license was suspended for unpaid fines, DWI, insurance issues, or prior violations, we work to uncover errors in the case, resolve the underlying license problem, and fight to avoid criminal penalties and further restrictions."
+          "body": "Driving without a valid license in Minnesota is more than a simple ticket it can be a misdemeanor or gross misdemeanor offense. Whether your license was suspended for unpaid fines, DWI, insurance issues, or prior violations, we work to uncover errors in the case, resolve the underlying license problem, and fight to avoid criminal penalties and further restrictions."
         },
         {
           "type": "section",
@@ -1103,7 +1129,7 @@
           "type": "section",
           "image": "",
           "title": "Speeding & Speeding Over 100 MPH",
-          "body": "Speeding violations are among the most common traffic offenses, but high-speed cases—especially those exceeding 100 MPH—carry major consequences. Minnesota law requires a mandatory license revocation for speeds over 100 MPH. We challenge radar evidence, traffic stop procedures, and documentation errors to protect your record."
+          "body": "Speeding violations are among the most common traffic offenses, but high-speed cases especially those exceeding 100 MPH carry major consequences. Minnesota law requires a mandatory license revocation for speeds over 100 MPH. We challenge radar evidence, traffic stop procedures, and documentation errors to protect your record."
         },
         {
           "type": "section",
@@ -1148,7 +1174,7 @@
           "body": "A single traffic charge can create long-term consequences. Here’s how Davis Defense Lawyers can help:",
           "steps": [
             {
-              "step": "Review the evidence—radar, dash cam, officer reports, witness statements."
+              "step": "Review the evidence radar, dash cam, officer reports, witness statements."
             },
             {
               "step": "Challenge the legality of the traffic stop."
@@ -1256,7 +1282,7 @@
           "type": "section",
           "image": "",
           "title": "Compassionate, Strategic Defense",
-          "body": "These cases are emotionally charged for everyone involved—families, survivors, and the accused. At Davis Defense, we believe it is possible to respect the seriousness of the loss while still insisting on a fair process and a strong defense. We will:\n\n• Listen to your story and explain your options in clear, honest terms;\n• Conduct a thorough, independent review of the evidence;\n• Work with experts when appropriate, such as accident reconstructionists or toxicologists;\n• Explore all possible resolutions, including reduced charges or alternative outcomes, when available;\n• Be prepared to take your case to trial if that is in your best interest."
+          "body": "These cases are emotionally charged for everyone involved families, survivors, and the accused. At Davis Defense, we believe it is possible to respect the seriousness of the loss while still insisting on a fair process and a strong defense. We will:\n\n• Listen to your story and explain your options in clear, honest terms;\n• Conduct a thorough, independent review of the evidence;\n• Work with experts when appropriate, such as accident reconstructionists or toxicologists;\n• Explore all possible resolutions, including reduced charges or alternative outcomes, when available;\n• Be prepared to take your case to trial if that is in your best interest."
         },
         {
           "type": "steps-section",
@@ -1277,7 +1303,7 @@
               "step": "Follow all court orders and release conditions, including any restrictions on driving or alcohol use."
             },
             {
-              "step": "Work closely with your attorney to understand the charges, review the evidence, and decide on the best strategy going forward—whether that means negotiating a resolution or preparing for trial."
+              "step": "Work closely with your attorney to understand the charges, review the evidence, and decide on the best strategy going forward whether that means negotiating a resolution or preparing for trial."
             }
           ]
         }
@@ -1294,10 +1320,10 @@
       "tagline": "When an accident leads to criminal charges, experience, strategy, and immediate action matter.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "If you’ve been charged with Criminal Vehicular Operation (CVO), you’re facing one of the most serious motor-vehicle-related criminal accusations under Minnesota law. These cases often involve allegations of impairment, reckless driving, or gross negligence — and the consequences can include years in prison, long-term license loss, and a permanent felony record. At Davis Defense Lawyers, we provide aggressive representation, carefully investigate every detail, and work tirelessly to challenge the prosecution’s claims. You are not alone. We’re here to protect your rights and your future.",
+      "heroSummary": "If you’ve been charged with Criminal Vehicular Operation (CVO), you’re facing one of the most serious motor-vehicle-related criminal accusations under Minnesota law. These cases often involve allegations of impairment, reckless driving, or gross negligence   and the consequences can include years in prison, long-term license loss, and a permanent felony record. At Davis Defense Lawyers, we provide aggressive representation, carefully investigate every detail, and work tirelessly to challenge the prosecution’s claims. You are not alone. We’re here to protect your rights and your future.",
       "video": "",
       "videoThumbnail": "",
-      "audience": "Drivers in Minnesota accused of causing injury or death while operating a motor vehicle — including cases involving DWI, distracted driving, alleged negligence, or hit-and-run allegations.",
+      "audience": "Drivers in Minnesota accused of causing injury or death while operating a motor vehicle   including cases involving DWI, distracted driving, alleged negligence, or hit-and-run allegations.",
       "faqTitle": "Minnesota Criminal Vehicular Operation FAQ",
       "faq": [
         {
@@ -1356,7 +1382,7 @@
           "type": "section",
           "image": "",
           "title": "Levels of Injury and Penalties",
-          "body": "CVO penalties depend heavily on the injury involved:\n\n• **Death or death of an unborn child** — Up to 10 years in prison and/or $20,000 fine\n• **Great bodily harm** (serious permanent injury) — Up to 5 years in prison and/or $10,000 fine\n• **Substantial bodily harm** (temporary but serious injury) — Up to 3 years in prison and/or $10,000 fine\n• **Bodily harm** (pain, visible injury) — Gross misdemeanor, up to 1 year in jail and/or $3,000 fine\n\nYou may also face **driver’s license revocation for up to 10 years** and long-term insurance consequences."
+          "body": "CVO penalties depend heavily on the injury involved:\n\n• **Death or death of an unborn child**   Up to 10 years in prison and/or $20,000 fine\n• **Great bodily harm** (serious permanent injury)   Up to 5 years in prison and/or $10,000 fine\n• **Substantial bodily harm** (temporary but serious injury)   Up to 3 years in prison and/or $10,000 fine\n• **Bodily harm** (pain, visible injury)   Gross misdemeanor, up to 1 year in jail and/or $3,000 fine\n\nYou may also face **driver’s license revocation for up to 10 years** and long-term insurance consequences."
         },
         {
           "type": "section",
@@ -1380,7 +1406,7 @@
               "step": "Do not give statements to police or insurance companies without your lawyer present."
             },
             {
-              "step": "Contact a criminal defense attorney as soon as possible — before evidence disappears or becomes harder to challenge."
+              "step": "Contact a criminal defense attorney as soon as possible   before evidence disappears or becomes harder to challenge."
             },
             {
               "step": "Document everything you remember, including weather, traffic, road conditions, and statements made at the scene."
@@ -1409,7 +1435,7 @@
       "heroSummary": "In Minnesota, a single mistake, old conviction, or domestic case can cost you your right to own or carry a firearm. For hunters, veterans, law enforcement, and responsible gun owners, losing those rights can feel like losing part of your identity. At Davis Defense Lawyers, we help clients understand why their gun rights were taken, whether they can be restored, and what legal path makes the most sense. We also aggressively defend new weapons charges that could put your freedom and Second Amendment rights at risk.",
       "video": "",
       "videoThumbnail": "",
-      "audience": "Minnesota residents who have lost firearm rights because of a felony, domestic assault, order for protection, DWI, or other disqualifying offense — as well as individuals currently charged with weapons offenses who want to protect their record and gun rights.",
+      "audience": "Minnesota residents who have lost firearm rights because of a felony, domestic assault, order for protection, DWI, or other disqualifying offense   as well as individuals currently charged with weapons offenses who want to protect their record and gun rights.",
       "faqTitle": "Minnesota Gun Rights Restoration & Weapons Charges FAQ",
       "faq": [
         {
@@ -1451,7 +1477,7 @@
           "type": "section",
           "image": "",
           "title": "Minnesota Gun Rights: How People Lose Them",
-          "body": "Minnesota does not require gun registration, and law-abiding adults may own most firearms without a special license. But certain criminal convictions, domestic-related offenses, and court orders can strip you of your right to possess or carry a gun.\n\nCommon reasons people lose gun rights include:\n\n• Felony convictions (especially “crimes of violence”)\n• Domestic assault or certain domestic-related offenses\n• Orders for protection (OFP) or DANCOs with firearm restrictions\n• Controlled substance convictions\n• Certain juvenile adjudications\n• Federal firearm prohibitions triggered by state convictions\n\nMany people don’t realize the full impact of a plea or conviction until years later — when they’re denied a purchase, rejected by NICS, or told they can no longer hunt with family. That’s where we come in."
+          "body": "Minnesota does not require gun registration, and law-abiding adults may own most firearms without a special license. But certain criminal convictions, domestic-related offenses, and court orders can strip you of your right to possess or carry a gun.\n\nCommon reasons people lose gun rights include:\n\n• Felony convictions (especially “crimes of violence”)\n• Domestic assault or certain domestic-related offenses\n• Orders for protection (OFP) or DANCOs with firearm restrictions\n• Controlled substance convictions\n• Certain juvenile adjudications\n• Federal firearm prohibitions triggered by state convictions\n\nMany people don’t realize the full impact of a plea or conviction until years later   when they’re denied a purchase, rejected by NICS, or told they can no longer hunt with family. That’s where we come in."
         },
         {
           "type": "list-section",
@@ -1471,7 +1497,7 @@
           "type": "section",
           "image": "",
           "title": "Paths to Restoring Your Gun Rights",
-          "body": "Restoring firearm rights is not automatic — even if you’ve completed probation and turned your life around. Depending on your case, options may include:\n\n• **Petitioning the court for restoration of firearm rights**\n• **Seeking expungement** of eligible offenses to limit how records are used\n• **Challenging classification** of a prior conviction as a “crime of violence”\n• **Addressing domestic-related orders** that impact firearm possession\n• **Correcting records** that incorrectly reflect your status\n\nWe start by reviewing your entire record, not just one conviction. Then we build a strategy that explains your rehabilitation, your need for firearms (hunting, work, personal safety), and why restoration serves the interests of justice and public safety."
+          "body": "Restoring firearm rights is not automatic   even if you’ve completed probation and turned your life around. Depending on your case, options may include:\n\n• **Petitioning the court for restoration of firearm rights**\n• **Seeking expungement** of eligible offenses to limit how records are used\n• **Challenging classification** of a prior conviction as a “crime of violence”\n• **Addressing domestic-related orders** that impact firearm possession\n• **Correcting records** that incorrectly reflect your status\n\nWe start by reviewing your entire record, not just one conviction. Then we build a strategy that explains your rehabilitation, your need for firearms (hunting, work, personal safety), and why restoration serves the interests of justice and public safety."
         },
         {
           "type": "section",
@@ -1483,7 +1509,7 @@
           "type": "section",
           "image": "",
           "title": "Defending Weapons Charges: Protecting Your Record and Rights",
-          "body": "Gun rights restoration and weapons defense go hand in hand. If you’re currently facing a weapons charge, how your case is handled now can determine whether you ever lose your rights — or whether you need restoration later.\n\nWe defend clients charged with:\n\n• Carrying a handgun without a permit\n• Possessing a firearm as a prohibited person\n• Transporting rifles or shotguns unlawfully in public\n• Furnishing a weapon to a minor\n• Using or possessing a firearm in connection with another crime\n\nIn many cases, the charge is based on an officer’s interpretation of a complicated statute or a questionable stop or search. We dig into the details, challenge the basis for the arrest, and work to reduce or dismiss charges whenever possible."
+          "body": "Gun rights restoration and weapons defense go hand in hand. If you’re currently facing a weapons charge, how your case is handled now can determine whether you ever lose your rights   or whether you need restoration later.\n\nWe defend clients charged with:\n\n• Carrying a handgun without a permit\n• Possessing a firearm as a prohibited person\n• Transporting rifles or shotguns unlawfully in public\n• Furnishing a weapon to a minor\n• Using or possessing a firearm in connection with another crime\n\nIn many cases, the charge is based on an officer’s interpretation of a complicated statute or a questionable stop or search. We dig into the details, challenge the basis for the arrest, and work to reduce or dismiss charges whenever possible."
         },
         {
           "type": "steps-section",
@@ -1512,7 +1538,7 @@
           "type": "section",
           "image": "",
           "title": "Why Work with Davis Defense on Gun Rights?",
-          "body": "Gun rights restoration is not just paperwork — it’s storytelling, strategy, and credibility. Judges want to know who you are now, not just what’s in your old file. Prosecutors want to know they’re not being asked to take a blind risk.\n\nAt Davis Defense, we:\n\n• Take the time to understand your full history and goals\n• Explain plainly what is and is not realistic in your case\n• Prepare you for court and help you tell your story the right way\n• Connect the dots between your rehabilitation, your need for firearms, and public safety\n\nIf your Second Amendment rights matter to you, the details matter to us."
+          "body": "Gun rights restoration is not just paperwork   it’s storytelling, strategy, and credibility. Judges want to know who you are now, not just what’s in your old file. Prosecutors want to know they’re not being asked to take a blind risk.\n\nAt Davis Defense, we:\n\n• Take the time to understand your full history and goals\n• Explain plainly what is and is not realistic in your case\n• Prepare you for court and help you tell your story the right way\n• Connect the dots between your rehabilitation, your need for firearms, and public safety\n\nIf your Second Amendment rights matter to you, the details matter to us."
         }
       ]
     },
@@ -1524,22 +1550,22 @@
       "metaDescription": "Charged with a DANCO, OFP, or restraining order violation in Minnesota? Davis Defense defends clients accused of no-contact violations, false accusations, and accidental contact. Serving clients in Hennepin County and throughout the Twin Cities metro.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota DANCO, OFP & Restraining Order Violations",
-      "tagline": "These charges are common — and easy to accidentally violate. We protect your rights and defend your future.",
+      "tagline": "These charges are common   and easy to accidentally violate. We protect your rights and defend your future.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "Domestic Abuse No-Contact Orders (DANCOs), Orders for Protection (OFPs), and Harassment Restraining Orders (HROs) are issued quickly and often without your input. A simple text message, a misunderstood social interaction, or even a call your partner initiated can lead to criminal charges. Because prosecutors take these violations seriously — sometimes more seriously than the underlying case — you need an attorney who understands how these situations actually happen and how to fight back. At Davis Defense Lawyers, we’ve handled hundreds of these cases and know what it takes to protect your record, your freedom, and your future.",
+      "heroSummary": "Domestic Abuse No-Contact Orders (DANCOs), Orders for Protection (OFPs), and Harassment Restraining Orders (HROs) are issued quickly and often without your input. A simple text message, a misunderstood social interaction, or even a call your partner initiated can lead to criminal charges. Because prosecutors take these violations seriously   sometimes more seriously than the underlying case   you need an attorney who understands how these situations actually happen and how to fight back. At Davis Defense Lawyers, we’ve handled hundreds of these cases and know what it takes to protect your record, your freedom, and your future.",
       "video": "",
       "videoThumbnail": "",
-      "audience": "Individuals accused of violating a Domestic Abuse No-Contact Order (DANCO), Order for Protection (OFP), or Harassment Restraining Order (HRO) — including those facing domestic assault, 911 interference, probation violations, or ongoing family disputes.",
+      "audience": "Individuals accused of violating a Domestic Abuse No-Contact Order (DANCO), Order for Protection (OFP), or Harassment Restraining Order (HRO)   including those facing domestic assault, 911 interference, probation violations, or ongoing family disputes.",
       "faqTitle": "Minnesota DANCO & OFP Violation FAQ",
       "faq": [
         {
           "q": "What exactly is a DANCO in Minnesota?",
-          "a": "A Domestic Abuse No-Contact Order (DANCO) is a court order prohibiting any contact — direct or indirect — with the alleged victim in a domestic-related case. This includes texts, calls, social media, being physically near them, or communication through third parties. Only a judge can modify or remove a DANCO, even if the alleged victim wants contact."
+          "a": "A Domestic Abuse No-Contact Order (DANCO) is a court order prohibiting any contact   direct or indirect   with the alleged victim in a domestic-related case. This includes texts, calls, social media, being physically near them, or communication through third parties. Only a judge can modify or remove a DANCO, even if the alleged victim wants contact."
         },
         {
           "q": "Can I be charged if the alleged victim contacted me first?",
-          "a": "Yes. The law places the responsibility entirely on the defendant — not the alleged victim. Even if they call you, text you, ask to meet, or say the order is 'being lifted,' you can still be arrested and charged. This is one of the most common and frustrating situations we see."
+          "a": "Yes. The law places the responsibility entirely on the defendant   not the alleged victim. Even if they call you, text you, ask to meet, or say the order is 'being lifted,' you can still be arrested and charged. This is one of the most common and frustrating situations we see."
         },
         {
           "q": "Is a DANCO violation a felony?",
@@ -1547,7 +1573,7 @@
         },
         {
           "q": "How can the state prove a DANCO violation?",
-          "a": "These cases are often proven through recorded jail calls, text messages, screenshots, phone logs, social media communication, witness reports, or police observation. Because the evidence is often digital, prosecutors move fast — and mistakes are common. We review every detail for weaknesses and unlawful police actions."
+          "a": "These cases are often proven through recorded jail calls, text messages, screenshots, phone logs, social media communication, witness reports, or police observation. Because the evidence is often digital, prosecutors move fast   and mistakes are common. We review every detail for weaknesses and unlawful police actions."
         },
         {
           "q": "Can a DANCO be modified or removed?",
@@ -1555,7 +1581,7 @@
         },
         {
           "q": "What should I do if I accidentally violated the order?",
-          "a": "Stop all communication and call an attorney immediately. Do not send follow-up messages, explanations, or apologies — these will be used against you. Fast legal action can often prevent additional consequences, negotiate your release, or begin modifying the order."
+          "a": "Stop all communication and call an attorney immediately. Do not send follow-up messages, explanations, or apologies   these will be used against you. Fast legal action can often prevent additional consequences, negotiate your release, or begin modifying the order."
         }
       ],
       "ctaLabel": "Speak to a DANCO Defense Lawyer Today",
@@ -1571,7 +1597,7 @@
           "type": "section",
           "image": "",
           "title": "Understanding DANCO, OFP, and Restraining Orders in Minnesota",
-          "body": "These orders are issued quickly — sometimes at arraignment, sometimes as bail conditions, sometimes without your input. They prohibit all contact in almost every form:\n\n• Texts, calls, emails, social media messages\n• Liking or commenting on posts\n• Third-party messages sent through friends or family\n• Being near the person’s home, workplace, or vehicle\n• Receiving or answering calls from the protected person\n\nEven if the alleged victim asks to reconcile, wants to talk, or wants the order removed, the order remains fully active until the court says otherwise."
+          "body": "These orders are issued quickly   sometimes at arraignment, sometimes as bail conditions, sometimes without your input. They prohibit all contact in almost every form:\n\n• Texts, calls, emails, social media messages\n• Liking or commenting on posts\n• Third-party messages sent through friends or family\n• Being near the person’s home, workplace, or vehicle\n• Receiving or answering calls from the protected person\n\nEven if the alleged victim asks to reconcile, wants to talk, or wants the order removed, the order remains fully active until the court says otherwise."
         },
         {
           "type": "list-section",
@@ -1582,7 +1608,7 @@
             "**Misdemeanor (first offense):** Up to 90 days in jail and a $1,000 fine.",
             "**Gross Misdemeanor (one prior within 10 years):** Up to 1 year in jail and a $3,000 fine.",
             "**Felony (two or more priors within 10 years):** Up to 5 years in prison and a $10,000 fine.",
-            "Each contact can be charged separately — meaning multiple texts can result in multiple charges."
+            "Each contact can be charged separately   meaning multiple texts can result in multiple charges."
           ]
         },
         {
@@ -1604,7 +1630,7 @@
           "body": "To protect yourself from further charges, follow these steps:",
           "steps": [
             {
-              "step": "Do not communicate with the protected person in any form — even if they contact you."
+              "step": "Do not communicate with the protected person in any form   even if they contact you."
             },
             {
               "step": "Block the number and all social media channels to prevent accidental contact."
@@ -1616,7 +1642,7 @@
               "step": "Document any unintentional contact or unexpected run-ins."
             },
             {
-              "step": "Stay patient — violations often happen when people feel pressured or emotional. Protecting your record comes first."
+              "step": "Stay patient   violations often happen when people feel pressured or emotional. Protecting your record comes first."
             }
           ]
         },
@@ -1624,7 +1650,7 @@
           "type": "section",
           "image": "",
           "title": "Why Clients Trust Davis Defense",
-          "body": "Andrew has handled hundreds of domestic-related cases, including DANCO violations, domestic assault, 911 interference, and probation violations. He knows how emotional, confusing, and high-stakes these cases can be.\n\nWe focus on:\n\n• Fast intervention — including help with bail\n• Preventing additional charges\n• Filing motions to modify or remove the order\n• Protecting your parental rights\n• Challenging weak or retaliatory allegations\n• Keeping your record as clean as possible\n\nA DANCO or OFP violation doesn’t make you a criminal — it makes you human. Let us help protect your future."
+          "body": "Andrew has handled hundreds of domestic-related cases, including DANCO violations, domestic assault, 911 interference, and probation violations. He knows how emotional, confusing, and high-stakes these cases can be.\n\nWe focus on:\n\n• Fast intervention   including help with bail\n• Preventing additional charges\n• Filing motions to modify or remove the order\n• Protecting your parental rights\n• Challenging weak or retaliatory allegations\n• Keeping your record as clean as possible\n\nA DANCO or OFP violation doesn’t make you a criminal   it makes you human. Let us help protect your future."
         }
       ]
     },
@@ -1636,10 +1662,10 @@
       "metaDescription": "Charged with domestic assault in Minnesota? Andrew Davis defends misdemeanor, gross misdemeanor, and felony domestic assault cases. Minneapolis–St. Paul. Free consultation. Serving clients in Hennepin County and throughout the Twin Cities metro.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Domestic Assault Defense Lawyer",
-      "tagline": "One accusation can change everything — we defend your rights and your future.",
+      "tagline": "One accusation can change everything   we defend your rights and your future.",
       "heroImage": "",
       "heroImageAlt": "Minnesota domestic assault defense attorney",
-      "heroSummary": "Domestic assault charges move fast in Minnesota. You can be arrested, removed from your home, and restricted from seeing your family — sometimes within hours. We step in immediately to protect your rights, challenge the accusations, and build a defense strategy suited to your situation.",
+      "heroSummary": "Domestic assault charges move fast in Minnesota. You can be arrested, removed from your home, and restricted from seeing your family   sometimes within hours. We step in immediately to protect your rights, challenge the accusations, and build a defense strategy suited to your situation.",
       "video": "",
       "videoThumbnail": "",
       "audience": "Individuals accused of domestic assault or domestic violence in Minnesota, including those facing related DANCO or OFP issues.",
@@ -1681,7 +1707,7 @@
           "type": "list-section",
           "image": "",
           "title": "Penalties for Domestic Assault",
-          "body": "Minnesota domestic assault is an enhanceable offense — meaning penalties increase significantly with prior qualified domestic violence-related offenses.",
+          "body": "Minnesota domestic assault is an enhanceable offense   meaning penalties increase significantly with prior qualified domestic violence-related offenses.",
           "items": [
             "Misdemeanor: Up to 90 days jail and $1,000 fine.",
             "Gross Misdemeanor: One prior DV-related conviction within 10 years. Up to 1 year jail and $3,000 fine.",
@@ -1695,7 +1721,7 @@
           "body": "Taking the right steps immediately can protect your future and strengthen your defense:",
           "steps": [
             {
-              "step": "Do not make statements to police or the alleged victim — anything you say can be used against you."
+              "step": "Do not make statements to police or the alleged victim   anything you say can be used against you."
             },
             {
               "step": "Follow all no-contact orders, including DANCO or OFP restrictions, even if the other party wants contact."
@@ -1792,13 +1818,13 @@
           "body": "Early decisions in a white collar case can make the difference between a negotiated resolution and a conviction. If you think you’re being investigated or have already been charged:",
           "steps": [
             {
-              "step": "Do not talk to investigators, agents, or auditors without a lawyer present — politely invoke your right to counsel."
+              "step": "Do not talk to investigators, agents, or auditors without a lawyer present   politely invoke your right to counsel."
             },
             {
               "step": "Contact an experienced white collar defense attorney immediately, even if you have only received a subpoena, letter, or phone call from an investigator."
             },
             {
-              "step": "Preserve all potential evidence, including emails, messages, financial records, and electronic files — do not delete or alter anything."
+              "step": "Preserve all potential evidence, including emails, messages, financial records, and electronic files   do not delete or alter anything."
             },
             {
               "step": "Avoid discussing the case with coworkers, clients, or friends; those conversations can be subpoenaed or used against you."
@@ -1835,7 +1861,7 @@
       "faq": [
         {
           "question": "What makes a crime a federal case instead of a state case?",
-          "answer": "A case may go federal when it involves federal statutes, federal land, crosses state lines, uses federal systems like the mail or wire transfers, or involves large-scale drug, fraud, or conspiracy allegations. Some conduct can be charged in either state or federal court—or both—depending on how the government chooses to proceed."
+          "answer": "A case may go federal when it involves federal statutes, federal land, crosses state lines, uses federal systems like the mail or wire transfers, or involves large-scale drug, fraud, or conspiracy allegations. Some conduct can be charged in either state or federal court or both depending on how the government chooses to proceed."
         },
         {
           "question": "Can I be prosecuted in both federal and state court for the same conduct?",
@@ -1882,7 +1908,7 @@
           "type": "section",
           "image": "",
           "title": "Why Federal Cases Are So High-Stakes",
-          "body": "Federal prosecutions are often more formal, more structured, and less flexible than typical state cases. Sentencing is heavily influenced by the Federal Sentencing Guidelines, which assign offense levels and criminal history scores to produce a recommended sentencing range. Many offenses also carry mandatory minimum sentences, especially drug and certain weapons charges.\n\nA conviction can mean years in federal prison, large fines, strict supervised release conditions, immigration consequences for non-citizens, and a permanent felony record. That’s why it is critical to work with a defense lawyer who knows how to calculate guideline exposure, identify grounds for departures or variances, and argue for the lowest possible sentence—or fight for a dismissal or acquittal where the evidence allows."
+          "body": "Federal prosecutions are often more formal, more structured, and less flexible than typical state cases. Sentencing is heavily influenced by the Federal Sentencing Guidelines, which assign offense levels and criminal history scores to produce a recommended sentencing range. Many offenses also carry mandatory minimum sentences, especially drug and certain weapons charges.\n\nA conviction can mean years in federal prison, large fines, strict supervised release conditions, immigration consequences for non-citizens, and a permanent felony record. That’s why it is critical to work with a defense lawyer who knows how to calculate guideline exposure, identify grounds for departures or variances, and argue for the lowest possible sentence or fight for a dismissal or acquittal where the evidence allows."
         },
         {
           "type": "list-section",
@@ -1903,7 +1929,7 @@
           "title": "What to Do If You’re Under Federal Investigation",
           "body": "The choices you make early in a federal investigation can shape the entire outcome of your case. If you suspect or know that you’re being investigated:",
           "steps": [
-            "Do not talk to federal agents, investigators, or prosecutors without an attorney present—even if they say they “just want to clear something up.”",
+            "Do not talk to federal agents, investigators, or prosecutors without an attorney present even if they say they “just want to clear something up.”",
             "Avoid discussing the situation by text, email, social media, or recorded jail calls; assume anything you say may be reviewed later.",
             "Gather and preserve any documents, messages, or records that may help your defense, but do not destroy or alter anything the government might request.",
             "Contact a federal criminal defense lawyer immediately so your rights are protected before charges are filed.",
@@ -1914,7 +1940,7 @@
           "type": "section",
           "image": "",
           "title": "Charged in Federal Court? Davis Defense Can Help.",
-          "body": "If you have already been indicted or received notice of federal charges, time is critical. You may be facing mandatory minimums, guideline enhancements, or the possibility of both state and federal prosecution for the same conduct.\n\nDavis Defense will walk you through each stage of the process—from investigation, indictment, and detention hearings to motion practice, plea negotiations, trial, and sentencing. Our goal is straightforward: protect your rights, limit your exposure, and fight for the best possible result in an environment where the government has significant advantages.\n\nBefore you answer questions, sign paperwork, or make decisions that could affect the rest of your life, talk to us about your options."
+          "body": "If you have already been indicted or received notice of federal charges, time is critical. You may be facing mandatory minimums, guideline enhancements, or the possibility of both state and federal prosecution for the same conduct.\n\nDavis Defense will walk you through each stage of the process from investigation, indictment, and detention hearings to motion practice, plea negotiations, trial, and sentencing. Our goal is straightforward: protect your rights, limit your exposure, and fight for the best possible result in an environment where the government has significant advantages.\n\nBefore you answer questions, sign paperwork, or make decisions that could affect the rest of your life, talk to us about your options."
         },
         {
           "type": "section",
@@ -1935,7 +1961,7 @@
       "tagline": "Kids make mistakes. We make sure one bad decision doesn’t define their future.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "When a child is accused of a crime in Minnesota, the case goes through the juvenile court system — but that doesn’t mean the stakes are low. Depending on the charge, a juvenile can face misdemeanor or felony consequences, and in the most serious cases, they can even be treated like an adult. At Davis Defense Lawyers, we understand how stressful this is for families. We help you navigate the juvenile process, protect your child’s rights, and focus on rehabilitation over punishment.",
+      "heroSummary": "When a child is accused of a crime in Minnesota, the case goes through the juvenile court system   but that doesn’t mean the stakes are low. Depending on the charge, a juvenile can face misdemeanor or felony consequences, and in the most serious cases, they can even be treated like an adult. At Davis Defense Lawyers, we understand how stressful this is for families. We help you navigate the juvenile process, protect your child’s rights, and focus on rehabilitation over punishment.",
       "video": "",
       "videoThumbnail": "",
       "audience": "Parents, guardians, and families of minors (under 18) facing juvenile charges in Minnesota.",
@@ -1959,7 +1985,7 @@
         },
         {
           "question": "Do we really need a lawyer if it’s ‘just’ juvenile court?",
-          "answer": "Yes. Juvenile cases can involve detention, lengthy probation, out-of-home placement, loss of driving privileges, and long-term consequences for school and work. Having an experienced juvenile defense lawyer can influence everything from whether charges are filed, to the outcome at trial, to how serious the disposition is — and whether your child’s future opportunities remain open."
+          "answer": "Yes. Juvenile cases can involve detention, lengthy probation, out-of-home placement, loss of driving privileges, and long-term consequences for school and work. Having an experienced juvenile defense lawyer can influence everything from whether charges are filed, to the outcome at trial, to how serious the disposition is   and whether your child’s future opportunities remain open."
         }
       ],
       "ctaLabel": "Protect Your Child’s Future",
@@ -1974,14 +2000,14 @@
         {
           "type": "section",
           "image": "",
-          "title": "Juvenile Charges Are Different — and So Is the Process",
-          "body": "Juvenile court in Minnesota is its own system, with its own rules, terminology, and goals. Cases are handled as civil proceedings, but the impact on your child’s life can be very real. Instead of being ‘found guilty,’ a child can be found ‘delinquent’ — essentially the juvenile version of a conviction. The focus is supposed to be on rehabilitation, but without a strong defense, your child can still face detention, strict probation, and long-term consequences.\n\nAt Davis Defense Lawyers, we walk families through every stage: from the first police contact, to court hearings, to final disposition. Our goal is to minimize harm, push for services instead of punishment where appropriate, and keep your child’s future as open as possible."
+          "title": "Juvenile Charges Are Different   and So Is the Process",
+          "body": "Juvenile court in Minnesota is its own system, with its own rules, terminology, and goals. Cases are handled as civil proceedings, but the impact on your child’s life can be very real. Instead of being ‘found guilty,’ a child can be found ‘delinquent’   essentially the juvenile version of a conviction. The focus is supposed to be on rehabilitation, but without a strong defense, your child can still face detention, strict probation, and long-term consequences.\n\nAt Davis Defense Lawyers, we walk families through every stage: from the first police contact, to court hearings, to final disposition. Our goal is to minimize harm, push for services instead of punishment where appropriate, and keep your child’s future as open as possible."
         },
         {
           "type": "list-section",
           "image": "",
           "title": "Common Juvenile Offenses We Handle",
-          "body": "We represent minors in a wide range of cases — from one-time mistakes to serious, high-stakes charges.",
+          "body": "We represent minors in a wide range of cases   from one-time mistakes to serious, high-stakes charges.",
           "items": [
             "Shoplifting and theft (including theft from an employer)",
             "Vandalism and property damage",
@@ -1999,7 +2025,7 @@
           "type": "section",
           "image": "",
           "title": "How the Juvenile Court Process Works",
-          "body": "Juvenile cases in Minnesota follow a different path than adult criminal cases:\n\n• **Charging** – The county attorney files a petition or law enforcement issues a citation. Charges move forward only if the state believes it has enough evidence.\n• **Release or Detention** – Many juveniles are released to a parent or guardian, but in more serious cases a child may be held in a detention facility and must see a judge within a short time.\n• **First Hearing (Arraignment)** – Your child admits or denies the allegations. An ‘admission’ is essentially a guilty plea; a ‘denial’ moves the case toward trial.\n• **Pretrial Hearings** – In some cases, the court holds pretrial hearings to address legal issues, negotiate outcomes, or explore diversion.\n• **Trial** – Most juvenile trials are heard by a judge rather than a jury. The state must prove the petition, and your child has the same core constitutional protections as an adult defendant.\n• **Disposition** – If the petition is proven, the case moves to disposition — the juvenile court’s version of sentencing — where the judge decides what consequences or services will be ordered."
+          "body": "Juvenile cases in Minnesota follow a different path than adult criminal cases:\n\n• **Charging** – The county attorney files a petition or law enforcement issues a citation. Charges move forward only if the state believes it has enough evidence.\n• **Release or Detention** – Many juveniles are released to a parent or guardian, but in more serious cases a child may be held in a detention facility and must see a judge within a short time.\n• **First Hearing (Arraignment)** – Your child admits or denies the allegations. An ‘admission’ is essentially a guilty plea; a ‘denial’ moves the case toward trial.\n• **Pretrial Hearings** – In some cases, the court holds pretrial hearings to address legal issues, negotiate outcomes, or explore diversion.\n• **Trial** – Most juvenile trials are heard by a judge rather than a jury. The state must prove the petition, and your child has the same core constitutional protections as an adult defendant.\n• **Disposition** – If the petition is proven, the case moves to disposition   the juvenile court’s version of sentencing   where the judge decides what consequences or services will be ordered."
         },
         {
           "type": "section",
@@ -2025,7 +2051,7 @@
           "type": "section",
           "image": "",
           "title": "Extended Jurisdiction Juvenile (EJJ) & Adult Certification",
-          "body": "For certain serious cases, the stakes go even higher. A juvenile can face:\n\n**Extended Jurisdiction Juvenile (EJJ)** – The court imposes a juvenile disposition and a stayed adult sentence. If the child successfully completes probation and follows the rules, the adult sentence may never be executed. If they violate, the adult sentence can be imposed later.\n\n**Adult Certification** – In the most serious cases, prosecutors may seek to move the case into adult court. If that happens, your child faces the same exposure as an adult defendant — including prison time and an adult felony record. Fighting certification and keeping the case in juvenile court is often one of the most important parts of the defense."
+          "body": "For certain serious cases, the stakes go even higher. A juvenile can face:\n\n**Extended Jurisdiction Juvenile (EJJ)** – The court imposes a juvenile disposition and a stayed adult sentence. If the child successfully completes probation and follows the rules, the adult sentence may never be executed. If they violate, the adult sentence can be imposed later.\n\n**Adult Certification** – In the most serious cases, prosecutors may seek to move the case into adult court. If that happens, your child faces the same exposure as an adult defendant   including prison time and an adult felony record. Fighting certification and keeping the case in juvenile court is often one of the most important parts of the defense."
         },
         {
           "type": "steps-section",

@@ -1,6 +1,10 @@
 // app/[slug]/page.jsx
 import { notFound } from "next/navigation";
 import rawData from "../data/practice-areas_clean.json";
+import styles from "./page.module.css";
+import Nav from "../components/nav";
+import ContentBlock from "../components/contentBlocks";
+import Hero from "../components/heroPractice";
 
 const practiceAreas = rawData.practiceAreas || [];
 
@@ -22,12 +26,25 @@ export default async function Page({ params }) {
   }
 
   return (
-    <main>
-      <h1>{area.pageTitle || area.navTitle}</h1>
-      <p>
-        <strong>Slug:</strong> {slug}
-      </p>
-      {area.heroSummary && <p>{area.heroSummary}</p>}
-    </main>
+    <>
+      <Nav />
+      <Hero title={area.pageTitle} tag={area.tagline} />
+      <main className={styles.mainContain}>
+        <>
+          {area.contentBlocks.map((item, index) => {
+            return <ContentBlock key={index} content={item} index={index} />;
+          })}
+          <section className={styles.faqSection}>
+            <h2 className={styles.faqHeading}>{area.faqTitle}</h2>
+            {area.faq.map((item, index) => (
+              <details key={index} className={styles.faqItem}>
+                <summary className={styles.faqQuestion}>{item.q}</summary>
+                <p className={styles.faqAnswer}>{item.a}</p>
+              </details>
+            ))}
+          </section>
+        </>
+      </main>
+    </>
   );
 }

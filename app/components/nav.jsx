@@ -8,20 +8,24 @@ function nav() {
       <p>LOGO</p>
       <nav className={styles.navItems}>
         <ul>
-          <li className={styles.navItem}>Home</li>
-          <li className={styles.navItem}>About</li>
+          <Link href={"./"}>
+            <li className={styles.navItem}>Home</li>
+          </Link>
+          <Link href={"/about"}>
+            <li className={styles.navItem}>About</li>
+          </Link>
           <li className={styles.navItem}>Practice Areas</li>
           <li className={styles.navItem}>Areas We Serve</li>
           <li className={styles.navItem}>Blog</li>
           <li className={styles.navItem}>Contact</li>
         </ul>
       </nav>
-       <a href="tel:+19529941568">
-      <div className={styles.callToAction}>
-        <div className={styles.contNav}>
-          CALL NOW <strong>24hrs a day</strong>
-        </div>
-       
+      <a href="tel:+19529941568">
+        <div className={styles.callToAction}>
+          <div className={styles.contNav}>
+            CALL NOW <strong>24hrs a day</strong>
+          </div>
+
           <div className={styles.phoneNum}>
             <svg
               width={35}
@@ -38,9 +42,8 @@ function nav() {
             </svg>
             <strong> (952) 994-1568</strong>
           </div>
-      
-      </div>
-        </a>
+        </div>
+      </a>
     </div>
   );
 }
