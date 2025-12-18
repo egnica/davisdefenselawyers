@@ -3,7 +3,12 @@
 import { useState } from "react";
 
 export default function ContactForm() {
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
   const [status, setStatus] = useState("idle"); // idle | sending | success | error
   const [error, setError] = useState("");
 
@@ -31,7 +36,7 @@ export default function ContactForm() {
       }
 
       setStatus("success");
-      setForm({ name: "", email: "", message: "" });
+      setForm({ name: "", email: "", phone: "", message: "" });
     } catch (err) {
       setStatus("error");
       setError(err.message);
@@ -51,6 +56,17 @@ export default function ContactForm() {
           name="email"
           type="email"
           value={form.email}
+          onChange={handleChange}
+          required
+        />
+      </label>
+
+      <label>
+        Phone
+        <input
+          name="phone"
+          type="tel"
+          value={form.phone}
           onChange={handleChange}
           required
         />
