@@ -1,6 +1,7 @@
 import { Inter, Merriweather } from "next/font/google";
 import "./globals.css";
-
+import Nav from "./components/nav.jsx";
+import Data from "./data/practice-areas_clean.json"
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${merriweather.variable}`}>
+      <Nav practiceAreas={Data.practiceAreas}/>
         {children}
       </body>
     </html>

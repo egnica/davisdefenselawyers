@@ -40,6 +40,9 @@ export default function Hero() {
             Cities. When your freedom and future are at stake, you need a
             defense attorney who knows how to fight and win.
           </p>
+          <div className={styles.btnContain}>
+            <button className={styles.btnHero}>FREE CASE EVALUATION</button>
+          </div>
         </div>
         <div className={styles.heroAndrew}>
           <Image

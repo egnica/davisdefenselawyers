@@ -27,7 +27,6 @@ export default async function Page({ params }) {
 
   return (
     <>
-      <Nav />
       <Hero title={area.pageTitle} tag={area.tagline} />
       <main className={styles.mainContain}>
         <>

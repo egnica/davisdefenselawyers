@@ -9,7 +9,7 @@ export const metadata = {
 export default function AboutLayout({ children }) {
   return (
     <>
-      <Nav />
+   
       <Hero
         title={"About Andrew Davis"}
         tag={
