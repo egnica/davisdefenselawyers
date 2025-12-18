@@ -80,43 +80,58 @@ function about() {
         dismissal, negotiating reduced charges, or taking a case to trial.
       </p>
       <hr />
-      <h3>Serving the Twin Cities and Greater Minnesota</h3>
-      <p>
-        Davis Defense Lawyers proudly serves clients across Minnesota,
-        including:
-      </p>
-      <div className={styles.splitTwo}>
-        <ul>
-          <li>Minneapolis and St. Paul</li>
-          <li>Hennepin County, MN and surrounding counties</li>
-          <li>Ramsey County, MN and surrounding counties</li>
-          <li>Carver County, MN and surrounding counties</li>
-          <li>Duluth, St. Cloud, Rochester, and outstate communities</li>
-        </ul>
+      <div className={styles.splitTwoOther}>
+        <div>
+          <h3>Serving the Twin Cities and Greater Minnesota</h3>
+          <p>
+            Davis Defense Lawyers proudly serves clients across Minnesota,
+            including:
+          </p>
+
+          <ul>
+            <li>Minneapolis and St. Paul</li>
+            <li>Hennepin County, MN and surrounding counties</li>
+            <li>Ramsey County, MN and surrounding counties</li>
+            <li>Carver County, MN and surrounding counties</li>
+            <li>Duluth, St. Cloud, Rochester, and outstate communities</li>
+          </ul>
+          <p>
+            No matter where a charge originates, Andrew works to ensure that
+            clients receive the same high level of attention, preparation, and
+            advocacy.
+          </p>
+        </div>
+
         <img
-          width={240}
+          width={340}
           alt="state of MN"
           src="https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/minnesota.webp"
         />
       </div>
-      <p>
-        No matter where a charge originates, Andrew works to ensure that clients
-        receive the same high level of attention, preparation, and advocacy.
-      </p>
       <hr />
-      <h3>What Sets Andrew Davis Apart</h3>
-      <p>Clients often choose Andrew Davis because he:</p>
-      <ul>
-        <li>Treats clients with respect and compassion</li>
-        <li>Takes time to explain the process and options</li>
-        <li>Is accessible and responsive when questions arise</li>
-        <li>Focuses on real-world outcomes, not just legal theory</li>
-        <p>
-          Facing criminal charges can feel isolating. Andrew’s goal is to make
-          sure clients never feel alone or uninformed while their case is
-          pending.
-        </p>
-      </ul>
+      <div className={styles.splitTwo}>
+        <img
+          width={300}
+          src="https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-court-1.webp"
+          alt="Andrew Davis in court room"
+        />
+        <div style={{ margin: "auto" }}>
+          <h3>What Sets Andrew Davis Apart</h3>
+          <p>Clients often choose Andrew Davis because he:</p>
+          <ul>
+            <li>Treats clients with respect and compassion</li>
+            <li>Takes time to explain the process and options</li>
+            <li>Is accessible and responsive when questions arise</li>
+            <li>Focuses on real-world outcomes, not just legal theory</li>
+            <p>
+              Facing criminal charges can feel isolating. Andrew’s goal is to
+              make sure clients never feel alone or uninformed while their case
+              is pending.
+            </p>
+          </ul>
+        </div>
+      </div>
+      <hr />
       <h2>Speak Directly With a Minnesota Criminal Defense Lawyer</h2>
       <p>
         If you or a loved one is facing criminal charges, early action matters.

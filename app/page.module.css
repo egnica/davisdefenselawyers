@@ -142,6 +142,16 @@
   gap: 2%;
   max-width: 1050px;
 }
+.splitTwoOther {
+  display: grid;
+
+  grid-template-columns: 1fr 0.5fr;
+  gap: 2%;
+  max-width: 1050px;
+}
+.splitTwoOther img {
+  margin: auto;
+}
 .aboutImage {
   width: 100%;
   max-width: 360px; /* 👈 THIS is the key */
@@ -169,6 +179,10 @@
 
 @media (max-width: 600px) {
   .splitTwo {
+    display: block;
+    text-align: center;
+  }
+  .splitTwoOther {
     display: block;
     text-align: center;
   }
