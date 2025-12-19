@@ -17,3 +17,15 @@ h3,
 .heroHeadline {
   font-family: var(--font-merriweather), serif;
 }
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+p {
+  font-size: 1.3rem;
+}
+li {
+  font-size: 1.3rem;
+}

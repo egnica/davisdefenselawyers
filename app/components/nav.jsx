@@ -86,10 +86,18 @@ export default function Nav({
 
               <div
                 className={`${styles.dropdownMenu} ${
-                  openDropdown === "practice" ? styles.dropdownOpen : ""
+                  openDropdown === "practice" ? styles.dropdownOpen2 : ""
                 }`}
                 role="menu"
               >
+                <Link
+                  className={styles.dropdownItem}
+                  href="../criminal-defense"
+                  onClick={() => setOpenDropdown(null)}
+                  style={{color:"red"}}
+                >
+                  VIEW ALL
+                </Link>
                 {practiceAreas?.length ? (
                   practiceAreas.map((area) => (
                     <Link
@@ -186,8 +194,10 @@ export default function Nav({
 
         {/* Right side CTA */}
         <div className={styles.ctaWrap}>
+     
           <a className={styles.cta} href={`tel:${tel}`}>
-            <span className={styles.ctaTop}>Call / Text 24/7</span>
+       <span style={{textAlign:"center", color:"black"}}>CALL NOW</span>
+            <span style={{textAlign:"center"}} className={styles.ctaTop}>Call / Text 24/7</span>
             <span className={styles.ctaBottom}>
               <PhoneIcon /> {phone}
             </span>

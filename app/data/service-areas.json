@@ -1,0 +1,441 @@
+{
+  "key": {
+    "slug": "",
+    "city": "",
+    "county": "",
+    "nearbyCities": [],
+    "pageTitle": "",
+    "metaTitle": "",
+    "metaDescription": "",
+    "heroImage": "",
+    "heroImageAlt": "",
+    "uniqueAngle": "",
+    "faq": [{ "q": "", "a": "" }],
+    "contentBlocks": [{ "type": "section", "title": "", "body": "" }]
+  },
+  "areas": [
+    {
+      "slug": "minneapolis-mn",
+      "city": "Minneapolis",
+      "county": "Hennepin County",
+      "nearbyCities": [
+        "St. Paul",
+        "Bloomington",
+        "Edina",
+        "Richfield",
+        "Golden Valley"
+      ],
+      "pageTitle": "Criminal Defense Lawyer in Minneapolis, MN",
+      "metaTitle": "Minneapolis Criminal Defense Lawyer | Davis Defense Lawyers",
+      "metaDescription": "Facing criminal charges in Minneapolis? Davis Defense Lawyers provides experienced, aggressive representation for DUI, assault, domestic violence, drug charges, and more. Call now for a free, confidential case evaluation.",
+      "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-2.webp",
+      "heroImageAlt": "Attorney Andrew Davis, Minneapolis criminal defense lawyer",
+      "uniqueAngle": "If you were arrested in Minneapolis, early action matters—charging decisions and release conditions can move fast. Getting counsel involved early can help protect your record, your job, and your future.",
+      "faq": [
+        {
+          "q": "What should I do after an arrest in Minneapolis?",
+          "a": "Don’t discuss the case with police, don’t post about it online, and write down everything you remember while it’s fresh. Then contact a criminal defense lawyer as soon as possible to review the complaint, the evidence, and next steps."
+        },
+        {
+          "q": "Do I need a lawyer if this is my first offense?",
+          "a": "Yes. Even first-time offenses can carry lasting consequences—probation terms, fines, license consequences, background checks, and immigration or employment issues. A lawyer can look for defenses and push for reduced charges or alternatives."
+        },
+        {
+          "q": "How quickly will I have to go to court?",
+          "a": "It depends on the charge and how you were released, but court dates can be scheduled quickly. It’s best to get legal guidance before your first appearance so you don’t make a mistake that affects bail, conditions, or the case strategy."
+        },
+        {
+          "q": "Can you help with DUI and license consequences in Minneapolis?",
+          "a": "Yes. DUI cases often have both criminal court and license/administrative consequences. A defense strategy should consider both so you’re not surprised by suspensions, restrictions, or reinstatement requirements."
+        },
+        {
+          "q": "How much does a Minneapolis criminal defense lawyer cost?",
+          "a": "Fees depend on the charge, complexity, and how far the case goes. After a quick review of your situation, we can provide clear pricing and options—starting with a free, confidential case evaluation."
+        }
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "title": "Criminal Defense Representation in Minneapolis",
+          "body": "If you’ve been arrested or charged in Minneapolis, the stakes are real—your record, your license, your job, and your peace of mind. Davis Defense Lawyers represents people across Minneapolis and the Twin Cities in cases involving DUI/DWI, assault, domestic violence allegations, drug charges, theft, and other criminal matters. We focus on fast action, clear communication, and building a defense strategy that fits the facts of your case—starting with a free, confidential case evaluation."
+        }
+      ]
+    },
+    {
+      "slug": "st-paul-mn",
+      "city": "St. Paul",
+      "county": "Ramsey County",
+      "nearbyCities": [
+        "Minneapolis",
+        "Maplewood",
+        "Roseville",
+        "West St. Paul",
+        "Eagan"
+      ],
+      "pageTitle": "Criminal Defense Lawyer in St. Paul, MN",
+      "metaTitle": "St. Paul Criminal Defense Lawyer | Davis Defense Lawyers",
+      "metaDescription": "Charged with a crime in St. Paul or Ramsey County? Davis Defense Lawyers defends clients facing DUI, assault, domestic violence, drug charges, and more. Call now for a free, confidential case evaluation.",
+      "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-2.webp",
+      "heroImageAlt": "Attorney Andrew Davis, St. Paul criminal defense lawyer",
+      "uniqueAngle": "Criminal charges in St. Paul can move quickly from complaint to court dates and release conditions. The right plan early on can improve outcomes—especially when evidence, witness statements, or body cam footage matters.",
+      "faq": [
+        {
+          "q": "Should I talk to the police if I’m being investigated in St. Paul?",
+          "a": "In most situations, no. You can be polite and provide basic identification, but you should not answer questions about the incident without a lawyer. Statements made early are often used later in court."
+        },
+        {
+          "q": "Can charges be reduced or dismissed in Ramsey County?",
+          "a": "Sometimes, yes—depending on the evidence, witness credibility, prior record, and legal issues such as search and seizure. A defense attorney can identify weaknesses and negotiate or litigate for the best possible outcome."
+        },
+        {
+          "q": "What if there’s a no-contact order or release conditions?",
+          "a": "Release conditions can affect where you live, who you can talk to, and how you work. A lawyer can help you understand the conditions and may be able to seek modifications when appropriate."
+        },
+        {
+          "q": "Do you handle domestic assault allegations in St. Paul?",
+          "a": "Yes. Domestic allegations often involve fast-moving decisions and protective orders. We focus on protecting your rights, your record, and your ability to move forward."
+        },
+        {
+          "q": "How do I start a case evaluation?",
+          "a": "Call or text to speak directly with our team. We’ll review what happened, what you’re facing, and what your next steps should be—confidentially and without pressure."
+        }
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "title": "Defense for Criminal Charges in St. Paul",
+          "body": "Being charged with a crime in St. Paul can feel overwhelming. You may be worried about jail, probation, fines, losing your license, or what a conviction could mean for your job and family. Davis Defense Lawyers helps clients in St. Paul and throughout Ramsey County navigate the process, understand their options, and build a strong defense in cases involving DUI/DWI, assault, domestic violence, drug charges, and more."
+        }
+      ]
+    },
+    {
+      "slug": "bloomington-mn",
+      "city": "Bloomington",
+      "county": "Hennepin County",
+      "nearbyCities": [
+        "Minneapolis",
+        "Richfield",
+        "Edina",
+        "Eagan",
+        "Burnsville"
+      ],
+      "pageTitle": "Criminal Defense Lawyer in Bloomington, MN",
+      "metaTitle": "Bloomington Criminal Defense Lawyer | Davis Defense Lawyers",
+      "metaDescription": "Accused of a crime in Bloomington? Davis Defense Lawyers represents clients across Hennepin County in DUI, assault, domestic violence, drug offenses, and more. Call now for a free, confidential case evaluation.",
+      "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-2.webp",
+      "heroImageAlt": "Attorney Andrew Davis, Bloomington criminal defense lawyer",
+      "uniqueAngle": "A Bloomington case can create immediate issues—license consequences, employment concerns, and release conditions. We help clients understand what’s happening, what matters most first, and how to protect their future.",
+      "faq": [
+        {
+          "q": "What happens after a criminal complaint is filed in Bloomington?",
+          "a": "After charges are filed, you’ll receive notice of a court date and any release conditions. The case moves through hearings where evidence is reviewed, motions may be filed, and negotiations occur."
+        },
+        {
+          "q": "Can you help if I was arrested for DUI in Bloomington?",
+          "a": "Yes. DUI cases often involve both criminal court and license consequences. We review the stop, testing, and procedures to look for defenses and to reduce penalties where possible."
+        },
+        {
+          "q": "Will a conviction affect my job or background checks?",
+          "a": "It can. Many employers and licensing boards run background checks. That’s why it’s critical to pursue outcomes that protect your record when possible, including reductions, stays of adjudication, or dismissals when appropriate."
+        },
+        {
+          "q": "Do I need to show up for court even if I think this is minor?",
+          "a": "Yes. Missing court can lead to a warrant and new consequences. A lawyer can help you understand your obligations and may be able to appear for some hearings depending on the case."
+        },
+        {
+          "q": "How do I get started with your firm?",
+          "a": "Call or text for a free, confidential case evaluation. We’ll discuss what happened, what you’re facing, and a clear plan for next steps."
+        }
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "title": "Bloomington Criminal Defense Attorney",
+          "body": "If you’re facing criminal charges in Bloomington, you deserve a defense strategy that’s focused, fast, and built around the facts. Davis Defense Lawyers represents clients in Bloomington and throughout Hennepin County for DUI/DWI, assault, domestic violence allegations, drug charges, theft, and other criminal matters. We work to reduce the impact on your life and fight for the best possible outcome—starting with a free, confidential case evaluation."
+        }
+      ]
+    },
+    {
+      "slug": "waconia-mn",
+      "city": "Waconia",
+      "county": "Carver County",
+      "nearbyCities": [
+        "Chanhassen",
+        "Chaska",
+        "Victoria",
+        "Minnetonka",
+        "Eden Prairie"
+      ],
+      "pageTitle": "Criminal Defense Lawyer in Waconia, MN",
+      "metaTitle": "Waconia Criminal Defense Lawyer | Davis Defense Lawyers",
+      "metaDescription": "Charged with a crime in Waconia or Carver County? Davis Defense Lawyers provides experienced criminal defense for DUI, assault, domestic violence, and more. Call now for a free, confidential case evaluation.",
+      "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-2.webp",
+      "heroImageAlt": "Attorney Andrew Davis, Waconia criminal defense lawyer",
+      "uniqueAngle": "Andrew Davis lives in Waconia and understands the local community and courts in Carver County. That local connection matters when your case, reputation, and future are on the line.",
+      "faq": [
+        {
+          "q": "Do you handle cases in Carver County courts?",
+          "a": "Yes. We represent clients throughout Carver County, including Waconia, Chaska, and surrounding communities, in a wide range of criminal matters."
+        },
+        {
+          "q": "Is it better to hire a local criminal defense lawyer?",
+          "a": "A lawyer who understands the local courts and community can better anticipate how cases are handled and what strategies may be effective."
+        },
+        {
+          "q": "Can you help with DUI charges in Waconia?",
+          "a": "Yes. DUI cases often involve both criminal charges and license consequences. We review the stop, testing, and procedures to identify defenses and protect your driving privileges when possible."
+        },
+        {
+          "q": "What happens after an arrest in Carver County?",
+          "a": "After an arrest, charges may be filed and a court date scheduled. Release conditions, bail, and early decisions can affect the entire case, so it’s important to speak with a lawyer quickly."
+        },
+        {
+          "q": "How do I get started?",
+          "a": "Call or text for a free, confidential case evaluation. We’ll review your situation and explain your options clearly."
+        }
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "title": "Local Criminal Defense Representation in Waconia",
+          "body": "If you’re facing criminal charges in Waconia, you want a lawyer who understands both the legal system and the local community. Davis Defense Lawyers represents clients throughout Waconia and Carver County in cases involving DUI/DWI, assault, domestic violence allegations, drug charges, and more. We focus on practical guidance, fast action, and protecting what matters most—your freedom, your record, and your future."
+        }
+      ]
+    },
+    {
+      "slug": "eden-prairie-mn",
+      "city": "Eden Prairie",
+      "county": "Hennepin County",
+      "nearbyCities": [
+        "Minnetonka",
+        "Chanhassen",
+        "Bloomington",
+        "Plymouth",
+        "Edina"
+      ],
+      "pageTitle": "Criminal Defense Lawyer in Eden Prairie, MN",
+      "metaTitle": "Eden Prairie Criminal Defense Lawyer | Davis Defense Lawyers",
+      "metaDescription": "Facing criminal charges in Eden Prairie or Hennepin County? Davis Defense Lawyers provides experienced defense for DUI, assault, domestic violence, drug charges, and more. Call now for a free, confidential case evaluation.",
+      "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-2.webp",
+      "heroImageAlt": "Attorney Andrew Davis, Eden Prairie criminal defense lawyer",
+      "uniqueAngle": "Criminal cases in Eden Prairie often involve immediate concerns around employment, professional licensing, and family responsibilities. A focused defense strategy can help minimize disruption and protect your long-term record.",
+      "faq": [
+        {
+          "q": "What should I do if I’m arrested in Eden Prairie?",
+          "a": "Remain calm, do not answer questions about the incident, and avoid discussing the case with anyone other than your attorney. Write down what you remember and contact a criminal defense lawyer as soon as possible."
+        },
+        {
+          "q": "Can a criminal charge affect my job or professional license?",
+          "a": "Yes. Even misdemeanor charges can impact employment, background checks, and licensing. That’s why it’s important to pursue outcomes that protect your record whenever possible."
+        },
+        {
+          "q": "Do you handle DUI cases in Eden Prairie?",
+          "a": "Yes. We represent clients charged with DUI/DWI and review the stop, testing procedures, and evidence to identify defenses and reduce penalties when possible."
+        },
+        {
+          "q": "Will I have to go to court right away?",
+          "a": "Court dates can be scheduled quickly depending on the charge and release conditions. Having legal guidance before your first appearance can make a significant difference."
+        },
+        {
+          "q": "How do I schedule a consultation?",
+          "a": "Call or text for a free, confidential case evaluation. We’ll review your situation and explain your options clearly."
+        }
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "title": "Criminal Defense Representation in Eden Prairie",
+          "body": "Being charged with a crime in Eden Prairie can put your career, family, and future at risk. Davis Defense Lawyers represents clients throughout Eden Prairie and Hennepin County in cases involving DUI/DWI, assault, domestic violence allegations, drug charges, theft, and other criminal matters. We focus on clear communication, early action, and building a defense strategy that fits the facts of your case—starting with a free, confidential case evaluation."
+        }
+      ]
+    },
+    {
+      "slug": "minnetonka-mn",
+      "city": "Minnetonka",
+      "county": "Hennepin County",
+      "nearbyCities": [
+        "Eden Prairie",
+        "Plymouth",
+        "Hopkins",
+        "Edina",
+        "Wayzata"
+      ],
+      "pageTitle": "Criminal Defense Lawyer in Minnetonka, MN",
+      "metaTitle": "Minnetonka Criminal Defense Lawyer | Davis Defense Lawyers",
+      "metaDescription": "Charged with a crime in Minnetonka or Hennepin County? Davis Defense Lawyers provides experienced defense for DUI, assault, domestic violence, drug charges, and more. Call now for a free, confidential case evaluation.",
+      "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-2.webp",
+      "heroImageAlt": "Attorney Andrew Davis, Minnetonka criminal defense lawyer",
+      "uniqueAngle": "Many Minnetonka cases involve professionals and families concerned about long-term consequences. A strong defense strategy focuses not just on the charge, but on protecting your record, career, and reputation.",
+      "faq": [
+        {
+          "q": "What happens after a criminal charge in Minnetonka?",
+          "a": "After charges are filed, you’ll receive notice of court dates and any release conditions. Early decisions—such as bail, conditions, and evidence review—can significantly affect the outcome."
+        },
+        {
+          "q": "Can a misdemeanor still impact my background check?",
+          "a": "Yes. Even misdemeanor convictions can appear on background checks and affect employment or housing. That’s why it’s important to explore options that minimize or avoid a permanent record when possible."
+        },
+        {
+          "q": "Do you represent clients for DUI cases in Minnetonka?",
+          "a": "Yes. We handle DUI/DWI cases and review traffic stops, testing procedures, and evidence to identify defenses and reduce penalties when appropriate."
+        },
+        {
+          "q": "Should I contact a lawyer before my first court date?",
+          "a": "Absolutely. Speaking with a lawyer early helps you understand what to expect, avoid mistakes, and start building a defense before your first appearance."
+        },
+        {
+          "q": "How do I get a free case evaluation?",
+          "a": "Call or text to schedule a free, confidential case evaluation. We’ll discuss your situation and outline clear next steps."
+        }
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "title": "Criminal Defense Representation in Minnetonka",
+          "body": "If you’re facing criminal charges in Minnetonka, you may be worried about how the case will affect your job, your family, and your future. Davis Defense Lawyers represents clients throughout Minnetonka and Hennepin County in cases involving DUI/DWI, assault, domestic violence allegations, drug charges, theft, and other criminal matters. Our goal is to reduce the impact of the charges and pursue the best possible outcome—starting with a free, confidential case evaluation."
+        }
+      ]
+    },
+    {
+      "slug": "plymouth-mn",
+      "city": "Plymouth",
+      "county": "Hennepin County",
+      "nearbyCities": [
+        "Maple Grove",
+        "Minnetonka",
+        "Golden Valley",
+        "Wayzata",
+        "New Hope"
+      ],
+      "pageTitle": "Criminal Defense Lawyer in Plymouth, MN",
+      "metaTitle": "Plymouth Criminal Defense Lawyer | Davis Defense Lawyers",
+      "metaDescription": "Facing criminal charges in Plymouth or Hennepin County? Davis Defense Lawyers provides experienced defense for DUI, assault, domestic violence, drug charges, and more. Call now for a free, confidential case evaluation.",
+      "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-2.webp",
+      "heroImageAlt": "Attorney Andrew Davis, Plymouth criminal defense lawyer",
+      "uniqueAngle": "Plymouth cases often involve busy professionals and families looking to resolve matters efficiently and protect their records. Early legal guidance can help reduce disruption and avoid long-term consequences.",
+      "faq": [
+        {
+          "q": "What should I do after being charged in Plymouth?",
+          "a": "Do not discuss the incident with police or others, and avoid posting about it online. Write down what you remember and contact a criminal defense lawyer as soon as possible to review your options."
+        },
+        {
+          "q": "Can charges be reduced or dismissed in Hennepin County?",
+          "a": "Depending on the facts, evidence, and prior history, it may be possible to seek reduced charges, alternative resolutions, or dismissal. A defense attorney can identify weaknesses in the case and advocate on your behalf."
+        },
+        {
+          "q": "Do you handle DUI cases in Plymouth?",
+          "a": "Yes. DUI/DWI cases involve both criminal charges and potential license consequences. We review the stop, testing, and procedures to identify defenses and minimize penalties."
+        },
+        {
+          "q": "Will a criminal case affect my employment?",
+          "a": "It can. Even pending charges may affect background checks or professional licensing. Addressing the case early helps protect your career and future opportunities."
+        },
+        {
+          "q": "How do I start a case evaluation?",
+          "a": "Call or text for a free, confidential case evaluation. We’ll review your situation and explain your next steps clearly."
+        }
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "title": "Criminal Defense Representation in Plymouth",
+          "body": "If you’re facing criminal charges in Plymouth, you need clear guidance and a defense strategy tailored to your situation. Davis Defense Lawyers represents clients throughout Plymouth and Hennepin County in cases involving DUI/DWI, assault, domestic violence allegations, drug charges, theft, and other criminal matters. We focus on early action, strong advocacy, and protecting what matters most—your freedom, your record, and your future."
+        }
+      ]
+    },
+    {
+      "slug": "chanhassen-mn",
+      "city": "Chanhassen",
+      "county": "Carver County",
+      "nearbyCities": [
+        "Chaska",
+        "Waconia",
+        "Eden Prairie",
+        "Minnetonka",
+        "Victoria"
+      ],
+      "pageTitle": "Criminal Defense Lawyer in Chanhassen, MN",
+      "metaTitle": "Chanhassen Criminal Defense Lawyer | Davis Defense Lawyers",
+      "metaDescription": "Charged with a crime in Chanhassen or Carver County? Davis Defense Lawyers provides experienced defense for DUI, assault, domestic violence, drug charges, and more. Call now for a free, confidential case evaluation.",
+      "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-2.webp",
+      "heroImageAlt": "Attorney Andrew Davis, Chanhassen criminal defense lawyer",
+      "uniqueAngle": "Chanhassen cases often involve residents balancing work, family, and community ties. A focused defense strategy can help resolve charges efficiently while protecting your reputation and long-term record.",
+      "faq": [
+        {
+          "q": "Do you represent clients in Carver County courts?",
+          "a": "Yes. We regularly represent clients in Carver County, including Chanhassen, Chaska, and surrounding communities."
+        },
+        {
+          "q": "What should I do if I’m arrested in Chanhassen?",
+          "a": "Do not answer questions about the incident and avoid discussing the case with others. Write down what you remember and contact a criminal defense lawyer as soon as possible."
+        },
+        {
+          "q": "Can a criminal charge affect my job or background check?",
+          "a": "Yes. Even misdemeanor charges can impact employment, housing, and professional opportunities. A defense strategy should focus on protecting your record whenever possible."
+        },
+        {
+          "q": "Do you handle DUI cases in Chanhassen?",
+          "a": "Yes. DUI/DWI cases often involve both criminal court and license consequences. We review the stop, testing, and procedures to identify defenses and reduce penalties."
+        },
+        {
+          "q": "How do I get started with a free case evaluation?",
+          "a": "Call or text for a free, confidential case evaluation. We’ll review your situation and explain your options clearly."
+        }
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "title": "Criminal Defense Representation in Chanhassen",
+          "body": "If you’re facing criminal charges in Chanhassen, you deserve a defense strategy that accounts for both the legal process and the real-life impact on your family and career. Davis Defense Lawyers represents clients throughout Chanhassen and Carver County in cases involving DUI/DWI, assault, domestic violence allegations, drug charges, theft, and other criminal matters. Our goal is to protect your rights, your record, and your future—starting with a free, confidential case evaluation."
+        }
+      ]
+    },
+    {
+      "slug": "chaska-mn",
+      "city": "Chaska",
+      "county": "Carver County",
+      "nearbyCities": [
+        "Chanhassen",
+        "Waconia",
+        "Victoria",
+        "Shakopee",
+        "Eden Prairie"
+      ],
+      "pageTitle": "Criminal Defense Lawyer in Chaska, MN",
+      "metaTitle": "Chaska Criminal Defense Lawyer | Davis Defense Lawyers",
+      "metaDescription": "Facing criminal charges in Chaska or Carver County? Davis Defense Lawyers provides experienced criminal defense for DUI, assault, domestic violence, drug charges, and more. Call now for a free, confidential case evaluation.",
+      "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-2.webp",
+      "heroImageAlt": "Attorney Andrew Davis, Chaska criminal defense lawyer",
+      "uniqueAngle": "As the county seat, Chaska is where many Carver County criminal cases are handled. Understanding how cases move through the local court system can make a meaningful difference in strategy and outcomes.",
+      "faq": [
+        {
+          "q": "Do criminal cases in Carver County go through Chaska?",
+          "a": "Yes. Many Carver County criminal cases are handled through courts in Chaska. Having a lawyer familiar with the local process helps you understand what to expect and how to prepare."
+        },
+        {
+          "q": "What should I expect after being charged in Chaska?",
+          "a": "After charges are filed, you’ll receive notice of court dates and any release conditions. Early legal guidance helps you avoid mistakes and begin building a defense right away."
+        },
+        {
+          "q": "Can you help with DUI cases in Chaska?",
+          "a": "Yes. DUI/DWI cases involve both criminal charges and potential license consequences. We review the stop, testing, and evidence to identify defenses and reduce penalties where possible."
+        },
+        {
+          "q": "Will a criminal charge affect my job or background check?",
+          "a": "It can. Even misdemeanor charges may appear on background checks. A strong defense focuses on protecting your record and minimizing long-term consequences."
+        },
+        {
+          "q": "How do I schedule a free case evaluation?",
+          "a": "Call or text to schedule a free, confidential case evaluation. We’ll review your situation and explain your options clearly."
+        }
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "title": "Criminal Defense Representation in Chaska",
+          "body": "If you’re facing criminal charges in Chaska, the outcome can affect your freedom, your record, and your future. Davis Defense Lawyers represents clients throughout Chaska and Carver County in cases involving DUI/DWI, assault, domestic violence allegations, drug charges, theft, and other criminal matters. We focus on early action, clear communication, and building a defense strategy tailored to your case—starting with a free, confidential case evaluation."
+        }
+      ]
+    }
+  ]
+}

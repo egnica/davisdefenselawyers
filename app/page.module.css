@@ -105,7 +105,6 @@
   font: inherit;
   color: inherit;
   cursor: pointer;
-
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -121,6 +120,12 @@
   outline: none;
   box-shadow: 0 0 0 3px rgba(11, 18, 32, 0.18);
   border-radius: 12px;
+}
+
+.viewAll {
+  text-align: center;
+  border-color: #000000;
+  color: #ff0000;
 }
 
 .chev {
@@ -144,6 +149,13 @@
 
 .dropdownOpen {
   display: block;
+}
+.dropdownOpen2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 1fr));
+  gap: 6px 12px; /* row gap / column gap */
+  min-width: 420px; /* prevents cramped columns */
+  max-width: 560px;
 }
 
 .dropdownItem {
@@ -178,18 +190,19 @@
   text-decoration: none;
   border-radius: 16px;
   padding: 10px 12px;
-  background: #0b1220;
-  color: #fff;
+  background: #ca1100cd;
+  color: #fffafa;
   display: grid;
   gap: 2px;
   /* min-width: 190px; */
   width: 180px;
   box-shadow: 0 10px 24px rgba(11, 18, 32, 0.25);
   transition: transform 160ms ease, box-shadow 160ms ease;
+  border: 3px black solid;
 }
 
 .cta:hover {
-  transform: translateY(-1px);
+  transform: scale(105%);
   box-shadow: 0 14px 30px rgba(11, 18, 32, 0.3);
 }
 
@@ -427,9 +440,206 @@
   .content p {
     font-size: 0.9rem;
   }
-  .btnHero {
+}
+
+/* PRACTICE GRID HOMEPAGE */
+.serviceContain {
+  display: flex;
+  background-color: #111;
+}
+.servicesHomepageGrid {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.servicesItem {
+  display: grid;
+  text-align: center;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  text-decoration: none;
+
+  border: 1px solid #e0e0e0;
+  border-left: 4px solid #9b1c1c81; /* muted red */
+  border-radius: 8px;
+
+  transition: border-color 0.2s ease, transform 0.1s ease;
+}
+.servicesItem:hover {
+  border-left-color: #c53030;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.homeServiceBtn {
+  padding: 5px 10px;
+  margin: 10px 5px 10px 2px;
+  background-color: #2e2e2e;
+  color: #1a1a1a;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #e0e0e0;
+  border-left: 4px solid #9b1c1c72; /* muted red */
+  border-radius: 8px;
+
+  transition: border-color 0.2s ease, transform 0.1s ease;
+}
+.homeServiceBtn:hover {
+  border-left-color: #c53030;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+@media (max-width: 745px) {
+  .servicesHomepageGrid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .serviceContain {
+    display: grid;
   }
 }
+
+/* HOME PAGE TEXT BLOCK */
+.homeTextContain {
+  background: linear-gradient(to right, #fafafa, #f2f2f2);
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 100px;
+}
+.homeTextContain h2 {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+.homeTextContain p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  padding: 10px;
+  color: #434343;
+}
+
+.titleColor {
+  color: #005b90;
+}
+.list {
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+}
+.splitGrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+}
+.splitGrid img {
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .splitGrid {
+    grid-template-columns: 1fr;
+  }
+  .splitGrid img {
+    margin: auto;
+  }
+}
+
+/* FORM COMPONENT */
+.form {
+  color: #ffffff;
+  padding: 1% 3%;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/gavel.webp");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formTitle {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+/* 3 fields on one row */
+.topRow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 90%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.input {
+  border-radius: 10px;
+  height: 30px;
+  font-size: 1.4rem;
+  border: none;
+  background-color: #ffffff97;
+  padding-left: 10px;
+}
+
+/* message spans same width as the 3 fields combined */
+.messageField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+  width: 95%;
+}
+.textarea {
+  border-radius: 10px;
+  background-color: #ffffff97;
+  padding-left: 20px;
+}
+
+.btnForm {
+  padding: 10px;
+  display: block;
+  color: #ffffff;
+  background-color: #ea753a89;
+}
+.btnForm:hover {
+  color: #000000;
+  background-color: #ffffff89;
+  cursor: pointer;
+}
+
+/* Honeypot hidden safely */
+.honeypot {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Small screens: stack fields */
+@media (max-width: 760px) {
+  .topRow {
+    grid-template-columns: 1fr;
+  }
+  .field {
+    width: 90%;
+  }
+  .messageField {
+    width: 90%;
+  }
+}
+
 /* ABOUT PAGE */
 .aboutContainer {
   padding: 2% 5%;
