@@ -3,10 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "../page.module.css";
 import Link from "next/link";
 
-export default function Nav({
-  practiceAreas = [],
-  serviceAreas = [], // later: feed from JSON just like practiceAreas
-}) {
+export default function Nav({ practiceAreas = [], serviceAreas = [] }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   // single state controls which dropdown is open: "practice" | "service" | null
@@ -94,7 +91,7 @@ export default function Nav({
                   className={styles.dropdownItem}
                   href="../criminal-defense"
                   onClick={() => setOpenDropdown(null)}
-                  style={{color:"red"}}
+                  style={{ color: "red" }}
                 >
                   VIEW ALL
                 </Link>
@@ -154,12 +151,12 @@ export default function Nav({
                   serviceAreas.map((area) => (
                     <Link
                       key={area.slug}
-                      href={`/${area.slug}`}
+                      href={`/locations/${area.slug}`}
                       className={styles.dropdownItem}
                       role="menuitem"
                       onClick={() => setOpenDropdown(null)}
                     >
-                      {area.navTitle ?? area.label ?? area.title}
+                      {area.city ?? area.label ?? area.title}
                     </Link>
                   ))
                 ) : (
@@ -194,10 +191,13 @@ export default function Nav({
 
         {/* Right side CTA */}
         <div className={styles.ctaWrap}>
-     
           <a className={styles.cta} href={`tel:${tel}`}>
-       <span style={{textAlign:"center", color:"black"}}>CALL NOW</span>
-            <span style={{textAlign:"center"}} className={styles.ctaTop}>Call / Text 24/7</span>
+            <span style={{ textAlign: "center", color: "black" }}>
+              CALL NOW
+            </span>
+            <span style={{ textAlign: "center" }} className={styles.ctaTop}>
+              Call / Text 24/7
+            </span>
             <span className={styles.ctaBottom}>
               <PhoneIcon /> {phone}
             </span>

@@ -1,62 +1,60 @@
 import React from "react";
 import { notFound } from "next/navigation";
-import locations from "../../data/service-areas.json";
+import data from "../../data/service-areas.json";
 import styles from "./page.module.css";
+import Hero from '../../components/heroPractice'
 
 const SITE_URL = "https://davisdefenselawyers.com";
+const AREAS = data.areas || [];
 
-function getLocation(slug) {
-  return locations.find((l) => l.slug === slug);
+function getArea(slug) {
+  const clean = String(slug || "").trim();
+  return AREAS.find((a) => a?.slug === clean) || null;
 }
 
 export function generateStaticParams() {
-  // optional but recommended: prebuild these pages for stability + speed
-  return locations.map((l) => ({ slug: l.slug }));
+  return AREAS.filter((a) => a?.slug).map((a) => ({ slug: a.slug }));
 }
 
 export async function generateMetadata({ params }) {
-  const data = getLocation(params.slug);
-  if (!data) notFound();
+  const { slug } = await params;
 
-  const canonical = `${SITE_URL}/${data.slug}`;
+  const area = getArea(slug);
+  if (!area) notFound();
+
+  const canonical = `${SITE_URL}/locations/${area.slug}`;
 
   return {
     metadataBase: new URL(SITE_URL),
-    title: data.metaTitle || data.pageTitle,
-    description: data.metaDescription,
+    title: area.metaTitle || area.pageTitle,
+    description: area.metaDescription,
     alternates: { canonical },
-    robots: {
-      index: true,
-      follow: true,
-    },
+    robots: { index: true, follow: true },
     openGraph: {
       type: "website",
-      title: data.metaTitle || data.pageTitle,
-      description: data.metaDescription,
+      title: area.metaTitle || area.pageTitle,
+      description: area.metaDescription,
       url: canonical,
-      images: data.ogImage
-        ? [
-            {
-              url: data.ogImage,
-              alt: data.ogImageAlt || data.pageTitle || "",
-            },
-          ]
+      images: area.ogImage
+        ? [{ url: area.ogImage, alt: area.ogImageAlt || area.pageTitle || "" }]
         : [],
     },
     twitter: {
       card: "summary_large_image",
-      title: data.metaTitle || data.pageTitle,
-      description: data.metaDescription,
-      images: data.ogImage ? [data.ogImage] : [],
+      title: area.metaTitle || area.pageTitle,
+      description: area.metaDescription,
+      images: area.ogImage ? [area.ogImage] : [],
     },
   };
 }
 
-export default function LocationPage({ params }) {
-  const data = getLocation(params.slug);
-  if (!data) notFound();
+export default async function LocationPage({ params }) {
+  const { slug } = await params;
 
-  const url = `${SITE_URL}/${data.slug}`;
+  const area = getArea(slug);
+  if (!area) notFound();
+
+  const url = `${SITE_URL}/locations/${area.slug}`;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -64,11 +62,11 @@ export default function LocationPage({ params }) {
     name: "Davis Defense Lawyers",
     url,
     telephone: "+19529941568",
-    description: data.metaDescription,
+    description: area.metaDescription,
     areaServed: [
       {
         "@type": "City",
-        name: data.city,
+        name: area.city,
         address: {
           "@type": "PostalAddress",
           addressRegion: "MN",
@@ -79,11 +77,11 @@ export default function LocationPage({ params }) {
   };
 
   const faqLd =
-    data.faq?.length > 0
+    area.faq?.length > 0
       ? {
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: data.faq.map((item) => ({
+          mainEntity: area.faq.map((item) => ({
             "@type": "Question",
             name: item.q,
             acceptedAnswer: { "@type": "Answer", text: item.a },
@@ -104,8 +102,9 @@ export default function LocationPage({ params }) {
         />
       )}
 
-      <main>
-        <h1>{data.pageTitle}</h1>
+      <main className={styles.main}>
+      <Hero title={area.city} tag={area.county} />
+        <h1>{area.pageTitle}</h1>
         {/* render your blocks */}
       </main>
     </>

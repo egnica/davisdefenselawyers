@@ -1,18 +1,20 @@
 {
-  "key": {
-    "slug": "",
-    "city": "",
-    "county": "",
-    "nearbyCities": [],
-    "pageTitle": "",
-    "metaTitle": "",
-    "metaDescription": "",
-    "heroImage": "",
-    "heroImageAlt": "",
-    "uniqueAngle": "",
-    "faq": [{ "q": "", "a": "" }],
-    "contentBlocks": [{ "type": "section", "title": "", "body": "" }]
-  },
+  "key": [
+    {
+      "slug": "",
+      "city": "",
+      "county": "",
+      "nearbyCities": [],
+      "pageTitle": "",
+      "metaTitle": "",
+      "metaDescription": "",
+      "heroImage": "",
+      "heroImageAlt": "",
+      "uniqueAngle": "",
+      "faq": [{ "q": "", "a": "" }],
+      "contentBlocks": [{ "type": "section", "title": "", "body": "" }]
+    }
+  ],
   "areas": [
     {
       "slug": "minneapolis-mn",
