@@ -1,12 +1,14 @@
 // app/[slug]/page.jsx
 import { notFound } from "next/navigation";
 import rawData from "../data/practice-areas_clean.json";
+import AreaData from "../data/service-areas.json";
 import styles from "./page.module.css";
-import Nav from "../components/nav";
+import Locations from "../components/areaGrid";
 import ContentBlock from "../components/contentBlocks";
 import Hero from "../components/heroPractice";
 
 const practiceAreas = rawData.practiceAreas || [];
+const serviceAreas = AreaData.areas || [];
 
 // Pre-generate all slugs from the JSON
 export function generateStaticParams() {
@@ -33,7 +35,11 @@ export default async function Page({ params }) {
           {area.contentBlocks.map((item, index) => {
             return <ContentBlock key={index} content={item} index={index} />;
           })}
+          
           <section className={styles.faqSection}>
+       
+   
+            
             <h2 className={styles.faqHeading}>{area.faqTitle}</h2>
             {area.faq.map((item, index) => (
               <details key={index} className={styles.faqItem}>
@@ -41,6 +47,8 @@ export default async function Page({ params }) {
                 <p className={styles.faqAnswer}>{item.a}</p>
               </details>
             ))}
+            <h2>Locations Covered</h2>
+            <Locations areaObj={serviceAreas} />
           </section>
         </>
       </main>

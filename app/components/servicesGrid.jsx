@@ -16,7 +16,13 @@ function servicesGrid({ obj }) {
           </Link>
         ))}
       </div>
-      <button className={styles.homeServiceBtn}>View All</button>
+      <Link className={styles.homeServiceBtn} href="../criminal-defense">
+
+      MORE
+        
+        
+    
+      </Link>
     </div>
   );
 }

@@ -475,6 +475,8 @@
   cursor: pointer;
 }
 .homeServiceBtn {
+  display: grid;
+  place-content: center;
   padding: 5px 10px;
   margin: 10px 5px 10px 2px;
   background-color: #2e2e2e;
@@ -701,3 +703,59 @@
     max-width: 100%;
   }
 }
+
+/* DEFENSE PAGE */
+.defenseContain {
+  padding: 0 3%;
+}
+.defenseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 22px; /* more space between cards */
+  place-content: center;
+  padding: 8px 0;
+  margin: 10px;
+}
+
+.defenseItem {
+  text-align: center;
+ 
+
+  background-color: #ededed;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+
+  padding: 14px 12px; /* reduced padding */
+  color: #282828;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.defenseItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
+}
+
+.itemTitle {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.itemBody {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  padding: 0 4px;
+}
+
+/* Optional: add a subtle accent bar at the top of each card */
+.defenseItem::before {
+  content: "";
+  display: block;
+  width: 54px;
+  height: 4px;
+  margin: 0 auto 12px auto;
+  border-radius: 999px;
+  background: rgba(255, 100, 44, 0.75);
+}
+

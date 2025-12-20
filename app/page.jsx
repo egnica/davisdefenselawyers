@@ -5,9 +5,13 @@ import Hero from "./components/hero";
 import Form from "./components/ContactForm";
 import Link from "next/link";
 import Grid from "./components/servicesGrid";
+import AreaGrid from "./components/areaGrid";
+import Area from "./data/service-areas.json";
 
 const practiceAreas = Practices.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
+
+const areasServiced = Area.areas || [];
 
 export default function Home() {
   return (
@@ -85,7 +89,10 @@ export default function Home() {
           Whether you were arrested in the Twin Cities or a surrounding
           community, experienced legal defense is available.
         </p>
+         <AreaGrid areaObj={areasServiced} />
       </div>
+     
+
       <div style={{ height: "300px" }}></div>
     </>
   );

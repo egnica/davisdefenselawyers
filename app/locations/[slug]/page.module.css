@@ -1,0 +1,111 @@
+/* Page wrapper */
+.main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 3vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+/* Headings */
+.h1 {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+.h2 {
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  margin-bottom: 0.75rem;
+}
+
+/* HERO */
+.hero {
+  gap: 2.5rem;
+  align-items: center;
+  display: grid;
+  place-content: center;
+}
+.heroImageWrap {
+  margin: auto;
+}
+
+.heroImageWrap img {
+  border-radius: 20px;
+}
+.heroText {
+  display: flex;
+  flex-direction: column;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #444;
+  padding: 2% 5%;
+  margin: auto;
+}
+
+.ctas {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.primaryBtn {
+  background-color: #b11226; /* deep legal red */
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+}
+.faqList {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* AREAS GRID COMPONENT  */
+.gridButtons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+/* Button wrapper */
+.locationItem {
+  background-color: #0a1f44; /* deep navy */
+  border-radius: 6px;
+  padding: 0.9rem 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+
+/* Hover state (subtle) */
+.locationItem:hover {
+  background-color: #0d2a66;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* City name */
+.locationItem p {
+  margin: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
+
+/* Optional secondary text (if you add county later) */
+.locationItem span {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.75);
+}
