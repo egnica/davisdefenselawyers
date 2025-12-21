@@ -93,7 +93,7 @@ export default function Home() {
       </div>
      
 
-      <div style={{ height: "300px" }}></div>
+     
     </>
   );
 }

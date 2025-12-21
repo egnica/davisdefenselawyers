@@ -511,7 +511,7 @@
   background: linear-gradient(to right, #fafafa, #f2f2f2);
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
-  padding: 20px 100px;
+  padding: 20px 100px 50px 100px;
 }
 .homeTextContain h2 {
   margin: 0;
@@ -719,7 +719,6 @@
 
 .defenseItem {
   text-align: center;
- 
 
   background-color: #ededed;
   border: 1px solid rgba(0, 0, 0, 0.12);
@@ -734,7 +733,7 @@
 
 .defenseItem:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
 }
 
 .itemTitle {
@@ -759,3 +758,47 @@
   background: rgba(255, 100, 44, 0.75);
 }
 
+/* FOOTER */
+.footerContain {
+  padding-top: 10px;
+  background-color: #0a1f44;
+  color: #fff;
+}
+.footerContain hr{
+  width: 70%;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footerGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.footerGrid a {
+  color: #76cafb;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.bottomFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.bottomFooter a {
+  display: flex;
+  color: #ada4ff;
+  justify-content: center;
+  align-items: center;
+}
+.bottomFooter a:hover {
+  scale: 1.05;
+}

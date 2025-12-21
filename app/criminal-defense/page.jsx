@@ -3,7 +3,7 @@ import Hero from "../components/heroPractice";
 import styles from "../page.module.css";
 import Link from "next/link";
 import DataPractice from "../data/practice-areas_clean.json";
-import Form from '../components/ContactForm'
+import Form from "../components/ContactForm";
 
 const serviceAreas = DataPractice.practiceAreas || [];
 
@@ -34,11 +34,9 @@ function criminalDefense() {
           ))}
         </div>
       </div>
-      <Form/>
-       <div style={{height:"400px"}}></div>
+      <Form />
     </>
   );
- 
 }
 
 export default criminalDefense;
