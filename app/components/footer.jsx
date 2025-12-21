@@ -60,7 +60,7 @@ function footer() {
           <Link
             key={item.slug}
             href={`/areas-we-serve/${item.slug}`}
-          
+            className={styles.footerLink}
           >
             {item.city}
           </Link>

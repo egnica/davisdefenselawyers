@@ -89,6 +89,14 @@ function buildServiceJsonLd(area, slug) {
       name: "Andrew Davis",
       telephone: "+19529941568",
       url: `${SITE_URL}/about`,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "1230 Night Trail",
+        addressLocality: "Waconia",
+        addressRegion: "MN",
+        postalCode: "55387",
+        addressCountry: "US",
+      },
     },
 
     // ✅ Dynamic, deduped, SEO-friendly
