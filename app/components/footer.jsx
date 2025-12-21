@@ -57,7 +57,11 @@ function footer() {
       <hr />
       <div className={styles.footerGrid}>
         {areasServiced.map((item) => (
-          <Link key={item.slug} href={`/areas-we-serve/${item.slug}`}>
+          <Link
+            key={item.slug}
+            href={`/areas-we-serve/${item.slug}`}
+          
+          >
             {item.city}
           </Link>
         ))}

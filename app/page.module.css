@@ -764,7 +764,7 @@
   background-color: #0a1f44;
   color: #fff;
 }
-.footerContain hr{
+.footerContain hr {
   width: 70%;
 }
 .socials {
@@ -785,6 +785,9 @@
   padding: 10px;
   white-space: nowrap;
 }
+.footerGrid a:hover {
+  color: #ccecff;
+}
 
 .bottomFooter {
   display: flex;
@@ -800,5 +803,6 @@
   align-items: center;
 }
 .bottomFooter a:hover {
+  color: #d0d8ff;
   scale: 1.05;
 }
