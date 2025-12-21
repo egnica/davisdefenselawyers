@@ -496,7 +496,8 @@
 }
 @media (max-width: 745px) {
   .servicesHomepageGrid {
-    padding: 10px;
+    margin: 2%;
+    padding: 1%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
@@ -545,6 +546,17 @@
 @media (max-width: 1000px) {
   .splitGrid {
     grid-template-columns: 1fr;
+  }
+  .splitGrid img {
+    margin: auto;
+  }
+}
+@media (max-width: 620px) {
+  .homeTextContain {
+    padding: 1%;
+  }
+  .splitGrid {
+    padding: 1%;
   }
   .splitGrid img {
     margin: auto;
