@@ -115,5 +115,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 0.75rem;
     margin-top: 1.5rem;
+    color: #ffffff;
   }
 }
