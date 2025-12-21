@@ -6,6 +6,7 @@ import styles from "./page.module.css";
 import Hero from "../../components/heroPractice";
 import Form from "../../components/ContactForm";
 import ServicesGrid from "../../components/servicesGrid";
+import Link from "next/link";
 
 
 const practiceAreas = services.practiceAreas || [];
@@ -120,9 +121,9 @@ export default async function LocationPage({ params }) {
               <a className={styles.primaryBtn} href="tel:+19529941568">
                 Call Now: (952) 994-1568
               </a>
-              <a className={styles.secondaryBtn} href="/contact">
+              <Link className={styles.secondaryBtn} href="/contact">
                 Free Case Evaluation
-              </a>
+              </Link>
             </div>
 
             {area.nearbyCities?.length > 0 && (
