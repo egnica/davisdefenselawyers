@@ -121,11 +121,14 @@
   line-height: 1.6;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .heroText h1 {
     font-size: 1.5rem;
   }
-  .heroText{
-    padding: 10px
+  .heroText {
+    padding: 10px;
+  }
+  .bodyImage {
+    grid-template-columns: 1fr;
   }
 }
