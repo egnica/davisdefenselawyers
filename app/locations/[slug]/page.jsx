@@ -8,7 +8,6 @@ import Form from "../../components/ContactForm";
 import ServicesGrid from "../../components/servicesGrid";
 import Link from "next/link";
 
-
 const practiceAreas = services.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
 
@@ -77,7 +76,10 @@ export default async function LocationPage({ params }) {
         name: area.city,
         address: {
           "@type": "PostalAddress",
+          streetAddress: "1230 Night Trail",
+          addressLocality: "Waconia",
           addressRegion: "MN",
+          postalCode: "55387",
           addressCountry: "US",
         },
       },
