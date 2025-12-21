@@ -62,6 +62,15 @@ function buildAreaServed(locations = []) {
 function buildServiceJsonLd(area, slug) {
   const pageUrl = `${SITE_URL}/${slug}`;
 
+  const address = {
+    "@type": "PostalAddress",
+    streetAddress: "1230 Night Trail",
+    addressLocality: "Waconia",
+    addressRegion: "MN",
+    postalCode: "55387",
+    addressCountry: "US",
+  };
+
   return {
     "@context": "https://schema.org",
     "@type": "LegalService",
@@ -71,6 +80,9 @@ function buildServiceJsonLd(area, slug) {
     description: area.heroSummary || area.metaDescription,
     url: pageUrl,
     inLanguage: "en-US",
+
+    // ✅ ADD ADDRESS HERE (this is the missing piece)
+    address,
 
     ...(area.heroImage
       ? {
@@ -89,17 +101,9 @@ function buildServiceJsonLd(area, slug) {
       name: "Andrew Davis",
       telephone: "+19529941568",
       url: `${SITE_URL}/about`,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "1230 Night Trail",
-        addressLocality: "Waconia",
-        addressRegion: "MN",
-        postalCode: "55387",
-        addressCountry: "US",
-      },
+      address, // ✅ keep it here too
     },
 
-    // ✅ Dynamic, deduped, SEO-friendly
     areaServed: buildAreaServed(areasServiced),
 
     availableChannel: {
