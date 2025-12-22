@@ -6,6 +6,7 @@ import styles from "./page.module.css";
 import Locations from "../components/areaGrid";
 import ContentBlock from "../components/contentBlocks";
 import Hero from "../components/heroPractice";
+import ServicesGrid from "../components/servicesGrid";
 
 const practiceAreas = rawData.practiceAreas || [];
 const serviceAreas = Location.areas || [];
@@ -201,7 +202,7 @@ export default async function Page({ params }) {
         {area.contentBlocks.map((item, index) => (
           <ContentBlock key={index} content={item} index={index} />
         ))}
-
+        <ServicesGrid obj={practiceAreas} />
         <section className={styles.faqSection}>
           <h2 className={styles.faqHeading}>{area.faqTitle}</h2>
 
