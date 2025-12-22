@@ -19,6 +19,9 @@ const merriweather = Merriweather({
 export const metadata = {
   title: "Andrew Davis | Minneapolis Criminal Defense Attorney",
   description: "Experienced Minnesota criminal defense attorney...",
+  alternates: {
+    canonical: "https://davisdefenselawyers.com",
+  },
 };
 
 // ✅ Site constants
