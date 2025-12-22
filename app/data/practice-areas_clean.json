@@ -1435,10 +1435,20 @@
           ]
         },
         {
-          "type": "section",
+          "type": "list-section",
           "image": "",
           "title": "DWI and Criminal Vehicular Homicide",
-          "body": "In many cases, a criminal vehicular homicide charge is tied to an allegation of driving while impaired. That means the strength of the state’s case may depend on:\n\n• How the traffic stop occurred and whether it was lawful;\n• Whether field sobriety tests were properly administered;\n• Whether breath or blood tests were taken according to procedure;\n• The timing of any testing and the handling of samples.\n\nChallenging the underlying DWI evidence can be a crucial part of defending against criminal vehicular homicide. If the state’s proof of impairment is weak or unreliable, it may significantly impact how the case is charged and resolved."
+          "body": "In many cases, a criminal vehicular homicide charge is tied to an allegation of driving while impaired. That means the strength of the state’s case may depend on:",
+          "items": [
+            "How the traffic stop occurred and whether it was lawful",
+            "Whether field sobriety tests were properly administered",
+            "Whether breath or blood tests were taken according to procedure",
+            "The timing of any testing and the handling of samples"
+          ]
+        },
+        {
+          "type": "section",
+          "body": "Challenging the underlying DWI evidence can be a crucial part of defending against criminal vehicular homicide. If the state’s proof of impairment is weak or unreliable, it may significantly impact how the case is charged and resolved."
         },
         {
           "type": "list-section",
