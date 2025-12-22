@@ -14,6 +14,16 @@ const filter = practiceAreas.slice(0, 12);
 const SITE_URL = "https://davisdefenselawyers.com";
 const AREAS = data.areas || [];
 
+// ✅ Single source of truth for office address
+const OFFICE_ADDRESS = {
+  "@type": "PostalAddress",
+  streetAddress: "1230 Night Trail",
+  addressLocality: "Waconia",
+  addressRegion: "MN",
+  postalCode: "55387",
+  addressCountry: "US",
+};
+
 function getArea(slug) {
   const clean = String(slug || "").trim();
   return AREAS.find((a) => a?.slug === clean) || null;
@@ -55,49 +65,108 @@ export async function generateMetadata({ params }) {
   };
 }
 
+function buildLocationLegalServiceJsonLd(area) {
+  const url = `${SITE_URL}/locations/${area.slug}`;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "@id": `${url}#service`,
+    name: "Davis Defense Lawyers",
+    url,
+    telephone: "+19529941568",
+    description: area.metaDescription,
+    inLanguage: "en-US",
+
+    // ✅ Google wants address on the LegalService
+    address: OFFICE_ADDRESS,
+
+    // ✅ Provider (optional but good)
+    provider: {
+      "@type": "Attorney",
+      name: "Andrew Davis",
+      telephone: "+19529941568",
+      url: `${SITE_URL}/about`,
+      address: OFFICE_ADDRESS,
+    },
+
+    // ✅ areaServed should be the city/county being targeted by THIS page
+    areaServed: [
+      area.city
+        ? { "@type": "City", name: `${area.city}, MN` }
+        : { "@type": "AdministrativeArea", name: "Minnesota" },
+      area.county
+        ? { "@type": "AdministrativeArea", name: `${area.county}, MN` }
+        : null,
+      { "@type": "AdministrativeArea", name: "Minnesota" },
+    ].filter(Boolean),
+
+    // ✅ If you have a hero image for the location page, include it
+    ...(area.heroImage
+      ? {
+          image: [
+            {
+              "@type": "ImageObject",
+              url: area.heroImage,
+              caption: area.heroImageAlt || area.pageTitle || area.city || "",
+            },
+          ],
+        }
+      : {}),
+  };
+}
+
+function buildFaqJsonLd(area) {
+  if (!area.faq?.length) return null;
+
+  const url = `${SITE_URL}/locations/${area.slug}`;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": `${url}#faq`,
+    mainEntity: area.faq.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+}
+
+function buildBreadcrumbsJsonLd(area) {
+  const url = `${SITE_URL}/locations/${area.slug}`;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": `${url}#breadcrumbs`,
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Locations",
+        item: `${SITE_URL}/locations`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: area.pageTitle || area.city || area.slug,
+        item: url,
+      },
+    ],
+  };
+}
+
 export default async function LocationPage({ params }) {
   const { slug } = await params;
 
   const area = getArea(slug);
   if (!area) notFound();
 
-  const url = `${SITE_URL}/locations/${area.slug}`;
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    name: "Davis Defense Lawyers",
-    url,
-    telephone: "+19529941568",
-    description: area.metaDescription,
-    areaServed: [
-      {
-        "@type": "City",
-        name: area.city,
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "1230 Night Trail",
-          addressLocality: "Waconia",
-          addressRegion: "MN",
-          postalCode: "55387",
-          addressCountry: "US",
-        },
-      },
-    ],
-  };
-
-  const faqLd =
-    area.faq?.length > 0
-      ? {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: area.faq.map((item) => ({
-            "@type": "Question",
-            name: item.q,
-            acceptedAnswer: { "@type": "Answer", text: item.a },
-          })),
-        }
-      : null;
+  const jsonLd = buildLocationLegalServiceJsonLd(area);
+  const faqLd = buildFaqJsonLd(area);
+  const breadcrumbsLd = buildBreadcrumbsJsonLd(area);
 
   return (
     <>
@@ -111,10 +180,16 @@ export default async function LocationPage({ params }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsLd) }}
+      />
 
       <Hero title={area.city} tag={area.county} />
+
       <main className={styles.main}>
         <h1 className={styles.h1}>{area.pageTitle}</h1>
+
         <section className={styles.hero}>
           <div className={styles.heroText}>
             <p className={styles.lead}>{area.metaDescription}</p>
@@ -138,7 +213,6 @@ export default async function LocationPage({ params }) {
 
           {area.heroImage && (
             <div className={styles.heroImageWrap}>
-              {/* use next/image if you want */}
               <img
                 src={area.heroImage}
                 alt={area.heroImageAlt || area.pageTitle}
@@ -169,7 +243,7 @@ export default async function LocationPage({ params }) {
           </section>
         )}
 
-        {/* 4) CONTENT BLOCKS (what we already wrote per city) */}
+        {/* 4) CONTENT BLOCKS */}
         {area.contentBlocks?.map((block, idx) => {
           if (block.type === "section") {
             return (
@@ -216,6 +290,7 @@ export default async function LocationPage({ params }) {
           </div>
         </section>
       </main>
+
       <Form />
     </>
   );
