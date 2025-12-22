@@ -96,7 +96,7 @@ export default function RootLayout({ children }) {
         />
 
         <Nav practiceAreas={Data.practiceAreas} serviceAreas={Areas.areas} />
-        {children}
+        <main id="main-content">{children}</main>
         <Footer />
       </body>
     </html>
