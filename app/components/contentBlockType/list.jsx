@@ -2,25 +2,28 @@
 import React from "react";
 import styles from "../../[slug]/page.module.css";
 
-function list({ object, index }) {
+export default function ListSection({ object, index }) {
   const bodyClass =
     object.image && object.image !== "" ? styles.bodyImage : styles.bodyNoImage;
+
+  const hasImage = Boolean(object.image);
+  const hasItems = Array.isArray(object.items) && object.items.length > 0;
+  const imageEl = hasImage ? (
+    <img src={object.image} alt={object.title || ""} />
+  ) : null;
 
   return (
     <div>
       {object.title && <h2>{object.title}</h2>}
+
       <div className={bodyClass}>
-        <>
-          {index % 2 === 0 ? (
-            <>
-              <p>{object.body}</p>
-              {object.image && <img src={object.image} alt={object.title} />}
-            </>
-          ) : (
-            <>
-              {object.image && <img src={object.image} alt={object.title} />}
-              <div>
-                <p>{object.body}</p>
+        {/* Left / Right layout */}
+        {index % 2 === 0 ? (
+          <>
+            <div>
+              {object.body && <p>{object.body}</p>}
+
+              {hasItems && (
                 <ul>
                   {object.items.map((item, i) => {
                     // 1) Normal bullet: string
@@ -40,13 +43,41 @@ function list({ object, index }) {
                     );
                   })}
                 </ul>
-              </div>
-            </>
-          )}
-        </>
+              )}
+            </div>
+
+            {imageEl}
+          </>
+        ) : (
+          <>
+            {imageEl}
+
+            <div>
+              {object.body && <p>{object.body}</p>}
+
+              {hasItems && (
+                <ul>
+                  {object.items.map((item, i) => {
+                    if (typeof item === "string") {
+                      return <li key={i}>{item}</li>;
+                    }
+
+                    const lead = item.lead || item.title || item.q || "";
+                    const text = item.text || item.description || item.a || "";
+
+                    return (
+                      <li key={i}>
+                        {lead ? <strong>{lead} </strong> : null}
+                        {text}
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
 }
-
-export default list;
