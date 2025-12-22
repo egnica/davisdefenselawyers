@@ -55,7 +55,6 @@ const HOME_JSON_LD = {
   },
 
   sameAs: [
-    // 🔴 Only include REAL, active profiles
     "https://www.avvo.com/attorneys/55437-mn-andrew-davis-4803224.html",
     "https://www.experience.com/reviews/andrew-8011103",
     "https://www.facebook.com/Daviscriminaldefense",
