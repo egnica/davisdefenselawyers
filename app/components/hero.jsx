@@ -11,6 +11,7 @@ export default function Hero() {
           muted
           loop
           playsInline
+          preload="none"
           poster="https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/stillCity.webp"
         >
           <source
