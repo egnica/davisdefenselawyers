@@ -13,6 +13,57 @@ const filter = practiceAreas.slice(0, 12);
 
 const areasServiced = Area.areas || [];
 
+const SITE_URL = "https://davisdefenselawyers.com";
+
+const HOME_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "@id": `${SITE_URL}#firm`,
+  name: "Davis Defense Lawyers",
+  url: SITE_URL,
+  telephone: "+19529941568",
+  description:
+    "Davis Defense Lawyers provides aggressive, experienced criminal defense representation across Minnesota, including assault, DUI, domestic charges, drug offenses, and more.",
+
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "1230 Night Trail",
+    addressLocality: "Waconia",
+    addressRegion: "MN",
+    postalCode: "55387",
+    addressCountry: "US",
+  },
+
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "Minnesota" },
+    { "@type": "AdministrativeArea", name: "Twin Cities, MN" },
+  ],
+
+  provider: {
+    "@type": "Attorney",
+    name: "Andrew Davis",
+    url: `${SITE_URL}/about`,
+    telephone: "+19529941568",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "1230 Night Trail",
+      addressLocality: "Waconia",
+      addressRegion: "MN",
+      postalCode: "55387",
+      addressCountry: "US",
+    },
+  },
+
+  sameAs: [
+    // 🔴 Only include REAL, active profiles
+    "https://www.avvo.com/attorneys/55437-mn-andrew-davis-4803224.html",
+    "https://www.experience.com/reviews/andrew-8011103",
+    "https://www.facebook.com/Daviscriminaldefense",
+    // "https://www.justia.com/lawyers/andrew-davis",
+    // "https://www.google.com/maps?cid=XXXXXXXXXXXX", // Google Business Profile CID
+  ],
+};
+
 export default function Home() {
   return (
     <>
@@ -89,11 +140,8 @@ export default function Home() {
           Whether you were arrested in the Twin Cities or a surrounding
           community, experienced legal defense is available.
         </p>
-         <AreaGrid areaObj={areasServiced} />
+        <AreaGrid areaObj={areasServiced} />
       </div>
-     
-
-     
     </>
   );
 }
