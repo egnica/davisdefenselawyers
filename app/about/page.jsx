@@ -20,7 +20,7 @@ function about() {
               <p>andrew.davis@davisdefenselawyers.com</p>
             </a>
             <a href="tel:+19529941568">
-              <p>(952) 994-15688</p>
+              <p>(952) 994-41568</p>
             </a>
           </div>
         </div>
