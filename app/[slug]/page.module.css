@@ -131,4 +131,15 @@
   .bodyImage {
     grid-template-columns: 1fr;
   }
+  .heroPractice {
+    background-image: url("https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/skyline-mobile.webp");
+    background-attachment: unset;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 350px;
+    display: flex;
+    align-items: center;
+  }
 }
