@@ -440,15 +440,7 @@
   .content p {
     font-size: 0.9rem;
   }
-  .heroAndrew {
-    right: 0;
-    width: 45vw;
-    max-width: 250px;
-  }
-  .heroAndrew :global(img) {
-    height: auto;
-    width: 100%;
-  }
+
   .contentPara {
     display: none;
   }
