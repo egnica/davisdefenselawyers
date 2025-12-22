@@ -80,6 +80,16 @@ const HOME_JSON_LD = {
     url: `${SITE_URL}/about`,
     telephone: "+19529941568",
     address: OFFICE_ADDRESS,
+
+    image: [
+      {
+        "@type": "ImageObject",
+        url: "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-3.webp",
+        caption: "Andrew Davis, Minnesota Criminal Defense Attorney",
+        width: 900,
+        height: 1350,
+      },
+    ],
   },
 
   image: [
