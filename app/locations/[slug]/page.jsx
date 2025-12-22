@@ -5,6 +5,7 @@ import services from "../../data/practice-areas_clean.json";
 import styles from "./page.module.css";
 import Hero from "../../components/heroPractice";
 import Form from "../../components/ContactForm";
+import LocationGrip from "../../components/areaGrid";
 import ServicesGrid from "../../components/servicesGrid";
 import Link from "next/link";
 
@@ -267,6 +268,7 @@ export default async function LocationPage({ params }) {
             </div>
           </section>
         )}
+        <LocationGrip areaObj={AREAS} />
 
         {/* 6) FINAL CTA */}
         <section className={styles.finalCta}>
