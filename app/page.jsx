@@ -66,6 +66,10 @@ const HOME_JSON_LD = {
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(HOME_JSON_LD) }}
+      />
       <Hero />
       <Grid obj={filter} />
       <div className={styles.homeTextContain}>
