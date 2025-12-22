@@ -299,7 +299,7 @@
   }
   .cta {
     min-width: auto;
-    padding: 10px 12px;
+    padding: 10px 10px;
   }
   .menuBtn {
     display: grid;
@@ -311,7 +311,9 @@
   .brandTag {
     display: none;
   }
+
   .cta {
+    width: 130px;
   }
   .ctaTop {
     font-size: 0.65rem;
