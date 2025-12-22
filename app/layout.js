@@ -35,6 +35,7 @@ const OFFICE_ADDRESS = {
 
 const FIRM_IMAGE = {
   "@type": "ImageObject",
+  "@id": `${SITE_URL}#primaryimage`,
   url: "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-3.webp",
   caption: "Andrew Davis, Minnesota Criminal Defense Attorney",
   width: 900,
