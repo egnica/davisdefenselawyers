@@ -11,7 +11,7 @@ import Link from "next/link";
 const practiceAreas = services.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
 
-const SITE_URL = "https://davisdefenselawyers.com";
+const SITE_URL = "https://davisdefenselawyers.com/";
 const AREAS = data.areas || [];
 
 // ✅ Single source of truth for office address
@@ -81,14 +81,8 @@ function buildLocationLegalServiceJsonLd(area) {
     // ✅ Google wants address on the LegalService
     address: OFFICE_ADDRESS,
 
-    // ✅ Provider (optional but good)
-    provider: {
-      "@type": "Attorney",
-      name: "Andrew Davis",
-      telephone: "+19529941568",
-      url: `${SITE_URL}/about`,
-      address: OFFICE_ADDRESS,
-    },
+    provider: { "@id": `${SITE_URL}#attorney` },
+    isPartOf: { "@id": `${SITE_URL}#firm` },
 
     // ✅ areaServed should be the city/county being targeted by THIS page
     areaServed: [
@@ -135,6 +129,7 @@ function buildFaqJsonLd(area) {
 
 function buildBreadcrumbsJsonLd(area) {
   const url = `${SITE_URL}/locations/${area.slug}`;
+  const parentUrl = `${SITE_URL}/areas-we-serve`;
 
   return {
     "@context": "https://schema.org",
@@ -145,8 +140,8 @@ function buildBreadcrumbsJsonLd(area) {
       {
         "@type": "ListItem",
         position: 2,
-        name: "Locations",
-        item: `${SITE_URL}/locations`,
+        name: "Areas We Serve",
+        item: parentUrl,
       },
       {
         "@type": "ListItem",

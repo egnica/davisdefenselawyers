@@ -12,7 +12,7 @@ const serviceAreas = Location.areas || [];
 const areasServiced = Location.areas || [];
 
 // ✅ Change this to your real domain (no trailing slash)
-const SITE_URL = "https://andrewdavisdefense.com";
+const SITE_URL = "https://davisdefenselawyers.com/";
 
 // Pre-generate all slugs from the JSON
 export function generateStaticParams() {
@@ -96,13 +96,8 @@ function buildServiceJsonLd(area, slug) {
         }
       : {}),
 
-    provider: {
-      "@type": "Attorney",
-      name: "Andrew Davis",
-      telephone: "+19529941568",
-      url: `${SITE_URL}/about`,
-      address, // ✅ keep it here too
-    },
+    provider: { "@id": `${SITE_URL}#attorney` },
+    isPartOf: { "@id": `${SITE_URL}#firm` },
 
     areaServed: buildAreaServed(areasServiced),
 
@@ -141,7 +136,7 @@ function buildFaqJsonLd(area, slug) {
 
 function buildBreadcrumbsJsonLd(area, slug) {
   const pageUrl = `${SITE_URL}/${slug}`;
-  const indexUrl = `${SITE_URL}/practice-areas`;
+  const indexUrl = `${SITE_URL}/criminal-defense`;
 
   return {
     "@context": "https://schema.org",
@@ -157,7 +152,7 @@ function buildBreadcrumbsJsonLd(area, slug) {
       {
         "@type": "ListItem",
         position: 2,
-        name: "Practice Areas",
+        name: "Criminal Defense",
         item: indexUrl,
       },
       {

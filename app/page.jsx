@@ -13,7 +13,7 @@ const filter = practiceAreas.slice(0, 12);
 
 const areasServiced = Area.areas || [];
 
-const SITE_URL = "https://davisdefenselawyers.com";
+const SITE_URL = "https://davisdefenselawyers.com/";
 
 /**
  * Single source of truth for office address
