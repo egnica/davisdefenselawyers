@@ -6,7 +6,7 @@ function about() {
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.splitTwo}>
-        <div>
+        <div style={{ textAlign: "center" }}>
           <Image
             width={600}
             height={900}
@@ -103,6 +103,7 @@ function about() {
         </div>
 
         <img
+          style={{ textAlign: "center" }}
           width={340}
           alt="state of MN"
           src="https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/minnesota.webp"
@@ -111,6 +112,7 @@ function about() {
       <hr />
       <div className={styles.splitTwo}>
         <img
+          style={{ textAlign: "center" }}
           width={300}
           src="https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-court-1.webp"
           alt="Andrew Davis in court room"

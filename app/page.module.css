@@ -697,6 +697,7 @@
   padding: 2%;
   color: #ffffff;
   text-align: center;
+  font-size: .9rem;
 }
 
 .contact p:hover {
@@ -705,19 +706,24 @@
   color: #111111;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .splitTwo {
-    display: block;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .splitTwo img {
+    margin: auto;
   }
   .splitTwoOther {
-    display: block;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .contact {
     width: 100%;
-    text-align: center;
     max-width: 100%;
+  }
+  .contact p {
+    font-size: 1rem;
   }
 }
 

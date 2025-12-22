@@ -120,17 +120,7 @@
   margin-top: 0.75rem;
   line-height: 1.6;
 }
-
-@media (max-width: 620px) {
-  .heroText h1 {
-    font-size: 1.5rem;
-  }
-  .heroText {
-    padding: 10px;
-  }
-  .bodyImage {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 900px) {
   .heroPractice {
     background-image: url("https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/skyline-mobile.webp");
     background-attachment: unset;
@@ -140,6 +130,72 @@
 
     height: 350px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
+  }
+
+  .heroInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 2%;
+
+    display: grid;
+    grid-template-columns: 1fr auto; /* left space + Andrew */
+    align-items: end;
+  }
+
+  .heroImage {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; /* keep him on the right */
+    align-items: flex-end; /* keep him on the bottom */
+    z-index: 1;
+    padding-right: 4px; /* tiny breathing room from edge */
+  }
+
+  .heroImage :global(img) {
+    width: auto;
+    height: auto;
+    max-height: 340px;
+  }
+
+  /* full-width bottom overlay */
+  .heroText {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: 2;
+    width: 100%;
+
+    padding: 14px 16px;
+    border-radius: 0;
+    overflow: hidden;
+  }
+
+  /* mobile-friendly gradient: bottom-up */
+  .heroText::after {
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.78) 0%,
+      rgba(0, 0, 0, 0.45) 60%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+
+  .heroText h1 {
+    font-size: 1.6rem;
+    margin: 0;
+    padding-right: 100px;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+    margin: 4px 0 0 0;
+    padding-right: 100px;
+  }
+  .bodyImage {
+    grid-template-columns: 1fr;
   }
 }
