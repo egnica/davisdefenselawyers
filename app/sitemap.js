@@ -2,7 +2,7 @@
 import practiceAreas from "./data/practice-areas_clean.json";
 import serviceAreas from "./data/service-areas.json";
 
-const SITE_URL = "https://davisdefenselawyers.com";
+const SITE_URL = "https://www.davisdefenselawyers.com";
 
 /**
  * Safely extract slugs from different possible JSON shapes.
