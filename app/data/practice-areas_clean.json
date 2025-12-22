@@ -2029,20 +2029,20 @@
       "faqTitle": "Minnesota Domestic Assault FAQ",
       "faq": [
         {
-          "question": "Can I be charged even if there was no injury?",
-          "answer": "Yes. Minnesota allows domestic assault charges based solely on causing fear of harm, even without physical injury."
+          "q": "Can I be charged even if there was no injury?",
+          "a": "Yes. Minnesota allows domestic assault charges based solely on causing fear of harm, even without physical injury."
         },
         {
-          "question": "Can the alleged victim drop the charges?",
-          "answer": "No. Once police file a report, the case becomes State of Minnesota vs. the defendant. Only prosecutors control charges."
+          "q": "Can the alleged victim drop the charges?",
+          "a": "No. Once police file a report, the case becomes State of Minnesota vs. the defendant. Only prosecutors control charges."
         },
         {
-          "question": "Will I lose my gun rights?",
-          "answer": "Possibly. Domestic assault convictions can trigger firearm bans or forfeiture depending on the circumstances."
+          "q": "Will I lose my gun rights?",
+          "a": "Possibly. Domestic assault convictions can trigger firearm bans or forfeiture depending on the circumstances."
         },
         {
-          "question": "What if the allegations are false?",
-          "answer": "False or exaggerated allegations are common. We examine statements, evidence, motives, and inconsistencies to challenge credibility."
+          "q": "What if the allegations are false?",
+          "a": "False or exaggerated allegations are common. We examine statements, evidence, motives, and inconsistencies to challenge credibility."
         },
         {
           "q": "Can the alleged victim drop domestic assault charges?",
