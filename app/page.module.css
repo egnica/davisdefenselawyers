@@ -500,6 +500,16 @@
   transform: translateY(-5px);
   cursor: pointer;
 }
+
+@media (max-width: 1070px) {
+  .servicesHomepageGrid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+
 @media (max-width: 745px) {
   .servicesHomepageGrid {
     margin: 2%;
@@ -697,7 +707,7 @@
   padding: 2%;
   color: #ffffff;
   text-align: center;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .contact p:hover {
