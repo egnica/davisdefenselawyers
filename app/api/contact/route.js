@@ -34,10 +34,9 @@ export async function POST(req) {
         { status: 400 }
       );
     }
-
     const data = await resend.emails.send({
-      from: "Website Contact <onboarding@resend.dev>",
-      to: ["andrew.davis@davisdefenselawyers.com"], // Andrew's inbox
+      from: `${name} via Website <no-reply@send.davisdefenselawyers.com>`,
+      to: ["andrew.davis@davisdefenselawyers.com"],
       replyTo: email,
       subject: `New contact form message from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\nphone: ${phone}\n\nMessage:\n${message}`,
