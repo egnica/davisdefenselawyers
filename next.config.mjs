@@ -38,7 +38,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/about-us",
+        source: "/about-us/",
         destination: "/about",
         permanent: true,
       },
