@@ -1,5 +1,44 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/drug-charges",
+        destination: "/drug-crimes",
+        permanent: true, // 301
+      },
+      {
+        source: "/hennepin-county-mn",
+        destination: "/areas-we-serve",
+        permanent: true,
+      },
+      {
+        source: "/criminal-defense/dwi-dui/",
+        destination: "/dwi-dui",
+        permanent: true,
+      },
+      {
+        source: "/areas-we-serve/chanhassen-mn",
+        destination: "/areas-we-serve",
+        permanent: true,
+      },
+      {
+        source: "/areas-we-serve/bloomington-mn",
+        destination: "/areas-we-serve",
+        permanent: true,
+      },
+      {
+        source: "/areas-we-serve/eden-prairie-mn",
+        destination: "/locations/eden-prairie-mn",
+        permanent: true,
+      },
+      {
+        source: "/criminal-defense/theft-crimes/",
+        destination: "/theft-crimes",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       {
