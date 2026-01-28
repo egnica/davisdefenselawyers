@@ -31,11 +31,12 @@ export async function POST(req) {
     if (!name || !email || !phone || !message) {
       return NextResponse.json(
         { error: "Missing name, email, phone, or message." },
-        { status: 400 }
+        { status: 400 },
       );
     }
+
     const data = await resend.emails.send({
-      from: `${name} via Website <no-reply@send.davisdefenselawyers.com>`,
+      from: `${name} via Website <no-reply@davisdefenselawyers.com>`,
       to: ["andrew.davis@davisdefenselawyers.com"],
       replyTo: email,
       subject: `New contact form message from ${name}`,
@@ -46,7 +47,7 @@ export async function POST(req) {
   } catch (err) {
     return NextResponse.json(
       { error: err?.message || "Unknown error" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
