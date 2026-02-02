@@ -12,13 +12,13 @@ import Link from "next/link";
 const practiceAreas = services.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
 
-const SITE_URL = "https://davisdefenselawyers.com/";
+const SITE_URL = "https://davisdefenselawyers.com";
 const AREAS = data.areas || [];
 
 // ✅ Single source of truth for office address
 const OFFICE_ADDRESS = {
   "@type": "PostalAddress",
-  streetAddress: "1230 Night Trail",
+  streetAddress: "1280 Night Trail",
   addressLocality: "Waconia",
   addressRegion: "MN",
   postalCode: "55387",
@@ -130,7 +130,7 @@ function buildFaqJsonLd(area) {
 
 function buildBreadcrumbsJsonLd(area) {
   const url = `${SITE_URL}/locations/${area.slug}`;
-  const parentUrl = `${SITE_URL}/areas-we-serve`;
+  const parentUrl = `${SITE_URL}/locations`;
 
   return {
     "@context": "https://schema.org",
@@ -141,7 +141,7 @@ function buildBreadcrumbsJsonLd(area) {
       {
         "@type": "ListItem",
         position: 2,
-        name: "Areas We Serve",
+        name: "locations",
         item: parentUrl,
       },
       {
