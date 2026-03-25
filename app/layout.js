@@ -20,12 +20,12 @@ export const metadata = {
   title: "Andrew Davis | Minneapolis Criminal Defense Attorney",
   description: "Experienced Minnesota criminal defense attorney...",
   alternates: {
-    canonical: "https://davisdefenselawyers.com",
+    canonical: "https://www.davisdefenselawyers.com",
   },
 };
 
 // ✅ Site constants
-const SITE_URL = "https://davisdefenselawyers.com";
+const SITE_URL = "https://www.davisdefenselawyers.com";
 
 const OFFICE_ADDRESS = {
   "@type": "PostalAddress",
@@ -49,6 +49,8 @@ const SAME_AS = [
   "https://www.avvo.com/attorneys/55437-mn-andrew-davis-4803224.html",
   "https://www.experience.com/reviews/andrew-8011103",
   "https://www.facebook.com/Daviscriminaldefense",
+  "https://www.youtube.com/@AndrewDavisAttorney",
+  "https://www.linkedin.com/in/andrew-davis-aa4aa253/",
 ];
 
 // ✅ Optional: lightweight areaServed (sitewide should stay broad)

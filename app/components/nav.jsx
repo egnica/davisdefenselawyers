@@ -180,8 +180,8 @@ export default function Nav({ practiceAreas = [], serviceAreas = [] }) {
             </div>
           </div>
 
-          <Link className={styles.navLink} href="/blog">
-            Blog
+          <Link className={styles.navLink} href="/video">
+            Videos
           </Link>
 
           <Link className={styles.navLink} href="/contact">
@@ -231,8 +231,8 @@ export default function Nav({ practiceAreas = [], serviceAreas = [] }) {
           <Link onClick={() => setMobileOpen(false)} href="/areas-we-serve">
             Areas We Serve
           </Link>
-          <Link onClick={() => setMobileOpen(false)} href="/blog">
-            Blog
+          <Link onClick={() => setMobileOpen(false)} href="/video">
+            Videos
           </Link>
           <Link onClick={() => setMobileOpen(false)} href="/contact">
             Contact

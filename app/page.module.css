@@ -70,7 +70,9 @@
   font-size: 0.95rem;
   padding: 10px 10px;
   border-radius: 12px;
-  transition: background 160ms ease, color 160ms ease;
+  transition:
+    background 160ms ease,
+    color 160ms ease;
 }
 
 .navLink:hover {
@@ -197,7 +199,9 @@
   /* min-width: 190px; */
   width: 180px;
   box-shadow: 0 10px 24px rgba(11, 18, 32, 0.25);
-  transition: transform 160ms ease, box-shadow 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
   border: 3px black solid;
 }
 
@@ -473,7 +477,9 @@
   border-left: 4px solid #9b1c1c81; /* muted red */
   border-radius: 8px;
 
-  transition: border-color 0.2s ease, transform 0.1s ease;
+  transition:
+    border-color 0.2s ease,
+    transform 0.1s ease;
 }
 .servicesItem:hover {
   border-left-color: #c53030;
@@ -493,7 +499,9 @@
   border-left: 4px solid #9b1c1c72; /* muted red */
   border-radius: 8px;
 
-  transition: border-color 0.2s ease, transform 0.1s ease;
+  transition:
+    border-color 0.2s ease,
+    transform 0.1s ease;
 }
 .homeServiceBtn:hover {
   border-left-color: #c53030;
@@ -761,7 +769,9 @@
   color: #282828;
 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  transition: transform 160ms ease, box-shadow 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
 }
 
 .defenseItem:hover {
@@ -838,4 +848,131 @@
 .bottomFooter a:hover {
   color: #d0d8ff;
   scale: 1.05;
+}
+/* VIDEO Overview page */
+.videoPageContainer {
+  padding: 10px;
+}
+.videoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* VIDEO VIEWING PAGE */
+
+.videoCard {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.videoThumbWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.videoThumbImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.videoThumbPreview {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+
+.videoCard:hover .videoThumbPreview {
+  opacity: 1;
+}
+
+.videoCardTitle {
+  margin: 10px 0 0 0;
+}
+
+.videoPageContainer {
+  padding: 20px;
+}
+.videoContainer {
+  display: flex;
+}
+.videoWrapper {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+.videoPlayer {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* or contain depending on preference */
+}
+.chaptersContainer {
+  padding: 1%;
+}
+.chapterList li {
+  font-size: 1rem;
+  padding-bottom: 5px;
+  list-style: none;
+}
+.chapterList li::before {
+  content: "\25BA"; /* Unicode for a black right-pointing triangle */
+  color: #008f21; /* Color the triangle */
+  display: inline-block; /* Aligns the triangle with the text */
+  width: 1em; /* Control the spacing */
+  margin-left: -1.4em; /* Pull it into the padding area */
+}
+.ctaChapterContain p {
+  margin: 0;
+}
+.ctaChaptersBtn {
+  display: grid;
+  width: 100%;
+  text-align: center;
+
+  background-color: #d94a3a; /* strong red */
+  color: #ffffff;
+  width: 60%;
+  padding: 5px;
+  border-radius: 10px;
+  margin: auto;
+
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+
+  border: 2px solid #000000;
+
+  box-shadow: 0 4px 0 #000000;
+  transition: all 0.15s ease-in-out;
+
+  cursor: pointer;
+}
+.ctaChaptersBtn:hover {
+  background-color: #c63f30;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #000000;
+}
+
+.ctaChaptersBtn:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #000000;
+}
+
+@media (max-width: 640px) {
+  .videoContainer {
+    display: block;
+  }
+  .ctaChaptersBtn {
+    font-size: 18px;
+    padding: 16px;
+  }
 }

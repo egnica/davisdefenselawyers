@@ -1,6 +1,7 @@
 // app/sitemap.js
 import practiceAreas from "./data/practice-areas_clean.json";
 import serviceAreas from "./data/service-areas.json";
+import videos from "./data/videos.json";
 
 const SITE_URL = "https://www.davisdefenselawyers.com";
 
@@ -44,6 +45,8 @@ export default function sitemap() {
     "/contact",
     "/criminal-defense", // practice hub
     "/areas-we-serve", // locations hub
+    "/video",
+    "/video-sitemap.xml",
     // "/blog",          // blog index (enable when /blog exists)
   ].map((path) => ({
     url: `${SITE_URL}${path}`,
@@ -70,6 +73,15 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
+  // 3) Location pages live at /locations/[slug] (no /locations index page required)
+  const videoSlugs = extractSlugs(videos, "slug");
+  const videoRoutes = videoSlugs.map((slug) => ({
+    url: `${SITE_URL}/video/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   // 4) Blog posts (enable when blog data exists)
   // const blogSlugs = extractSlugs(blogPosts, "slug");
   // const blogRoutes = blogSlugs.map((slug) => ({
@@ -83,6 +95,7 @@ export default function sitemap() {
     ...staticRoutes,
     ...practiceRoutes,
     ...locationRoutes,
+    ...videoRoutes,
     // ...blogRoutes,
   ];
 }
