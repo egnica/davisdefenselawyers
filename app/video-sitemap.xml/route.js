@@ -30,7 +30,6 @@ export async function GET() {
             <video:title><![CDATA[${video.title}]]></video:title>
             <video:description><![CDATA[${video.description}]]></video:description>
             <video:content_loc>${video.videoUrl}</video:content_loc>
-            <video:player_loc>https://www.davisdefenselawyers.com/video/${video.slug}</video:player_loc>
             <video:duration>${duration}</video:duration>
             <video:publication_date>${video.uploadDate}T00:00:00+00:00</video:publication_date>
           </video:video>
