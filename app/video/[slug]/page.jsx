@@ -81,6 +81,15 @@ export default async function Page({ params, searchParams }) {
     ...(youtubeWatchUrl ? [youtubeWatchUrl] : []),
   ];
 
+  function normalizeSchemaDate(dateString) {
+    if (!dateString) return "";
+
+    // If it already includes a time, leave it alone
+    if (dateString.includes("T")) return dateString;
+
+    return `${dateString}T00:00:00+00:00`;
+  }
+  const normalizedUploadDate = normalizeSchemaDate(video.uploadDate);
   const videoSchema = {
     "@context": "https://schema.org",
     "@type": "VideoObject",
@@ -88,9 +97,9 @@ export default async function Page({ params, searchParams }) {
     name: video.title,
     description: video.description,
     thumbnailUrl: [video.thumbnail],
-    uploadDate: video.uploadDate,
-    datePublished: video.uploadDate,
-    dateModified: video.uploadDate,
+    uploadDate: normalizedUploadDate,
+    datePublished: normalizedUploadDate,
+    dateModified: normalizedUploadDate,
     duration: video.duration,
     contentUrl: video.videoUrl,
     url: pageUrl,
