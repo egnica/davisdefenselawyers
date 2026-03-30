@@ -566,12 +566,23 @@
   margin: auto;
 }
 
+.recentVideoContainer {
+  line-height: 0.4;
+}
+.videoCardHome {
+  max-width: 600px;
+  margin: auto;
+}
+
 @media (max-width: 1000px) {
   .splitGrid {
     grid-template-columns: 1fr;
   }
   .splitGrid img {
     margin: auto;
+  }
+  .recentVideoContainer {
+    line-height: 0.9;
   }
 }
 @media (max-width: 620px) {

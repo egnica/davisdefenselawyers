@@ -7,10 +7,12 @@ import Link from "next/link";
 import Grid from "./components/servicesGrid";
 import AreaGrid from "./components/areaGrid";
 import Area from "./data/service-areas.json";
+import video from "./data/videos.json";
+import VideoCard from "./components/videoCard";
+import dynamic from "next/dynamic";
 
 const practiceAreas = Practices.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
-
 const areasServiced = Area.areas || [];
 
 const SITE_URL = "https://www.davisdefenselawyers.com/";
@@ -109,6 +111,10 @@ const HOME_JSON_LD = {
   ],
 };
 
+const mostRecentVideo = video.reduce((max, current) =>
+  current.id > max.id ? current : max,
+);
+
 export default function Home() {
   return (
     <>
@@ -129,11 +135,14 @@ export default function Home() {
         </h2>
 
         <p>
-          <strong>Andrew Davis</strong> is a Minnesota criminal defense lawyer
-          representing clients throughout the Twin Cities and surrounding
-          communities. He defends individuals facing misdemeanor and felony
-          charges, including DWI, drug offenses, assault, domestic violence,
-          theft, and probation violations.
+          <Link href={"./about"}>
+            {" "}
+            <strong>Andrew Davis</strong>
+          </Link>{" "}
+          is a Minnesota criminal defense lawyer representing clients throughout
+          the Twin Cities and surrounding communities. He defends individuals
+          facing misdemeanor and felony charges, including DWI, drug offenses,
+          assault, domestic violence, theft, and probation violations.
         </p>
 
         <p>
@@ -202,6 +211,19 @@ export default function Home() {
         </p>
 
         <AreaGrid areaObj={areasServiced} />
+        <br />
+        <div className={styles.recentVideoContainer}>
+          <h2>
+            <span className={styles.titleColor}>Most Recent </span> Video:
+          </h2>
+          <Link href={`./video/${mostRecentVideo.slug}`}>
+            <h3>{mostRecentVideo.title}:</h3>
+          </Link>
+<div className={styles.videoCardHome }>
+  <VideoCard  item={mostRecentVideo} />
+</div>
+          
+        </div>
       </div>
     </>
   );
