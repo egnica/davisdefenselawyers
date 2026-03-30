@@ -13,13 +13,23 @@ const serviceAreas = Location.areas || [];
 const areasServiced = Location.areas || [];
 
 // ✅ Change this to your real domain (no trailing slash)
-const SITE_URL = "https://www.davisdefenselawyers.com/";
+const SITE_URL = "https://www.davisdefenselawyers.com";
 
 // Pre-generate all slugs from the JSON
 export function generateStaticParams() {
   return practiceAreas.map((area) => ({
     slug: area.slug,
   }));
+}
+
+export async function generateMetadata({ params }) {
+  const { slug } = params;
+
+  return {
+    alternates: {
+      canonical: `https://www.davisdefenselawyers.com/${slug}`,
+    },
+  };
 }
 
 /**
