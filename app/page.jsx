@@ -9,7 +9,6 @@ import AreaGrid from "./components/areaGrid";
 import Area from "./data/service-areas.json";
 import video from "./data/videos.json";
 import VideoCard from "./components/videoCard";
-import dynamic from "next/dynamic";
 
 const practiceAreas = Practices.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);

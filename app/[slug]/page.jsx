@@ -26,9 +26,21 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
+
+  const page = practiceAreas.find((item) => item.slug === slug);
+
+  if (!page) {
+    return {
+      title: "Page Not Found",
+    };
+  }
 
   return {
+    title: page.metaTitle || `${page.title} in Minnesota`,
+    description:
+      page.metaDescription ||
+      `Learn about ${page.title.toLowerCase()} in Minnesota, including penalties and defense strategies with attorney Andrew Davis.`,
     alternates: {
       canonical: `https://www.davisdefenselawyers.com/${slug}`,
     },
