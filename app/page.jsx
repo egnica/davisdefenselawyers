@@ -108,6 +108,8 @@ const HOME_JSON_LD = {
     "https://www.avvo.com/attorneys/55437-mn-andrew-davis-4803224.html",
     "https://www.experience.com/reviews/andrew-8011103",
     "https://www.facebook.com/Daviscriminaldefense",
+    "https://www.youtube.com/@AndrewDavisAttorney",
+    "https://www.instagram.com/daviscriminaldefense1",
   ],
 };
 
@@ -219,10 +221,9 @@ export default function Home() {
           <Link href={`./video/${mostRecentVideo.slug}`}>
             <h3>{mostRecentVideo.title}:</h3>
           </Link>
-<div className={styles.videoCardHome }>
-  <VideoCard  item={mostRecentVideo} />
-</div>
-          
+          <div className={styles.videoCardHome}>
+            <VideoCard item={mostRecentVideo} />
+          </div>
         </div>
       </div>
     </>

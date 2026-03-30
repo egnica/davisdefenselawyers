@@ -13,6 +13,8 @@ export default function Hero() {
           playsInline
           preload="none"
           poster="https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/stillCity.webp"
+          aria-hidden="true"
+          tabIndex="-1"
         >
           <source
             src="https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/cityVideo.webm"
