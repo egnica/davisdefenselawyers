@@ -9,6 +9,7 @@ import Hero from "../components/heroPractice";
 import ServicesGrid from "../components/servicesGrid";
 import video from "../data/videos.json";
 import Link from "next/link";
+import VideoPlayer from "../components/video";
 
 const practiceAreas = rawData.practiceAreas || [];
 const serviceAreas = Location.areas || [];
@@ -221,6 +222,16 @@ export default async function Page({ params }) {
         {area.contentBlocks.map((item, index) => (
           <ContentBlock key={index} content={item} index={index} />
         ))}
+
+        {videoFind ? (
+          <VideoPlayer
+            src={videoFind.videoUrl}
+            poster={videoFind.thumbnail}
+            startTime={videoFind.startTime}
+            postedDate={videoFind.uploadDate}
+          />
+        ) : null}
+        <br />
         <ServicesGrid obj={practiceAreas} />
         <section className={styles.faqSection}>
           <h2 className={styles.faqHeading}>{area.faqTitle}</h2>
