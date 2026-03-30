@@ -189,6 +189,7 @@ export default async function Page({ params, searchParams }) {
             <ul className={styles.chapterList}>
               {video.clips.map((clip) => (
                 <li key={`${clip.name}-${clip.startOffset}`}>
+                  {" "}
                   <a href={`?t=${Math.round(clip.startOffset)}`}>{clip.name}</a>
                 </li>
               ))}

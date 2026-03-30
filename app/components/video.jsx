@@ -1,6 +1,7 @@
 //VIDEO PLAYER
 "use client";
 import styles from "../page.module.css";
+import Link from "next/link";
 
 import { useEffect, useRef } from "react";
 
@@ -53,6 +54,10 @@ export default function VideoPlayer({
 
   return (
     <div className={styles.videoWrapper}>
+      <Link className={styles.videoBackLink} href={"../video"}>
+        ← Back to videos
+      </Link>
+
       <video
         className={styles.videoPlayer}
         ref={videoRef}

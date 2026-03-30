@@ -7,6 +7,8 @@ import Locations from "../components/areaGrid";
 import ContentBlock from "../components/contentBlocks";
 import Hero from "../components/heroPractice";
 import ServicesGrid from "../components/servicesGrid";
+import video from "../data/videos.json";
+import Link from "next/link";
 
 const practiceAreas = rawData.practiceAreas || [];
 const serviceAreas = Location.areas || [];
@@ -187,6 +189,8 @@ export default async function Page({ params }) {
   const faqJsonLd = buildFaqJsonLd(area, slug);
   const breadcrumbsJsonLd = buildBreadcrumbsJsonLd(area, slug);
 
+  const videoFind = video.find((item) => slug == item.practiceArea);
+
   return (
     <>
       {/* JSON-LD */}
@@ -209,6 +213,11 @@ export default async function Page({ params }) {
       <Hero title={area.pageTitle} tag={area.tagline} />
 
       <main className={styles.mainContain}>
+        {videoFind ? (
+          <Link href={`../video/${videoFind.slug}`}>
+            Watch: {videoFind.title}
+          </Link>
+        ) : null}
         {area.contentBlocks.map((item, index) => (
           <ContentBlock key={index} content={item} index={index} />
         ))}

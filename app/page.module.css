@@ -912,8 +912,13 @@
 }
 .videoPlayer {
   width: 100%;
-  height: 100%;
+
   object-fit: contain; /* or contain depending on preference */
+}
+.videoBackLink {
+  padding: 20px;
+
+  font-size: 1rem;
 }
 .chaptersContainer {
   padding: 1%;
