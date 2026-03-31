@@ -12,7 +12,7 @@ import Link from "next/link";
 const practiceAreas = services.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
 
-const SITE_URL = "https://davisdefenselawyers.com";
+const SITE_URL = "https://www.davisdefenselawyers.com";
 const AREAS = data.areas || [];
 
 // ✅ Single source of truth for office address
