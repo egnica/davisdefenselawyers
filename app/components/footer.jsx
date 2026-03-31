@@ -66,7 +66,7 @@ function footer() {
         {areasServiced.map((item) => (
           <Link
             key={item.slug}
-            href={`/areas-we-serve/${item.slug}`}
+            href={`/locations/${item.slug}`}
             className={styles.footerLink}
           >
             {item.city}
