@@ -42,7 +42,7 @@ export async function generateMetadata({ params }) {
       page.metaDescription ||
       `Learn about ${page.title.toLowerCase()} in Minnesota, including penalties and defense strategies with attorney Andrew Davis.`,
     alternates: {
-      canonical: `https://www.davisdefenselawyers.com/${slug}`,
+      canonical: `${SITE_URL}/${slug}`,
     },
   };
 }
