@@ -1,3 +1,4 @@
+//layout.js
 import { Inter, Merriweather } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/nav.jsx";
@@ -15,17 +16,6 @@ const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
   variable: "--font-merriweather",
 });
-
-export const metadata = {
-  title: {
-    default: "Andrew Davis | Minneapolis Criminal Defense Attorney",
-    template: "%s | Andrew Davis Criminal Defense Attorney",
-  },
-  description: "Experienced Minnesota criminal defense attorney...",
-  alternates: {
-    canonical: "https://www.davisdefenselawyers.com",
-  },
-};
 
 // ✅ Site constants
 const SITE_URL = "https://www.davisdefenselawyers.com";

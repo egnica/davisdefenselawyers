@@ -16,6 +16,16 @@ const areasServiced = Area.areas || [];
 
 const SITE_URL = "https://www.davisdefenselawyers.com/";
 
+export const metadata = {
+  title:
+    "Minnesota Criminal Defense Lawyer | Aggressive Defense for Serious Charges",
+  description:
+    "Andrew Davis is a Minnesota criminal defense attorney representing clients facing DWI, assault, drug charges, domestic assault, theft, and more across the Twin Cities and beyond.",
+  alternates: {
+    canonical: "https://www.davisdefenselawyers.com/",
+  },
+};
+
 /**
  * Single source of truth for office address
  */
