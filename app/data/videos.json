@@ -57,5 +57,73 @@
         "endOffset": "168"
       }
     ]
+  },
+  {
+    "id": "002",
+    "slug": "dwi-charges-minnesota",
+    "practiceArea": "dwi-dui",
+    "title": "Minnesota DWI Charges Explained: What You Need to Know",
+    "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/DWI-mn.mp4",
+    "description": "If you are facing a DWI charge in Minnesota, understanding what happens next is critical. In this video, Minnesota criminal defense attorney Andrew Davis explains how DWI charges work, including potential penalties such as license suspension, fines, and jail time, as well as the legal options and defense strategies available to protect your future.",
+    "duration": "PT2M15S",
+    "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/dwi-thumbnail.png",
+    "uploadDate": "2026-04-02",
+    "youtubeId": "ErM-y6ewo1I",
+    "keywords": [
+      "Minnesota DWI",
+      "DWI Minnesota",
+      "Minnesota DUI",
+      "DUI Minnesota",
+      "DWI lawyer Minnesota",
+      "Minnesota criminal defense attorney",
+      "Andrew Davis lawyer",
+      "DWI charges Minnesota",
+      "Minnesota DWI penalties",
+      "what happens after DWI Minnesota",
+      "Minnesota DWI laws",
+      "DWI defense Minnesota",
+      "license suspension Minnesota DWI",
+      "Minnesota drunk driving law"
+    ],
+    "sameAs": [
+      "https://youtu.be/ErM-y6ewo1I",
+      "https://www.facebook.com/reel/1534963464739172",
+      "https://www.facebook.com/share/v/1CPvdvoEUS/",
+      "https://www.linkedin.com/posts/andrew-davis-aa4aa253_minnesotadwi-criminaldefense-minnesotalawyer-ugcPost-7445534696559755264-V0EY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAtfpZwBn0HhJfF_9bcbzQqrSWbJizWmLjU"
+    ],
+    "cta": "Facing an DWI charge in Minnesota?",
+    "linkPractice": "Learn more about DWI defense in Minnesota →",
+    "clips": [
+      {
+        "name": "What is a DWI?",
+        "startOffset": 6,
+        "endOffset": 22
+      },
+      {
+        "name": "What is the Most Common Charge?",
+        "startOffset": 22,
+        "endOffset": 32
+      },
+      {
+        "name": "Aggravating Factor",
+        "startOffset": 32,
+        "endOffset": 48
+      },
+      {
+        "name": "What makes a Misdemeanor a Gross Misdemeanor in a DWI?",
+        "startOffset": 47,
+        "endOffset": 53
+      },
+      {
+        "name": "Should I Take the Test?",
+        "startOffset": "53",
+        "endOffset": "77"
+      },
+      {
+        "name": "Why Should I Have Representation?",
+        "startOffset": "78",
+        "endOffset": "130"
+      }
+    ]
   }
 ]

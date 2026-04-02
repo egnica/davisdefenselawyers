@@ -867,6 +867,14 @@
 .videoGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 10;
+}
+@media (max-width: 700px) {
+  .videoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10;
+}
 }
 
 /* VIDEO VIEWING PAGE */
@@ -909,6 +917,12 @@
 
 .videoCardTitle {
   margin: 10px 0 0 0;
+}
+
+@media (max-width: 700px) {
+  .videoCardTitle {
+    font-size: 0.8rem;
+  }
 }
 
 .videoPageContainer {
