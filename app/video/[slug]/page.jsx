@@ -4,6 +4,7 @@ import videoList from "../../data/videos.json";
 import VideoPlayer from "@/app/components/video";
 import styles from "../../page.module.css";
 import Link from "next/link";
+import areasContent from "../../data/practice-areas_clean.json";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -101,15 +102,24 @@ export default async function Page({ params, searchParams }) {
     datePublished: normalizedUploadDate,
     dateModified: normalizedUploadDate,
     duration: video.duration,
+
     contentUrl: video.videoUrl,
+    embedUrl: pageUrl,
+
     url: pageUrl,
     inLanguage: "en-US",
     isFamilyFriendly: true,
-    potentialAction: {
-      "@type": "SeekToAction",
-      target: `${pageUrl}?t={seek_to_second_number}`,
-      "startOffset-input": "required name=seek_to_second_number",
-    },
+    potentialAction: [
+      {
+        "@type": "WatchAction",
+        target: pageUrl,
+      },
+      {
+        "@type": "SeekToAction",
+        target: `${pageUrl}?t={seek_to_second_number}`,
+        "startOffset-input": "required name=seek_to_second_number",
+      },
+    ],
     keywords: video.keywords,
     ...(clips.length ? { hasPart: clips } : {}),
     ...(sameAs.length ? { sameAs } : {}),
@@ -159,6 +169,14 @@ export default async function Page({ params, searchParams }) {
       },
     ],
   };
+
+  const serviceObject = areasContent.practiceAreas.find(
+    (item) => item.slug == video.practiceArea,
+  );
+
+  const firstSection = serviceObject.contentBlocks.find(
+    (item) => item.type === "section",
+  );
 
   return (
     <div>
@@ -225,6 +243,12 @@ export default async function Page({ params, searchParams }) {
           </a>
         )}
       </div>
+      {firstSection && (
+        <div className={styles.videoPageContainer}>
+          <h2>{firstSection.title}</h2>
+          <p>{firstSection.body}</p>
+        </div>
+      )}
     </div>
   );
 }
