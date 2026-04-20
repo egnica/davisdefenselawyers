@@ -126,5 +126,77 @@
         "endOffset": "130"
       }
     ]
+  },
+  {
+    "id": "003",
+    "slug": "traffic-violations-minnesota",
+    "practiceArea": "traffic-offenses",
+    "title": "Minnesota Traffic Violations Explained: What You Need to Know",
+    "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/Traffic-violation-4.mp4",
+    "description": "Criminal defense attorney Andrew Davis explains traffic violations in Minnesota, including speeding tickets, mobile device offenses, and the legal consequences that can impact your driving record, insurance, and license. Learn when a traffic ticket becomes more serious, why going to court matters, and how legal representation can help protect your driving privileges.",
+    "duration": "PT2M50S",
+    "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/traffic-violations.webp",
+    "uploadDate": "2026-04-20",
+    "youtubeId": "Nj3YW0IfZJw",
+    "keywords": [
+      "minnesota traffic violations",
+      "traffic ticket minnesota",
+      "minnesota traffic ticket lawyer",
+      "speeding ticket minnesota",
+      "minnesota speeding laws",
+      "over 100 mph minnesota",
+      "mobile device ticket minnesota",
+      "distracted driving minnesota",
+      "cdl traffic violation minnesota",
+      "commercial driver traffic ticket",
+      "traffic court minnesota",
+      "fight a traffic ticket minnesota",
+      "do i need a lawyer for traffic ticket",
+      "radar ticket defense",
+      "andrew davis lawyer",
+      "minnesota criminal defense attorney",
+      "protect your driving record",
+      "license suspension minnesota"
+    ],
+    "sameAs": ["https://youtu.be/Nj3YW0IfZJw"],
+    "cta": "Facing an traffic charge in Minnesota?",
+    "linkPractice": "Learn more about traffic defense in Minnesota →",
+    "clips": [
+      {
+        "name": "What Violations have you Handled?",
+        "startOffset": 5,
+        "endOffset": 13
+      },
+      {
+        "name": "Commercial License Issues",
+        "startOffset": 25,
+        "endOffset": 47
+      },
+      {
+        "name": "Driving Over 100 MPH",
+        "startOffset": 48,
+        "endOffset": 70
+      },
+      {
+        "name": "Should I go to Court for a Traffic Violation?",
+        "startOffset": 71,
+        "endOffset": 87
+      },
+      {
+        "name": "Things to Look For",
+        "startOffset": "89",
+        "endOffset": "107"
+      },
+      {
+        "name": "What to Say on the Road",
+        "startOffset": "107",
+        "endOffset": "130"
+      },
+      {
+        "name": "Mobile Device While Driving",
+        "startOffset": "142",
+        "endOffset": "166"
+      }
+    ]
   }
 ]

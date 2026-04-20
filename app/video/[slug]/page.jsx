@@ -245,7 +245,7 @@ export default async function Page({ params, searchParams }) {
       </div>
       {firstSection && (
         <div className={styles.videoPageContainer}>
-          <h2>{firstSection.title}</h2>
+          <h2 style={{ fontSize: "1.5rem" }}>{firstSection.title}</h2>
           <p>{firstSection.body}</p>
         </div>
       )}
