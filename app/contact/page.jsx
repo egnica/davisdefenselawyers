@@ -3,6 +3,12 @@ import styles from "../page.module.css";
 import HeroPractice from "../components/heroPractice";
 import Form from "../components/ContactForm";
 
+export const metadata = {
+  alternates: {
+    canonical: "https://www.davisdefenselawyers.com/contact",
+  },
+};
+
 function contact() {
   return (
     <>
