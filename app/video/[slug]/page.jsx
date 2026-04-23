@@ -249,6 +249,21 @@ export default async function Page({ params, searchParams }) {
           <p>{firstSection.body}</p>
         </div>
       )}
+      <div style={{ padding: "0px 20px 20px 20px" }}>
+        <h2 style={{ fontSize: "1.5rem", margin: "0" }}>Other Video Links:</h2>
+        <div>
+          {Object.values(videoList).map((item, index) => (
+            <div key={index}>
+              <Link
+                href={`https://www.davisdefenselawyers.com/video/${item.slug}`}
+              >
+                {item.title}
+              </Link>
+              <br />
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
