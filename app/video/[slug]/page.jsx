@@ -251,15 +251,25 @@ export default async function Page({ params, searchParams }) {
       )}
       <div style={{ padding: "0px 20px 20px 20px" }}>
         <h2 style={{ fontSize: "1.5rem", margin: "0" }}>Other Video Links:</h2>
-        <div>
+        <div className={styles.videoLinkContain}>
           {Object.values(videoList).map((item, index) => (
-            <div key={index}>
+            <div className={styles.videoLinkCard} key={index}>
+              <Link
+                href={`https://www.davisdefenselawyers.com/video/${item.slug}`}
+              >
+                <img
+                  src={item.thumbnail}
+                  width={150}
+                  alt={`video thumbnail for ${item.title}`}
+                />
+              </Link>
+              <br />
+
               <Link
                 href={`https://www.davisdefenselawyers.com/video/${item.slug}`}
               >
                 {item.title}
               </Link>
-              <br />
             </div>
           ))}
         </div>

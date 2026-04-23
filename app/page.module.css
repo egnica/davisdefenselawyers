@@ -871,10 +871,10 @@
 }
 @media (max-width: 700px) {
   .videoGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10;
+  }
 }
 
 /* VIDEO VIEWING PAGE */
@@ -997,6 +997,23 @@
   box-shadow: 0 2px 0 #000000;
 }
 
+.videoLinkContain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.videoLinkCard {
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  border: 4px solid #e3e4e4;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  transition: ease-in-out 0.5s;
+}
+.videoLinkCard:hover {
+  scale: 1.1;
+}
 @media (max-width: 640px) {
   .videoContainer {
     display: block;
@@ -1004,5 +1021,8 @@
   .ctaChaptersBtn {
     font-size: 18px;
     padding: 16px;
+  }
+  .videoLinkContain {
+    display: block;
   }
 }
