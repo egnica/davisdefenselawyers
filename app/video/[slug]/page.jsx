@@ -169,14 +169,14 @@ export default async function Page({ params, searchParams }) {
       },
     ],
   };
-
+  /* 
   const serviceObject = areasContent.practiceAreas.find(
     (item) => item.slug == video.practiceArea,
   );
 
   const firstSection = serviceObject.contentBlocks.find(
     (item) => item.type === "section",
-  );
+  ); */
 
   return (
     <div>
@@ -243,12 +243,14 @@ export default async function Page({ params, searchParams }) {
           </a>
         )}
       </div>
-      {firstSection && (
+
+      {/*       {firstSection && (
         <div className={styles.videoPageContainer}>
           <h2 style={{ fontSize: "1.5rem" }}>{firstSection.title}</h2>
           <p>{firstSection.body}</p>
         </div>
-      )}
+      )} */}
+
       <div style={{ padding: "0px 20px 20px 20px" }}>
         <h2 style={{ fontSize: "1.5rem", margin: "0" }}>Other Video Links:</h2>
         <div className={styles.videoLinkContain}>

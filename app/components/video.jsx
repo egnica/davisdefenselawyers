@@ -54,10 +54,6 @@ export default function VideoPlayer({
 
   return (
     <div className={styles.videoWrapper}>
-      <Link className={styles.videoBackLink} href={"../video"}>
-        ← Back to videos
-      </Link>
-
       <video
         className={styles.videoPlayer}
         ref={videoRef}
@@ -66,7 +62,9 @@ export default function VideoPlayer({
         poster={poster}
         preload="metadata"
       />
-
+      <Link className={styles.videoBackLink} href="/video">
+        ← Back to videos
+      </Link>
       <p style={{ padding: "0 0 0 20px", fontSize: "1rem", margin: 0 }}>
         Published: {formattedDate}
       </p>
