@@ -4,7 +4,6 @@ import videoList from "../../data/videos.json";
 import VideoPlayer from "@/app/components/video";
 import styles from "../../page.module.css";
 import Link from "next/link";
-import areasContent from "../../data/practice-areas_clean.json";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;

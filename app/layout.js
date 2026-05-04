@@ -1,4 +1,4 @@
-//layout.js
+// layout.js
 import { Inter, Merriweather } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/nav.jsx";
@@ -17,7 +17,7 @@ const merriweather = Merriweather({
   variable: "--font-merriweather",
 });
 
-// ✅ Site constants
+// Site constants
 const SITE_URL = "https://www.davisdefenselawyers.com";
 
 const OFFICE_ADDRESS = {
@@ -46,11 +46,21 @@ const SAME_AS = [
   "https://www.linkedin.com/in/andrew-davis-aa4aa253/",
 ];
 
-// ✅ Optional: lightweight areaServed (sitewide should stay broad)
 const AREA_SERVED = [
   { "@type": "AdministrativeArea", name: "Minnesota" },
   { "@type": "AdministrativeArea", name: "Twin Cities, MN" },
 ];
+
+// Keep Nav data lightweight so every page does not receive the full practice-area JSON.
+const navPracticeAreas = Data.practiceAreas.map((area) => ({
+  slug: area.slug,
+  navTitle: area.navTitle,
+}));
+
+const navServiceAreas = Areas.areas.map((area) => ({
+  slug: area.slug,
+  city: area.city || area.label || area.title || area.name,
+}));
 
 function buildFirmJsonLd() {
   return {
@@ -87,13 +97,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${merriweather.variable}`}>
-        {/*  Sitewide JSON-LD: firm identity */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(firmJsonLd) }}
         />
 
-        <Nav practiceAreas={Data.practiceAreas} serviceAreas={Areas.areas} />
+        <Nav practiceAreas={navPracticeAreas} serviceAreas={navServiceAreas} />
         <main id="main-content">{children}</main>
         <Footer />
       </body>
