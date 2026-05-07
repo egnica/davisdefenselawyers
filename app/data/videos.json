@@ -204,5 +204,59 @@
         "endOffset": "166"
       }
     ]
+  },
+  {
+    "id": "004",
+    "slug": "theft-crimes-minnesota",
+    "practiceArea": "theft-crimes",
+    "title": "Theft Crimes in Minnesota: What You Need to Know",
+    "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/theft_web.mp4",
+    "description": "Minnesota criminal defense attorney Andrew Davis explains theft crimes in Minnesota, including shoplifting accusations, felony theft charges, and how prosecutors determine misdemeanor, gross misdemeanor, and felony theft levels based on monetary value. Learn what the state must prove and why experienced legal defense matters.",
+    "duration": "PT1M537",
+    "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/theft-crims.webp",
+    "uploadDate": "2026-03-18",
+    "youtubeId": "maLULVgyETo",
+    "keywords": [
+      "Minnesota theft lawyer",
+      "Minnesota theft charges",
+      "shoplifting lawyer Minnesota",
+      "felony theft attorney",
+      "burglary defense lawyer",
+      "criminal defense attorney Minnesota",
+      "gross misdemeanor theft",
+      "misdemeanor theft Minnesota",
+      "theft crimes explained",
+      "Minnesota burglary charges",
+      "Andrew Davis attorney",
+      "Davis Defense",
+      "Minnesota criminal lawyer",
+      "property crime defense",
+      "shoplifting charges"
+    ],
+    "sameAs": ["https://youtu.be/maLULVgyETo"],
+    "cta": "Accused of a theft crime in Minnesota?",
+    "linkPractice": "Learn more about theft defense in Minnesota →",
+    "clips": [
+      {
+        "name": "Minnesota Theft Charges Explained",
+        "startOffset": 0,
+        "endOffset": 19
+      },
+      {
+        "name": "What Constitutes Theft?",
+        "startOffset": 20,
+        "endOffset": 48
+      },
+      {
+        "name": "Theft Charge Levels Explained",
+        "startOffset": 49,
+        "endOffset": 60
+      },
+      {
+        "name": "Contact Andrew Davis",
+        "startOffset": 74,
+        "endOffset": 97
+      }
+    ]
   }
 ]
