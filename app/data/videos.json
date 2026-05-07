@@ -233,7 +233,11 @@
       "property crime defense",
       "shoplifting charges"
     ],
-    "sameAs": ["https://youtu.be/maLULVgyETo"],
+    "sameAs": [
+      "https://youtu.be/maLULVgyETo",
+      "https://www.facebook.com/share/v/1K8xZ1cChh/",
+      "https://www.instagram.com/reel/DYCnObRiZt7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    ],
     "cta": "Accused of a theft crime in Minnesota?",
     "linkPractice": "Learn more about theft defense in Minnesota →",
     "clips": [
