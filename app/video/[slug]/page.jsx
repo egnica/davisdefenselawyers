@@ -103,7 +103,6 @@ export default async function Page({ params, searchParams }) {
     duration: video.duration,
 
     contentUrl: video.videoUrl,
-    embedUrl: pageUrl,
 
     url: pageUrl,
     inLanguage: "en-US",
