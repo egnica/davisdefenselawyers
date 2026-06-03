@@ -47,6 +47,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
+
+
 export default async function Page({ params, searchParams }) {
   const { slug } = await params;
   const { t } = await searchParams;
@@ -80,6 +82,64 @@ export default async function Page({ params, searchParams }) {
     ...(video.sameAs || []),
     ...(youtubeWatchUrl ? [youtubeWatchUrl] : []),
   ];
+
+
+
+
+
+const time = video.duration;
+function formatGoogleVideoDuration(input) {
+  if (!input) return "PT0S";
+
+  // Case 1: If input is a raw number (total seconds)
+  if (typeof input === "number") {
+    const minutes = Math.floor(input / 60);
+    const seconds = Math.floor(input % 60);
+    return `PT${minutes}M${seconds}S`;
+  }
+
+  let cleanInput = input.toString().trim().toUpperCase();
+
+  // Case 2: Standard digital clock format string (e.g., "02:50" or "2:50")
+  if (cleanInput.includes(":")) {
+    const parts = cleanInput.split(":");
+    const minutes = parseInt(parts[0], 10) || 0;
+    const seconds = parseInt(parts[1], 10) || 0;
+    return `PT${minutes}M${seconds}S`;
+  }
+
+  // Strip initial "PT" if your template is prepending it before failing
+  if (cleanInput.startsWith("PT")) {
+    cleanInput = cleanInput.substring(2);
+  }
+
+  // Case 3: Parsing text strings missing standard trailing indicators (like "1M537")
+  // Captures the minutes block and dynamically pulls the first two digits of the seconds block
+  const minuteMatch = cleanInput.match(/(\d+)M/);
+  const minutes = minuteMatch ? parseInt(minuteMatch[1], 10) : 0;
+
+  let seconds = 0;
+  if (cleanInput.includes("M")) {
+    // Grab everything after the "M"
+    const afterM = cleanInput.split("M")[1].replace(/[^0-9]/g, "");
+    // Take only the first 2 digits to completely eliminate trailing millisecond bugs (e.g., "537" -> 53)
+    seconds = parseInt(afterM.substring(0, 2), 10) || 0;
+  } else {
+    // Fallback if it's just raw numeric text string without 'M'
+    const totalSecs = parseInt(cleanInput.replace(/[^0-9]/g, ""), 10) || 0;
+    return `PT${Math.floor(totalSecs / 60)}M${Math.floor(totalSecs % 60)}S`;
+  }
+
+  return `PT${minutes}M${seconds}S`;
+}
+
+
+
+
+
+
+
+
 
   function normalizeSchemaDate(dateString) {
     if (!dateString) return "";
@@ -175,55 +235,6 @@ export default async function Page({ params, searchParams }) {
   const firstSection = serviceObject.contentBlocks.find(
     (item) => item.type === "section",
   ); */
-
-const time = video.duration;
-function formatGoogleVideoDuration(input) {
-  if (!input) return "PT0S";
-
-  // Case 1: If input is a raw number (total seconds)
-  if (typeof input === 'number') {
-    const minutes = Math.floor(input / 60);
-    const seconds = Math.floor(input % 60);
-    return `PT${minutes}M${seconds}S`;
-  }
-
-  let cleanInput = input.toString().trim().toUpperCase();
-
-  // Case 2: Standard digital clock format string (e.g., "02:50" or "2:50")
-  if (cleanInput.includes(':')) {
-    const parts = cleanInput.split(':');
-    const minutes = parseInt(parts[0], 10) || 0;
-    const seconds = parseInt(parts[1], 10) || 0;
-    return `PT${minutes}M${seconds}S`;
-  }
-
-  // Strip initial "PT" if your template is prepending it before failing
-  if (cleanInput.startsWith('PT')) {
-    cleanInput = cleanInput.substring(2);
-  }
-
-  // Case 3: Parsing text strings missing standard trailing indicators (like "1M537")
-  // Captures the minutes block and dynamically pulls the first two digits of the seconds block
-  const minuteMatch = cleanInput.match(/(\d+)M/);
-  const minutes = minuteMatch ? parseInt(minuteMatch[1], 10) : 0;
-
-  let seconds = 0;
-  if (cleanInput.includes('M')) {
-    // Grab everything after the "M"
-    const afterM = cleanInput.split('M')[1].replace(/[^0-9]/g, '');
-    // Take only the first 2 digits to completely eliminate trailing millisecond bugs (e.g., "537" -> 53)
-    seconds = parseInt(afterM.substring(0, 2), 10) || 0;
-  } else {
-    // Fallback if it's just raw numeric text string without 'M'
-    const totalSecs = parseInt(cleanInput.replace(/[^0-9]/g, ''), 10) || 0;
-    return `PT${Math.floor(totalSecs / 60)}M${Math.floor(totalSecs % 60)}S`;
-  }
-
-  return `PT${minutes}M${seconds}S`;
-}
-
-
-  
 
   return (
     <div>
