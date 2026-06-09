@@ -5,6 +5,7 @@ import Nav from "./components/nav.jsx";
 import Data from "./data/practice-areas_clean.json";
 import Areas from "./data/service-areas.json";
 import Footer from "./components/footer";
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -97,6 +98,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${merriweather.variable}`}>
+        {/* Google Analytics Tracking Script */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-12V935FH19"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+             gtag('config', 'G-12V935FH19');
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(firmJsonLd) }}
