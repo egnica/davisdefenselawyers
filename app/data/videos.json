@@ -262,5 +262,61 @@
         "endOffset": 97
       }
     ]
+  },
+  {
+    "id": "005",
+    "slug": "minnesota-danco-violations",
+    "practiceArea": "danco-ofp-violations",
+    "title": "Minnesota DANCO Violations Explained",
+    "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/danco-MN.mp4",
+    "description": "A DANCO, or Domestic Abuse No Contact Order, is a criminal court order in Minnesota that can restrict contact while a case is pending. In this video, criminal defense attorney Andrew Davis explains how DANCO violations work, including what happens if the protected person contacts first, why third-party messages can still create problems, and what someone should do if they are accused of violating a DANCO.",
+    "duration": "PT1M30S",
+    "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/danco-thumbnail.webp",
+    "uploadDate": "2026-06-12",
+    "youtubeId": "1_LIjRGptjU",
+    "keywords": [
+      "DANCO violation Minnesota",
+      "Domestic Abuse No Contact Order",
+      "Minnesota DANCO lawyer",
+      "criminal defense attorney Minnesota",
+      "protected party contact DANCO",
+      "third party contact DANCO",
+      "DANCO order violation"
+    ],
+    "sameAs": ["https://youtu.be/1_LIjRGptjU"],
+    "cta": "Accused of violating a DANCO in Minnesota?",
+    "linkPractice": "Learn more about DANCO and domestic violence defense in Minnesota →",
+    "clips": [
+      {
+        "name": "What Is a DANCO?",
+        "startOffset": 2,
+        "endOffset": 12
+      },
+      {
+        "name": "DANCO vs. Order for Protection",
+        "startOffset": 8,
+        "endOffset": 18
+      },
+      {
+        "name": "What If the Protected Party Contacts First?",
+        "startOffset": 20,
+        "endOffset": 35
+      },
+      {
+        "name": "Third-Party Contact and DANCO Violations",
+        "startOffset": 35,
+        "endOffset": 55
+      },
+      {
+        "name": "Texts, Social Media, and Other Evidence",
+        "startOffset": 55,
+        "endOffset": 75
+      },
+      {
+        "name": "What to Do If You Are Accused",
+        "startOffset": 75,
+        "endOffset": 90
+      }
+    ]
   }
 ]
