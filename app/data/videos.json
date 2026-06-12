@@ -283,7 +283,11 @@
       "third party contact DANCO",
       "DANCO order violation"
     ],
-    "sameAs": ["https://youtu.be/1_LIjRGptjU"],
+    "sameAs": [
+      "https://youtu.be/1_LIjRGptjU",
+      "https://www.facebook.com/share/v/18sVdLwy7v/",
+      "https://www.facebook.com/reel/1887672698568455"
+    ],
     "cta": "Accused of violating a DANCO in Minnesota?",
     "linkPractice": "Learn more about DANCO and domestic violence defense in Minnesota →",
     "clips": [
