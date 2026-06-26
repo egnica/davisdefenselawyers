@@ -322,5 +322,84 @@
         "endOffset": 90
       }
     ]
+  },
+  {
+    "id": "006",
+    "slug": "drug-charges-minnesota",
+    "practiceArea": "drug-crimes",
+    "title": "Drug Charges in Minnesota: What You Need to Know",
+    "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/drug-crimes-2.mp4",
+    "description": "Drug charges in Minnesota can involve very different allegations, from possession to sale. In this video, criminal defense attorney Andrew Davis explains why the details matter, including where the drugs were found, who had access to the area, whether the property was shared, how police found the evidence, and what facts may affect the case.",
+    "duration": "PT1M54S",
+    "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/drug-charges-thumb.webp",
+    "uploadDate": "2026-06-26",
+    "youtubeId": "TgC45SiuCwQ",
+    "keywords": [
+      "Minnesota drug charges",
+      "drug charges Minnesota",
+      "Minnesota drug crimes lawyer",
+      "drug possession charges Minnesota",
+      "drug sale charges Minnesota",
+      "possession vs sale drug charges",
+      "Minnesota criminal defense attorney",
+      "illegal search drug case",
+      "shared property drug charges",
+      "intent to sell drug charges"
+    ],
+    "sameAs": [
+      "https://youtu.be/TgC45SiuCwQ",
+      "https://www.instagram.com/reel/DaDe_TcETis/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "https://www.facebook.com/share/v/1BHBdrHQWB/",
+      "https://www.facebook.com/share/v/1GRu1tiRda/"
+    ],
+    "cta": "Accused of a drug charge in Minnesota?",
+    "linkPractice": "Learn more about drug crime defense in Minnesota →",
+    "clips": [
+      {
+        "name": "Drug Charges Are Not All the Same",
+        "startOffset": 4,
+        "endOffset": 8
+      },
+      {
+        "name": "Possession vs. Sale Allegations",
+        "startOffset": 8,
+        "endOffset": 15
+      },
+      {
+        "name": "Ownership, Control, and Evidence",
+        "startOffset": 15,
+        "endOffset": 23
+      },
+      {
+        "name": "Shared Property and Access",
+        "startOffset": 23,
+        "endOffset": 32
+      },
+      {
+        "name": "Search Legality and Police Investigation",
+        "startOffset": 32,
+        "endOffset": 41
+      },
+      {
+        "name": "Quantity, Intent, and Circumstantial Evidence",
+        "startOffset": 41,
+        "endOffset": 57
+      },
+      {
+        "name": "Shared Spaces in Drug Cases",
+        "startOffset": 57,
+        "endOffset": 74
+      },
+      {
+        "name": "What to Document If You Are Accused",
+        "startOffset": 74,
+        "endOffset": 97
+      },
+      {
+        "name": "Looking Beyond the Drugs Themselves",
+        "startOffset": 97,
+        "endOffset": 105
+      }
+    ]
   }
 ]
