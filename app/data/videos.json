@@ -401,5 +401,72 @@
         "endOffset": 105
       }
     ]
+  },
+  {
+    "id": "007",
+    "slug": "minnesota-thc-cannabis-laws",
+    "practiceArea": "drug-crimes",
+    "title": "Minnesota THC & Cannabis Laws: Legal Doesn’t Mean Unlimited",
+    "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/minnesota-thc-laws.mp4",
+    "description": "Cannabis is legal for adults in Minnesota, but possession and use are still subject to important restrictions. In this video, criminal defense attorney Andrew Davis explains Minnesota cannabis possession limits, the minimum legal age, how the amount and form of THC can affect a case, and why the location of cannabis inside a vehicle may matter. He also explains why you should exercise your right to remain silent and contact an attorney before answering questions from law enforcement.",
+    "duration": "PT1M29S",
+    "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/thc-thumb.webp",
+    "uploadDate": "2026-07-10",
+    "youtubeId": "abU8tSD3zsk",
+    "keywords": [
+      "Minnesota THC laws",
+      "Minnesota cannabis laws",
+      "Minnesota marijuana laws",
+      "is marijuana legal in Minnesota",
+      "THC possession Minnesota",
+      "cannabis possession limits Minnesota",
+      "marijuana possession limits Minnesota",
+      "Minnesota cannabis criminal charges",
+      "THC in a vehicle Minnesota",
+      "marijuana in a vehicle Minnesota",
+      "Minnesota drug crimes lawyer",
+      "Minnesota criminal defense attorney",
+      "Andrew Davis criminal defense"
+    ],
+    "sameAs": ["https://youtu.be/abU8tSD3zsk"],
+    "cta": "Accused of a THC or cannabis-related crime in Minnesota?",
+    "linkPractice": "Learn more about drug crime defense in Minnesota →",
+    "clips": [
+      {
+        "name": "Cannabis Is Legal, but Not Unlimited",
+        "startOffset": 0,
+        "endOffset": 16
+      },
+      {
+        "name": "Minnesota Cannabis Possession Limits",
+        "startOffset": 16,
+        "endOffset": 31
+      },
+      {
+        "name": "Was the Situation Legal?",
+        "startOffset": 31,
+        "endOffset": 39
+      },
+      {
+        "name": "You Must Be 21 or Older",
+        "startOffset": 39,
+        "endOffset": 44
+      },
+      {
+        "name": "THC, Driving, and Vehicle Location",
+        "startOffset": 44,
+        "endOffset": 56
+      },
+      {
+        "name": "Exercise Your Right to Remain Silent",
+        "startOffset": 56,
+        "endOffset": 73
+      },
+      {
+        "name": "Legal Cannabis Can Still Lead to Charges",
+        "startOffset": 73,
+        "endOffset": 89
+      }
+    ]
   }
 ]
