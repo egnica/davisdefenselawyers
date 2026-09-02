@@ -228,6 +228,19 @@ export default async function Page({ params, searchParams }) {
         <h1>{video.title}</h1>
         <section style={{ padding: "0 30px" }}>
           <p>{video.description}</p>
+
+          {video.watchHighlights?.length > 0 && (
+            <>
+              <h2 style={{ fontSize: "1.25rem", marginTop: "20px" }}>
+                What Andrew Covers
+              </h2>
+              <ul>
+                {video.watchHighlights.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </>
+          )}
         </section>
 
         {youtubeWatchUrl && (
