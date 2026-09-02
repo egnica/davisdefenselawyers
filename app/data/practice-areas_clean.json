@@ -2089,20 +2089,20 @@
       "slug": "gun-rights-restoration",
       "category": "Criminal Defense",
       "navTitle": "Gun Rights & Firearm Restoration",
-      "metaTitle": "Minnesota Gun Rights Restoration Lawyer | Restore Firearm Rights After Felony",
-      "metaDescription": "Lost your gun rights after a felony, domestic assault, or DWI in Minnesota? Davis Defense helps clients restore firearm rights and defend against weapons charges. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Gun Rights Restoration Lawyer | Firearm Rights Petition",
+      "metaDescription": "Need to restore firearm rights in Minnesota? Andrew Davis reviews crimes-of-violence prohibitions, state restoration petitions, federal issues, NICS problems, and related weapons charges.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Gun Rights Restoration & Weapons Charges Defense",
       "tagline": "Lost your right to own or carry a firearm? We help Minnesotans get a second chance.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "In Minnesota, a single mistake, old conviction, or domestic case can cost you your right to own or carry a firearm. For hunters, veterans, law enforcement, and responsible gun owners, losing those rights can feel like losing part of your identity. At Davis Defense Lawyers, we help clients understand why their gun rights were taken, whether they can be restored, and what legal path makes the most sense. We also aggressively defend new weapons charges that could put your freedom and Second Amendment rights at risk.",
+      "heroSummary": "Firearm prohibitions can arise from a crime-of-violence conviction, certain domestic-assault findings, controlled-substance convictions, court orders, mental-health commitments, federal law, or other disqualifying circumstances. The first question is not simply whether a person has a felony; it is exactly which state and federal prohibition applies. Andrew Davis reviews the conviction, sentence discharge, court orders, and background-check history before determining whether a Minnesota restoration petition or another legal remedy is available.",
       "audience": "Minnesota residents who have lost firearm rights because of a felony, domestic assault, order for protection, DWI, or other disqualifying offense   as well as individuals currently charged with weapons offenses who want to protect their record and gun rights.",
       "faqTitle": "Minnesota Gun Rights Restoration & Weapons Charges FAQ",
       "faq": [
         {
           "q": "Can I restore my gun rights in Minnesota after a felony conviction?",
-          "a": "In many cases, yes. Some felony convictions allow you to petition the court to restore your firearm rights if enough time has passed and you can show rehabilitation and a good reason for restoration. Other offenses, especially violent or certain domestic-related felonies, may be more difficult or not eligible. We review your criminal history, court records, and current circumstances to determine realistic options."
+          "a": "Sometimes, but the answer depends on the conviction and the specific state and federal prohibition. Minnesota provides a judicial restoration process for a person prohibited under state law because of a crime-of-violence conviction or delinquency adjudication if the statutory requirements are met and the court finds good cause. Other felony-related prohibitions may require a different analysis."
         },
         {
           "q": "Can I own a gun after a domestic assault conviction in Minnesota?",
@@ -2123,30 +2123,35 @@
         {
           "q": "How long does gun rights restoration take?",
           "a": "There is no one-size-fits-all timeline. Most restoration petitions take several months because they involve gathering records, preparing a detailed petition, notifying agencies, and appearing in court. The more complex your history, the more preparation is required. We walk you through each step and give you a realistic sense of the process."
+        },
+        {
+          "q": "Does expungement automatically restore gun rights in Minnesota?",
+          "a": "No. Sealing or expunging a criminal record should not be assumed to restore firearm eligibility. Firearm prohibitions and restoration are governed by separate state and federal laws. The exact conviction and legal basis for the prohibition need to be reviewed independently."
         }
       ],
       "ctaLabel": "Talk to a Gun Rights Lawyer Today",
       "ctaBody": "If you’ve lost your gun rights or are facing a weapons charge in Minnesota, you don’t have to guess about your future. Call Davis Defense at (952) 994-1568 or contact us online for a free consultation.",
       "icon": "",
       "relatedAreas": [
+        "assault",
         "domestic-assault",
-        "dwi-dui",
-        "expungement",
-        "danco-ofp-violations"
+        "danco-ofp-violations",
+        "expungement"
       ],
       "contentBlocks": [
         {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/gun-2.webp",
           "title": "Minnesota Gun Rights: How People Lose Them",
-          "body": "Minnesota does not require gun registration, and law-abiding adults may own most firearms without a special license. But certain criminal convictions, domestic-related offenses, and court orders can strip you of your right to possess or carry a gun. Common reasons people lose gun rights include:",
+          "body": "Minnesota and federal law contain overlapping firearm prohibitions. The length and scope of a prohibition depend on the exact legal basis. Common issues include:",
           "items": [
-            "Felony convictions, especially crimes of violence",
-            "Domestic assault or certain domestic-related offenses",
-            "Orders for protection (OFP) or DANCOs with firearm restrictions",
-            "Controlled substance convictions",
-            "Certain juvenile adjudications",
-            "Federal firearm prohibitions triggered by state convictions"
+            "A Minnesota conviction or juvenile adjudication for an offense classified as a crime of violence",
+            "Certain felony or other convictions that trigger federal firearm law",
+            "Domestic-assault convictions and findings involving firearm use",
+            "Qualifying Orders for Protection, DANCOs, or other court orders",
+            "Certain controlled-substance convictions or other statutory disqualifications",
+            "Specified mental-health commitments or incompetency findings",
+            "Database, court-record, or NICS information that may need to be reviewed for accuracy"
           ]
         },
         {
@@ -2171,29 +2176,41 @@
           "type": "list-section",
           "image": "",
           "title": "Paths to Restoring Your Gun Rights",
-          "body": "Restoring firearm rights is not automatic, even if you’ve completed probation and turned your life around. Depending on your case, options may include:",
+          "body": "The correct remedy depends on why firearm possession is prohibited. A Minnesota restoration petition is available in certain cases, but expungement alone does not automatically restore firearm rights and state relief does not automatically answer every federal-law question. Possible paths can include:",
           "items": [
             {
-              "lead": "Petitioning the court for restoration of firearm rights",
-              "text": "Requesting judicial relief to restore firearm possession or carry rights based on your record and rehabilitation."
+              "lead": "Judicial restoration after a Minnesota crime-of-violence prohibition",
+              "text": "Minnesota law allows a person prohibited because of a crime-of-violence conviction or delinquency adjudication to petition for restoration after release from physical confinement and to ask the court to find good cause."
             },
             {
-              "lead": "Seeking expungement of eligible offenses",
-              "text": "Limiting how past records are accessed or used when they qualify for sealing under Minnesota law."
+              "lead": "Relief available under another specific statutory prohibition",
+              "text": "Some disqualifications have their own time periods or restoration procedures, so the exact basis for the prohibition must be identified first."
             },
             {
-              "lead": "Challenging classification of a prior conviction as a crime of violence",
-              "text": "Arguing that a past offense was incorrectly labeled in a way that triggers firearm prohibitions."
+              "lead": "Reviewing domestic-related orders or findings",
+              "text": "A current OFP, DANCO, conviction, or firearm-use finding may impose restrictions that need to be analyzed separately."
             },
             {
-              "lead": "Addressing domestic-related orders",
-              "text": "Reviewing and resolving Orders for Protection (OFPs) or DANCOs that impose firearm restrictions."
+              "lead": "Correcting inaccurate court or background-check records",
+              "text": "A denial can sometimes involve incomplete or incorrect identifying or disposition information rather than a valid ongoing prohibition."
             },
             {
-              "lead": "Correcting inaccurate records",
-              "text": "Fixing court, law enforcement, or database errors that wrongly reflect your firearm status."
+              "lead": "Coordinating state and federal analysis",
+              "text": "Before possessing or purchasing a firearm, the effect of any state restoration should be reviewed alongside applicable federal law."
             }
           ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "What Does “Good Cause” Mean in a Minnesota Restoration Petition?",
+          "body": "Minnesota's restoration statute allows a court to restore firearm rights when a person prohibited because of a crime-of-violence conviction or delinquency adjudication has been released from physical confinement and shows good cause. The statute does not reduce the inquiry to a single waiting period. A petition should address the underlying offense, time since the case, compliance with supervision, later criminal history, rehabilitation, stability, reasons for seeking restoration, and public-safety concerns."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "What Happens If a Gun Rights Restoration Petition Is Denied?",
+          "body": "Under Minnesota law, if a restoration petition under section 609.165 is denied, another petition generally cannot be filed for three years unless the court gives permission to file sooner. That makes preparation important before the first petition is submitted."
         },
         {
           "type": "section",
@@ -2203,7 +2220,7 @@
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/gun-3.webp",
           "title": "Federal Law, NICS, and Background Checks",
-          "body": "Even if a Minnesota judge restores your firearm rights, federal law may still treat you as prohibited. That can lead to:",
+          "body": "State and federal firearm law overlap, and a Minnesota court order should not be treated as a substitute for checking federal eligibility. Before purchasing or possessing a firearm after a restoration case, the exact conviction, relief granted, and any continuing federal prohibition should be reviewed. NICS or dealer denials can also require examination of the records being relied on.",
           "items": [
             "Denials when you try to buy a firearm from a dealer",
             "NICS background check problems",
@@ -2455,24 +2472,24 @@
       "slug": "domestic-assault",
       "category": "Criminal Defense",
       "navTitle": "Domestic Assault",
-      "metaTitle": "Minnesota Domestic Assault Lawyer | Defense Against Charges & No-Contact Orders",
-      "metaDescription": "Charged with domestic assault in Minnesota? Andrew Davis defends misdemeanor, gross misdemeanor, and felony domestic assault cases. Minneapolis–St. Paul. Free consultation. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Domestic Assault Lawyer | DANCO, No-Contact & Repeat Offense Defense",
+      "metaDescription": "Charged with domestic assault in Minnesota? Andrew Davis defends fear- and harm-based allegations, repeat domestic-assault charges, DANCO issues, firearm consequences, and disputed 911 cases.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Domestic Assault Defense Lawyer",
-      "tagline": "One accusation can change everything   we defend your rights and your future.",
+      "tagline": "A domestic assault accusation can change where you live, who you can contact, and what happens next. Get the order and the evidence reviewed early.",
       "heroImage": "",
       "heroImageAlt": "Minnesota domestic assault defense attorney",
-      "heroSummary": "Domestic assault charges move fast in Minnesota. You can be arrested, removed from your home, and restricted from seeing your family   sometimes within hours. We step in immediately to protect your rights, challenge the accusations, and build a defense strategy suited to your situation.",
+      "heroSummary": "Minnesota domestic assault can be charged when a person intentionally causes fear of immediate bodily harm or death, or intentionally inflicts or attempts to inflict bodily harm, against a qualifying family or household member. No physical injury is required for every case. These allegations can also trigger DANCO or release restrictions, firearm issues, and enhanced charges based on prior qualified domestic-violence-related offenses. Andrew Davis reviews the 911 call, statements, body-camera footage, messages, injuries, prior history, and court orders as one connected case.",
       "audience": "Individuals accused of domestic assault or domestic violence in Minnesota, including those facing related DANCO or OFP issues.",
       "faqTitle": "Minnesota Domestic Assault FAQ",
       "faq": [
         {
           "q": "Can I be charged even if there was no injury?",
-          "a": "Yes. Minnesota allows domestic assault charges based solely on causing fear of harm, even without physical injury."
+          "a": "Yes. Minnesota domestic assault includes intentionally causing fear of immediate bodily harm or death, so the state does not need to prove a physical injury in every case."
         },
         {
-          "q": "Can the alleged victim drop the charges?",
-          "a": "No. Once police file a report, the case becomes State of Minnesota vs. the defendant. Only prosecutors control charges."
+          "q": "Can the alleged victim drop domestic assault charges?",
+          "a": "The alleged victim can tell the prosecutor what they want, but the prosecutor decides whether the criminal case continues. A request to dismiss can be important information, but it does not automatically end the prosecution or lift a DANCO or other court order."
         },
         {
           "q": "Will I lose my gun rights?",
@@ -2480,33 +2497,84 @@
         },
         {
           "q": "What if the allegations are false?",
-          "a": "False or exaggerated allegations are common. We examine statements, evidence, motives, and inconsistencies to challenge credibility."
+          "a": "Andrew compares the allegation with 911 audio, body-camera footage, witness accounts, photographs, messages, medical evidence, and prior statements. A defense may focus on inconsistencies, missing context, self-defense, lack of intent, or evidence that contradicts the accusation."
         },
         {
-          "q": "Can the alleged victim drop domestic assault charges?",
-          "a": "In Minnesota, the decision to move forward with a domestic assault case belongs to the prosecutor, not the alleged victim. Even if the other person wants to \"drop\" the charges, the state can decide to continue. A skilled defense lawyer can present evidence, context, and mitigation that the prosecutor may not otherwise see, which can lead to reduced charges, dismissal, or more favorable resolutions."
+          "q": "What makes a domestic assault a felony in Minnesota?",
+          "a": "A domestic assault can become a felony when the new offense occurs within ten years of the first of two or more previous qualified domestic-violence-related offense convictions or delinquency adjudications. The exact prior history must be reviewed because the enhancement rules are specific."
+        },
+        {
+          "q": "What is the maximum penalty for a gross-misdemeanor domestic assault in Minnesota?",
+          "a": "The gross-misdemeanor maximum is up to 364 days in jail and a fine of up to $3,000. The actual outcome depends on the charge, prior history, facts, and sentencing decisions."
         }
       ],
       "ctaLabel": "Request a Free Consultation",
       "ctaBody": "Speak with Andrew Davis about your domestic assault charges today. Quick action protects your rights, your criminal record, and your family.",
       "icon": "⚖️",
-      "relatedAreas": [],
+      "relatedAreas": [
+        "assault",
+        "danco-ofp-violations",
+        "interference-with-911-call",
+        "gun-rights-restoration"
+      ],
       "contentBlocks": [
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/da-3.webp",
           "title": "What Counts as Domestic Assault in Minnesota?",
-          "body": "Domestic assault includes either causing fear of immediate bodily harm or intentionally inflicting bodily harm on a family or household member. This applies to spouses, partners, former partners, parents, roommates, and individuals who share a child."
+          "body": "Minnesota domestic assault uses the same two core assault theories seen elsewhere in state law, but the alleged victim must be a family or household member as defined by statute. The state may allege either an intentional act causing fear of immediate bodily harm or death, or an intentional infliction or attempted infliction of bodily harm. A visible injury is therefore not required in every prosecution."
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "Who Is Considered a Family or Household Member?",
+          "body": "The domestic-assault statute incorporates Minnesota's family-or-household-member definition. Depending on the relationship, it can include:",
+          "items": [
+            "Current or former spouses",
+            "Parents and children",
+            "People related by blood",
+            "People who are currently living together or have lived together in the past",
+            "People who have a child together or share a pregnancy, regardless of marriage or cohabitation",
+            "People involved in a qualifying significant romantic or sexual relationship"
+          ]
         },
         {
           "type": "list-section",
           "image": "",
           "title": "Penalties for Domestic Assault",
-          "body": "Minnesota domestic assault is an enhanceable offense   meaning penalties increase significantly with prior qualified domestic violence-related offenses.",
+          "body": "Domestic assault is an enhanceable offense, meaning qualified prior domestic-violence-related convictions or delinquency adjudications can increase the level of the new charge.",
           "items": [
-            "Misdemeanor: Up to 90 days jail and $1,000 fine.",
-            "Gross Misdemeanor: One prior DV-related conviction within 10 years. Up to 1 year jail and $3,000 fine.",
-            "Felony: Two or more prior DV-related convictions within 10 years. Up to 5 years prison and $10,000 fine."
+            "Misdemeanor: a standard domestic-assault conviction can carry up to 90 days in jail and a $1,000 fine.",
+            "Gross Misdemeanor: a new domestic assault within ten years of a previous qualified domestic-violence-related offense can carry up to 364 days in jail and a $3,000 fine.",
+            "Felony: a new domestic assault within ten years of the first of two or more previous qualified domestic-violence-related offenses can carry up to 5 years in prison and a $10,000 fine."
+          ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "DANCO and No-Contact Orders Can Affect Daily Life Immediately",
+          "body": "A domestic-assault case can involve a Domestic Abuse No Contact Order or other release conditions before the criminal charge is resolved. The exact order controls. Restrictions may affect returning home, direct communication, social media, or messages sent through another person. Even when the protected person wants contact, the defendant should follow the court order until a judge changes it."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Can the Alleged Victim Drop a Domestic Assault Charge?",
+          "body": "The alleged victim can communicate their wishes and provide information, but the criminal case belongs to the state. The prosecutor decides whether charges continue. A request to dismiss can matter to the prosecutor's evaluation, but it does not automatically end the case or cancel a DANCO or release condition."
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "Evidence Andrew Reviews in Domestic Assault Cases",
+          "body": "These cases often turn on context and credibility. Andrew compares the accounts given at different times with objective evidence such as:",
+          "items": [
+            "911 audio and dispatch information",
+            "Police body-camera and squad video",
+            "Photographs, medical records, and claimed injuries",
+            "Text messages, social media, voicemails, and call logs",
+            "Witness statements and changes in statements over time",
+            "Evidence of self-defense or defense of another",
+            "The exact DANCO, OFP, or release conditions in effect",
+            "Prior qualified domestic-violence-related offenses that may affect the charge level"
           ]
         },
         {
@@ -2536,7 +2604,7 @@
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/da-1.webp",
           "title": "What Happens After a Domestic 911 Call?",
-          "body": "In many Minnesota domestic cases, the chain of events starts with a 911 call. Once that call is made, several things typically happen very quickly. Police are dispatched, statements are taken, and someone is often arrested or removed from the home. The decision about whether to arrest is made by officers on the scene not the alleged victim  and mandatory arrest policies mean that officers often err on the side of making an arrest. Andrew helps you understand what those first minutes and hours mean for your case. He reviews police reports, body camera footage, and 911 recordings to identify inconsistencies, self-defense issues, and overreactions that can change the outcome of a domestic assault charge."
+          "body": "A 911 call often becomes one of the first pieces of evidence in a domestic-assault case. Officers may separate the parties, obtain statements, photograph injuries, review the scene, and make an arrest decision based on probable cause and Minnesota's domestic-abuse arrest rules. Andrew reviews the recording and body-camera footage rather than relying only on the written police report, because differences in timing, wording, demeanor, injuries, and witness accounts can become important later."
         }
       ]
     },
