@@ -7,6 +7,15 @@ import Form from "../components/ContactForm";
 import AreaGrid from "../components/areaGrid";
 import Services from "../components/servicesGrid";
 
+export const metadata = {
+  title: "Minnesota Criminal Defense Service Areas | Davis Defense Lawyers",
+  description:
+    "See the Minnesota communities served by criminal defense attorney Andrew Davis and explore the criminal defense matters he handles across the state.",
+  alternates: {
+    canonical: "https://www.davisdefenselawyers.com/areas-we-serve",
+  },
+};
+
 const Areas = AreaData.areas || [];
 const ServicesObj = ServicesData.practiceAreas || [];
 
