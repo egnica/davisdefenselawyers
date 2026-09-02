@@ -15,16 +15,6 @@ const filter = practiceAreas.slice(0, 12);
 const SITE_URL = "https://www.davisdefenselawyers.com";
 const AREAS = data.areas || [];
 
-// ✅ Single source of truth for office address
-const OFFICE_ADDRESS = {
-  "@type": "PostalAddress",
-  streetAddress: "1280 Night Trail",
-  addressLocality: "Waconia",
-  addressRegion: "MN",
-  postalCode: "55387",
-  addressCountry: "US",
-};
-
 function getArea(slug) {
   const clean = String(slug || "").trim();
   return AREAS.find((a) => a?.slug === clean) || null;
@@ -71,21 +61,14 @@ function buildLocationLegalServiceJsonLd(area) {
 
   return {
     "@context": "https://schema.org",
-    "@type": "LegalService",
+    "@type": "Service",
     "@id": `${url}#service`,
-    name: "Davis Defense Lawyers",
+    name: area.pageTitle || `Criminal Defense in ${area.city}, Minnesota`,
+    serviceType: "Criminal Defense Legal Services",
     url,
-    telephone: "+19529941568",
     description: area.metaDescription,
     inLanguage: "en-US",
-
-    // ✅ Google wants address on the LegalService
-    address: OFFICE_ADDRESS,
-
-    provider: { "@id": `${SITE_URL}#attorney` },
-    isPartOf: { "@id": `${SITE_URL}#firm` },
-
-    // ✅ areaServed should be the city/county being targeted by THIS page
+    provider: { "@id": `${SITE_URL}/#firm` },
     areaServed: [
       area.city
         ? { "@type": "City", name: `${area.city}, MN` }
@@ -95,8 +78,6 @@ function buildLocationLegalServiceJsonLd(area) {
         : null,
       { "@type": "AdministrativeArea", name: "Minnesota" },
     ].filter(Boolean),
-
-    // ✅ If you have a hero image for the location page, include it
     ...(area.heroImage
       ? {
           image: [
@@ -130,7 +111,7 @@ function buildFaqJsonLd(area) {
 
 function buildBreadcrumbsJsonLd(area) {
   const url = `${SITE_URL}/locations/${area.slug}`;
-  const parentUrl = `${SITE_URL}/locations`;
+  const parentUrl = `${SITE_URL}/areas-we-serve`;
 
   return {
     "@context": "https://schema.org",
@@ -141,7 +122,7 @@ function buildBreadcrumbsJsonLd(area) {
       {
         "@type": "ListItem",
         position: 2,
-        name: "locations",
+        name: "Areas We Serve",
         item: parentUrl,
       },
       {
