@@ -672,14 +672,14 @@
       "slug": "expungement",
       "category": "Criminal Defense",
       "navTitle": "Expungement",
-      "metaTitle": "Minnesota Expungement Lawyer | Clear or Seal Your Criminal Record",
-      "metaDescription": "Denied a job, housing, or a license because of your criminal record? Minnesota expungement lawyer Andrew Davis helps clients seal records and move forward. Free consultation. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Expungement Lawyer | Record Sealing & Automatic Expungement",
+      "metaDescription": "Want to seal a Minnesota criminal record? Andrew Davis helps with expungement eligibility, petitions, automatic expungement questions, and record-sealing strategy.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Expungement & Criminal Record Sealing",
       "tagline": "You can’t change the past but you may be able to seal it from your future.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "If a past mistake is following you every time you apply for a job, housing, or a professional license, an expungement may give you a real second chance. In Minnesota, expungement is the process of asking a judge to seal your criminal record so it is no longer available to the general public. At Davis Defense, we help clients understand whether they qualify, build a compelling petition, and guide them through every step of the expungement process.",
+      "heroSummary": "Minnesota expungement law can seal eligible criminal records from public access, and some records now qualify for automatic expungement without filing a petition. Other cases still require a court petition and a careful review of the offense, case outcome, waiting period, and later criminal history. Andrew Davis helps clients determine which path applies, correct outdated assumptions about eligibility, and prepare a record-sealing strategy focused on employment, housing, licensing, and moving forward.",
       "audience": "People in Minnesota who were arrested, charged, or convicted of a crime and are now being held back by their criminal record when applying for jobs, housing, education, or professional licenses.",
       "faqTitle": "Minnesota Expungement FAQ",
       "faq": [
@@ -693,7 +693,7 @@
         },
         {
           "q": "Can I get an expungement if I was convicted?",
-          "a": "In many cases, yes. Minnesota law allows expungement of certain convictions if you have remained law-abiding for a required period of time after completing your sentence, including probation. The waiting period is generally two years for petty misdemeanors and misdemeanors, four years for gross misdemeanors, and five years for many felonies. Not all felonies are eligible, and an attorney can help you review your options."
+          "a": "Possibly. Minnesota law permits expungement of many convictions, but eligibility depends on the exact offense, the case disposition, the applicable waiting period, and later criminal history. Current law uses different waiting periods for misdemeanors, gross misdemeanors, and qualifying felonies, and some offenses remain excluded or subject to separate rules."
         },
         {
           "q": "Does an expungement erase my record completely?",
@@ -702,6 +702,14 @@
         {
           "q": "How long does the expungement process take?",
           "a": "Most expungement cases take several months. The process includes drafting a detailed petition, notifying all agencies that hold your records, attending a court hearing, and waiting for the court’s decision and appeal period. Timelines can vary by county and by the specific facts of your case."
+        },
+        {
+          "q": "Can some Minnesota records be expunged automatically?",
+          "a": "Yes. Minnesota law provides automatic expungement for several categories of eligible records, including some dismissed or favorably resolved cases and certain qualifying offenses after statutory conditions and waiting periods are satisfied. Other cases still require a petition, so the exact case outcome and statute matter."
+        },
+        {
+          "q": "How long do I have to wait for a Minnesota expungement?",
+          "a": "The waiting period depends on the type of case and the expungement path. Under current Minnesota law, many petty misdemeanor and misdemeanor cases use a two-year period after discharge, many qualifying gross misdemeanors use three years, and qualifying felony categories can use four- or five-year periods. Diversion or stay-of-adjudication cases can have different rules. Eligibility should be checked against the exact offense and case disposition."
         }
       ],
       "ctaLabel": "Find Out If You Qualify for Expungement",
@@ -717,28 +725,34 @@
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/expungment.webp",
-          "title": "You Can Clear Your Criminal Record",
-          "body": "Many people are denied employment, housing, or professional licenses because of a mistake in their past often something they’ve already learned from and moved on from in their daily life. In Minnesota, expungement gives you a legal way to ask a judge to seal those records so they no longer appear on routine background checks. While an expungement does not physically destroy your record, sealing it can dramatically reduce how often it affects your opportunities."
+          "title": "Expungement Seals a Minnesota Criminal Record — It Does Not Destroy It",
+          "body": "An expungement generally seals qualifying criminal records and limits public access; it does not physically destroy the records. Sealing can reduce the impact of a case on public background checks, employment, housing, and other opportunities, but some government agencies may retain access when the law allows. The first step is identifying what records exist, how the case ended, and whether the record qualifies for automatic or petition-based relief."
         },
         {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/Expungement-1.webp",
           "title": "Who May Qualify for Expungement?",
-          "body": "Eligibility depends on the outcome of your case and how much time has passed. You may qualify for expungement if:",
+          "body": "Eligibility depends on how the case ended, the offense, and whether the person has remained free of disqualifying new convictions during the applicable waiting period. Minnesota law now includes both automatic expungement and petition-based relief. Common eligibility paths include:",
           "items": [
-            "You were arrested but never charged with a crime.",
-            "Charges were filed but later dismissed.",
-            "You were found not guilty at trial.",
-            "You completed a diversion program or continuance for dismissal without admitting guilt.",
-            "You entered a plea agreement that did not involve a conviction.",
-            "You were convicted but have remained law-abiding for a required waiting period after completing your sentence, including probation:\n  • Two years for many petty misdemeanors and misdemeanors.\n  • Four years for many gross misdemeanors.\n  • Five years for many felonies (with some felonies not eligible at all)."
+            "Cases dismissed after filing or otherwise resolved in the person's favor may qualify for automatic expungement, subject to statutory exceptions.",
+            "Successful diversion or a stay of adjudication for qualifying nonfelony offenses may qualify after the statutory waiting period.",
+            "Many petty misdemeanor and misdemeanor convictions use a two-year waiting period after discharge of the sentence.",
+            "Many qualifying gross misdemeanor convictions use a three-year waiting period after discharge of the sentence.",
+            "Certain qualifying felony convictions use a four-year waiting period, while other eligible felony situations may require five years.",
+            "Some offenses are excluded or treated under separate rules, so eligibility should be checked against the exact statute of conviction."
           ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Automatic Expungement in Minnesota",
+          "body": "Minnesota law now provides automatic expungement for certain records without requiring the person to file a traditional petition. Examples can include qualifying dismissed cases, matters resolved in the person's favor, and some qualifying diversion, misdemeanor, gross misdemeanor, felony, and cannabis records after the statutory conditions are met. Automatic relief is not universal, and a record may still require review if agencies, background reports, or older case information continue to create problems."
         },
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/Expungement-2.webp",
           "title": "Types of Expungements in Minnesota",
-          "body": "Minnesota law recognizes different types of expungements depending on your situation. Some cases are handled under “statutory” expungement laws, while others may rely on the court’s “inherent authority.” Which path applies will depend on factors such as whether your case was dismissed, whether you were convicted, and what type of offense was involved. Andrew will explain which approach fits your situation and what records can realistically be sealed."
+          "body": "Minnesota now has several record-sealing paths. Some cases are eligible for automatic expungement under Chapter 609A, while other records require a petition to the district court. Certain cannabis records and mistaken-identity situations have separate statutory procedures. Andrew reviews the exact case disposition and conviction statute before deciding whether a petition is necessary and what records can be sealed."
         },
         {
           "type": "list-section",
@@ -794,43 +808,48 @@
       "slug": "implied-consent-test-refusal",
       "category": "Criminal Defense",
       "navTitle": "Implied Consent / Test Refusal",
-      "metaTitle": "Minnesota Implied Consent Lawyer | Breath Test Refusal Defense",
-      "metaDescription": "Refused the breath test in Minnesota? You may face a separate criminal charge and license consequences under the implied consent law. Learn your options with Attorney Andrew Davis. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Test Refusal Lawyer | Implied Consent & License Revocation",
+      "metaDescription": "Accused of refusing a breath test in a Minnesota DWI case? Andrew Davis defends criminal test-refusal charges and challenges implied-consent license revocations.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Implied Consent & Breath Test Refusal Defense",
       "tagline": "Refusing the test doesn’t end the case it often creates a new one. Get help before you make another move.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "Minnesota’s implied consent law is one of the most confusing parts of a DWI arrest. If you refuse a breath, blood, or urine test, you can be charged with an additional crime and face serious license penalties on top of any DWI charge. At Davis Defense, Attorney Andrew Davis helps drivers understand what they’re facing, challenges the legality of tests and refusals, and fights to protect both your record and your ability to drive.",
+      "heroSummary": "Minnesota's implied-consent law creates two different problems after many DWI arrests: a criminal case and a separate driver's-license process. Refusing a lawfully requested evidentiary breath test can itself be a crime. Blood and urine testing are treated differently and generally involve a search warrant or a recognized exception. Andrew Davis reviews the stop, probable cause, advisory, right-to-counsel opportunity, testing request, alleged refusal, and the deadline to challenge a license revocation.",
       "audience": "Drivers in Minnesota who refused a breath, blood, or urine test after a DWI arrest, or who are worried about implied consent penalties, license revocation, or facing both DWI and test refusal charges.",
       "faqTitle": "Minnesota Implied Consent & Test Refusal FAQ",
       "faq": [
         {
           "q": "What does “implied consent” mean in Minnesota?",
-          "a": "Minnesota is an implied consent state. By driving on Minnesota roads, you are legally considered to have given your consent to a breath, blood, or urine test if law enforcement has probable cause to believe you are impaired. Refusing that test can itself be a separate crime and can trigger license consequences."
+          "a": "Minnesota's implied-consent law authorizes chemical testing in specified DWI circumstances. The rules differ by test type. A lawfully requested evidentiary breath test can carry a criminal refusal consequence, while blood and urine testing generally involves warrant requirements or a recognized exception."
         },
         {
           "q": "Can I be charged with both DWI and test refusal?",
-          "a": "Yes. Test refusal is its own crime under Minnesota Statute § 169A.51. If you refuse the test and are also alleged to have driven while impaired, you can face two separate charges: one for the DWI and one for the refusal."
+          "a": "Yes. A person may face an underlying DWI charge and a separate criminal charge for refusing a lawfully requested breath test when the statutory elements are met. The refusal offense is found in Minnesota's DWI statute, while the implied-consent provisions also govern the separate license process."
         },
         {
           "q": "What are the penalties for refusing a breath test?",
-          "a": "A criminal test refusal is a gross misdemeanor in many cases and can carry up to one year in jail, a fine of up to $3,000, and significant driver’s license consequences. The exact penalties depend on your prior record and other factors, which is why it is critical to speak with a lawyer as soon as possible."
+          "a": "A criminal breath-test refusal is commonly a gross misdemeanor when no higher enhancement applies, with a maximum of up to 364 days in jail and a $3,000 fine. It can also trigger separate driver's-license consequences. Prior impaired-driving history and other facts can change the exposure."
         },
         {
           "q": "Are blood and urine test refusals treated the same as breath test refusals?",
-          "a": "Not exactly. Changes in the law, driven in part by decisions from the United States Supreme Court, limit when the state can criminalize refusal of a warrantless blood test. In many situations, officers must obtain a warrant before demanding a blood sample. The rules for breath tests and blood/urine tests are different and continue to evolve, which is why these cases require close legal analysis."
+          "a": "No. Minnesota's criminal test-refusal rule specifically addresses breath-test refusal under the statutory requirements. Blood and urine tests generally require a search warrant or a recognized exception, so the legality of the request and any claimed refusal must be analyzed differently."
         },
         {
           "q": "Does a test refusal automatically mean I lose my license?",
           "a": "A refusal almost always triggers separate driver’s license consequences under the civil implied consent process, which can include longer revocation periods than a simple DWI. However, you may have the right to challenge the revocation in court. Andrew can help you understand deadlines and options for fighting the license side of your case."
+        },
+        {
+          "q": "How long do I have to challenge an implied-consent license revocation?",
+          "a": "A person generally has 60 days after receiving the notice and order of revocation or disqualification to petition for judicial review in district court. Because the license case can move separately from the criminal case, it is important to identify the deadline immediately."
         }
       ],
       "ctaLabel": "Talk to a Minnesota Implied Consent Lawyer",
       "ctaBody": "If you refused a breath, blood, or urine test or are being charged with test refusal you need clear guidance immediately. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation.",
       "icon": "",
       "relatedAreas": [
-        "dwi-dui"
+        "dwi-dui",
+        "traffic-offenses"
       ],
       "contentBlocks": [
         {
@@ -843,26 +862,38 @@
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/ic-2.webp",
           "title": "How Minnesota’s Implied Consent Law Works",
-          "body": "Minnesota’s implied consent law says that anyone who drives on Minnesota roads is considered to have consented to chemical testing breath, blood, or urine to determine the presence of alcohol or drugs, if law enforcement has probable cause. The test is treated as a legal “search,” and refusing that search can itself be a crime. In many cases, the officer does not need a warrant for a breath test but may need one for blood or urine, depending on the situation and current law. The result is a complicated mix of criminal charges and civil license penalties that can be overwhelming without experienced legal help."
+          "body": "Minnesota law provides for chemical testing when an officer has probable cause to believe a person was driving, operating, or in physical control of a vehicle while impaired and the statutory conditions are met. For an evidentiary breath test, the driver is advised that the test is required, that refusal is a crime, and that there is a limited right to consult an attorney before deciding, so long as the consultation does not unreasonably delay testing. Blood and urine tests are governed by different warrant rules."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Do I Have the Right to Call a Lawyer Before a Breath Test?",
+          "body": "Minnesota's breath-test advisory provides a limited right to consult with an attorney before testing, as long as the consultation does not unreasonably delay administration of the test. Whether a driver was given a meaningful opportunity to exercise that right can be an important issue in reviewing an implied-consent and test-refusal case."
         },
         {
           "type": "list-section",
           "image": "",
           "title": "Consequences of a Breath Test Refusal",
-          "body": "Refusing the test may feel like taking control, but the consequences are serious. A refusal can lead to:",
+          "body": "A breath-test refusal can create consequences separate from the underlying DWI allegation. Depending on the person's history and case, issues can include:",
           "items": [
-            "A separate gross misdemeanor charge for test refusal, often punishable by up to 1 year in jail and a $3,000 fine.",
-            "Longer driver’s license revocation periods than a standard DWI in many situations.",
-            "Ignition interlock requirements or limited driving privileges, at your own expense.",
-            "Complicated court proceedings involving both the criminal case and the civil implied consent case.",
-            "Collateral consequences for employment, professional licenses, insurance, and more."
+            "A separate criminal test-refusal charge, commonly a gross misdemeanor when no higher enhancement applies.",
+            "A gross misdemeanor maximum of up to 364 days in jail and a fine of up to $3,000.",
+            "Driver's-license revocation through the separate implied-consent process.",
+            "Ignition-interlock or limited-driving issues depending on eligibility and driving history.",
+            "Two related proceedings that may require coordinated criminal and license-defense strategy."
           ]
         },
         {
           "type": "section",
           "image": "",
-          "title": "Breath, Blood, and Urine Tests After Legal Changes",
-          "body": "Minnesota DWI law has changed significantly in recent years, especially regarding blood draws and warrants. Following decisions from the United States Supreme Court, it is unconstitutional in many situations to criminalize refusal of a warrantless blood test. As a result, for incidents after July 1, 2017, officers typically must choose: either offer a breath test and pursue refusal charges if you decline, or obtain a search warrant for a blood sample. These distinctions matter. Whether the officer read the correct advisory, obtained a valid warrant, and followed proper procedures can all affect the strength of the state’s case and the legality of any refusal charge."
+          "title": "Breath Tests Are Different From Blood and Urine Tests",
+          "body": "The criminal refusal rules are not identical for every type of chemical test. Minnesota specifically criminalizes refusal of a breath test when the statutory requirements are met. Blood and urine testing generally requires a search warrant or a recognized exception to the warrant requirement. That distinction matters when reviewing what the officer requested, what advisory was given, whether a warrant existed, and whether the alleged refusal can legally support a separate charge."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "The License-Revocation Deadline Can Arrive Before the Criminal Case Is Over",
+          "body": "The implied-consent license case is separate from the criminal prosecution. A person who receives a notice and order of revocation or disqualification generally has 60 days from receipt to petition the district court for judicial review. Missing that deadline can limit the ability to challenge the revocation even while the criminal DWI or refusal case is still pending."
         },
         {
           "type": "list-section",
@@ -907,13 +938,13 @@
       "category": "Criminal Defense",
       "navTitle": "Probation Violation",
       "metaTitle": "Minnesota Probation Violation Lawyer | Probation Revocation Defense",
-      "metaDescription": "Accused of violating probation in Minnesota? Attorney Andrew Davis defends clients at probation violation and revocation hearings statewide. Learn your options before you go to court. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaDescription": "Facing a Minnesota probation violation or revocation hearing? Andrew Davis challenges alleged violations, presents mitigation, and argues for continued probation when appropriate.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Probation Violation & Revocation Defense",
       "tagline": "Probation is better than jail but it’s not freedom. If you’re accused of a violation, don’t go to court alone.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "Probation can keep you out of jail but it also comes with strict conditions. Missing a meeting, failing a test, or being charged with a new crime can send you back into court facing probation revocation and possible jail or prison time. At Davis Defense, Attorney Andrew Davis uses more than 10 years of criminal defense experience to protect your freedom, explain your options, and fight for a second chance.",
+      "heroSummary": "A probation violation can put stayed jail or prison time back on the table, but revocation is not automatic. Minnesota probationers have the right to notice of the alleged violation, disclosure of the evidence, counsel, a revocation hearing, and an opportunity to present evidence and mitigation. Andrew Davis reviews the original sentence, the exact conditions, the violation report, and what can be done to keep a client in the community.",
       "audience": "People on probation in Minnesota who received a violation notice, warrant, or court date or who know they have violated terms and need to understand what happens next.",
       "faqTitle": "Minnesota Probation Violation FAQ",
       "faq": [
@@ -927,7 +958,7 @@
         },
         {
           "q": "What is the burden of proof for a probation violation?",
-          "a": "The state must prove a probation violation by clear and convincing evidence a lower standard than beyond a reasonable doubt, but still requiring evidence that a violation occurred. You have the right to be represented by an attorney and to challenge the allegations."
+          "a": "At a contested Minnesota probation revocation hearing, the alleged violation must be proved by clear and convincing evidence. The probationer also has the right to counsel, disclosure of the evidence, to present evidence and witnesses, and to offer mitigation or reasons why probation should not be revoked."
         },
         {
           "q": "Can one violation send me to jail?",
@@ -936,6 +967,14 @@
         {
           "q": "Do I really need a lawyer for a probation violation?",
           "a": "Absolutely. A violation hearing is a criminal proceeding where your liberty is at stake. An experienced probation violation lawyer can negotiate with the probation officer and prosecutor, present mitigating information to the judge, and argue for alternatives to jail such as treatment, community-based sanctions, or continued probation."
+        },
+        {
+          "q": "Does every probation violation result in revocation?",
+          "a": "No. Minnesota law says revocation should be used only as a last resort when rehabilitation has failed. A court can find a violation and still continue probation, modify conditions, or impose another response depending on the violation, history, public-safety concerns, and mitigation."
+        },
+        {
+          "q": "What is a technical probation violation?",
+          "a": "A technical violation generally involves failure to comply with a supervision condition rather than a new criminal offense. Minnesota law allows probation agencies to use a sanctions-conference process for some technical violations unless the court directs otherwise. The correct process depends on the case and supervising agency."
         }
       ],
       "ctaLabel": "Talk to a Minnesota Probation Violation Lawyer",
@@ -979,6 +1018,24 @@
             "Find a violation but give you another chance with the same or modified conditions",
             "Order you to serve some or all of the jail or prison time that was previously stayed"
           ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "What Must Be Proven at a Minnesota Probation Revocation Hearing?",
+          "body": "At a contested revocation hearing, a probation violation must be proved by clear and convincing evidence. The probationer has rights that include disclosure of the evidence supporting revocation, representation by counsel, presenting evidence, subpoenaing and questioning witnesses, and presenting mitigating reasons why a proven violation should not result in revocation."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Revocation Is Supposed to Be a Last Resort",
+          "body": "Minnesota law states that probation revocation should be used only as a last resort when rehabilitation has failed. That makes the response to an alleged violation important. Treatment enrollment, sobriety efforts, employment, transportation problems, medical issues, housing stability, compliance since the incident, and a realistic plan for future supervision can all matter when the court decides whether continued probation is appropriate."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Technical Violations May Be Handled Differently",
+          "body": "Some technical probation violations may be addressed through a probation-agency sanctions conference rather than immediate judicial revocation, unless the court directs otherwise or the circumstances require a court proceeding. A person offered that process should understand what is being alleged, what sanctions are proposed, and the option to proceed to a judicial hearing before agreeing to a resolution."
         },
         {
           "type": "list-section",
@@ -1368,13 +1425,13 @@
       "category": "Criminal Defense",
       "navTitle": "Interference With a 911 Call",
       "metaTitle": "Interference With a 911 Call Lawyer | Minnesota 911 Interference Defense",
-      "metaDescription": "Charged with interference with a 911 call in Minnesota? Davis Defense Lawyers defends gross misdemeanor 911 interference, often tied to domestic disputes. Get experienced help now. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaDescription": "Charged with interference with an emergency call in Minnesota? Andrew Davis defends gross-misdemeanor allegations involving 911 calls, phones, domestic disputes, and related assault charges.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Interference With a 911 Call Defense",
       "tagline": "One heated moment. One grabbed phone. Now you’re facing a gross misdemeanor.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "At Davis Defense Lawyers, we understand that being accused of interfering with a 911 call usually comes out of emotionally charged situations arguments between partners, family disputes, or misunderstandings where someone panics and reaches for a phone. Minnesota takes these allegations seriously. A single incident can result in a gross misdemeanor charge, possible jail time, fines, and a damaging criminal record. With more than 10 years of criminal defense experience, Attorney Andrew Davis knows how to uncover what really happened, challenge weak evidence, and fight for your future.",
+      "heroSummary": "Minnesota law makes it a gross misdemeanor to intentionally interrupt, disrupt, impede, or interfere with an emergency call, or intentionally prevent or hinder another person from placing one. The statute covers more than only a completed 911 call. These cases often arise during domestic disputes and can depend on intent, the timing of the call, recordings, phone data, witness accounts, and what actually happened before police arrived.",
       "audience": "Individuals in Minnesota who have been arrested or charged with interference with a 911 call often in connection with domestic disputes, family arguments, or alleged assaults and family members seeking help for a loved one.",
       "faqTitle": "Minnesota Interference With a 911 Call FAQ",
       "faq": [
@@ -1384,7 +1441,7 @@
         },
         {
           "q": "Is interference with a 911 call a felony?",
-          "a": "In most cases, interference with a 911 call is charged as a gross misdemeanor, punishable by up to one year in jail and a fine up to $3,000. Depending on the circumstances and accompanying charges, the overall exposure in your case can be much higher."
+          "a": "The common charge for intentionally interfering with another person's emergency call is a gross misdemeanor, carrying up to 364 days in jail and a fine of up to $3,000. Minnesota's emergency-call statute also contains separate felony provisions for certain false-emergency and system-interference conduct, so the exact subdivision charged matters."
         },
         {
           "q": "Can I be charged even if no one was hurt?",
@@ -1397,6 +1454,10 @@
         {
           "q": "Do I need a lawyer if it’s “just” a gross misdemeanor?",
           "a": "Yes. A gross misdemeanor still carries up to a year in jail, thousands of dollars in fines, and a permanent criminal record. Because interference with a 911 call is often tied to domestic allegations, it can also affect no-contact orders, housing, employment, and family court issues."
+        },
+        {
+          "q": "What does the state have to prove for interference with an emergency call?",
+          "a": "For the common gross-misdemeanor form of the offense, the state must prove intentional interruption, disruption, impediment, or interference with an emergency call, or that the defendant intentionally prevented or hindered another person from placing an emergency call. Intent and whether the communication qualifies under the statute can be important issues."
         }
       ],
       "ctaLabel": "Talk to a Minnesota 911 Interference Defense Lawyer",
@@ -1405,7 +1466,7 @@
       "relatedAreas": [
         "domestic-assault",
         "assault",
-        "dwi-dui",
+        "danco-ofp-violations",
         "probation-violation",
         "expungement"
       ],
@@ -1420,54 +1481,59 @@
           "type": "list-section",
           "image": "",
           "title": "What Can Count as Interference With a 911 Call?",
-          "body": "Under Minnesota law, interference with a 911 call can include many different actions. Common allegations we see include:",
+          "body": "The statute focuses on intentional interference with an emergency call or intentionally preventing or hindering another person from placing one. Depending on the evidence, allegations may involve:",
           "items": [
-            "Grabbing or taking a phone out of someone’s hand during an argument.",
-            "Hanging up while the other person is trying to call 911.",
-            "Throwing, breaking, or hiding a phone during a dispute.",
-            "Blocking someone’s path to a phone or preventing them from leaving to get help.",
-            "Yelling or threatening someone to stop them from calling 911.",
-            "Stopping a child from calling 911 when they are scared or confused."
+            "Taking or grabbing a phone while someone is trying to contact emergency services.",
+            "Hanging up, disconnecting, or disrupting an emergency call.",
+            "Breaking, disabling, hiding, or taking a device to prevent an emergency call.",
+            "Physically preventing someone from reaching a phone or another means of emergency communication.",
+            "Threatening or pressuring someone with the intent to prevent an emergency call."
           ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "What Is an “Emergency Call” Under Minnesota Law?",
+          "body": "For this offense, an emergency call can include a 911 call, a call for emergency medical or ambulance service, or a call to police or fire for assistance needed in an actual emergency to avoid serious harm to a person or property. That definition can matter when the dispute is about what kind of call was being made and whether an emergency existed."
         },
         {
           "type": "list-section",
           "image": "",
           "title": "Potential Consequences",
-          "body": "Interference with a 911 call is usually charged as a gross misdemeanor. That means you may face:",
+          "body": "Intentional interference with another person's emergency call is generally a gross misdemeanor under Minnesota law. Potential consequences can include:",
           "items": [
-            "Up to 1 year in jail",
-            "Fines up to $3,000",
-            "Probation, treatment, or counseling requirements",
-            "No-contact orders that remove you from your home or family",
-            "A permanent criminal record that can affect employment, housing, and future background checks"
+            "Up to 364 days in jail",
+            "A fine of up to $3,000",
+            "Probation and court-ordered conditions",
+            "Possible no-contact or release conditions when the allegation is tied to a domestic case",
+            "A criminal record and collateral consequences for employment, housing, or professional licensing"
           ]
         },
         {
           "type": "list-section",
           "image": "",
           "title": "Defenses to Interference With a 911 Call",
-          "body": "Every case is different, but there are recurring themes in 911 interference charges. Andrew examines the 911 recordings, dispatch logs, body camera footage, text messages, and witness statements to look for defenses such as:",
+          "body": "The state must prove intentional interference with a qualifying emergency call or an intentional effort to prevent or hinder one. Andrew reviews the 911 audio, dispatch records, phone data, body-camera footage, messages, and witness statements for issues such as:",
           "items": [
             {
-              "lead": "No intent to interfere",
-              "text": "The phone was dropped, knocked aside, or damaged accidentally."
+              "lead": "Lack of intent",
+              "text": "The phone contact or disruption was accidental or was not done to prevent emergency assistance."
             },
             {
-              "lead": "No actual interference",
-              "text": "The call went through, help arrived, or the person had other ways to call."
+              "lead": "No qualifying emergency call",
+              "text": "The communication or circumstances may not fit the statutory definition applicable to the charged offense."
             },
             {
-              "lead": "Exaggerated or false allegations",
-              "text": "The accusation is being used in a divorce, custody dispute, or to gain leverage."
+              "lead": "Disputed sequence of events",
+              "text": "Recordings, timestamps, phone data, or body-camera footage may contradict the accusation about when or how interference occurred."
             },
             {
-              "lead": "Self-defense or defense of others",
-              "text": "You acted to prevent harm, not to stop a legitimate request for help."
+              "lead": "Credibility problems",
+              "text": "Witness accounts may conflict with each other or with objective evidence."
             },
             {
-              "lead": "Conflicting stories",
-              "text": "Witnesses or the alleged victim give inconsistent accounts of what happened."
+              "lead": "Related-charge issues",
+              "text": "The 911 allegation may be intertwined with an assault or domestic-assault case, requiring the evidence to be analyzed as one timeline rather than as isolated accusations."
             }
           ]
         },
