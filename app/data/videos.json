@@ -329,7 +329,7 @@
     "practiceArea": "drug-crimes",
     "title": "Drug Charges in Minnesota: What You Need to Know",
     "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/drug-crimes-2.mp4",
-    "description": "Drug charges in Minnesota can involve very different allegations, from possession to sale. In this video, criminal defense attorney Andrew Davis explains why the details matter, including where the drugs were found, who had access to the area, whether the property was shared, how police found the evidence, and what facts may affect the case.",
+    "description": "Drug charges in Minnesota can turn on details that are easy to overlook. In this video, criminal defense attorney Andrew Davis explains the difference between possession and sale allegations and why he looks closely at where drugs were found, who owned or controlled the area, whether a car or apartment was shared, what statements were made, and how police obtained the evidence. He also discusses how quantity and alleged intent may affect a case, why shared spaces do not automatically answer who possessed the drugs, and why clients should preserve messages, voicemails, and other details that may help explain what happened.",
     "duration": "PT1M54S",
     "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/drug-charges-thumb.webp",
     "uploadDate": "2026-06-26",
@@ -400,6 +400,12 @@
         "startOffset": 97,
         "endOffset": 105
       }
+    ],
+    "watchHighlights": [
+      "Possession versus sale allegations",
+      "Drugs found in shared cars or apartments",
+      "Search legality, access, quantity, and alleged intent",
+      "What evidence and details clients should preserve"
     ]
   },
   {
