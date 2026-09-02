@@ -5,6 +5,15 @@ import Link from "next/link";
 import DataPractice from "../data/practice-areas_clean.json";
 import Form from "../components/ContactForm";
 
+export const metadata = {
+  title: "Minnesota Criminal Defense Practice Areas | Davis Defense Lawyers",
+  description:
+    "Explore criminal defense practice areas handled by Minnesota attorney Andrew Davis, including DWI, assault, drug crimes, theft, traffic offenses, and more.",
+  alternates: {
+    canonical: "https://www.davisdefenselawyers.com/criminal-defense",
+  },
+};
+
 const serviceAreas = DataPractice.practiceAreas || [];
 
 function criminalDefense() {
