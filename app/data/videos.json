@@ -64,7 +64,7 @@
     "practiceArea": "dwi-dui",
     "title": "Minnesota DWI Charges Explained: What You Need to Know",
     "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/DWI-mn.mp4",
-    "description": "If you are facing a DWI charge in Minnesota, understanding what happens next is critical. In this video, Minnesota criminal defense attorney Andrew Davis explains how DWI charges work, including potential penalties such as license suspension, fines, and jail time, as well as the legal options and defense strategies available to protect your future.",
+    "description": "If you have been charged with DWI in Minnesota, what happens next depends on the details. In this video, Minnesota criminal defense attorney Andrew Davis explains what can qualify as DWI, why a .08 result and a .16-or-higher result can lead to different consequences, how test refusal can affect a case, and why prior history and the circumstances inside the vehicle matter. He also explains why getting legal advice early can help protect both the criminal case and your driving privileges.",
     "duration": "PT2M15S",
     "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/dwi-thumbnail.png",
     "uploadDate": "2026-04-02",
@@ -83,7 +83,13 @@
       "Minnesota DWI laws",
       "DWI defense Minnesota",
       "license suspension Minnesota DWI",
-      "Minnesota drunk driving law"
+      "Minnesota drunk driving law",
+      "first DWI Minnesota",
+      ".16 DWI Minnesota",
+      "DWI test refusal Minnesota",
+      "Minnesota implied consent",
+      "Minnesota DWI license revocation",
+      "what to do after DWI arrest Minnesota"
     ],
     "sameAs": [
       "https://youtu.be/ErM-y6ewo1I",
@@ -92,39 +98,40 @@
       "https://www.instagram.com/p/DWo5nMHDe1h/",
       "https://www.linkedin.com/posts/andrew-davis-aa4aa253_minnesotadwi-criminaldefense-minnesotalawyer-ugcPost-7445534696559755264-V0EY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAtfpZwBn0HhJfF_9bcbzQqrSWbJizWmLjU"
     ],
-    "cta": "Facing an DWI charge in Minnesota?",
+    "cta": "Facing a DWI charge in Minnesota?",
     "linkPractice": "Learn more about DWI defense in Minnesota →",
     "clips": [
       {
-        "name": "What is a DWI?",
+        "name": "What Is a DWI in Minnesota?",
         "startOffset": 6,
         "endOffset": 22
       },
       {
-        "name": "What is the Most Common Charge?",
+        "name": "First-Time DWI and the .08 Threshold",
         "startOffset": 22,
         "endOffset": 32
       },
       {
-        "name": "Aggravating Factor",
+        "name": "What a .16 BAC Means",
         "startOffset": 32,
-        "endOffset": 48
+        "endOffset": 51
       },
       {
-        "name": "What makes a Misdemeanor a Gross Misdemeanor in a DWI?",
-        "startOffset": 47,
-        "endOffset": 53
+        "name": "Should I Take the Breath Test?",
+        "startOffset": 51,
+        "endOffset": 78
       },
       {
-        "name": "Should I Take the Test?",
-        "startOffset": "53",
-        "endOffset": "77"
-      },
-      {
-        "name": "Why Should I Have Representation?",
-        "startOffset": "78",
-        "endOffset": "130"
+        "name": "Why Early DWI Representation Matters",
+        "startOffset": 78,
+        "endOffset": 130
       }
+    ],
+    "watchHighlights": [
+      "What qualifies as a DWI in Minnesota",
+      "How .08 and .16-or-higher alcohol concentrations can affect the charge",
+      "Why breath-test and refusal decisions are highly fact-dependent",
+      "How prior history and the circumstances inside the vehicle can change the case"
     ]
   },
   {
