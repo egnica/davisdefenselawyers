@@ -1760,14 +1760,14 @@
       "slug": "criminal-vehicular-homicide",
       "category": "Criminal Defense",
       "navTitle": "Criminal Vehicular Homicide",
-      "metaTitle": "Minnesota Criminal Vehicular Homicide Lawyer | Defense for Criminal Vehicular Homicide Charges",
-      "metaDescription": "Charged with criminal vehicular homicide in Minnesota? Davis Defense provides experienced, compassionate representation in serious traffic-related death cases. Protect your rights and your future. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Criminal Vehicular Homicide Lawyer | Fatal Crash Defense",
+      "metaDescription": "Under investigation for criminal vehicular homicide in Minnesota? Andrew Davis defends fatal-crash cases involving alleged DWI, gross negligence, hit and run, and complex reconstruction evidence.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Criminal Vehicular Homicide Defense",
       "tagline": "When a tragic accident becomes a serious criminal charge, you need experienced, steady guidance on your side.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "Facing a criminal vehicular homicide charge is one of the most challenging experiences anyone can endure. In a single moment, a serious crash can turn into a life-changing criminal case with the possibility of years in prison, overwhelming grief, and enormous stress for you and your family. At Davis Defense Lawyers, we bring decades of experience, compassion, and a commitment to justice to these emotionally charged cases. We meticulously review accident reports, reconstruction findings, medical records, and witness statements to understand what really happened and to build the strongest defense possible.",
+      "heroSummary": "A fatal crash can become a criminal vehicular homicide investigation before a driver fully understands what the state believes happened. Minnesota law allows this charge under several different theories, including gross negligence, certain impaired-driving circumstances, an alcohol concentration of .08 or more, leaving the scene, and specific known vehicle-defect situations. Andrew Davis reviews causation, crash reconstruction, toxicology, video, vehicle data, witness accounts, and the precise legal theory the prosecution is trying to prove.",
       "audience": "Drivers and passengers in Minnesota who are under investigation for, or have been charged with, criminal vehicular homicide or related serious injury offenses, as well as family members seeking help on their behalf.",
       "faqTitle": "Minnesota Criminal Vehicular Homicide FAQ",
       "faq": [
@@ -1790,6 +1790,14 @@
         {
           "q": "What should I do if I am being investigated after a fatal crash?",
           "a": "Do not discuss the incident with law enforcement, insurance companies, or anyone else about what happened before speaking with an attorney. Anything you say may be used against you later. Contact a criminal defense lawyer immediately to protect your rights and guide you through the investigation."
+        },
+        {
+          "q": "What does the state have to prove in a Minnesota criminal vehicular homicide case?",
+          "a": "The state must prove the death was caused by operation of a motor vehicle under one of the statutory criminal-vehicular-homicide theories, such as gross negligence, specified impaired-driving conduct, an alcohol concentration of .08 or more, leaving the scene, or certain known vehicle defects. The exact elements depend on the theory charged."
+        },
+        {
+          "q": "What is the maximum penalty for criminal vehicular homicide in Minnesota?",
+          "a": "The standard statutory maximum is up to 10 years in prison and a fine of up to $20,000. For certain alcohol- or drug-related forms of the offense committed within ten years of a qualified prior driving offense, the statutory maximum imprisonment can increase to 15 years. Sentencing in an individual case depends on more than the statutory maximum."
         }
       ],
       "ctaLabel": "Talk to a Minnesota Criminal Vehicular Homicide Attorney",
@@ -1811,14 +1819,21 @@
           "type": "list-section",
           "image": "",
           "title": "How Criminal Vehicular Homicide Cases Are Built",
-          "body": "These cases often involve detailed and complex evidence. Law enforcement may use crash reconstruction, event data recorders (\"black box\" data), vehicle inspections, toxicology reports, and witness statements to build their case. Prosecutors frequently allege:",
+          "body": "Criminal vehicular homicide is not limited to a single type of driving allegation. Minnesota law identifies several ways the state may try to prove the offense. Depending on the case, prosecutors may rely on allegations involving:",
           "items": [
-            "Driving while impaired by alcohol or drugs",
-            "Grossly negligent or reckless driving behavior",
-            "Excessive speeding, racing, or passing in dangerous conditions",
-            "Texting or other distracted driving",
-            "Leaving the scene of a crash involving injury or death"
+            "Operating a vehicle in a grossly negligent manner",
+            "Negligent driving while under the influence of alcohol, controlled substances, cannabis or THC, intoxicating substances, or a combination",
+            "An alcohol concentration of .08 or more at the time of driving or as measured within two hours",
+            "Certain Schedule I or II controlled substances or metabolites present in the body under the statutory conditions",
+            "Leaving the scene of a collision that caused the death",
+            "A known dangerous vehicle-maintenance defect under the specific statutory requirements"
           ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "The State Must Prove Causation, Not Just Bad Driving",
+          "body": "A criminal vehicular homicide case requires proof that the charged form of vehicle operation caused the death. That makes the mechanics of the collision important. Andrew looks at vehicle speeds, impact points, event-data-recorder information, road design, visibility, reaction time, conduct of other drivers or pedestrians, medical evidence, and whether the prosecution's reconstruction actually connects the alleged criminal conduct to the fatal result."
         },
         {
           "type": "section",
@@ -1843,12 +1858,13 @@
           "type": "list-section",
           "image": "",
           "title": "DWI and Criminal Vehicular Homicide",
-          "body": "In many cases, a criminal vehicular homicide charge is tied to an allegation of driving while impaired. That means the strength of the state’s case may depend on:",
+          "body": "When the charge is based on alcohol, drugs, cannabis, or another intoxicating substance, Andrew examines both the impairment allegation and the connection between the alleged impairment and the collision. Depending on the theory charged, the state may rely on chemical testing, officer observations, medical records, toxicology, and timing evidence.",
           "items": [
-            "How the traffic stop occurred and whether it was lawful",
-            "Whether field sobriety tests were properly administered",
-            "Whether breath or blood tests were taken according to procedure",
-            "The timing of any testing and the handling of samples"
+            "Whether testing was lawfully obtained and properly handled",
+            "When the sample was taken compared with the time of driving",
+            "Laboratory records, chain of custody, and toxicology interpretation",
+            "Body-camera, squad video, witness observations, and statements",
+            "Whether the crash evidence supports the prosecution's theory of causation"
           ]
         },
         {
@@ -1859,14 +1875,14 @@
           "type": "list-section",
           "image": "",
           "title": "Potential Consequences",
-          "body": "Criminal vehicular homicide is a serious felony offense. A conviction can result in:",
+          "body": "The standard statutory maximum for criminal vehicular homicide is up to 10 years in prison and a fine of up to $20,000. For certain alcohol- or drug-related forms of the offense committed within ten years of a qualified prior driving offense, the statutory maximum can increase to 15 years. The actual sentence depends on the charge, criminal history, sentencing guidelines, and facts.",
           "items": [
-            "A lengthy prison sentence",
-            "Substantial fines and restitution claims",
-            "Long-term or permanent loss of driving privileges",
-            "Felony probation with strict conditions",
-            "A permanent criminal record that affects employment and housing",
-            "Emotional and family consequences that can last for years"
+            "Potential prison exposure under a serious felony charge",
+            "Substantial fines and possible restitution",
+            "Driver's-license consequences",
+            "Felony probation or supervised-release consequences",
+            "A permanent felony record",
+            "Significant employment, family, and financial consequences"
           ]
         },
         {
@@ -1915,20 +1931,20 @@
       "slug": "criminal-vehicular-operation",
       "category": "Criminal Defense",
       "navTitle": "Criminal Vehicular Operation",
-      "metaTitle": "Minnesota Criminal Vehicular Operation Lawyer | Defense for Criminal Vehicular Operation Charges",
-      "metaDescription": "Charged with Criminal Vehicular Operation (CVO) in Minnesota? Davis Defense provides aggressive, experienced representation for serious injury and DWI-related accident cases. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Criminal Vehicular Operation Lawyer | Serious Injury Defense",
+      "metaDescription": "Charged with Criminal Vehicular Operation in Minnesota? Andrew Davis defends serious-injury cases involving alleged DWI, gross negligence, hit and run, toxicology, and crash reconstruction.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Criminal Vehicular Operation Defense",
       "tagline": "When an accident leads to criminal charges, experience, strategy, and immediate action matter.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "If you’ve been charged with Criminal Vehicular Operation (CVO), you’re facing one of the most serious motor-vehicle-related criminal accusations under Minnesota law. These cases often involve allegations of impairment, reckless driving, or gross negligence   and the consequences can include years in prison, long-term license loss, and a permanent felony record. At Davis Defense Lawyers, we provide aggressive representation, carefully investigate every detail, and work tirelessly to challenge the prosecution’s claims. You are not alone. We’re here to protect your rights and your future.",
+      "heroSummary": "Criminal Vehicular Operation, or CVO, applies to qualifying motor-vehicle cases in which another person suffers bodily harm, substantial bodily harm, or great bodily harm. The charge can be based on several statutory theories, including gross negligence, specified impaired-driving conduct, an alcohol concentration of .08 or more, leaving the scene, or certain known vehicle defects. Andrew Davis examines both the driving allegation and whether the evidence proves the required level and cause of injury.",
       "audience": "Drivers in Minnesota accused of causing injury or death while operating a motor vehicle   including cases involving DWI, distracted driving, alleged negligence, or hit-and-run allegations.",
       "faqTitle": "Minnesota Criminal Vehicular Operation FAQ",
       "faq": [
         {
           "q": "What is Criminal Vehicular Operation in Minnesota?",
-          "a": "CVO involves causing bodily harm, substantial bodily harm, great bodily harm, or death while operating a motor vehicle in a grossly negligent manner, while impaired, or during certain other unlawful acts such as fleeing the scene. Penalties vary based on the level of injury involved."
+          "a": "Criminal Vehicular Operation is Minnesota's offense for causing bodily harm, substantial bodily harm, or great bodily harm through one of the forms of motor-vehicle operation listed in the statute, such as gross negligence, specified impaired-driving conduct, leaving the scene, or certain known vehicle-defect circumstances. Fatal cases are addressed separately under criminal vehicular homicide."
         },
         {
           "q": "Is Criminal Vehicular Operation always a felony?",
@@ -1940,11 +1956,15 @@
         },
         {
           "q": "What are the penalties for a CVO conviction?",
-          "a": "Penalties may include up to 10 years in prison for cases involving death, up to 5 years for great bodily harm, thousands in fines, long-term loss of driving privileges, and a permanent criminal record. Sentencing guidelines depend on the severity of the injuries."
+          "a": "The statutory maximum depends on the injury level: up to 5 years for great bodily harm, up to 3 years for substantial bodily harm, and up to 364 days for bodily harm, with fines also authorized. The actual sentence depends on the facts, criminal history, and sentencing rules."
         },
         {
           "q": "What should I do if I’m under investigation for CVO?",
           "a": "Do not speak to law enforcement or insurance investigators without a lawyer. Contact a criminal defense attorney immediately so evidence can be preserved and your rights protected."
+        },
+        {
+          "q": "What is the difference between Criminal Vehicular Operation and Criminal Vehicular Homicide?",
+          "a": "CVO addresses cases in which another person suffers bodily harm, substantial bodily harm, or great bodily harm. Criminal vehicular homicide is the separate offense used when the alleged vehicle conduct causes a death."
         }
       ],
       "ctaLabel": "Talk to a Criminal Vehicular Operation Attorney",
@@ -1959,7 +1979,7 @@
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/cvo-1.webp",
           "title": "Understanding Criminal Vehicular Operation in Minnesota",
-          "body": "Minnesota has some of the strictest laws in the country when it comes to driving offenses involving injuries. Criminal Vehicular Operation charges often arise from serious accidents involving alleged impairment, reckless driving, texting while driving, or other forms of negligence. These allegations can lead to felony charges even for first-time offenders."
+          "body": "Minnesota's Criminal Vehicular Operation statute addresses injury cases rather than fatal crashes. The seriousness of the offense depends in part on whether the alleged injury is bodily harm, substantial bodily harm, or great bodily harm. The state must also prove one of the statutory forms of vehicle operation and that the conduct caused the injury. A serious accident by itself does not establish every element of CVO."
         },
         {
           "type": "list-section",
@@ -1984,43 +2004,41 @@
           "type": "list-section",
           "image": "",
           "title": "What Can Lead to a CVO Charge?",
-          "body": "You may be charged with Criminal Vehicular Operation if injuries result from:",
+          "body": "Minnesota's CVO statute identifies specific theories that can support a charge when the required injury is caused. Depending on the case, allegations may involve:",
           "items": [
-            "Driving while impaired by alcohol or drugs",
-            "Driving in a grossly negligent manner",
-            "Leaving the scene of a crash involving injury or death",
-            "Operating a vehicle known to have dangerous mechanical defects",
-            "Texting or distracted driving (in some cases)",
-            "Failure to exercise reasonable care on the road"
+            "Operating a motor vehicle in a grossly negligent manner",
+            "Negligent driving while under the influence of alcohol, controlled substances, cannabis or THC, intoxicating substances, or a combination",
+            "An alcohol concentration of .08 or more at the time of driving or as measured within two hours",
+            "Certain Schedule I or II controlled substances or metabolites present under the statutory conditions",
+            "Leaving the scene of an injury collision",
+            "A dangerous vehicle-maintenance defect the driver had been warned about and knew had not been corrected"
           ]
         },
         {
           "type": "list-section",
           "image": "",
           "title": "Levels of Injury and Penalties",
-          "body": "CVO penalties depend heavily on the level of injury involved:",
+          "body": "Under Minnesota's CVO statute, the maximum penalty depends on the level of bodily harm alleged:",
           "items": [
             {
-              "lead": "Death or Death of an Unborn Child",
-              "text": "Up to 10 years in prison and/or a $20,000 fine."
-            },
-            {
               "lead": "Great Bodily Harm",
-              "text": "Serious permanent injury; punishable by up to 5 years in prison and/or a $10,000 fine."
+              "text": "Up to 5 years in prison and/or a fine of up to $10,000."
             },
             {
               "lead": "Substantial Bodily Harm",
-              "text": "Temporary but serious injury; punishable by up to 3 years in prison and/or a $10,000 fine."
+              "text": "Up to 3 years in prison and/or a fine of up to $10,000."
             },
             {
               "lead": "Bodily Harm",
-              "text": "Pain or visible injury; typically charged as a gross misdemeanor, punishable by up to 1 year in jail and/or a $3,000 fine."
+              "text": "Up to 364 days in jail and/or a fine of up to $3,000."
             }
           ]
         },
         {
           "type": "section",
-          "body": "You may also face driver’s license revocation for up to 10 years and long-term insurance consequences."
+          "image": "",
+          "title": "Causation Is a Central Issue in CVO Cases",
+          "body": "The prosecution must connect the charged driving conduct to the injury. Andrew examines crash reconstruction, impact forces, medical records, preexisting conditions, seat-belt and occupant evidence, road and weather conditions, vehicle defects, and the actions of other drivers or pedestrians. The level of injury itself can also be contested when the medical evidence does not match the degree charged."
         },
         {
           "type": "section",
