@@ -4,6 +4,9 @@ import HeroPractice from "../components/heroPractice";
 import Form from "../components/ContactForm";
 
 export const metadata = {
+  title: "Contact Andrew Davis | Minnesota Criminal Defense Lawyer",
+  description:
+    "Contact Minnesota criminal defense attorney Andrew Davis for a free, confidential case evaluation. Call, text, or send a message to discuss your case.",
   alternates: {
     canonical: "https://www.davisdefenselawyers.com/contact",
   },
