@@ -411,10 +411,10 @@
   {
     "id": "007",
     "slug": "minnesota-thc-cannabis-laws",
-    "practiceArea": "drug-crimes",
+    "practiceArea": "cannabis-thc-charges",
     "title": "Minnesota THC & Cannabis Laws: Legal Doesn’t Mean Unlimited",
     "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/minnesota-thc-laws.mp4",
-    "description": "Cannabis is legal for adults in Minnesota, but possession and use are still subject to important restrictions. In this video, criminal defense attorney Andrew Davis explains Minnesota cannabis possession limits, the minimum legal age, how the amount and form of THC can affect a case, and why the location of cannabis inside a vehicle may matter. He also explains why you should exercise your right to remain silent and contact an attorney before answering questions from law enforcement.",
+    "description": "Cannabis is legal for adults in Minnesota, but legal does not mean unlimited. In this video, Minnesota criminal defense attorney Andrew Davis explains why the amount, form, location, packaging, age of the person involved, and whether someone was driving can all matter. He discusses Minnesota's adult possession limits, cannabis in a vehicle, alleged impairment, and why legally purchasing marijuana does not automatically eliminate the possibility of criminal charges. Andrew also explains why people questioned by law enforcement should exercise their right to remain silent and speak with a criminal defense attorney before answering questions.",
     "duration": "PT1M29S",
     "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/thc-thumb.webp",
     "uploadDate": "2026-07-10",
@@ -443,7 +443,7 @@
       "https://share.google/Ci3GyrslG508Ogsl4"
     ],
     "cta": "Accused of a THC or cannabis-related crime in Minnesota?",
-    "linkPractice": "Learn more about drug crime defense in Minnesota →",
+    "linkPractice": "Learn more about Minnesota cannabis & THC defense →",
     "clips": [
       {
         "name": "Cannabis Is Legal, but Not Unlimited",
@@ -480,6 +480,12 @@
         "startOffset": 73,
         "endOffset": 89
       }
+    ],
+    "watchHighlights": [
+      "Minnesota cannabis possession limits for adults 21 and older",
+      "Why cannabis in a vehicle can still create legal problems",
+      "How THC and alleged impairment can lead to a DWI investigation",
+      "Why the amount, form, location, and surrounding facts matter"
     ]
   }
 ]
