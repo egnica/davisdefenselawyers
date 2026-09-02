@@ -457,15 +457,15 @@
       "slug": "dwi-dui",
       "category": "Criminal Defense",
       "navTitle": "DWI / DUI",
-      "metaTitle": "Minnesota DWI & DUI Lawyer | Defense for DUI & DWI Charges",
-      "metaDescription": "Charged with DWI or DUI in Minnesota? Carver County DWI lawyer Andrew Davis defends drivers facing alcohol- and drug-related impaired driving charges statewide. Free consultation. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota DWI Lawyer | First DWI, Test Refusal & Felony DWI Defense",
+      "metaDescription": "Charged with DWI in Minnesota? Andrew Davis defends first-time DWI, .16+ BAC, test refusal, drug DWI, repeat offenses, and felony DWI cases statewide.",
       "schemaServiceType": "LegalService",
-      "pageTitle": "Carver County & Minnesota DWI / DUI Defense Attorney",
-      "tagline": "Charged with DWI or DUI in Minnesota? Get experienced, focused defense before you make any decisions.",
+      "pageTitle": "Minnesota DWI / DUI Defense Attorney",
+      "tagline": "Charged with DWI in Minnesota? Get experienced, focused defense before you make decisions that can affect your license, record, and future.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "A DWI arrest is stressful and confusing, but it is not the same as a conviction. Whether your case involves alcohol, prescription medication, or other drugs, you still have rights and options. As a dedicated DWI/DUI attorney serving Carver County and clients throughout Minnesota, Andrew Davis focuses on criminal law, understands the complexities of impaired driving cases, and has guided hundreds of clients through the system with clarity and strategy.",
-      "audience": "Drivers in Carver County, Ramsey County, Hennepin County, and across Minnesota who have been arrested or charged with DWI/DUI, including those facing test refusals, high test results, prior offenses, or felony-level DWI charges.",
+      "heroSummary": "A DWI arrest is not the same as a conviction, and the right next step depends on the facts. Your alcohol concentration, prior impaired-driving history, who was in the vehicle, whether drugs or other evidence were present, the testing process, and what was said to law enforcement can all change the case. Andrew Davis represents drivers throughout Minnesota and focuses on getting involved early, protecting their rights, and building a strategy around the specific evidence.",
+      "audience": "Drivers across Minnesota who have been arrested or charged with DWI/DUI, including first-time cases, .16 or higher alcohol concentration cases, test-refusal allegations, drug- or cannabis-related DWI, repeat offenses, and felony DWI charges.",
       "faqTitle": "Minnesota DWI / DUI FAQ",
       "faq": [
         {
@@ -473,8 +473,8 @@
           "a": "Not necessarily. Many people spend a night in jail after arrest, but that may be the only time behind bars depending on the facts of the case, your prior record, and how the case is handled. Some cases resolve with probation, treatment, or reduced charges instead of lengthy jail time. An experienced DWI defense lawyer can help you understand realistic outcomes for your situation."
         },
         {
-          "q": "What should I do if I am pulled over for suspected DWI in Carver County, MN?",
-          "a": "Remain calm, be polite, and provide your license, registration, and insurance. Do not argue with the officer or volunteer extra information. Avoid admitting guilt or guessing your alcohol level. Once you are safe to do so, contact a DWI attorney immediately to get advice tailored to your situation especially before deciding whether to take or refuse any tests."
+          "q": "What should I do if I am pulled over for suspected DWI in Minnesota?",
+          "a": "Remain calm and polite, provide required identification and documents, and avoid volunteering explanations or admissions about alcohol or drug use. If an evidentiary breath test is later requested, Minnesota law provides a limited right to consult with an attorney before testing so long as the consultation does not unreasonably delay the test."
         },
         {
           "q": "If I blew .08 or higher, should I just plead guilty?",
@@ -482,15 +482,39 @@
         },
         {
           "q": "What is Minnesota’s implied consent law?",
-          "a": "Under implied consent, anyone who drives in Minnesota is considered to have agreed to chemical testing if lawfully arrested for DWI. Refusing a breath, blood, or urine test can lead to additional penalties, including longer license revocation and separate criminal charges. Because the decision to test or refuse has serious consequences, it’s critical to understand your rights as early as possible."
+          "a": "Minnesota's implied-consent law allows chemical testing in specified DWI circumstances. When an evidentiary breath test is requested, the driver must be advised that the test is required, that refusing the breath test is a crime, and that the driver has a limited right to consult with an attorney before testing. Blood and urine tests are treated differently and generally require a search warrant or a recognized exception to the warrant requirement."
         },
         {
           "q": "Do you handle DWI cases involving drugs or prescription medications?",
           "a": "Yes. You can be charged with DWI if illegal drugs, prescription medications, or even some over-the-counter substances affect your ability to drive safely. Drug-related DWIs rely on blood or urine testing and officer observations, which can be challenged. Andrew defends cases involving both alcohol and drugs."
+        },
+        {
+          "q": "What should I do right after a DWI arrest in Minnesota?",
+          "a": "Avoid volunteering additional information about drinking, drugs, or what happened. Preserve any paperwork you were given, write down what you remember about the stop and testing, and contact a DWI attorney promptly. The criminal case and driver's-license process can have separate deadlines, so early review matters."
+        },
+        {
+          "q": "What does a .16 alcohol concentration mean in a Minnesota DWI case?",
+          "a": "An alcohol concentration of .16 or more is an aggravating factor under Minnesota DWI law. In a first-time case with no other aggravating factor, that can increase the charge from a fourth-degree misdemeanor DWI to a third-degree gross misdemeanor DWI. The exact charge still depends on the person's prior history and all other facts."
+        },
+        {
+          "q": "Should I take the breath test after a DWI arrest in Minnesota?",
+          "a": "The answer depends on the situation, which is why legal advice before the evidentiary test can be important. Minnesota's breath-test advisory states that the test is required, that refusing a breath test is a crime, and that the driver has a limited right to consult with an attorney before testing as long as the consultation does not unreasonably delay the test."
+        },
+        {
+          "q": "How long do I have to challenge a DWI license revocation in Minnesota?",
+          "a": "A person generally has 60 days after receiving a notice and order of revocation or disqualification under Minnesota's implied-consent law to petition the district court for judicial review. The license matter can proceed separately from the criminal case, so waiting for the criminal case to finish can be a mistake."
+        },
+        {
+          "q": "What makes a DWI a felony in Minnesota?",
+          "a": "First-degree DWI is a felony when Minnesota's statutory prior-history requirements are met. This can include committing a new DWI within ten years of the first of three or more qualified prior impaired-driving incidents, a prior felony DWI conviction, or certain qualifying prior felony vehicular-crime convictions."
+        },
+        {
+          "q": "Is DUI the same as DWI in Minnesota?",
+          "a": "People often use DUI and DWI interchangeably, but Minnesota's impaired-driving statute uses the term DWI, meaning driving while impaired. Searches for 'Minnesota DUI' usually refer to the same general type of impaired-driving case."
         }
       ],
-      "ctaLabel": "Get a Free DWI Case Evaluation",
-      "ctaBody": "Facing a DWI or DUI charge in Carver County or anywhere in Minnesota? Don’t plead guilty before you understand your options. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free, confidential consultation.",
+      "ctaLabel": "Talk to a Minnesota DWI Lawyer",
+      "ctaBody": "Facing a DWI charge in Minnesota? The early decisions can affect both the criminal case and your driving privileges. Call Attorney Andrew Davis at (952) 994-1568 or contact Davis Defense Lawyers for a confidential consultation.",
       "icon": "",
       "relatedAreas": [
         "drug-crimes",
@@ -500,14 +524,14 @@
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/dwi.webp",
-          "title": "Trusted DWI / DUI Attorney Serving Carver County and All of Minnesota",
-          "body": "When you are accused of impaired driving, the stakes are high: your license, your job, your finances, and your record are all on the line. At Davis Defense, we focus on criminal law and have extensive experience with DWI and DUI cases. From first-time offenses to complex felony-level charges, Andrew Davis provides experienced, hands-on representation listening to your story, explaining the law in plain language, and developing a strategy around your goals."
+          "title": "Minnesota DWI Defense Focused on What Happens Next",
+          "body": "When you are accused of impaired driving, the immediate questions are usually practical: Can I drive? What happens to my license? Is this a misdemeanor or something more serious? Should I take a breath test? Do I need to go to court? Andrew Davis handles DWI cases throughout Minnesota and explains those issues in plain language before developing a defense strategy around the stop, the testing, your history, and the evidence in your case."
         },
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/dwi-2.webp",
           "title": "Serving Carver, Ramsey, Hennepin, and Every Minnesota County",
-          "body": "Our office is based in Carver County, but we represent clients across Minnesota, including Ramsey County, Hennepin County, and surrounding areas. Each county has its own procedures and personalities in the courthouse. Andrew’s experience in courts across the Twin Cities and greater Minnesota allows him to tailor your defense strategy to the local rules, prosecutors, and judges you’ll be dealing with."
+          "body": "Andrew represents DWI clients in Carver County, Hennepin County, Ramsey County, and courts throughout Minnesota. Local procedures can vary, but the same core issues matter in every case: the legality of the stop, what the officer observed, what testing was requested or completed, your prior impaired-driving history, and what deadlines may affect your driving privileges."
         },
         {
           "type": "list-section",
@@ -528,35 +552,69 @@
         {
           "type": "section",
           "image": "",
-          "title": "Alcohol, Drugs, and Minnesota DWI Law",
-          "body": "Minnesota’s DWI laws apply to more than just alcohol. You can be charged with DWI if drugs illegal substances, prescription medications, or a combination of substances impact your ability to drive safely. Unlike alcohol, which is often measured with a roadside breath test, drug-related DWI cases rely heavily on blood or urine testing and the officer’s observations. These tests must be properly administered, stored, and documented. Andrew carefully reviews the circumstances of your stop, the officer’s training, and the handling of any chemical tests to identify weaknesses in the state’s case."
+          "title": "What Counts as a DWI in Minnesota?",
+          "body": "Minnesota DWI law covers more than a single breath-test number. A person can be charged for driving, operating, or being in physical control of a motor vehicle while under the influence of alcohol, certain drugs or intoxicating substances, cannabis or THC, or a combination of substances. A separate alcohol-concentration offense applies when the person's alcohol concentration is .08 or more at the time of driving or as measured within two hours. Commercial motor vehicles have a lower .04 alcohol-concentration threshold. Andrew reviews which theory the state is actually using and whether the evidence supports it."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "First DWI in Minnesota: What Does a .08 or .16 Test Result Mean?",
+          "body": "For many drivers with no qualified prior impaired-driving incidents and no other aggravating factor, a standard DWI is charged as fourth-degree DWI, a misdemeanor. An alcohol concentration of .16 or more is an aggravating factor. That means a first-time DWI involving a .16-or-higher alcohol concentration can be charged more seriously than a first-time case without an aggravating factor. Andrew looks at the exact test result, timing, testing procedure, prior history, and other facts before advising a client about the likely charge and defense options."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Should I Take or Refuse a Breath Test in Minnesota?",
+          "body": "There is no useful one-size-fits-all answer to every testing question. When an evidentiary breath test is requested under Minnesota's implied-consent law, the driver must be advised that Minnesota law requires the test, that refusing a breath test is a crime, and that the driver has a limited right to consult with an attorney before testing so long as the consultation does not unreasonably delay the test. Blood and urine testing are treated differently and generally require a search warrant or a recognized exception. Andrew's point is that testing decisions are highly fact-dependent, which is why getting legal advice as early as possible matters."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "How Long Do I Have to Challenge a DWI License Revocation?",
+          "body": "The driver's-license side of a Minnesota DWI case can move separately from the criminal charge. When a person receives a notice and order of revocation or disqualification under Minnesota's implied-consent law, the deadline to petition the court for judicial review is generally 60 days from receipt of that notice. Because that deadline can expire while the criminal case is still pending, Andrew identifies license issues early rather than waiting for the criminal case to resolve."
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "Why the Details of a DWI Case Matter",
+          "body": "Andrew emphasizes that DWI advice is conditional because small factual differences can change the charge, the license consequences, and the defense strategy. He looks at:",
+          "items": [
+            "The alcohol concentration and when the test was taken",
+            "Prior DWI convictions and other qualified impaired-driving incidents",
+            "Whether a qualifying child passenger was in the vehicle",
+            "Whether drugs, cannabis, firearms, or other evidence were present",
+            "What the driver said during the stop, arrest, and testing process",
+            "Whether the officer had a lawful basis for the stop and arrest",
+            "Field sobriety testing, body-camera footage, squad video, and chemical-test records",
+            "Immediate driver's-license deadlines and whether judicial review should be requested"
+          ]
         },
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/andrew-8.webp",
-          "title": "Felony vs. Misdemeanor DWI in Minnesota",
-          "body": "Not all DWI charges are the same. Many first-time DWIs are misdemeanors, but the consequences quickly escalate with prior offenses, high test results, or aggravating factors such as a child in the vehicle. Multiple DWIs within a ten-year period, or a prior felony DWI, can lead to felony-level charges with the possibility of years in prison, large fines, and loss of firearm rights. If your case involves injury, criminal vehicular operation or homicide charges may also be filed. Early, skilled representation is critical when the stakes are this high."
+          "title": "First-Time, Gross Misdemeanor, and Felony DWI in Minnesota",
+          "body": "A fourth-degree DWI is a misdemeanor. A DWI with one aggravating factor is generally third-degree DWI, a gross misdemeanor. Aggravating factors include a qualified prior impaired-driving incident within the previous ten years, an alcohol concentration of .16 or more, or having a qualifying child passenger in the vehicle. First-degree DWI is a felony when the statutory prior-history requirements are met, including three or more qualified prior impaired-driving incidents within the applicable ten-year period or certain prior felony DWI or vehicular-crime convictions. The degree of charge depends on the full history and facts, not simply whether the current test result is over .08."
         },
         {
           "type": "steps-section",
           "image": "",
           "title": "How Andrew Handles Your DWI Case",
-          "body": "You don’t have to guess what comes next. Here’s how the process typically works and how Andrew stays with you at each step:",
+          "body": "Andrew gets involved early because the criminal case and driver's-license consequences can begin moving immediately. His process includes:",
           "steps": [
             {
-              "step": "Free Initial Consultation – Andrew listens to your side, explains the charges, and identifies immediate deadlines, including license issues."
+              "step": "Immediate Case Review – Andrew listens to what happened, reviews prior history, identifies the likely degree of charge, and flags driver's-license deadlines."
             },
             {
-              "step": "Reviewing the Evidence – We obtain police reports, videos, and test results, and we go through them with you so you understand the strengths and weaknesses of the case."
+              "step": "Preserving and Reviewing Evidence – Police reports, squad and body-camera video, field sobriety testing, breath or laboratory records, and other evidence are gathered and reviewed."
             },
             {
-              "step": "Challenging the Stop and Tests – We examine whether the officer had a lawful reason to stop you, whether field sobriety tests were properly conducted, and whether breath, blood, or urine tests were reliable and admissible."
+              "step": "Challenging the Stop, Arrest, and Testing – Andrew examines whether law enforcement had a lawful basis to stop and arrest you and whether testing and procedures were properly handled."
             },
             {
-              "step": "Strategy: Negotiation or Trial – Depending on the evidence, your goals, and your record, we decide whether to pursue dismissal, reduced charges, or prepare for trial."
+              "step": "Protecting the License – When applicable, Andrew evaluates the separate implied-consent revocation and the deadline for requesting judicial review."
             },
             {
-              "step": "Resolving the Case – We work toward the best possible outcome, whether that is minimized penalties, treatment-focused options, or a not-guilty verdict."
+              "step": "Building the Case Strategy – The evidence, your goals, your history, and the potential consequences determine whether the best path is litigation, negotiation, or trial."
             }
           ]
         }
