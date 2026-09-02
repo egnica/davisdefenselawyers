@@ -5,7 +5,7 @@
     "practiceArea": "assault",
     "title": "Assault Charges in Minnesota: What You Need to Know",
     "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/assault.mp4",
-    "description": "If you or a loved one are facing an assault charge in Minnesota, the legal system can feel overwhelming. In this video, criminal defense attorney Andrew Davis breaks down the different degrees of assault, potential penalties, and the strongest legal defenses available to protect your future.",
+    "description": "If you are facing an assault charge in Minnesota, understanding what the state must prove and what happens next is critical. In this video, Minnesota criminal defense attorney Andrew Davis explains that assault can involve intentionally causing fear of immediate bodily harm or intentionally inflicting or attempting to inflict bodily harm, even when no physical injury occurs. He also discusses additional charges, DANCO and no-contact restrictions, why an alleged victim cannot simply drop a criminal case, and how prosecutors use victim advocates and other evidence when deciding how to proceed.",
     "duration": "PT2M52S",
     "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/assault-thumbnail.png",
     "uploadDate": "2026-03-18",
@@ -15,7 +15,15 @@
       "Andrew Davis law",
       "criminal law MN",
       "how to beat an assault charge",
-      "simple assault vs aggravated assault"
+      "simple assault vs aggravated assault",
+      "Minnesota assault lawyer",
+      "Minnesota assault charges",
+      "5th degree assault Minnesota",
+      "assault without injury Minnesota",
+      "Minnesota DANCO assault",
+      "can victim drop assault charges Minnesota",
+      "domestic assault Minnesota",
+      "self defense assault Minnesota"
     ],
     "sameAs": [
       "https://youtu.be/ZXUSCxJ1-kk",
@@ -27,35 +35,36 @@
     "linkPractice": "Learn more about assault defense in Minnesota →",
     "clips": [
       {
-        "name": "What is Assault?",
-        "startOffset": 2.8,
-        "endOffset": 11
-      },
-      {
-        "name": "You Can be Charged with an Assault without Bodily Harm",
-        "startOffset": 11,
+        "name": "What Is Assault in Minnesota?",
+        "startOffset": 0,
         "endOffset": 22
       },
       {
-        "name": "Adding Disorderly Conduct to an Assault Charge",
+        "name": "Additional Charges in Assault Cases",
         "startOffset": 22,
         "endOffset": 39
       },
       {
-        "name": "What is a DANCO? How does it effect an Assault Charge",
-        "startOffset": 39.3,
-        "endOffset": 77
+        "name": "DANCO and No-Contact Restrictions",
+        "startOffset": 39,
+        "endOffset": 78
       },
       {
-        "name": "I want to Drop Assault Charges",
-        "startOffset": "77.6",
-        "endOffset": "123"
+        "name": "Can the Alleged Victim Drop Assault Charges?",
+        "startOffset": 78,
+        "endOffset": 123
       },
       {
-        "name": "What are Victim Advocates?",
-        "startOffset": "123",
-        "endOffset": "168"
+        "name": "What Does a Victim Advocate Do?",
+        "startOffset": 123,
+        "endOffset": 168
       }
+    ],
+    "watchHighlights": [
+      "How Minnesota defines assault, including fear-based assault without physical injury",
+      "Why additional allegations such as disorderly conduct can appear in an assault case",
+      "How DANCO and no-contact restrictions can affect home, social media, and third-party contact",
+      "Why the prosecutor, not the alleged victim alone, decides whether the criminal case continues"
     ]
   },
   {
