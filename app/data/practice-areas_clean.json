@@ -1077,14 +1077,14 @@
       "slug": "theft-crimes",
       "category": "Criminal Defense",
       "navTitle": "Theft Crimes",
-      "metaTitle": "Minnesota Theft Crimes Lawyer | Defense for Burglary, Robbery & Theft Changes",
-      "metaDescription": "Charged with theft, burglary, or robbery in Minnesota? Attorney Andrew Davis defends all levels of theft crimes, from shoplifting to felony burglary, throughout the Twin Cities and statewide.",
+      "metaTitle": "Minnesota Theft Crimes Lawyer | Shoplifting, Burglary & Felony Theft Defense",
+      "metaDescription": "Charged with theft, shoplifting, burglary, robbery, or another property crime in Minnesota? Andrew Davis defends misdemeanor, gross misdemeanor, and felony theft charges throughout the Twin Cities and statewide.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Theft, Burglary & Robbery Defense",
       "tagline": "From shoplifting to felony burglary, one accusation can damage your record for life. Get an experienced theft defense lawyer on your side.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "In Minnesota, the value of the property and the type of conduct can turn a simple mistake into a serious felony. Taking property worth $1,000 or more can be charged as a felony theft offense, punishable by at least a year in prison. Burglary and robbery charges are even more serious and can carry long prison sentences and heavy fines. At Davis Defense, Attorney Andrew Davis draws on more than 10 years of criminal defense experience to defend clients against theft, burglary, and robbery charges throughout the Twin Cities and greater Minnesota.",
+      "heroSummary": "In Minnesota, the value of the property and the circumstances of the allegation can significantly affect how a theft case is charged. Theft involving more than $1,000 in property or services can fall into a felony sentencing range, while burglary and robbery are separate offenses with their own serious penalties. Attorney Andrew Davis draws on more than 10 years of criminal defense experience to defend clients against theft, shoplifting, burglary, and robbery charges throughout the Twin Cities and greater Minnesota.",
       "audience": "People in Minnesota who have been arrested, charged, or are under investigation for theft, shoplifting, burglary, robbery, embezzlement, or other property and theft-related offenses.",
       "faqTitle": "Minnesota Theft Crimes FAQ",
       "faq": [
@@ -1094,7 +1094,7 @@
         },
         {
           "q": "When does theft become a felony in Minnesota?",
-          "a": "Generally, when the value of the property or money is $1,000 or more, the state can charge felony theft. As the dollar amount goes up, so do the potential penalties. Certain types of property, prior theft convictions, or aggravating circumstances can also elevate the charge."
+          "a": "For many ordinary theft cases, property or services valued at more than $1,000 can fall into a felony sentencing range. Theft of more than $1,000 but not more than $5,000 can carry up to 5 years in prison, while theft above $5,000 can carry up to 10 years. Certain types of property, prior convictions, and other statutory circumstances can make lower-value theft more serious, so dollar value is not the only factor."
         },
         {
           "q": "What is the difference between theft, burglary, and robbery?",
@@ -1107,6 +1107,14 @@
         {
           "q": "Do I need a lawyer for a misdemeanor shoplifting charge?",
           "a": "Absolutely. Even a misdemeanor theft conviction can follow you for life and may affect jobs and housing. An experienced theft defense lawyer can look for ways to challenge the evidence, negotiate for reduced charges, or pursue outcomes that protect your record and future."
+        },
+        {
+          "q": "What does the state have to prove in a Minnesota theft case?",
+          "a": "The exact elements depend on the type of theft charged. In a common property-theft case, the state may need to prove an intentional taking, use, transfer, concealment, or retention of another person’s property without consent and with the required intent to deprive the owner of it. Andrew reviews the specific charge, video, receipts, statements, ownership questions, value, and other evidence to determine whether those elements can actually be proven."
+        },
+        {
+          "q": "Can I be charged with shoplifting if I did not leave the store?",
+          "a": "Potentially. Minnesota theft law is broader than simply walking out of a store with unpaid merchandise. Depending on the facts, allegations involving intentionally taking, concealing, using, transferring, or retaining property without consent may be charged as theft. Surveillance footage, receipts, self-checkout records, store-security reports, and intent can all matter."
         }
       ],
       "ctaLabel": "Talk to a Minnesota Theft Crimes Lawyer",
@@ -1122,7 +1130,7 @@
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/tc-1.webp",
           "title": "Were You Accused of Taking Someone Else’s Property?",
-          "body": "The value of the property taken in a theft crime often determines how serious the charge will be. In Minnesota, taking property worth $1,000 or more can be charged as a felony, punishable by at least a year in prison. Even when the value is lower, a theft conviction leaves a permanent mark on your record that can affect jobs, housing, and your reputation. At Davis Defense, we understand that good people make mistakes, misunderstandings happen, and not every accusation is true. We work to tell your side of the story and protect your future."
+          "body": "A theft accusation can range from a shoplifting allegation to a serious felony property case. In Minnesota, value often matters, but it is not the only factor. The type of property, prior convictions, and other circumstances can change the level of charge. Andrew looks at what the state says was taken, whether the evidence actually shows intent to deprive the owner of the property, how value was determined, and what video, receipts, messages, or witness accounts may support the defense."
         },
         {
           "type": "list-section",
@@ -1141,6 +1149,18 @@
             "White collar theft such as embezzlement, fraud, or misuse of company funds",
             "Public assistance or benefits fraud and other financial crimes"
           ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "What Must Prosecutors Prove in a Minnesota Theft Case?",
+          "body": "A theft case is not proven simply because property was missing or someone was accused. For a common property-theft allegation, the state must prove the facts required by the specific theft statute, including that the person intentionally took, used, transferred, concealed, or retained property of another without consent and with the required intent to deprive the owner of it. Andrew examines surveillance video, receipts, witness statements, ownership questions, value, and the circumstances surrounding the alleged taking to determine what the state can actually prove."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Shoplifting Charges: Leaving the Store Is Not the Only Issue",
+          "body": "Shoplifting cases often involve surveillance footage, store security reports, receipts, self-checkout records, and statements made at the scene. Minnesota theft law is broader than simply asking whether someone walked out of a store with unpaid merchandise. Depending on the allegation, intentionally taking, using, transferring, concealing, or retaining another person’s property without consent can matter. Andrew looks closely at intent, what actually happened inside the store, and whether the evidence supports the charge being filed."
         },
         {
           "type": "list-section",
@@ -1176,31 +1196,41 @@
           "type": "list-section",
           "image": "",
           "title": "Minnesota Theft Penalties and Dollar Amounts",
-          "body": "The punishment for a theft crime in Minnesota depends heavily on the value of the property or services involved and the circumstances of the case. As a general guide:",
+          "body": "For many ordinary property-theft cases, value is an important part of the sentencing range, but special types of property, prior convictions, and other circumstances can increase the seriousness of the charge. As a general guide under Minnesota law:",
           "items": [
             {
-              "lead": "Theft Up to $500 (Misdemeanor)",
-              "text": "Theft of property or services valued at $500 or less is usually charged as a misdemeanor, punishable by up to 90 days in jail and a fine of up to $1,000."
+              "lead": "Theft of $500 or Less",
+              "text": "In many ordinary cases, theft involving property or services valued at $500 or less is punishable as a misdemeanor, with up to 90 days in jail and a fine of up to $1,000."
             },
             {
-              "lead": "Theft Between $501 and $1,000 (Gross Misdemeanor)",
-              "text": "Theft involving property or services valued between $501 and $1,000 is commonly charged as a gross misdemeanor, punishable by up to 1 year in jail and a fine of up to $3,000."
+              "lead": "More Than $500 but Not More Than $1,000",
+              "text": "In many ordinary cases, this value range is punishable as a gross misdemeanor, with up to 364 days in jail and a fine of up to $3,000."
             },
             {
-              "lead": "Theft Over $1,000 (Felony)",
-              "text": "Theft involving property or services valued over $1,000 is generally charged as a felony and may carry a prison sentence of one year or more. As the dollar amount increases, so do the potential penalties."
+              "lead": "More Than $1,000 but Not More Than $5,000",
+              "text": "This value range can carry a felony sentence of up to 5 years in prison and a fine of up to $10,000."
+            },
+            {
+              "lead": "More Than $5,000",
+              "text": "Theft involving property or services valued above $5,000 can carry a sentence of up to 10 years in prison and a fine of up to $20,000, subject to the specific statute and circumstances."
             }
           ]
         },
         {
           "type": "section",
-          "body": "Certain types of property, such as firearms or trade secrets, prior theft convictions, or other special circumstances can increase the severity of the charge and the potential sentence."
+          "body": "Dollar value is not the only factor. Theft of certain property, including a firearm or motor vehicle, prior qualifying theft-related convictions, theft from a person, and other statutory circumstances can increase the potential penalty even when the dollar amount is lower."
         },
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/tc-3.webp",
           "title": "Why Acting Quickly Matters in Theft Cases",
-          "body": "The earlier you involve a lawyer, the more options you may have. In some cases, it may be possible to negotiate a resolution that avoids a conviction, reduces a felony to a misdemeanor, or focuses on restitution and rehabilitation rather than jail. In others, the key is to challenge weak or incomplete evidence, unreliable witnesses, or assumptions about value and intent. Andrew analyzes police reports, video, receipts, digital records, and witness statements to build a defense strategy tailored to your situation."
+          "body": "The earlier Andrew can review the evidence, the easier it is to preserve surveillance footage, receipts, messages, employment records, and other details that may matter. He looks at what prosecutors must prove, how the property was valued, whether intent can actually be shown, and whether witness or store-security accounts match the available video and records. Depending on the facts, the strategy may involve challenging the charge, disputing value or intent, negotiating a reduced outcome, or preparing the case for trial."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "One Lawyer From the First Call Through Court",
+          "body": "Andrew handles his cases personally from start to finish. When you call, you are speaking with the lawyer who will meet with you, review the evidence, develop the defense strategy, and appear with you in court. For someone facing a theft accusation that may affect employment, housing, and reputation, having direct access to the attorney handling the case can make the process clearer and more manageable."
         },
         {
           "type": "steps-section",
