@@ -3,6 +3,17 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "davisdefenselawyers.com",
+          },
+        ],
+        destination: "https://www.davisdefenselawyers.com/:path*",
+        permanent: true,
+      },
+      {
         source: "/drug-charges",
         destination: "/drug-crimes",
         permanent: true, // 301
