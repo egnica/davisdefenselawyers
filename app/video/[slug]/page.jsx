@@ -5,6 +5,8 @@ import VideoPlayer from "@/app/components/video";
 import styles from "../../page.module.css";
 import Link from "next/link";
 
+const SITE_URL = "https://www.davisdefenselawyers.com";
+
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const video = videoList.find((item) => item.slug === slug);
@@ -16,7 +18,7 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const pageUrl = `https://www.davisdefenselawyers.com/video/${video.slug}`;
+  const pageUrl = `${SITE_URL}/video/${video.slug}`;
 
   return {
     title: video.title,
@@ -59,7 +61,7 @@ export default async function Page({ params, searchParams }) {
 
   const startTime = Number(t || 0);
 
-  const pageUrl = `https://www.davisdefenselawyers.com/video/${video.slug}`;
+  const pageUrl = `${SITE_URL}/video/${video.slug}`;
   const youtubeWatchUrl = video.youtubeId
     ? `https://www.youtube.com/watch?v=${video.youtubeId}`
     : null;
@@ -79,67 +81,25 @@ export default async function Page({ params, searchParams }) {
     }) || [];
 
   const sameAs = [
-    ...(video.sameAs || []),
-    ...(youtubeWatchUrl ? [youtubeWatchUrl] : []),
+    ...new Set([
+      ...(video.sameAs || []),
+      ...(youtubeWatchUrl ? [youtubeWatchUrl] : []),
+    ]),
   ];
 
 
 
 
 
-const time = video.duration;
-function formatGoogleVideoDuration(input) {
-  if (!input) return "PT0S";
+  function normalizeVideoDuration(input) {
+    const value = String(input || "").trim().toUpperCase();
+    const validIsoDuration =
+      /^PT(?:(?:\d+)H)?(?:(?:\d+)M)?(?:(?:\d+)S)?$/.test(value);
 
-  // Case 1: If input is a raw number (total seconds)
-  if (typeof input === "number") {
-    const minutes = Math.floor(input / 60);
-    const seconds = Math.floor(input % 60);
-    return `PT${minutes}M${seconds}S`;
+    return validIsoDuration ? value : null;
   }
 
-  let cleanInput = input.toString().trim().toUpperCase();
-
-  // Case 2: Standard digital clock format string (e.g., "02:50" or "2:50")
-  if (cleanInput.includes(":")) {
-    const parts = cleanInput.split(":");
-    const minutes = parseInt(parts[0], 10) || 0;
-    const seconds = parseInt(parts[1], 10) || 0;
-    return `PT${minutes}M${seconds}S`;
-  }
-
-  // Strip initial "PT" if your template is prepending it before failing
-  if (cleanInput.startsWith("PT")) {
-    cleanInput = cleanInput.substring(2);
-  }
-
-  // Case 3: Parsing text strings missing standard trailing indicators (like "1M537")
-  // Captures the minutes block and dynamically pulls the first two digits of the seconds block
-  const minuteMatch = cleanInput.match(/(\d+)M/);
-  const minutes = minuteMatch ? parseInt(minuteMatch[1], 10) : 0;
-
-  let seconds = 0;
-  if (cleanInput.includes("M")) {
-    // Grab everything after the "M"
-    const afterM = cleanInput.split("M")[1].replace(/[^0-9]/g, "");
-    // Take only the first 2 digits to completely eliminate trailing millisecond bugs (e.g., "537" -> 53)
-    seconds = parseInt(afterM.substring(0, 2), 10) || 0;
-  } else {
-    // Fallback if it's just raw numeric text string without 'M'
-    const totalSecs = parseInt(cleanInput.replace(/[^0-9]/g, ""), 10) || 0;
-    return `PT${Math.floor(totalSecs / 60)}M${Math.floor(totalSecs % 60)}S`;
-  }
-
-  return `PT${minutes}M${seconds}S`;
-}
-
-
-
-
-
-
-
-
+  const normalizedDuration = normalizeVideoDuration(video.duration);
 
   function normalizeSchemaDate(dateString) {
     if (!dateString) return "";
@@ -158,49 +118,24 @@ function formatGoogleVideoDuration(input) {
     description: video.description,
     thumbnailUrl: [video.thumbnail],
     uploadDate: normalizedUploadDate,
-    datePublished: normalizedUploadDate,
-    dateModified: normalizedUploadDate,
-    duration: formatGoogleVideoDuration(time),
-
+    ...(normalizedDuration ? { duration: normalizedDuration } : {}),
     contentUrl: video.videoUrl,
-
     url: pageUrl,
     inLanguage: "en-US",
     isFamilyFriendly: true,
-    potentialAction: [
-      {
-        "@type": "WatchAction",
-        target: pageUrl,
-      },
-      {
-        "@type": "SeekToAction",
-        target: `${pageUrl}?t={seek_to_second_number}`,
-        "startOffset-input": "required name=seek_to_second_number",
-      },
-    ],
     keywords: video.keywords,
-    ...(clips.length ? { hasPart: clips } : {}),
+    ...(clips.length
+      ? { hasPart: clips }
+      : {
+          potentialAction: {
+            "@type": "SeekToAction",
+            target: `${pageUrl}?t={seek_to_second_number}`,
+            "startOffset-input": "required name=seek_to_second_number",
+          },
+        }),
     ...(sameAs.length ? { sameAs } : {}),
-    publisher: {
-      "@type": "Organization",
-      "@id": "https://www.davisdefenselawyers.com/#organization",
-      name: "Andrew Davis Defense",
-      url: "https://www.davisdefenselawyers.com",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.davisdefenselawyers.com/images/logo.png",
-      },
-    },
-    author: {
-      "@type": "Person",
-      "@id": "https://www.davisdefenselawyers.com/#andrew-davis",
-      name: "Andrew Davis",
-      url: "https://www.davisdefenselawyers.com/about",
-    },
-    about: {
-      "@type": "Thing",
-      name: video.practiceArea,
-    },
+    publisher: { "@id": `${SITE_URL}/#firm` },
+    author: { "@id": `${SITE_URL}/#attorney` },
   };
 
   const breadcrumbSchema = {
@@ -211,13 +146,13 @@ function formatGoogleVideoDuration(input) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://www.davisdefenselawyers.com/",
+        item: `${SITE_URL}/`,
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Videos",
-        item: "https://www.davisdefenselawyers.com/video",
+        item: `${SITE_URL}/video`,
       },
       {
         "@type": "ListItem",
