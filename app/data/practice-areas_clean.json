@@ -221,7 +221,8 @@
       "ctaBody": "If you’ve been arrested for a drug charge, you don’t have to face the system alone. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation. We will explain your options, answer your questions, and start building a strategy to protect your record and your future.",
       "icon": "",
       "relatedAreas": [
-        "assault"
+        "assault",
+        "cannabis-thc-charges"
       ],
       "contentBlocks": [
         {
@@ -315,6 +316,140 @@
               "step": "Negotiating for reduced charges, treatment-based resolutions, or, when necessary, preparing for trial"
             }
           ]
+        }
+      ]
+    },
+    {
+      "slug": "cannabis-thc-charges",
+      "category": "Criminal Defense",
+      "navTitle": "Cannabis & THC Charges",
+      "metaTitle": "Minnesota Cannabis & THC Lawyer | Possession, Vehicle & DWI Defense",
+      "metaDescription": "Questions or charges involving cannabis or THC in Minnesota? Learn the legal possession limits, vehicle rules, impaired-driving issues, and how Andrew Davis evaluates marijuana and THC cases.",
+      "schemaServiceType": "LegalService",
+      "pageTitle": "Minnesota Cannabis & THC Criminal Defense",
+      "tagline": "Cannabis may be legal in Minnesota, but the amount, form, location, packaging, age, and whether someone was driving can still matter.",
+      "heroImage": "",
+      "heroImageAlt": "",
+      "heroSummary": "Minnesota allows adult-use cannabis, but legalization did not eliminate every cannabis-related offense. Andrew Davis helps clients understand how the facts of a THC or marijuana case fit Minnesota law, including possession limits, shared spaces, vehicle rules, searches, alleged impairment, and statements made to law enforcement. The question is often not simply whether cannabis is legal, but whether the circumstances surrounding the possession, transportation, or use were lawful.",
+      "audience": "Adults and families seeking guidance about Minnesota cannabis or THC allegations, including possession, vehicle-related cannabis offenses, suspected cannabis-impaired driving, underage possession, and cases involving searches or disputed ownership.",
+      "faqTitle": "Minnesota Cannabis & THC FAQ",
+      "faq": [
+        {
+          "q": "How much cannabis can an adult legally possess in Minnesota?",
+          "a": "Minnesota law generally allows a person age 21 or older to possess or transport up to two ounces of adult-use cannabis flower in a public place and to possess up to two pounds of cannabis flower in a private residence. Separate limits apply to concentrates and edible products: up to eight grams of adult-use cannabis concentrate and edible or lower-potency hemp products containing a combined total of up to 800 milligrams of THC. The exact facts and product involved still matter."
+        },
+        {
+          "q": "Can I get in trouble for cannabis that I legally purchased?",
+          "a": "Yes. A legal purchase does not make every later use, possession, or transportation lawful. The amount, form of the product, age of the person possessing it, where it is located, whether packaging has been opened, and whether someone is driving can all affect the legal analysis."
+        },
+        {
+          "q": "Can I have cannabis in my car in Minnesota?",
+          "a": "Minnesota has an open-package law for cannabis in private motor vehicles on streets and highways. Opened, partially used, removed-from-original-packaging, or otherwise noncompliant cannabis products can create criminal exposure when kept in the passenger area. The law includes exceptions for items stored in a trunk or, in a vehicle without a trunk, an area not normally occupied by the driver or passengers."
+        },
+        {
+          "q": "Can I be charged with DWI for driving after using cannabis in Minnesota?",
+          "a": "Yes. Minnesota law prohibits driving, operating, or being in physical control of a motor vehicle while under the influence of cannabis or THC. Unlike alcohol, the issue is not simply whether cannabis was legally purchased or possessed. The state may focus on alleged impairment, driving behavior, officer observations, testing, and other surrounding evidence."
+        },
+        {
+          "q": "What if the cannabis was found in a shared vehicle or belonged to someone else?",
+          "a": "Location alone does not always answer who possessed an item. Andrew looks at where the cannabis was found, who owned or controlled the area, who had access, what statements were made, how the product was packaged, and what other evidence connects it to a particular person."
+        },
+        {
+          "q": "What should I do if police question me about marijuana or THC?",
+          "a": "You have the right to remain silent. Avoid trying to explain the situation on the spot or guessing about ownership, quantity, or use. Ask to speak with a lawyer and preserve any information that may matter, including receipts, messages, photos, packaging, or other details about where the product came from and who had access to it."
+        }
+      ],
+      "ctaLabel": "Talk to a Minnesota Cannabis & THC Defense Lawyer",
+      "ctaBody": "If you are facing a cannabis, THC, marijuana, vehicle, or impaired-driving allegation, contact Davis Defense Lawyers to discuss the facts before making statements that could affect your case. Andrew can explain the law, review how the evidence was obtained, and help you understand your options.",
+      "icon": "",
+      "relatedAreas": [
+        "drug-crimes",
+        "dwi-dui",
+        "traffic-offenses"
+      ],
+      "contentBlocks": [
+        {
+          "type": "section",
+          "image": "",
+          "title": "Cannabis Is Legal in Minnesota — But Legal Does Not Mean Unlimited",
+          "body": "Minnesota permits adult-use cannabis for people age 21 and older, but legalization came with limits on possession, transportation, use, and driving. A person can legally purchase cannabis and still face legal problems if the amount exceeds the permitted limit, the product is stored unlawfully in a vehicle, the person is under 21, the circumstances suggest an unlawful sale, or law enforcement alleges the person was impaired while driving. Andrew's approach starts with the details of the situation rather than assuming that the word 'legal' ends the analysis."
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "Minnesota Cannabis Possession Limits for Adults 21 and Older",
+          "body": "Under Minnesota's adult-use rules, the legal limits depend on the type of cannabis product and where it is possessed. Current law generally allows:",
+          "items": [
+            "Up to 2 ounces of adult-use cannabis flower in a public place",
+            "Up to 2 pounds of adult-use cannabis flower in a private residence",
+            "Up to 8 grams of adult-use cannabis concentrate",
+            "Edible cannabis products and lower-potency hemp edibles containing a combined total of up to 800 milligrams of THC",
+            "Gifting cannabis within the legal possession limits to another person age 21 or older when nothing of value is exchanged"
+          ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Cannabis in a Vehicle: Location and Packaging Matter",
+          "body": "Minnesota's cannabis open-package law makes vehicle cases more complicated than simply asking whether the cannabis was legally purchased. Using cannabis in a motor vehicle on a street or highway is prohibited. Opened, partially used, removed-from-original-packaging, or improperly packaged cannabis can also create a criminal issue when it is kept in the passenger area of a private vehicle. The law provides exceptions for packages stored in a trunk or, when there is no trunk, another area not normally occupied by the driver or passengers. In a real case, Andrew looks closely at where the product was located, who had access to it, whether the packaging complied with the law, and who was actually driving."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Cannabis and DWI Charges in Minnesota",
+          "body": "Legal cannabis does not make impaired driving legal. Minnesota's DWI law prohibits driving, operating, or being in physical control of a motor vehicle while under the influence of cannabis or THC. These cases can involve very different evidence from an alcohol DWI. Andrew examines the driving conduct, the reason for the stop, officer observations, field sobriety evidence, testing, timing, statements, and whether the state's evidence actually supports an allegation of impairment."
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "What Andrew Looks at in a Cannabis or THC Case",
+          "body": "The facts surrounding the cannabis often matter as much as the product itself. Andrew may examine:",
+          "items": [
+            "The amount and form of cannabis or THC involved",
+            "Where the cannabis was found and who controlled that area",
+            "Whether a car, apartment, bag, or other space was shared",
+            "The age of the person accused",
+            "Packaging and whether a vehicle open-package rule applies",
+            "Whether the person was driving or in physical control of a vehicle",
+            "What law enforcement observed and what statements were made",
+            "Whether the stop, search, seizure, or testing was lawful",
+            "Receipts, messages, photos, or other evidence that may explain lawful purchase, ownership, access, or use"
+          ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Shared Cars, Shared Spaces, and Disputed Possession",
+          "body": "Cannabis being found near someone does not automatically answer who possessed it. In a shared vehicle, apartment, or other common space, questions of access and control can become important. Andrew looks at the specific location of the product, who owned or used the area, who else had access, and what additional evidence connects the cannabis to a particular person."
+        },
+        {
+          "type": "steps-section",
+          "image": "",
+          "title": "What to Do If Police Question You About Cannabis or THC",
+          "body": "A few careful decisions at the beginning of a case can prevent unnecessary problems:",
+          "steps": [
+            {
+              "step": "Exercise your right to remain silent rather than trying to explain the situation to law enforcement."
+            },
+            {
+              "step": "Ask to speak with a criminal defense attorney before answering questions about ownership, use, quantity, or where the cannabis came from."
+            },
+            {
+              "step": "Preserve receipts, product packaging, messages, photos, and other information that may help establish the circumstances."
+            },
+            {
+              "step": "Write down what happened while the details are still fresh, including where the cannabis was located and who else was present."
+            },
+            {
+              "step": "Do not assume a case disappears simply because the cannabis was purchased legally."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Minnesota Cannabis Laws Continue to Change",
+          "body": "Minnesota's cannabis laws are still developing, and the rule that applies can depend on the date of the incident, the type of product, where it was possessed or used, and whether another allegation such as DWI is involved. A current legal review of the specific facts is more useful than relying on a general assumption that marijuana is either simply 'legal' or 'illegal.'"
         }
       ]
     },
