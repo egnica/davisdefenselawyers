@@ -1,5 +1,5 @@
 // app/robots.js
-const SITE_URL = "https://davisdefenselawyers.com";
+const SITE_URL = "https://www.davisdefenselawyers.com";
 
 export default function robots() {
   return {
@@ -9,6 +9,9 @@ export default function robots() {
         allow: "/",
       },
     ],
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: [
+      `${SITE_URL}/sitemap.xml`,
+      `${SITE_URL}/video-sitemap.xml`,
+    ],
   };
 }
