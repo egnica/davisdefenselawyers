@@ -269,7 +269,7 @@
     "practiceArea": "danco-ofp-violations",
     "title": "Minnesota DANCO Violations Explained",
     "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/danco-MN.mp4",
-    "description": "A DANCO, or Domestic Abuse No Contact Order, is a criminal court order in Minnesota that can restrict contact while a case is pending. In this video, criminal defense attorney Andrew Davis explains how DANCO violations work, including what happens if the protected person contacts first, why third-party messages can still create problems, and what someone should do if they are accused of violating a DANCO.",
+    "description": "A DANCO, or Domestic Abuse No Contact Order, is a criminal court order in Minnesota that can restrict contact while a case is pending. In this video, criminal defense attorney Andrew Davis explains how DANCO violations work, including what happens if the protected person contacts first, why third-party messages can still create problems, what evidence may be used to prove contact, and what someone should do if they are accused of violating a DANCO.",
     "duration": "PT1M30S",
     "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/danco-thumbnail.webp",
     "uploadDate": "2026-06-12",
@@ -321,6 +321,12 @@
         "startOffset": 75,
         "endOffset": 90
       }
+    ],
+    "watchHighlights": [
+      "What a Minnesota DANCO is and how it differs from an Order for Protection",
+      "Why the protected person contacting first does not automatically make a response lawful",
+      "How third-party messages, texts, and social media can create DANCO issues",
+      "What to do after an alleged DANCO violation"
     ]
   },
   {
