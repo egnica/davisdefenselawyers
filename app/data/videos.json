@@ -133,7 +133,7 @@
     "practiceArea": "traffic-offenses",
     "title": "Minnesota Traffic Violations Explained: What You Need to Know",
     "videoUrl": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/Traffic-violation-4.mp4",
-    "description": "Criminal defense attorney Andrew Davis explains traffic violations in Minnesota, including speeding tickets, mobile device offenses, and the legal consequences that can impact your driving record, insurance, and license. Learn when a traffic ticket becomes more serious, why going to court matters, and how legal representation can help protect your driving privileges.",
+    "description": "If you are facing a traffic violation in Minnesota, the citation may affect more than the fine. In this video, criminal defense attorney Andrew Davis explains speeding tickets, cases involving speeds over 100 MPH, commercial-driver concerns, radar evidence, mobile-device allegations, and why what a driver says during a traffic stop or in court can matter. He also explains why taking a citation seriously and reviewing the evidence early can help protect a driving record, license, insurance, and employment.",
     "duration": "PT2M50S",
     "thumbnail": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Videos-davis/thumbnail/traffic-violations.webp",
     "uploadDate": "2026-04-20",
@@ -165,7 +165,7 @@
       "https://www.instagram.com/reel/DXXAkQSALpA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
       "https://www.linkedin.com/posts/andrew-davis-aa4aa253_minnesotalaw-criminaldefense-trafficviolations-ugcPost-7452026606308458496-aCEU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAtfpZwBn0HhJfF_9bcbzQqrSWbJizWmLjU"
     ],
-    "cta": "Facing an traffic charge in Minnesota?",
+    "cta": "Facing a traffic charge in Minnesota?",
     "linkPractice": "Learn more about traffic defense in Minnesota →",
     "clips": [
       {
@@ -203,6 +203,12 @@
         "startOffset": "142",
         "endOffset": "166"
       }
+    ],
+    "watchHighlights": [
+      "Why traffic tickets can be especially serious for commercial drivers",
+      "The license consequence for speeding over 100 MPH in Minnesota",
+      "What Andrew reviews in radar and speed-measuring evidence",
+      "Why admissions during a traffic stop and phone use at a red light can matter"
     ]
   },
   {
