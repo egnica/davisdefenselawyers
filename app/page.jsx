@@ -14,114 +14,6 @@ const practiceAreas = Practices.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
 const areasServiced = Area.areas || [];
 
-const SITE_URL = "https://www.davisdefenselawyers.com/";
-
-export const metadata = {
-  title:
-    "Minnesota Criminal Defense Lawyer | Aggressive Defense for Serious Charges",
-  description:
-    "Andrew Davis is a Minnesota criminal defense attorney representing clients facing DWI, assault, drug charges, domestic assault, theft, and more across the Twin Cities and beyond.",
-  alternates: {
-    canonical: "https://www.davisdefenselawyers.com/",
-  },
-};
-
-/**
- * Single source of truth for office address
- */
-const OFFICE_ADDRESS = {
-  "@type": "PostalAddress",
-  streetAddress: "1230 Night Trail",
-  addressLocality: "Waconia",
-  addressRegion: "MN",
-  postalCode: "55387",
-  addressCountry: "US",
-};
-
-/**
- * Build areaServed from service-areas.json
- * (No cap needed — ~10 locations is perfectly fine)
- */
-function buildAreaServed(locations = []) {
-  const countySet = new Set();
-
-  const cities = locations
-    .filter((loc) => loc.city)
-    .map((loc) => ({
-      "@type": "City",
-      name: `${loc.city}, MN`,
-    }));
-
-  locations.forEach((loc) => {
-    if (loc.county) countySet.add(loc.county);
-  });
-
-  const counties = Array.from(countySet).map((county) => ({
-    "@type": "AdministrativeArea",
-    name: `${county}, MN`,
-  }));
-
-  return [
-    ...cities,
-    ...counties,
-    {
-      "@type": "AdministrativeArea",
-      name: "Minnesota",
-    },
-  ];
-}
-
-const HOME_JSON_LD = {
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  "@id": `${SITE_URL}#firm`,
-  name: "Davis Defense Lawyers",
-  url: SITE_URL,
-  telephone: "+19529941568",
-  description:
-    "Davis Defense Lawyers provides aggressive, experienced criminal defense representation across Minnesota, including assault, DUI, domestic charges, drug offenses, and more.",
-
-  address: OFFICE_ADDRESS,
-
-  areaServed: buildAreaServed(areasServiced),
-
-  provider: {
-    "@type": "Attorney",
-    name: "Andrew Davis",
-    url: `${SITE_URL}/about`,
-    telephone: "+19529941568",
-    address: OFFICE_ADDRESS,
-
-    image: [
-      {
-        "@type": "ImageObject",
-        url: "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-3.webp",
-        caption: "Andrew Davis, Minnesota Criminal Defense Attorney",
-        width: 900,
-        height: 1350,
-      },
-    ],
-  },
-
-  image: [
-    {
-      "@type": "ImageObject",
-      url: "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-3.webp",
-      caption: "Andrew Davis, Minnesota Criminal Defense Attorney",
-      width: 900,
-      height: 1350,
-    },
-  ],
-
-  sameAs: [
-    "https://www.avvo.com/attorneys/55437-mn-andrew-davis-4803224.html",
-    "https://www.experience.com/reviews/andrew-8011103",
-    "https://www.facebook.com/Daviscriminaldefense",
-    "https://www.youtube.com/@AndrewDavisAttorney",
-    "https://www.instagram.com/daviscriminaldefense1",
-  ],
-};
-
 const mostRecentVideo = video.reduce((max, current) =>
   current.id > max.id ? current : max,
 );
@@ -129,13 +21,7 @@ const mostRecentVideo = video.reduce((max, current) =>
 export default function Home() {
   return (
     <>
-      {/* ✅ Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(HOME_JSON_LD) }}
-      />
-
-      <Hero />
+<Hero />
 
       <Grid obj={filter} />
 
