@@ -1079,14 +1079,14 @@
       "slug": "sex-offenses",
       "category": "Criminal Defense",
       "navTitle": "Sex Offenses",
-      "metaTitle": "Minnesota Sex Crimes Lawyer | Defense for Criminal Sexual Conduct & Prostitution Charges",
-      "metaDescription": "Falsely accused of a sex crime in Minnesota? Attorney Andrew Davis defends clients facing criminal sexual conduct, solicitation, and prostitution charges. Protect your future with experienced defense. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Sex Crimes Lawyer | Criminal Sexual Conduct Defense",
+      "metaDescription": "Under investigation or charged with a sex crime in Minnesota? Andrew Davis defends criminal sexual conduct, consent disputes, solicitation, prostitution, and related allegations.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Sex Crimes & Criminal Sexual Conduct Defense",
-      "tagline": "Sex offense accusations are life-changing. You need a defense lawyer who takes your side from day one.",
+      "tagline": "Sex offense allegations can affect your freedom, reputation, family, and future. Get the evidence and the exact charge reviewed before you respond.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "You didn’t do what they’re saying you did or the story the police heard is not the full truth. Allegations of sexual assault, criminal sexual conduct, solicitation, or prostitution are some of the most serious and stigmatizing charges in Minnesota. A conviction can mean prison time, lifetime registration, and damage to your name that never really goes away. At Davis Defense, we are on your side. From our Bloomington-based law firm, Attorney Andrew Davis draws on more than 10 years of criminal defense experience to challenge the allegations, protect your rights, and fight for your future.",
+      "heroSummary": "Minnesota sex-offense cases are highly fact-specific. The degree of criminal sexual conduct can depend on the type of alleged act, age, relationship or position of authority, consent, force or coercion, injury, weapons, and other circumstances. Andrew Davis reviews the precise statute charged, statements, messages, digital records, medical or forensic evidence, witness accounts, and how the investigation was conducted before building a defense strategy.",
       "audience": "Adults and juveniles in Minnesota who are under investigation for, or charged with, criminal sexual conduct, sexual assault, solicitation, prostitution, or related sex offenses and family members seeking help for a loved one.",
       "faqTitle": "Minnesota Sex Offense FAQ",
       "faq": [
@@ -1095,12 +1095,12 @@
           "a": "Sex offenses include a wide range of allegations: rape, sexual assault, criminal sexual conduct (1st–5th degree), child molestation, statutory rape, solicitation of a minor, indecent exposure, possession or distribution of child pornography, prostitution, and solicitation of prostitution. The exact charge depends on factors like age, alleged conduct, use of force, and relationship between the parties."
         },
         {
-          "q": "I was falsely accused. Do I really need a lawyer?",
-          "a": "Yes. False allegations happen for many reasons revenge, custody disputes, misinterpretation of consensual encounters, or pressure on a complaining witness. Once an accusation is made, police and prosecutors move quickly. Anything you say on your own can be used against you. Having a lawyer early in the process is often the best way to protect yourself and correct the record."
+          "q": "Do I need a lawyer before talking to police about a sex-offense allegation?",
+          "a": "Getting legal advice before an interview is important because investigators may already have statements, messages, digital records, or other evidence you have not seen. A lawyer can help determine whether an interview is in your interest, communicate with investigators, and protect against unnecessary or misunderstood statements."
         },
         {
           "q": "What are the consequences if I’m convicted of a sex offense?",
-          "a": "Penalties can include years or even decades in prison, large fines, long-term probation, and mandatory predatory offender registration often for 10 years or for life. You may also face sex offender treatment, restrictions on where you can live or work, and serious damage to your reputation and relationships."
+          "a": "Consequences depend on the exact offense and degree and can include incarceration, fines, probation or conditional release, treatment requirements, and registration for qualifying offenses. Employment, housing, licensing, immigration status, and family relationships can also be affected."
         },
         {
           "q": "What are the degrees of criminal sexual conduct?",
@@ -1109,66 +1109,97 @@
         {
           "q": "Do you handle prostitution and solicitation cases too?",
           "a": "Yes. We defend clients accused of prostitution, patronizing prostitutes, and related solicitation offenses, including hotel stings and online operations. These cases can involve entrapment issues, undercover operations, and heavy collateral consequences for employment and professional licenses."
+        },
+        {
+          "q": "How does Minnesota define consent in a criminal sexual conduct case?",
+          "a": "Minnesota defines consent as words or overt actions indicating a freely given present agreement to perform a particular sexual act. A prior or current relationship does not by itself establish consent, and failure to resist does not by itself establish consent. Some age- or relationship-based offenses do not permit consent as a defense."
+        },
+        {
+          "q": "Does every Minnesota sex-offense conviction require lifetime registration?",
+          "a": "No. Registration depends on the qualifying offense, procedural history, and other statutory factors, and the duration is not the same in every case. The exact conviction must be reviewed before determining whether registration applies and for how long."
         }
       ],
       "ctaLabel": "Talk to a Minnesota Sex Crimes Defense Lawyer",
       "ctaBody": "If you’ve been accused of a sex offense, do not talk to police or anyone else about the allegations before speaking with a lawyer. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a confidential, no-obligation consultation.",
       "icon": "",
       "relatedAreas": [
-        "expungement",
         "probation-violation",
-        "domestic-assault"
+        "expungement",
+        "federal-crimes",
+        "juvenile-crimes"
       ],
       "contentBlocks": [
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/so-1.webp",
-          "title": "Have You Been Falsely Accused of a Sex Crime?",
-          "body": "You didn’t do it or at least not the way it’s being described. Maybe the encounter was consensual. Maybe the story has changed over time. Maybe the accusation is being used as leverage in a divorce or custody dispute. Whatever the circumstances, an accusation of sexual assault, criminal sexual conduct, or solicitation is devastating. The police are not on your side, and trying to “explain things” without a lawyer can make matters worse. At Davis Defense, we listen to your side first, investigate the facts, and build a defense that treats you as a person not a headline."
+          "title": "Under Investigation or Charged With a Minnesota Sex Offense?",
+          "body": "A sex-offense investigation can begin with a report, a police interview request, a search warrant, a digital-device seizure, or a formal criminal complaint. The accusation may involve disputed consent, age-based allegations, conflicting accounts, online communications, or forensic evidence. Trying to explain the situation before understanding what investigators already have can create additional problems. Andrew reviews the allegations and evidence first, then advises the client about interviews, searches, court orders, and the next stage of the case."
         },
         {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/so-2.webp",
           "title": "Types of Sex Offense Cases We Handle",
-          "body": "Sex crime charges are complex and highly fact-specific. We defend clients facing allegations such as:",
+          "body": "Minnesota sex-offense allegations cover many different statutes and factual situations. Cases may involve:",
           "items": [
-            "Criminal Sexual Conduct in the First, Second, Third, Fourth, and Fifth Degree",
-            "Sexual assault and rape allegations",
-            "Statutory rape and age-based consent offenses",
-            "Date rape and intoxication-related accusations",
-            "Solicitation of a minor or electronic solicitation",
-            "Possession, distribution, or production of child pornography",
-            "Indecent exposure and lewd conduct",
-            "Prostitution and solicitation of prostitution, including hotel and online stings",
-            "Internet-based sex offenses and undercover operations"
+            "Criminal Sexual Conduct in the First, Second, Third, Fourth, or Fifth Degree",
+            "Allegations involving sexual penetration or sexual contact without legally valid consent",
+            "Age-based criminal sexual conduct allegations",
+            "Allegations involving force, coercion, injury, or a dangerous weapon",
+            "Cases involving an alleged position of authority, significant relationship, or vulnerable complainant",
+            "Solicitation of a minor or internet-based allegations",
+            "Pornographic works involving minors / child sexual abuse material allegations",
+            "Indecent exposure",
+            "Prostitution, patronizing, and solicitation allegations, including online or undercover investigations"
           ]
         },
         {
           "type": "list-section",
           "image": "",
           "title": "Degrees of Criminal Sexual Conduct in Minnesota",
-          "body": "Minnesota’s Criminal Sexual Conduct statutes are broken down into five degrees, each with its own elements and potential penalties:",
+          "body": "Minnesota has five degrees of Criminal Sexual Conduct, but the degree cannot be determined from a single fact alone. The statutes distinguish among sexual penetration and sexual contact and include different combinations of age, relationship, force or coercion, injury, weapons, incapacity, and other circumstances. As a general orientation:",
           "items": [
             {
-              "lead": "Fifth-Degree Criminal Sexual Conduct",
-              "text": "Often involves nonconsensual sexual contact or lewd exhibition of genitals, sometimes in the presence of a child. Still serious, but carries the lowest maximum jail time."
-            },
-            {
-              "lead": "Fourth-Degree Criminal Sexual Conduct",
-              "text": "Typically involves sexual contact (not penetration) with an adult or minor under circumstances such as mental impairment, physical helplessness (including sleeping or unconscious), force or coercion, or a prohibited relationship (such as therapist, clergy, caregiver, or other position of authority)."
-            },
-            {
-              "lead": "Third-Degree Criminal Sexual Conduct",
-              "text": "Involves sexual penetration under circumstances similar to Fourth Degree, including force or coercion, mental impairment, physical helplessness, certain age differences with minors, or prohibited relationships."
+              "lead": "First-Degree Criminal Sexual Conduct",
+              "text": "The most serious degree. It can apply to specified penetration or contact allegations involving circumstances such as serious threats, weapons, force, injury, accomplices, or particular age and relationship combinations. The exact subdivision charged matters."
             },
             {
               "lead": "Second-Degree Criminal Sexual Conduct",
-              "text": "Involves sexual contact where aggravating factors are present, such as use of a dangerous weapon, threats of imminent great bodily harm, force resulting in personal injury, or the presence of an accomplice."
+              "text": "Generally addresses specified sexual-contact allegations involving serious aggravating circumstances, including certain threats, weapons, force, injury, accomplices, age combinations, or prohibited relationships."
             },
             {
-              "lead": "First-Degree Criminal Sexual Conduct",
-              "text": "The most serious charge, often involving sexual penetration with minors under certain ages, use of weapons, force or threats of serious harm, personal injury, or an accomplice. Penalties can reach up to 30 years in prison and very large fines."
+              "lead": "Third-Degree Criminal Sexual Conduct",
+              "text": "Generally involves sexual penetration under one of the circumstances listed in the statute, which can include lack of consent, age-based provisions, incapacity, coercion, or certain relationships or positions."
+            },
+            {
+              "lead": "Fourth-Degree Criminal Sexual Conduct",
+              "text": "Generally involves sexual contact under one of the circumstances listed in the statute, including lack of consent, age-based provisions, incapacity, coercion, or specified relationships or positions."
+            },
+            {
+              "lead": "Fifth-Degree Criminal Sexual Conduct",
+              "text": "Covers specified nonconsensual sexual-contact conduct and certain lewd-conduct allegations. It remains a criminal sexual conduct charge even though it is the lowest numbered degree."
             }
+          ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "What Does Consent Mean Under Minnesota Law?",
+          "body": "Minnesota defines consent as words or overt actions indicating a freely given present agreement to perform a particular sexual act. A prior or current relationship does not by itself establish consent, and a person's failure to resist does not by itself establish consent. Consent is not legally available as a defense to every age- or relationship-based offense, so Andrew first determines whether consent is an element or legally relevant to the specific charge."
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "Evidence That Can Matter in a Sex Crime Investigation",
+          "body": "The evidence is often broader than the initial accusation. Depending on the case, Andrew may review:",
+          "items": [
+            "Text messages, direct messages, emails, call logs, and social-media communications",
+            "Phone-location, application, account, or other digital records when available and legally obtained",
+            "911 calls, body-camera footage, recorded interviews, and prior statements",
+            "Medical records, forensic examination materials, laboratory evidence, and photographs",
+            "Surveillance video, rideshare records, receipts, or other timeline evidence",
+            "Witness accounts and changes or inconsistencies in statements",
+            "Search warrants, device extractions, and whether evidence was lawfully obtained",
+            "The history and nature of the relationship when legally relevant"
           ]
         },
         {
@@ -1187,28 +1218,31 @@
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/so-4.webp",
           "title": "Consequences of a Sex Crime Conviction",
-          "body": "Sex offense convictions are among the most severe in Minnesota. Depending on the charge and degree, you may face:",
+          "body": "The consequences depend heavily on the exact offense and sentence. A qualifying conviction can create criminal penalties and collateral consequences that continue long after the court case ends, including:",
           "items": [
-            "Long jail or prison sentences",
-            "Heavy fines and restitution",
-            "Predatory offender registration for at least 10 years, and sometimes life",
-            "Strict probation terms and mandatory sex offender treatment",
-            "Limitations on where you can live or work",
-            "Loss of professional licenses and certain employment opportunities",
-            "Damage to your reputation, relationships, and standing in the community"
+            "Jail or prison exposure that varies substantially by the offense and degree",
+            "Fines, restitution, and court-ordered conditions",
+            "Lengthy probation or conditional-release requirements in qualifying cases",
+            "Predatory-offender registration requirements for qualifying offenses, with duration depending on the conviction and history",
+            "Treatment or evaluation requirements when ordered",
+            "Employment, licensing, housing, immigration, and reputation consequences",
+            "Restrictions created by probation, release conditions, or other court orders"
           ]
         },
         {
           "type": "list-section",
           "image": "",
           "title": "Defending Against Sex Crime Allegations",
-          "body": "There are always at least two sides to the story. In sex crime cases, the details matter, including prior relationships, text messages, witnesses, physical evidence, and the timing and motivation of the accusation. Defense strategies may include:",
+          "body": "A defense has to match the elements of the specific charge rather than a generic theory. Andrew compares statements with objective evidence, evaluates whether consent is legally relevant, reviews digital and forensic material, and examines how police obtained evidence. Depending on the case, issues may include:",
           "items": [
-            "Challenging the credibility and consistency of the complaining witness",
-            "Highlighting motives to lie, exaggerate, or misinterpret events",
-            "Establishing consent in adult cases where the issue is not age but alleged force or coercion",
-            "Questioning forensic evidence and the reliability of medical or digital evidence",
-            "Exposing constitutional violations in how evidence was obtained or statements were taken"
+            "Whether the state can prove every element of the exact degree charged",
+            "Consent in cases where consent is legally relevant",
+            "Conflicting, changing, or unsupported witness statements",
+            "Age, relationship, or position-of-authority elements",
+            "Digital evidence and whether the timeline supports the allegation",
+            "Medical or forensic evidence and what it does or does not establish",
+            "Search warrants, interviews, and constitutional issues affecting evidence",
+            "Alternative explanations for communications, injuries, or other circumstantial evidence"
           ]
         },
         {
@@ -2612,14 +2646,14 @@
       "slug": "white-collar-crimes",
       "category": "Criminal Defense",
       "navTitle": "White Collar Crimes",
-      "metaTitle": "Minnesota White Collar Crime Lawyer | Fraud, Embezzlement & Federal Defense",
-      "metaDescription": "Under investigation or charged with a white collar crime in Minnesota? Andrew Davis defends fraud, embezzlement, financial crimes, and federal cases. Free consultation. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota White Collar Crime Lawyer | Fraud & Embezzlement Defense",
+      "metaDescription": "Under investigation for fraud, embezzlement, theft, or another financial crime in Minnesota? Andrew Davis reviews records, intent, subpoenas, interviews, and state or federal exposure.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota White Collar Crime Defense Lawyer",
       "tagline": "Protecting your reputation, your freedom, and your future when the stakes are financial and criminal.",
       "heroImage": "",
       "heroImageAlt": "Minnesota white collar crime defense attorney reviewing financial documents",
-      "heroSummary": "White collar investigations move quietly but hit hard. By the time you learn you’re a target, law enforcement may have already spent months gathering records and building a case. Andrew Davis uses more than 10 years of criminal defense experience to push back early, protect your rights, and work to keep charges from ruining your life and career.",
+      "heroSummary": "White collar cases are often built from documents long before anyone is arrested. Bank records, accounting data, emails, text messages, access logs, contracts, internal audits, and witness interviews can all become part of the prosecution's theory. Andrew Davis gets involved early to determine what conduct is actually alleged, what mental state the state or federal government must prove, what records exist, and whether the evidence supports the narrative investigators are building.",
       "audience": "Professionals, business owners, employees, and public officials under investigation for or charged with white collar or financial crimes in Minnesota state or federal court.",
       "faqTitle": "Minnesota White Collar Crime FAQ",
       "faq": [
@@ -2642,13 +2676,22 @@
         {
           "q": "Should I talk to investigators before I hire a lawyer?",
           "a": "It is almost always better to speak with a lawyer before you talk with law enforcement, auditors, or investigators about suspected fraud or financial misconduct. Even statements you believe are harmless can be misunderstood or taken out of context. Andrew can help you decide whether to give a statement, how to do so safely, or whether it is better to decline an interview altogether."
+        },
+        {
+          "q": "What is the difference between a subpoena, search warrant, and target letter?",
+          "a": "A subpoena generally requires testimony or production of specified records. A search warrant authorizes law enforcement to search for items within the warrant's scope. A federal target letter can notify a person that prosecutors consider them a target of a grand-jury investigation. Each calls for a different response, and it is useful to have counsel review the document before acting."
+        },
+        {
+          "q": "Can a bookkeeping mistake become a criminal fraud case?",
+          "a": "A mistake by itself is not the same as criminal intent. The government must prove the elements of the specific offense charged, which can include knowledge or intent requirements. Accounting records, authorization, communications, business practices, and who controlled the money can be important in distinguishing a mistake or dispute from criminal conduct."
         }
       ],
       "ctaLabel": "Schedule a Free Confidential Consultation",
       "ctaBody": "If you’re under investigation or charged with a white collar offense, do not wait. Contact Davis Defense to discuss your situation privately and start protecting your future today.",
       "icon": "💼",
       "relatedAreas": [
-        "theft-crimes"
+        "theft-crimes",
+        "federal-crimes"
       ],
       "contentBlocks": [
         {
@@ -2673,6 +2716,34 @@
             "Public corruption, bribery, and misuse of public funds",
             "Computer crimes and internet-based financial schemes"
           ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "State or Federal? White Collar Cases Can Go Either Way",
+          "body": "Financial conduct is not automatically a federal case. Minnesota prosecutors handle many theft, fraud, forgery, identity-theft, and embezzlement-related cases in state court, while federal charges may arise when a federal statute or federal investigative interest is involved. The investigating agency, subpoena or warrant, alleged conduct, movement of money or communications, and statutes identified in the investigation can help show which system is involved."
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "What Evidence Drives a White Collar Case?",
+          "body": "These cases often turn on records and context rather than a single eyewitness. Andrew may need to organize and compare:",
+          "items": [
+            "Bank statements, transaction histories, checks, invoices, and payment records",
+            "Accounting systems, ledgers, expense reports, and audit materials",
+            "Emails, text messages, internal chats, and other communications",
+            "Contracts, policies, authorization records, and job responsibilities",
+            "Computer access logs, account credentials, metadata, and device records",
+            "Tax, payroll, insurance, or benefits records when relevant",
+            "Statements from coworkers, business partners, clients, auditors, or investigators",
+            "The flow of money and whether the records actually establish personal knowledge, intent, or benefit"
+          ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Intent Can Be the Central Dispute",
+          "body": "Many fraud, theft, embezzlement, and false-statement offenses require the government to prove a particular form of knowledge or intent. A suspicious transaction or accounting problem is not automatically proof of criminal intent. Andrew looks at authorization, business practices, who controlled accounts, what the client knew at the time, communications, accounting treatment, and whether there is a noncriminal explanation for the records."
         },
         {
           "type": "steps-section",
@@ -2701,7 +2772,13 @@
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/wcc-3.webp",
           "title": "Investigations Versus Formal Charges",
-          "body": "Many white collar cases begin long before anyone is actually charged. Employers conduct internal investigations, auditors raise questions, or investigators quietly gather bank records, emails, and other data. By the time law enforcement contacts you, they may already have months of information. Getting Andrew involved early  even at the investigation stage can make a real difference. He can help you respond to subpoenas, decide whether and how to speak with investigators, and start building a narrative that explains what really happened instead of letting spreadsheets and accusation letters tell the whole story."
+          "body": "A white collar matter may begin with an internal investigation, audit request, subpoena, search warrant, target letter, or contact from law enforcement. Those events mean different things. A subpoena generally demands testimony or records; a search warrant authorizes a search within its scope; and a target letter can indicate that federal prosecutors believe a person is a target of a grand-jury investigation. Andrew reviews the document or contact before the client responds and helps preserve records without making unnecessary statements."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Do Not Delete or “Clean Up” Records After Learning of an Investigation",
+          "body": "Once an investigation, subpoena, audit, or litigation hold is known, deleting messages, altering files, backdating records, or asking others to change documents can create serious additional problems. Preserve potentially relevant material and let counsel determine what must be produced, what is protected, and how to respond lawfully."
         }
       ]
     },
@@ -2709,14 +2786,14 @@
       "slug": "federal-crimes",
       "category": "Criminal Defense",
       "navTitle": "Federal Crimes",
-      "metaTitle": "Minnesota Federal Criminal Defense Lawyer | Davis Defense",
-      "metaDescription": "Charged in federal court or under federal investigation in Minnesota? Davis Defense provides experienced federal criminal defense for white collar, drug, internet, and other federal charges. Free consultation. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Federal Criminal Defense Lawyer | Investigation & Federal Charges",
+      "metaDescription": "Under federal investigation or charged in federal court in Minnesota? Andrew Davis defends federal fraud, drug, conspiracy, internet, weapons, and other criminal cases.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Federal Criminal Defense Lawyer",
       "tagline": "Serious Charges. Strategic Federal Defense.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "When the federal government targets you, the stakes are higher, the resources against you are greater, and the margin for error is smaller. At Davis Defense, we draw on decades of criminal defense experience to protect your rights in federal court, challenge the government’s evidence, and fight to keep you out of prison.",
+      "heroSummary": "A federal investigation can develop for months before agents contact a target or execute a search warrant. By the time charges are filed, prosecutors may already have extensive records, digital evidence, witness interviews, or grand-jury material. Andrew Davis helps clients understand whether they are a witness, subject, or target, respond carefully to agents and subpoenas, evaluate the government's evidence, and prepare for federal court.",
       "audience": "Individuals under federal investigation or charged with a federal crime in the U.S. District Court for the District of Minnesota.",
       "faqTitle": "Minnesota Federal Crimes FAQ",
       "faq": [
@@ -2735,6 +2812,14 @@
         {
           "q": "Are federal sentences always harsher than state sentences?",
           "a": "Federal sentences can be longer than state sentences for similar conduct, especially in drug, fraud, and gun cases. But the outcome depends heavily on the guideline calculations and how your lawyer presents your story. By challenging the government’s version of events and highlighting your personal history and mitigating factors, Andrew works to secure the lowest reasonable sentence – and in some cases, to avoid a conviction or prison altogether."
+        },
+        {
+          "q": "Are the Federal Sentencing Guidelines mandatory?",
+          "a": "No. The Federal Sentencing Guidelines are advisory, but a federal judge must correctly calculate and consider the applicable guideline range along with the other sentencing factors in 18 U.S.C. § 3553(a). Statutory mandatory minimums are separate and apply only when the charged and proven offense triggers one."
+        },
+        {
+          "q": "What should I do if I receive a federal target letter or grand jury subpoena?",
+          "a": "Do not ignore it and do not assume you should immediately explain yourself to investigators. Preserve the letter or subpoena, note any deadline, avoid destroying or altering records, and have federal defense counsel review the document and contact the appropriate prosecutor or agent before you respond."
         }
       ],
       "ctaLabel": "Request a Free Federal Case Review",
@@ -2743,14 +2828,42 @@
       "relatedAreas": [
         "white-collar-crimes",
         "drug-crimes",
-        "criminal-vehicular-operation"
+        "sex-offenses"
       ],
       "contentBlocks": [
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/fed-1.webp",
           "title": "Facing Federal Charges in Minnesota",
-          "body": "Federal cases are different from typical state charges. Federal agencies like the FBI, DEA, IRS, ATF, Homeland Security, and others often spend months or years gathering records, conducting surveillance, and building a detailed case before anyone is ever arrested. Once federal prosecutors file charges, they typically have large amounts of documents, recordings, and digital evidence ready to use against you. At Davis Defense, we understand the pace and pressure of federal prosecutions. We focus on getting in early, analyzing the government’s case, pushing back against overreaching charges, and working to avoid mandatory minimums and harsh guideline sentences whenever possible."
+          "body": "Federal cases use different procedures, agencies, charging documents, discovery practices, and sentencing rules than Minnesota state cases. Investigations may involve the FBI, DEA, IRS-CI, ATF, Homeland Security Investigations, inspectors general, or other federal agencies depending on the allegation. Early legal advice can be especially important before an agent interview, grand-jury subpoena, search-warrant response, surrender, detention hearing, or indictment."
+        },
+        {
+          "type": "list-section",
+          "image": "",
+          "title": "Target Letter, Grand Jury Subpoena, Search Warrant, or Agent Interview?",
+          "body": "The first sign of a federal case can take several forms, and each requires a different response:",
+          "items": [
+            {
+              "lead": "Agent interview request",
+              "text": "An investigator may ask to speak voluntarily. Counsel can determine the client's status and communicate with agents before any interview occurs."
+            },
+            {
+              "lead": "Grand jury subpoena",
+              "text": "A subpoena may require documents or testimony and comes with deadlines and legal obligations that should be reviewed promptly."
+            },
+            {
+              "lead": "Target letter",
+              "text": "A target letter can indicate that prosecutors believe substantial evidence links the recipient to a federal offense being investigated by the grand jury."
+            },
+            {
+              "lead": "Search warrant",
+              "text": "A warrant authorizes agents to search within its stated scope. The warrant, inventory, seized devices or records, and manner of execution should be preserved for review."
+            },
+            {
+              "lead": "Indictment or complaint",
+              "text": "Once charges are filed, immediate issues can include initial appearance, detention or release, discovery, motion deadlines, plea discussions, and trial preparation."
+            }
+          ]
         },
         {
           "type": "list-section",
@@ -2769,19 +2882,21 @@
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/fed-2.webp",
           "title": "Why Federal Cases Are So High-Stakes",
-          "body": "Federal prosecutions are often more formal, more structured, and less flexible than typical state cases. Sentencing is heavily influenced by the Federal Sentencing Guidelines, which assign offense levels and criminal history scores to produce a recommended sentencing range. Many offenses also carry mandatory minimum sentences, especially drug and certain weapons charges.\n\nA conviction can mean years in federal prison, large fines, strict supervised release conditions, immigration consequences for non-citizens, and a permanent felony record. That’s why it is critical to work with a defense lawyer who knows how to calculate guideline exposure, identify grounds for departures or variances, and argue for the lowest possible sentence or fight for a dismissal or acquittal where the evidence allows."
+          "body": "Federal offenses can carry significant statutory penalties, and some statutes include mandatory minimum sentences. In cases that reach sentencing, the court calculates an advisory range under the United States Sentencing Guidelines and then considers that range along with the other factors in 18 U.S.C. § 3553(a). Because guideline calculations can be affected by offense-specific facts, criminal history, role, loss or drug quantity, acceptance of responsibility, and other provisions, disputes about the correct calculation can materially affect the sentencing analysis."
         },
         {
           "type": "list-section",
           "image": "",
           "title": "How Davis Defense Handles Federal Cases",
-          "body": "Every federal case is unique, but our approach is built on careful preparation and strategic, fact-driven advocacy:",
+          "body": "Federal defense requires a clear picture of both the evidence and the procedural posture. Depending on the case, Andrew's work can include:",
           "items": [
-            "Early intervention: whenever possible, we get involved during the investigation phase to limit exposure, shape the narrative, and sometimes prevent charges from being filed at all.",
-            "Deep evidence review: we study discovery, financial records, digital data, reports, and witness statements to find inconsistencies, overstatements, or legal issues.",
-            "Motion practice: we challenge unlawful searches, defective warrants, improper statements, and other constitutional violations to exclude evidence where the law supports it.",
-            "Guideline analysis: we calculate potential sentencing ranges, identify enhancements the government may seek, and look for reductions or exceptions that can dramatically lower exposure.",
-            "Negotiation and trial readiness: we negotiate from a position of strength, prepared to take the case to trial when a fair resolution is not offered."
+            "Determining whether the client is a witness, subject, target, or already charged defendant",
+            "Communicating with agents and prosecutors and evaluating interview requests",
+            "Reviewing subpoenas, warrants, discovery, financial records, digital evidence, and witness statements",
+            "Challenging unlawful searches, statements, or other evidence when supported by the facts and law",
+            "Analyzing the statute of conviction, mandatory-minimum exposure, and the applicable advisory guideline calculation",
+            "Negotiating when a resolution serves the client's goals while preparing the case for motions or trial when necessary",
+            "Presenting guideline objections and arguments under the federal sentencing factors when a case reaches sentencing"
           ]
         },
         {
@@ -2807,7 +2922,7 @@
           "type": "section",
           "image": "",
           "title": "How Federal Sentencing Works",
-          "body": "Federal sentencing is driven by a combination of statutes, the United States Sentencing Guidelines, and the specific facts of each case. Judges consider things like the alleged loss amount, your prior record (if any), your role in the offense, and whether you accepted responsibility. Small changes to these factors can add or subtract years from a potential sentence. Andrew carefully analyzes the guideline calculations, challenges enhancements that do not apply, and highlights mitigating factors such as work history, family responsibilities, health issues, and community contributions. In many cases, the real work of federal defense is done long before the sentencing hearing ever begins."
+          "body": "Federal sentencing begins with the statutes governing the conviction and a calculation of the advisory United States Sentencing Guidelines. The guideline calculation can depend on offense-specific factors and criminal history, while mandatory minimums apply only when a statute provides one. The judge must also consider the factors in 18 U.S.C. § 3553(a) before imposing a sentence that is sufficient but not greater than necessary. Andrew reviews the guideline calculation, challenges unsupported enhancements or factual assumptions, and develops mitigation and variance arguments grounded in the client's history and the circumstances of the case."
         }
       ]
     },
@@ -2815,14 +2930,14 @@
       "slug": "juvenile-crimes",
       "category": "Criminal Defense",
       "navTitle": "Juvenile Crimes",
-      "metaTitle": "Minnesota Juvenile Crimes Lawyer | Protect Your Child’s Future",
-      "metaDescription": "Is your child facing juvenile charges in Minnesota? Davis Defense Lawyers helps protect your child’s future with experienced juvenile criminal defense focused on rehabilitation, not punishment. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Juvenile Defense Lawyer | Delinquency, EJJ & Adult Certification",
+      "metaDescription": "Is your child facing a juvenile charge in Minnesota? Andrew Davis defends delinquency cases, detention issues, EJJ proceedings, and adult-certification cases.",
       "schemaServiceType": "LegalService",
-      "pageTitle": "Minnesota Juvenile Crimes Defense",
-      "tagline": "Kids make mistakes. We make sure one bad decision doesn’t define their future.",
+      "pageTitle": "Minnesota Juvenile Criminal Defense",
+      "tagline": "A juvenile case can affect school, freedom, records, and future opportunities. Get the process and the risks explained early.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "When a child is accused of a crime in Minnesota, the case goes through the juvenile court system   but that doesn’t mean the stakes are low. Depending on the charge, a juvenile can face misdemeanor or felony consequences, and in the most serious cases, they can even be treated like an adult. At Davis Defense Lawyers, we understand how stressful this is for families. We help you navigate the juvenile process, protect your child’s rights, and focus on rehabilitation over punishment.",
+      "heroSummary": "Most allegations against children are handled in Minnesota juvenile court, where the terminology and goals differ from adult criminal court. But serious cases can involve detention, probation, out-of-home placement, Extended Jurisdiction Juvenile prosecution, or a request to certify a child for adult prosecution. Andrew Davis helps families understand which path the case is on, protects the child's rights, reviews the evidence, and keeps the long-term impact in view.",
       "audience": "Parents, guardians, and families of minors (under 18) facing juvenile charges in Minnesota.",
       "faqTitle": "Minnesota Juvenile Crimes FAQ",
       "faq": [
@@ -2832,7 +2947,7 @@
         },
         {
           "q": "Can my child be tried as an adult?",
-          "a": "Yes, in some serious cases a minor can be certified to stand trial as an adult. This is more likely for older teens and for serious felonies such as violent offenses, certain sex crimes, or weapons-related charges. Whether the case stays in juvenile court or moves to adult court can be one of the most important battles in the case."
+          "a": "Yes, in qualifying felony cases. Minnesota law permits adult certification proceedings for children age 14 or older, with different presumptions and burdens depending on age, offense, prior history, and other statutory factors. Some serious cases may instead proceed as Extended Jurisdiction Juvenile matters."
         },
         {
           "q": "Will a juvenile case be part of my child’s permanent record?",
@@ -2840,75 +2955,85 @@
         },
         {
           "q": "What is Extended Jurisdiction Juvenile (EJJ)?",
-          "a": "Extended Jurisdiction Juvenile (EJJ) is a special status for serious juvenile cases where the court imposes both a juvenile disposition and a stayed adult sentence. The child is supervised until about age 21. If they successfully follow the rules, the adult sentence may never be imposed. If they violate probation, the adult sentence can be activated."
+          "a": "EJJ is a special prosecution path for specified felony cases involving a child who was 14 to 17 at the time of the alleged offense. An EJJ prosecution includes a right to a jury trial, and a conviction can result in a juvenile disposition plus a stayed adult criminal sentence that can be put at risk if the juvenile disposition is later revoked."
         },
         {
           "q": "Do we really need a lawyer if it’s ‘just’ juvenile court?",
           "a": "Yes. Juvenile cases can involve detention, lengthy probation, out-of-home placement, loss of driving privileges, and long-term consequences for school and work. Having an experienced juvenile defense lawyer can influence everything from whether charges are filed, to the outcome at trial, to how serious the disposition is   and whether your child’s future opportunities remain open."
+        },
+        {
+          "q": "Does my child have a right to a jury trial in juvenile court?",
+          "a": "Ordinary juvenile delinquency trials are generally tried to a judge rather than a jury. Extended Jurisdiction Juvenile prosecutions are different: Minnesota law provides a right to a jury trial in EJJ proceedings."
+        },
+        {
+          "q": "What is the difference between EJJ and adult certification?",
+          "a": "EJJ keeps the case in a special juvenile-court track but can impose a juvenile disposition together with a stayed adult sentence. Adult certification moves a qualifying felony case into adult criminal court. The applicable standards depend on the child's age, the offense, and other statutory factors."
         }
       ],
       "ctaLabel": "Protect Your Child’s Future",
       "ctaBody": "If your child has been accused of a crime, you don’t have time to wait and hope things work out. We’ll explain the process, talk through your options, and fight for a resolution that protects your child’s future. Contact Davis Defense Lawyers today for a confidential consultation.",
       "icon": "juvenile",
       "relatedAreas": [
-        "domestic-assault",
-        "danco-ofp-violations",
-        "gun-rights-restoration"
+        "assault",
+        "drug-crimes",
+        "theft-crimes",
+        "gun-rights-restoration",
+        "expungement"
       ],
       "contentBlocks": [
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/juvenile-1.webp",
-          "title": "Juvenile Charges Are Different   and So Is the Process",
-          "body": "Juvenile court in Minnesota is its own system, with its own rules, terminology, and goals. Cases are handled as civil proceedings, but the impact on your child’s life can be very real. Instead of being ‘found guilty,’ a child can be found ‘delinquent’   essentially the juvenile version of a conviction. The focus is supposed to be on rehabilitation, but without a strong defense, your child can still face detention, strict probation, and long-term consequences.\n\nAt Davis Defense Lawyers, we walk families through every stage: from the first police contact, to court hearings, to final disposition. Our goal is to minimize harm, push for services instead of punishment where appropriate, and keep your child’s future as open as possible."
+          "title": "Juvenile Charges Are Different — and So Is the Process",
+          "body": "Minnesota delinquency court has its own rules and terminology. A child may be alleged delinquent rather than charged and convicted in the same way as an adult, and the court has a broad range of dispositions focused in part on rehabilitation and public safety. Serious felony cases can follow additional paths, including Extended Jurisdiction Juvenile prosecution or adult certification. Andrew explains the specific procedure rather than treating every juvenile case as a smaller version of adult court."
         },
         {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/juvenile-2.webp",
           "title": "Common Juvenile Offenses We Handle",
-          "body": "We represent minors in a wide range of cases   from one-time mistakes to serious, high-stakes charges.",
+          "body": "Juvenile cases can involve conduct ranging from school or property incidents to serious felony allegations. Examples include:",
           "items": [
-            "Shoplifting and theft (including theft from an employer)",
-            "Vandalism and property damage",
-            "Underage drinking and alcohol-related offenses",
-            "Possession of marijuana or other controlled substances",
-            "School-related incidents (fights, threats, weapons on school grounds)",
-            "Curfew violations and runaways",
-            "Disorderly conduct and disturbing the peace",
-            "Reckless, speeding, or impaired driving",
-            "Assault and domestic-related incidents involving family or household members",
-            "Weapons and firearm-related juvenile charges"
+            "Theft, shoplifting, and property offenses",
+            "Property damage and vandalism",
+            "Alcohol, cannabis, and controlled-substance allegations",
+            "School-related fights, threats, and weapons allegations",
+            "Disorderly conduct and other public-order offenses",
+            "Traffic and impaired-driving allegations",
+            "Assault and domestic-related allegations",
+            "Firearm and weapons offenses",
+            "Sex-offense allegations",
+            "Other misdemeanor, gross-misdemeanor, or felony-level delinquency allegations"
           ]
         },
         {
           "type": "list-section",
           "image": "",
           "title": "How the Juvenile Court Process Works",
-          "body": "Juvenile cases in Minnesota follow a different path than adult criminal cases:",
+          "body": "The path depends on the allegation, age, custody status, and whether the prosecutor seeks EJJ or adult certification. A typical delinquency case may involve:",
           "items": [
             {
-              "lead": "Charging",
-              "text": "The county attorney files a petition or law enforcement issues a citation. Charges move forward only if the state believes it has enough evidence."
+              "lead": "Petition or Citation",
+              "text": "The case may begin with a delinquency petition or citation alleging conduct that would be criminal if committed by an adult."
             },
             {
-              "lead": "Release or Detention",
-              "text": "Many juveniles are released to a parent or guardian, but in more serious cases a child may be held in a detention facility and must see a judge within a short time."
+              "lead": "Custody and Detention",
+              "text": "If the child is held, court rules require prompt judicial review of detention and release conditions."
             },
             {
-              "lead": "First Hearing (Arraignment)",
-              "text": "Your child admits or denies the allegations. An admission is essentially a guilty plea, while a denial moves the case toward trial."
+              "lead": "First Appearance / Arraignment",
+              "text": "The court advises the child of the allegations and rights, and the case can proceed based on an admission or denial."
             },
             {
-              "lead": "Pretrial Hearings",
-              "text": "In some cases, the court holds hearings to address legal issues, negotiate outcomes, or explore diversion options."
+              "lead": "Pretrial and Motion Practice",
+              "text": "Counsel can obtain discovery, litigate legal issues, challenge evidence, and discuss diversion or negotiated outcomes when available."
             },
             {
               "lead": "Trial",
-              "text": "Most juvenile trials are heard by a judge rather than a jury. The state must prove the petition, and your child has the same core constitutional protections as an adult defendant."
+              "text": "Ordinary delinquency trials are generally to the court, while an Extended Jurisdiction Juvenile prosecution carries a right to a jury trial."
             },
             {
               "lead": "Disposition",
-              "text": "If the petition is proven, the case moves to disposition, the juvenile court’s version of sentencing, where the judge decides what consequences or services will be ordered."
+              "text": "If allegations are admitted or proved, the court chooses a juvenile disposition based on the offense, the child's circumstances, public safety, and available rehabilitative options."
             }
           ]
         },
@@ -2935,43 +3060,50 @@
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/juvenile-3.webp",
           "title": "How a Juvenile Case Can Affect Your Child’s Future",
-          "body": "Even though juvenile court is separate from adult court, the consequences can follow your child for years if the case isn’t handled carefully.",
+          "body": "Juvenile records and dispositions are treated differently from adult convictions, but a case can still affect important parts of a young person's life. Depending on the allegation and outcome, issues can include:",
           "items": [
-            "Criminal history that can affect college, jobs, housing, and licensing",
-            "Loss or delay of driving privileges, especially in driving or alcohol-related cases",
-            "School discipline, suspension, or expulsion tied to the incident",
-            "Impact on custody or family-court issues if the case involves household members",
-            "Immigration consequences for non-citizen juveniles",
-            "Emotional and mental health fallout from court involvement and detention"
+            "School discipline, suspension, transfer, or extracurricular consequences",
+            "Probation, treatment, programming, or out-of-home placement",
+            "Driver's-license consequences in qualifying cases",
+            "Firearm consequences for certain adjudications",
+            "Public-record or background-check consequences in categories where juvenile records are accessible",
+            "Immigration consequences for noncitizens",
+            "Future EJJ, certification, sentencing, or criminal-history implications in later cases"
           ]
         },
         {
           "type": "list-section",
           "image": "",
           "title": "Extended Jurisdiction Juvenile (EJJ) & Adult Certification",
-          "body": "For certain serious cases, the stakes go even higher. A juvenile can face:",
+          "body": "Minnesota law provides two important paths that can increase the stakes of a serious juvenile felony case:",
           "items": [
             {
               "lead": "Extended Jurisdiction Juvenile (EJJ)",
-              "text": "The court imposes a juvenile disposition along with a stayed adult sentence. If the child successfully completes probation and follows all rules, the adult sentence may never be executed. If the child violates probation, the adult sentence can be imposed later."
+              "text": "EJJ applies in specified felony cases involving children who were 14 to 17 at the time of the alleged offense. An EJJ prosecution includes juvenile-court protections plus a right to a jury trial, and a conviction can result in both a juvenile disposition and a stayed adult criminal sentence. Violating the EJJ disposition can put the stayed adult sentence at risk."
             },
             {
               "lead": "Adult Certification",
-              "text": "In the most serious cases, prosecutors may seek to move the case into adult court. If granted, the child faces the same exposure as an adult defendant, including potential prison time and an adult felony record. Fighting certification and keeping the case in juvenile court is often one of the most important parts of the defense."
+              "text": "For a child age 14 or older accused of a felony, the prosecutor may seek certification for adult prosecution when the statutory requirements are met. The rules include different presumptions and burdens depending on age, offense, prior history, and other factors. Whether the case remains juvenile, becomes EJJ, or is certified can be one of the most consequential decisions in the case."
             }
           ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Can Police or School Officials Question My Child?",
+          "body": "A juvenile investigation may involve police, school-resource officers, administrators, or child-protection personnel. The child's age, custody status, who is asking questions, and the setting can affect the legal analysis. Families should avoid assuming that an informal-looking school or police conversation has no consequences. Andrew can review what has already been said and advise about future interviews before additional statements are made."
         },
         {
           "type": "steps-section",
           "image": "",
           "title": "What to Do If Your Child Has Been Charged",
-          "body": "The decisions you make in the first few days can shape the entire case.",
+          "body": "Early organization can help protect both the case and the child's day-to-day life.",
           "steps": [
-            "Avoid letting your child talk about the case with police, school staff, or anyone else without a lawyer present.",
-            "Contact an experienced juvenile defense attorney as soon as possible to understand the specific risks and options in your child’s case.",
-            "Gather any paperwork you’ve received (citations, court notices, school reports) and keep them in one place.",
-            "Write down what happened from your perspective and your child’s while memories are still fresh.",
-            "Follow all court dates and probation instructions carefully, and stay in close communication with your lawyer about any problems or questions."
+            "Do not encourage your child to explain the allegation to police, school-resource officers, alleged victims, or witnesses before getting legal advice.",
+            "Save citations, petitions, release paperwork, school notices, messages, videos, social-media material, and other records related to the incident.",
+            "Write down the timeline and names of possible witnesses while events are fresh, without coaching anyone about what to say.",
+            "Follow release conditions, school restrictions, and court dates carefully while the case is pending.",
+            "Have counsel determine whether the case is ordinary delinquency, EJJ, or at risk of adult certification and build strategy around that path."
           ]
         }
       ]
