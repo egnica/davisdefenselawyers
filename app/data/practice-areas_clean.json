@@ -50,20 +50,20 @@
       "slug": "assault",
       "category": "Criminal Defense",
       "navTitle": "Assault",
-      "metaTitle": "Minnesota Assault Lawyer | Defense for Assault & Domestic Assault Charges",
-      "metaDescription": "Charged with assault or domestic assault in Minnesota? Attorney Andrew Davis provides aggressive defense, clear explanations of charges, and strategic representation. Get a free consultation today. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaTitle": "Minnesota Assault Lawyer | 5th Degree, Domestic Assault & Felony Defense",
+      "metaDescription": "Charged with assault in Minnesota? Andrew Davis defends 5th-degree assault, domestic assault, felony assault, DANCO-related cases, and self-defense claims statewide.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Assault Defense Attorney",
-      "tagline": "Accused of assault? Get clarity, strategy, and a proven defense on your side.",
+      "tagline": "Accused of assault in Minnesota? The details, the evidence, and what happens next matter.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "Assault and domestic assault cases often begin with misunderstandings, false accusations, or actions that were taken in self-defense. With over 10 years of criminal defense experience, Attorney Andrew Davis understands how fast these situations escalate, and how important a strong defense is from day one.",
+      "heroSummary": "Minnesota assault charges can arise even when no one is physically injured. The law covers both intentionally causing fear of immediate bodily harm or death and intentionally inflicting or attempting to inflict bodily harm. That makes context, credibility, witness accounts, video, statements, and the relationship between the people involved especially important. Andrew Davis represents clients throughout Minnesota in misdemeanor, domestic, and felony assault cases and begins by identifying exactly what the state must prove.",
       "audience": "Individuals facing assault or domestic assault charges in Minnesota, or anyone seeking legal guidance after an argument escalated and resulted in police involvement.",
       "faqTitle": "Minnesota Assault Defense FAQ",
       "faq": [
         {
           "q": "What is the difference between assault and domestic assault?",
-          "a": "Domestic assault involves family or household members, which often results in immediate arrest and automatic no-contact orders. Though the legal elements are similar, domestic cases carry additional restrictions that impact home life, employment, and firearm rights."
+          "a": "Domestic assault applies when the alleged assault is committed against a family or household member as defined by Minnesota law. The underlying assault concepts are similar, but domestic cases can involve additional consequences and court orders, including a possible DANCO or other no-contact restrictions depending on the case."
         },
         {
           "q": "What penalties could I face?",
@@ -75,25 +75,54 @@
         },
         {
           "q": "How does a no-contact order work?",
-          "a": "A no-contact order prohibits any communication with the protected person. Only a judge can lift the order even if the other person invites contact. Any violation can lead to additional criminal charges."
+          "a": "The exact restrictions depend on the order. In a qualifying domestic-abuse criminal case, a court may issue a DANCO that prohibits direct or indirect contact with the protected person. The order remains in effect until the court changes or removes it, so a defendant should not assume contact is allowed simply because the protected person initiates communication."
         },
         {
           "q": "Should I talk to police before hiring a lawyer?",
           "a": "No. Assault cases are highly emotional, and statements can easily be misinterpreted. Always speak with a lawyer before giving any statement to police."
+        },
+        {
+          "q": "Can I be charged with assault in Minnesota if no one was injured?",
+          "a": "Yes. Minnesota defines assault to include an act done with intent to cause fear of immediate bodily harm or death, so an actual physical injury is not required for every assault charge. The prosecution still has to prove the required intent and conduct."
+        },
+        {
+          "q": "Can the alleged victim drop assault charges in Minnesota?",
+          "a": "The alleged victim can tell the prosecutor what they want, but the prosecutor decides whether the criminal case continues. The person's wishes, safety concerns, statements, and the available evidence can all affect that decision, but the case is prosecuted by the state."
+        },
+        {
+          "q": "What is a DANCO in a Minnesota assault case?",
+          "a": "A DANCO is a Domestic Abuse No Contact Order issued by a court in certain criminal or juvenile proceedings involving domestic abuse and related offenses. It may be issued before the underlying criminal case is resolved and can prohibit direct or indirect contact with the protected person. The exact language of the order controls."
+        },
+        {
+          "q": "What evidence matters in a Minnesota assault case?",
+          "a": "The evidence can include 911 calls, police body-camera and squad video, witness statements, photographs, medical records, text messages, social media, surveillance video, and statements made by the people involved. Andrew compares those sources to determine whether they support or contradict the prosecution's version of events."
         }
       ],
       "ctaLabel": "Get Your Free Consultation",
       "ctaBody": "Facing assault or domestic assault charges? You need clear guidance and strong defense immediately. Call Attorney Andrew Davis at (952) 994-1568 or contact us online to protect your rights.",
       "icon": "",
       "relatedAreas": [
-        "domestic-assault"
+        "domestic-assault",
+        "danco-ofp-violations"
       ],
       "contentBlocks": [
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/assult-1.webp",
-          "title": "Understanding Minnesota Assault Charges",
-          "body": "Minnesota assault laws are complex, and charges often don’t match the reality of what happened. People are frequently overcharged, charged based on incomplete information, or charged after acting in self-defense. Andrew breaks down the exact degree of assault you are facing, explains the possible outcomes, and begins building a defense strategy based on facts, not assumptions."
+          "title": "What Counts as Assault in Minnesota?",
+          "body": "Minnesota defines assault in two basic ways: an act done with intent to cause fear of immediate bodily harm or death, or the intentional infliction of or attempt to inflict bodily harm. Because the first definition does not require an actual injury, a person can face an assault charge even when no one was physically hurt. Andrew starts by identifying which theory the state is using and whether the evidence actually supports the required intent and conduct."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Can You Be Charged With Assault Without Injuring Someone?",
+          "body": "Yes. Minnesota assault law includes fear-based assault, which means the prosecution may not need to prove that the alleged victim suffered a physical injury. The key questions can become what was said or done, whether the act was intentional, whether it was meant to create fear of immediate bodily harm or death, and whether the surrounding evidence supports that interpretation. These cases can turn heavily on context and credibility."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Why Context and Credibility Matter in an Assault Case",
+          "body": "Assault cases often begin with a fast-moving confrontation and competing accounts of what happened. Andrew looks beyond the charge itself to the 911 call, body-camera and squad video, witness statements, text messages, social media, injuries or lack of injuries, prior statements, and the physical setting. When accounts conflict, small details can become important in determining whether the state can prove fear, bodily harm, intent, or who was acting in self-defense."
         },
         {
           "type": "list-section",
@@ -125,45 +154,64 @@
         },
         {
           "type": "section",
+          "image": "",
+          "title": "Assault Charges Can Come With Additional Allegations",
+          "body": "An assault investigation can result in more than one charge based on the same incident. Depending on the facts, prosecutors may also consider offenses such as disorderly conduct or other related charges. The fact that multiple counts appear in a complaint does not mean each charge can be proven. Andrew reviews each count separately and looks at whether the evidence actually satisfies the elements of every offense alleged."
+        },
+        {
+          "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/handcuffs.webp",
-          "title": "Domestic Assault & No-Contact Orders",
-          "body": "A heated argument that escalates or is misinterpreted can quickly turn into a domestic assault charge. Police often make automatic arrests to separate people, even when the situation is unclear. No-contact orders can keep you out of your home, prevent you from seeing family, and restrict firearm access especially important for military and law enforcement personnel. Andrew helps clients fight these orders, request modifications, and challenge the underlying accusations."
+          "title": "Domestic Assault, DANCOs, and No-Contact Restrictions",
+          "body": "Domestic assault cases can create immediate restrictions that affect where a person can live and who they can contact. In qualifying criminal proceedings, a court may issue a Domestic Abuse No Contact Order, or DANCO, before the underlying case is resolved. The exact terms control, but a DANCO can prohibit direct or indirect contact with the protected person, including messages sent through another person or through social media. Andrew reviews the order itself, explains what conduct is prohibited, and evaluates whether modification may be appropriate while defending the underlying assault case."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Can the Alleged Victim Drop Assault Charges?",
+          "body": "Not by simply asking for the case to go away. Once a criminal case is in the system, the prosecutor decides whether to continue the prosecution. The alleged victim's wishes can still matter, and prosecutors may consider safety concerns, the history of the relationship, available evidence, and what the alleged victim communicates through the process. But the decision to dismiss or continue charges belongs to the state, not solely to the person who made the original report."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "What Does a Victim Advocate Do in an Assault Case?",
+          "body": "Prosecutor's offices often use victim advocates to communicate with alleged victims about the case, available resources, safety concerns, no-contact issues, and what the person wants the prosecutor to know. That communication can affect how the prosecution evaluates the case, but it does not replace the evidence the state must prove in court. Andrew looks at the entire record, including statements made at different points in the case and whether those statements are consistent with other evidence."
         },
         {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/andrew-11.webp",
           "title": "Common Defense Strategies",
-          "body": "Every assault case is unique, and the right strategy depends on a deep understanding of the facts. Andrew examines every detail witness statements, medical reports, body-cam footage, and police conduct to identify strong defense angles, including:",
+          "body": "There is no single defense that fits every assault case. Andrew evaluates the legal theory and the evidence supporting it, including witness credibility, 911 recordings, police body-camera footage, photographs, medical records, messages, social media, and statements made before and after the incident. Depending on the facts, defenses and litigation issues may include:",
           "items": [
             "Self-defense or defense of another",
-            "Defense of property",
-            "False accusations or exaggeration",
-            "Mutual combat",
-            "Insufficient evidence",
-            "Mistaken identity",
-            "Violation of your constitutional rights"
+            "Lack of intent to cause fear or bodily harm",
+            "Conflicting or unreliable witness accounts",
+            "False accusations, exaggeration, or missing context",
+            "Mutual confrontation and who initiated the use of force",
+            "Video, messages, or physical evidence that contradict the accusation",
+            "Insufficient evidence to prove every element beyond a reasonable doubt",
+            "Constitutional or evidentiary issues affecting statements, searches, or other evidence"
           ]
         },
         {
           "type": "steps-section",
           "image": "",
-          "title": "What to Expect After an Assault Charge",
-          "body": "Assault cases move fast. Here’s what the process usually looks like:",
+          "title": "What to Do After an Assault Arrest or Charge",
+          "body": "The first days of an assault case can affect both the evidence and the restrictions you are living under. Useful first steps include:",
           "steps": [
             {
-              "step": "Immediate arrest and possible no-contact order"
+              "step": "Follow every release condition, DANCO, or no-contact order exactly as written, even if the protected person reaches out first."
             },
             {
-              "step": "Reviewing the complaint and understanding the charges"
+              "step": "Do not contact the alleged victim directly, through another person, or through social media if an order prohibits that contact."
             },
             {
-              "step": "Collecting evidence and identifying defense strategy"
+              "step": "Preserve texts, messages, photographs, videos, voicemails, and names of witnesses instead of deleting or editing anything."
             },
             {
-              "step": "Negotiations, motions, or preparing for trial"
+              "step": "Avoid giving additional statements about the incident until you have received legal advice."
             },
             {
-              "step": "Working toward the best possible outcome reduction, dismissal, or acquittal"
+              "step": "Have an attorney review the complaint, available evidence, no-contact restrictions, and possible self-defense or credibility issues as early as possible."
             }
           ]
         }
