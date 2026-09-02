@@ -38,7 +38,9 @@
           "image": "",
           "title": "",
           "body": "",
-          "steps": [{}]
+          "steps": [
+            {}
+          ]
         }
       ]
     }
@@ -83,7 +85,9 @@
       "ctaLabel": "Get Your Free Consultation",
       "ctaBody": "Facing assault or domestic assault charges? You need clear guidance and strong defense immediately. Call Attorney Andrew Davis at (952) 994-1568 or contact us online to protect your rights.",
       "icon": "",
-      "relatedAreas": ["domestic-assault"],
+      "relatedAreas": [
+        "domestic-assault"
+      ],
       "contentBlocks": [
         {
           "type": "section",
@@ -125,7 +129,6 @@
           "title": "Domestic Assault & No-Contact Orders",
           "body": "A heated argument that escalates or is misinterpreted can quickly turn into a domestic assault charge. Police often make automatic arrests to separate people, even when the situation is unclear. No-contact orders can keep you out of your home, prevent you from seeing family, and restrict firearm access especially important for military and law enforcement personnel. Andrew helps clients fight these orders, request modifications, and challenge the underlying accusations."
         },
-
         {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/andrew-11.webp",
@@ -141,7 +144,6 @@
             "Violation of your constitutional rights"
           ]
         },
-
         {
           "type": "steps-section",
           "image": "",
@@ -201,12 +203,26 @@
         {
           "q": "Do I need a lawyer if I think I’m guilty?",
           "a": "Yes. Even if you believe you made a mistake, there may be legal defenses, weaknesses in the evidence, or alternative resolutions such as treatment-focused programs or reduced charges. An experienced drug crime lawyer can often improve the outcome significantly."
+        },
+        {
+          "q": "Can I be charged if drugs were found in a shared car or apartment?",
+          "a": "You can be accused, but drugs being found in a shared space does not automatically establish who possessed them. Important facts may include where the drugs were located, who owned or controlled that area, who else had access, what statements were made, and what other evidence connects the drugs to a particular person."
+        },
+        {
+          "q": "What is the difference between drug possession and drug sale charges in Minnesota?",
+          "a": "Possession and sale are different allegations. In a sale case, the state may rely on quantity, packaging, communications, money, statements, or other circumstantial evidence to argue that drugs were intended for sale. Andrew reviews the full context rather than looking only at the substance itself."
+        },
+        {
+          "q": "What should I save or document after being accused of a drug crime?",
+          "a": "Preserve messages, voicemails, photos, call records, and other information that may help explain what happened or who had access to the property. Details that seem minor at first can become important when evaluating possession, the search, statements, or alleged intent."
         }
       ],
       "ctaLabel": "Talk to a Minnesota Drug Crime Lawyer",
       "ctaBody": "If you’ve been arrested for a drug charge, you don’t have to face the system alone. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation. We will explain your options, answer your questions, and start building a strategy to protect your record and your future.",
       "icon": "",
-      "relatedAreas": ["assault"],
+      "relatedAreas": [
+        "assault"
+      ],
       "contentBlocks": [
         {
           "type": "section",
@@ -233,16 +249,31 @@
           ]
         },
         {
+          "type": "section",
+          "image": "",
+          "title": "Possession vs. Sale: Why the Difference Matters",
+          "body": "Possession and sale are different allegations, and the surrounding facts can change how a case is evaluated. Andrew looks at the quantity involved, where the drugs were found, who had access to the area, what statements were made, and what evidence the state claims shows an intent to sell. Those details can matter when deciding how to challenge the charge and what evidence needs to be preserved."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Drug Possession in Shared Cars, Apartments, and Other Spaces",
+          "body": "When drugs are found in a shared car, apartment, or other common area, their location does not automatically answer who possessed them. Andrew looks at who owned or controlled the property, who had access to the specific area, what other people said, and what additional evidence connects the drugs to a particular person. Shared spaces can create important factual questions that deserve careful investigation."
+        },
+        {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/drug-2.webp",
           "title": "How Andrew Builds a Drug Crime Defense",
-          "body": "Drug cases are rarely as simple as the police report makes them sound. The prosecutor must prove every element of the offense beyond a reasonable doubt. Andrew investigates how the case started, whether there was a confidential informant, how the search was conducted, and how the substances were tested and handled. He looks for:",
+          "body": "Drug cases are rarely as simple as the police report makes them sound. Andrew looks beyond the drugs themselves and examines the circumstances surrounding how the evidence was found. That includes where the drugs were located, who owned or controlled the area, whether other people had access, what statements were made, how police conducted the search, the quantity involved, and what evidence the state claims shows an intent to sell.",
           "items": [
+            "Whether drugs were found in a shared car, apartment, bedroom, bag, or common area",
+            "Who owned or controlled the property and who had access to the specific area",
             "Illegal stops, searches, or seizures",
             "Problems with warrants or lack of probable cause",
+            "Statements made by people who were present",
+            "Quantity and circumstantial evidence the state claims shows an intent to sell",
             "Unreliable witnesses or informants",
-            "Breaks in the chain of custody for the drugs",
-            "Overcharging or inflated weight calculations"
+            "Problems with testing, handling, or chain of custody for the drugs"
           ]
         },
         {
@@ -270,6 +301,9 @@
             },
             {
               "step": "Review of the complaint and police reports to understand the exact charges"
+            },
+            {
+              "step": "Preserve messages, voicemails, photos, and other details that may help explain who had access to the property and what happened"
             },
             {
               "step": "Independent investigation into the stop, search, and seizure of evidence"
@@ -323,7 +357,10 @@
       "ctaLabel": "Get a Free DWI Case Evaluation",
       "ctaBody": "Facing a DWI or DUI charge in Carver County or anywhere in Minnesota? Don’t plead guilty before you understand your options. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free, confidential consultation.",
       "icon": "",
-      "relatedAreas": ["drug-crimes", "traffic-offenses"],
+      "relatedAreas": [
+        "drug-crimes",
+        "traffic-offenses"
+      ],
       "contentBlocks": [
         {
           "type": "section",
@@ -429,7 +466,12 @@
       "ctaLabel": "Find Out If You Qualify for Expungement",
       "ctaBody": "If your criminal record is holding you back, you don’t have to guess about your options. Call Davis Defense at (952) 994-1568 or contact us online for a free consultation about expungement.",
       "icon": "",
-      "relatedAreas": ["assault", "drug-crimes", "dwi-dui", "domestic-assault"],
+      "relatedAreas": [
+        "assault",
+        "drug-crimes",
+        "dwi-dui",
+        "domestic-assault"
+      ],
       "contentBlocks": [
         {
           "type": "section",
@@ -546,7 +588,9 @@
       "ctaLabel": "Talk to a Minnesota Implied Consent Lawyer",
       "ctaBody": "If you refused a breath, blood, or urine test or are being charged with test refusal you need clear guidance immediately. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation.",
       "icon": "",
-      "relatedAreas": ["dwi-dui"],
+      "relatedAreas": [
+        "dwi-dui"
+      ],
       "contentBlocks": [
         {
           "type": "section",
@@ -656,7 +700,12 @@
       "ctaLabel": "Talk to a Minnesota Probation Violation Lawyer",
       "ctaBody": "If you’ve been accused of violating probation, do not walk into a revocation hearing alone. Call Attorney Andrew Davis at (952) 994-1568 or contact us online for a free consultation.",
       "icon": "",
-      "relatedAreas": ["assault", "drug-crimes", "dwi-dui", "expungement"],
+      "relatedAreas": [
+        "assault",
+        "drug-crimes",
+        "dwi-dui",
+        "expungement"
+      ],
       "contentBlocks": [
         {
           "type": "section",
@@ -1012,7 +1061,6 @@
           "type": "section",
           "body": "Certain types of property, such as firearms or trade secrets, prior theft convictions, or other special circumstances can increase the severity of the charge and the potential sentence."
         },
-
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/tc-3.webp",
@@ -1222,7 +1270,11 @@
       "ctaLabel": "Speak With a Minnesota Traffic Defense Attorney",
       "ctaBody": "Don’t let a ticket derail your future. Call Davis Defense at (952) 994-1568 or contact us online for a free consultation.",
       "icon": "",
-      "relatedAreas": ["dwi-dui", "probation-violation", "assault"],
+      "relatedAreas": [
+        "dwi-dui",
+        "probation-violation",
+        "assault"
+      ],
       "contentBlocks": [
         {
           "type": "section",
@@ -1521,7 +1573,10 @@
       "ctaLabel": "Talk to a Criminal Vehicular Operation Attorney",
       "ctaBody": "If you’re facing CVO charges, timing matters. Call Davis Defense at (952) 994-1568 or contact us online for a confidential, free consultation.",
       "icon": "",
-      "relatedAreas": ["dwi-dui", "criminal-vehicular-homicide"],
+      "relatedAreas": [
+        "dwi-dui",
+        "criminal-vehicular-homicide"
+      ],
       "contentBlocks": [
         {
           "type": "section",
@@ -1703,7 +1758,6 @@
           "type": "section",
           "body": "Many people don’t realize the full impact of a plea or conviction until years later, when they are denied a firearm purchase, rejected by NICS, or told they can no longer hunt with family. That’s where we come in."
         },
-
         {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/gun-1.webp",
@@ -1881,7 +1935,6 @@
           "type": "section",
           "body": "Even if the alleged victim asks to reconcile, wants to talk, or wants the order removed, the order remains fully active until the court says otherwise."
         },
-
         {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/danco-3.webp",
@@ -2109,7 +2162,9 @@
       "ctaLabel": "Schedule a Free Confidential Consultation",
       "ctaBody": "If you’re under investigation or charged with a white collar offense, do not wait. Contact Davis Defense to discuss your situation privately and start protecting your future today.",
       "icon": "💼",
-      "relatedAreas": ["theft-crimes"],
+      "relatedAreas": [
+        "theft-crimes"
+      ],
       "contentBlocks": [
         {
           "type": "section",
