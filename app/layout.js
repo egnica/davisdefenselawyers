@@ -7,6 +7,15 @@ import Areas from "./data/service-areas.json";
 import Footer from "./components/footer";
 import Script from "next/script";
 
+const SITE_URL = "https://www.davisdefenselawyers.com";
+const FIRM_ID = `${SITE_URL}/#firm`;
+const ATTORNEY_ID = `${SITE_URL}/#attorney`;
+const WEBSITE_ID = `${SITE_URL}/#website`;
+
+export const metadata = {
+  metadataBase: new URL(SITE_URL),
+};
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -18,21 +27,9 @@ const merriweather = Merriweather({
   variable: "--font-merriweather",
 });
 
-// Site constants
-const SITE_URL = "https://www.davisdefenselawyers.com";
-
-const OFFICE_ADDRESS = {
-  "@type": "PostalAddress",
-  streetAddress: "1230 Night Trail",
-  addressLocality: "Waconia",
-  addressRegion: "MN",
-  postalCode: "55387",
-  addressCountry: "US",
-};
-
 const FIRM_IMAGE = {
   "@type": "ImageObject",
-  "@id": `${SITE_URL}#primaryimage`,
+  "@id": `${SITE_URL}/#primaryimage`,
   url: "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-3.webp",
   caption: "Andrew Davis, Minnesota Criminal Defense Attorney",
   width: 900,
@@ -45,6 +42,7 @@ const SAME_AS = [
   "https://www.facebook.com/Daviscriminaldefense",
   "https://www.youtube.com/@AndrewDavisAttorney",
   "https://www.linkedin.com/in/andrew-davis-aa4aa253/",
+  "https://www.instagram.com/daviscriminaldefense1",
 ];
 
 const AREA_SERVED = [
@@ -52,7 +50,6 @@ const AREA_SERVED = [
   { "@type": "AdministrativeArea", name: "Twin Cities, MN" },
 ];
 
-// Keep Nav data lightweight so every page does not receive the full practice-area JSON.
 const navPracticeAreas = Data.practiceAreas.map((area) => ({
   slug: area.slug,
   navTitle: area.navTitle,
@@ -68,25 +65,31 @@ function buildFirmJsonLd() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "LegalService",
-        "@id": `${SITE_URL}#firm`,
+        "@type": "WebSite",
+        "@id": WEBSITE_ID,
+        url: `${SITE_URL}/`,
         name: "Davis Defense Lawyers",
-        url: SITE_URL,
+        publisher: { "@id": FIRM_ID },
+      },
+      {
+        "@type": "LegalService",
+        "@id": FIRM_ID,
+        name: "Davis Defense Lawyers",
+        url: `${SITE_URL}/`,
         telephone: "+19529941568",
-        address: OFFICE_ADDRESS,
         areaServed: AREA_SERVED,
         image: [FIRM_IMAGE],
         sameAs: SAME_AS,
-        provider: { "@id": `${SITE_URL}#attorney` },
+        employee: { "@id": ATTORNEY_ID },
       },
       {
-        "@type": "Attorney",
-        "@id": `${SITE_URL}#attorney`,
+        "@type": "Person",
+        "@id": ATTORNEY_ID,
         name: "Andrew Davis",
         url: `${SITE_URL}/about`,
         telephone: "+19529941568",
-        address: OFFICE_ADDRESS,
         image: [FIRM_IMAGE],
+        worksFor: { "@id": FIRM_ID },
       },
     ],
   };
@@ -98,7 +101,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${merriweather.variable}`}>
-        {/* Google Analytics Tracking Script */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-12V935FH19"
           strategy="afterInteractive"
@@ -109,9 +111,10 @@ export default function RootLayout({ children }) {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-             gtag('config', 'G-12V935FH19');
+            gtag('config', 'G-12V935FH19');
           `}
         </Script>
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(firmJsonLd) }}
