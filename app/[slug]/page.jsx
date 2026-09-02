@@ -13,7 +13,6 @@ import VideoPlayer from "../components/video";
 
 const practiceAreas = rawData.practiceAreas || [];
 const serviceAreas = Location.areas || [];
-const areasServiced = Location.areas || [];
 
 // ✅ Change this to your real domain (no trailing slash)
 const SITE_URL = "https://www.davisdefenselawyers.com";
@@ -47,69 +46,18 @@ export async function generateMetadata({ params }) {
   };
 }
 
-/**
- * Build areaServed array from Location.areas
- * - Cities → City
- * - Counties → AdministrativeArea
- * - Deduplicated
- * - Always includes Minnesota
- */
-function buildAreaServed(locations = []) {
-  const countySet = new Set();
-
-  const cities = locations
-    .filter((loc) => loc.city)
-    .map((loc) => ({
-      "@type": "City",
-      name: `${loc.city}, MN`,
-    }));
-
-  locations.forEach((loc) => {
-    if (loc.county) {
-      countySet.add(loc.county);
-    }
-  });
-
-  const counties = Array.from(countySet).map((county) => ({
-    "@type": "AdministrativeArea",
-    name: `${county}, MN`,
-  }));
-
-  return [
-    ...cities,
-    ...counties,
-    {
-      "@type": "AdministrativeArea",
-      name: "Minnesota",
-    },
-  ];
-}
-
 function buildServiceJsonLd(area, slug) {
   const pageUrl = `${SITE_URL}/${slug}`;
 
-  const address = {
-    "@type": "PostalAddress",
-    streetAddress: "1230 Night Trail",
-    addressLocality: "Waconia",
-    addressRegion: "MN",
-    postalCode: "55387",
-    addressCountry: "US",
-  };
-
   return {
     "@context": "https://schema.org",
-    "@type": "LegalService",
+    "@type": "Service",
     "@id": `${pageUrl}#service`,
     name: area.pageTitle || area.metaTitle || area.navTitle,
     serviceType: area.navTitle,
     description: area.heroSummary || area.metaDescription,
     url: pageUrl,
     inLanguage: "en-US",
-
-    // ✅ ADD ADDRESS HERE (this is the missing piece)
-    address,
-
     ...(area.heroImage
       ? {
           image: [
@@ -121,12 +69,11 @@ function buildServiceJsonLd(area, slug) {
           ],
         }
       : {}),
-
-    provider: { "@id": `${SITE_URL}#attorney` },
-    isPartOf: { "@id": `${SITE_URL}#firm` },
-
-    areaServed: buildAreaServed(areasServiced),
-
+    provider: { "@id": `${SITE_URL}/#firm` },
+    areaServed: {
+      "@type": "AdministrativeArea",
+      name: "Minnesota",
+    },
     availableChannel: {
       "@type": "ServiceChannel",
       servicePhone: {
