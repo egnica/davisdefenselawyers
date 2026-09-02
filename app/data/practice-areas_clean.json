@@ -1401,13 +1401,13 @@
       "category": "Criminal Defense",
       "navTitle": "Traffic Offenses",
       "metaTitle": "Minnesota Traffic Offense Lawyer | Speeding, Hit & Run, Driving After Revocation",
-      "metaDescription": "Charged with a traffic offense in Minnesota? Davis Defense handles speeding, hit & run, driving after revocation, no insurance, reckless driving, and more. Protect your record and driving future. Serving clients in Hennepin County and throughout the Twin Cities metro.",
+      "metaDescription": "Facing a Minnesota traffic ticket or criminal traffic charge? Andrew Davis defends speeding, 100+ MPH cases, mobile device violations, CDL-related citations, driving after revocation, hit and run, and more.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota Traffic Offense Defense Attorney",
       "tagline": "Even a minor ticket can lead to major consequences. We protect your license, your record, and your future.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "At Davis Defense Lawyers, we understand how quickly a traffic violation can disrupt your life. Whether you’re dealing with a simple ticket, a serious misdemeanor, or a criminal traffic charge, the consequences can include fines, insurance spikes, license suspension, and even jail time. With more than 10 years of defense experience, Attorney Andrew Davis knows how to challenge evidence, uncover police errors, and defend your rights so you can move forward with confidence.",
+      "heroSummary": "A Minnesota traffic citation can affect more than the fine printed on the ticket. Depending on the allegation, it can affect your driving record, insurance, license, and, for commercial drivers, your livelihood. Attorney Andrew Davis represents drivers throughout Minnesota in cases involving speeding, extreme speed, mobile-device allegations, driving after revocation or suspension, reckless or careless driving, hit and run, and other traffic offenses. He reviews what happened during the stop, what the officer documented, what evidence supports the citation, and what options may protect your ability to drive.",
       "audience": "Drivers in Minnesota facing traffic tickets, criminal traffic charges, license-related offenses, hit and run allegations, and individuals seeking to protect their driving privileges and record.",
       "faqTitle": "Minnesota Traffic Offense FAQ",
       "faq": [
@@ -1430,6 +1430,22 @@
         {
           "q": "Should I contest a ticket if no one was hurt?",
           "a": "In many cases, yes. Even minor violations can compound into major problems, including insurance increases or a suspended license. Fighting the ticket now can save significant time and money later."
+        },
+        {
+          "q": "What happens if I am convicted of speeding over 100 MPH in Minnesota?",
+          "a": "Minnesota law requires a six-month driver's license revocation for a conviction involving driving in excess of 100 MPH, or a longer minimum period if another applicable law requires it. Because the license consequence is mandatory, these cases deserve careful review of the alleged speed and the evidence supporting it."
+        },
+        {
+          "q": "Can I use my phone while stopped at a red light in Minnesota?",
+          "a": "Minnesota's hands-free law applies when a vehicle is in motion or is part of traffic. A vehicle waiting at a red light is generally still part of traffic, so holding or manually using a phone can still result in a citation. Hands-free and certain limited statutory exceptions may apply depending on what the driver was doing."
+        },
+        {
+          "q": "Can radar evidence be challenged in a Minnesota speeding case?",
+          "a": "Yes. Minnesota law sets conditions for the use of radar and other speed-measuring evidence, including operator training, proper setup and operation, minimal interference, and testing of the device by a reliable method. Law-enforcement test records are also available to a defendant on demand. Whether those issues create a viable defense depends on the facts of the case."
+        },
+        {
+          "q": "Does a traffic ticket matter more if I have a CDL?",
+          "a": "It can. Commercial drivers and CDL holders may face employment, insurance, licensing, and commercial-driving consequences that make even a seemingly routine citation more important. The effect depends on the specific violation, the driver's history, the vehicle involved, and applicable state and federal rules."
         }
       ],
       "ctaLabel": "Speak With a Minnesota Traffic Defense Attorney",
@@ -1445,7 +1461,7 @@
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/to-1.webp",
           "title": "Minnesota Traffic Charges We Handle",
-          "body": "From minor traffic citations to serious criminal charges, Davis Defense Lawyers helps drivers throughout Minnesota protect their rights. Traffic cases often involve more than just a fine they can affect employment, insurance, background checks, and your ability to legally drive. We review every detail, identify weaknesses in the state's case, and work to reduce or dismiss the charges."
+          "body": "Traffic cases range from routine citations to criminal offenses and license consequences. Andrew represents drivers throughout Minnesota and looks at the practical impact of the charge as well as the legal defenses. That can include the effect on insurance, employment, a commercial driver's license, and the ability to keep driving while the case is pending or after a conviction."
         },
         {
           "type": "list-section",
@@ -1467,6 +1483,12 @@
         },
         {
           "type": "section",
+          "image": "",
+          "title": "Traffic Tickets and Commercial Drivers in Minnesota",
+          "body": "A traffic ticket can carry much bigger consequences when driving is how you make a living. Commercial drivers and CDL holders may face employer rules, insurance consequences, licensing issues, or federal and state commercial-driving restrictions that do not affect an ordinary driver in the same way. Andrew looks at the specific citation, the driver's license class, the vehicle involved, the person's driving history, and the potential employment consequences before deciding how aggressively the charge needs to be challenged."
+        },
+        {
+          "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/to-3.webp",
           "title": "Driving After Revocation, Cancellation, or Suspension",
           "body": "Driving without a valid license in Minnesota is more than a simple ticket it can be a misdemeanor or gross misdemeanor offense. Whether your license was suspended for unpaid fines, DWI, insurance issues, or prior violations, we work to uncover errors in the case, resolve the underlying license problem, and fight to avoid criminal penalties and further restrictions."
@@ -1481,13 +1503,31 @@
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/to-2.webp",
           "title": "Speeding & Speeding Over 100 MPH",
-          "body": "Speeding violations are among the most common traffic offenses, but high-speed cases especially those exceeding 100 MPH carry major consequences. Minnesota law requires a mandatory license revocation for speeds over 100 MPH. We challenge radar evidence, traffic stop procedures, and documentation errors to protect your record."
+          "body": "Speeding violations are common, but driving in excess of 100 MPH carries a separate and serious consequence in Minnesota. Under Minn. Stat. § 169.14, a conviction for driving over 100 MPH requires a six-month driver's license revocation, or a longer minimum period if another applicable law requires it. Andrew reviews the alleged speed, the traffic stop, the speed-measuring evidence, and whether there is a basis to challenge the charge or negotiate an outcome that better protects the client's driving privileges."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Should You Go to Court for a Minnesota Speeding Ticket?",
+          "body": "Andrew generally recommends taking a traffic citation seriously rather than treating it as an automatic fine. Going to court may create an opportunity to challenge the citation, review the evidence, or discuss a resolution with the prosecutor. The right strategy depends on the charge, the driving record, whether a license or job is at risk, and what evidence supports the ticket."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Can Radar or Speed-Measuring Evidence Be Challenged?",
+          "body": "Minnesota law sets conditions for admitting radar and other speed-measuring evidence. The operator must be sufficiently trained, must be able to explain how the device was set up and used, the device must have been operated with minimal distortion or interference, and it must have been tested by an accurate and reliable method when it was set up. Test records kept by law enforcement are available to a defendant on demand. Andrew reviews those records, the officer's report, video, and the circumstances of the stop for issues that may be worth litigating."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "What You Say During a Traffic Stop Can Matter",
+          "body": "A driver can unintentionally make the state's case easier by admitting the violation during the stop or later in court. Statements such as acknowledging that you were speeding may become evidence. Andrew's advice is to stay polite, avoid volunteering explanations or admissions, and get legal guidance before deciding how to address a citation that could affect your license, record, insurance, or employment."
         },
         {
           "type": "section",
           "image": "",
           "title": "Illegal Lane Change",
-          "body": "Improper lane changes can add points to your license and affect insurance rates. These tickets can often be reduced or dismissed with the right approach. Let us fight to minimize the impact."
+          "body": "Improper or unsafe lane-change citations can still affect a Minnesota driving record and may have insurance or employment consequences even though Minnesota does not use a traditional driver's-license point system. Andrew reviews the officer's observations, roadway conditions, dash-camera footage, and other evidence to determine whether the citation can be challenged or reduced."
         },
         {
           "type": "section",
@@ -1510,8 +1550,8 @@
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/to-5.png",
-          "title": "Texting and Driving",
-          "body": "Distracted driving tickets are increasingly common in Minnesota. We fight to reduce fines and prevent the citation from impacting your insurance or driving record."
+          "title": "Mobile Device and Hands-Free Violations",
+          "body": "Minnesota's hands-free law generally prohibits a driver from holding or manually using a wireless device while the vehicle is in motion or is part of traffic. Being stopped at a red light does not automatically take the vehicle out of traffic, so handling or manipulating a phone while waiting for the light can still lead to a citation. The law includes limited exceptions for hands-free use, navigation, emergencies, and other specified situations. Andrew looks at what the officer actually observed and whether the alleged conduct fits the statute."
         },
         {
           "type": "section",
