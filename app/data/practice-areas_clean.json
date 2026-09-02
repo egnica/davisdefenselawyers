@@ -2025,7 +2025,7 @@
         },
         {
           "q": "Can I be charged if the alleged victim contacted me first?",
-          "a": "Yes. The law places the responsibility entirely on the defendant   not the alleged victim. Even if they call you, text you, ask to meet, or say the order is 'being lifted,' you can still be arrested and charged. This is one of the most common and frustrating situations we see."
+          "a": "Yes. The protected person contacting first does not automatically make responding lawful. A DANCO remains in effect until the court changes or removes it. If the protected person reaches out, the safest course is to stop communication, preserve the messages, and speak with an attorney before responding further."
         },
         {
           "q": "Is a DANCO violation a felony?",
@@ -2042,6 +2042,14 @@
         {
           "q": "What should I do if I accidentally violated the order?",
           "a": "Stop all communication and call an attorney immediately. Do not send follow-up messages, explanations, or apologies   these will be used against you. Fast legal action can often prevent additional consequences, negotiate your release, or begin modifying the order."
+        },
+        {
+          "q": "What is the difference between a DANCO and an Order for Protection in Minnesota?",
+          "a": "A DANCO is a criminal court order that can restrict contact while a criminal case is pending. An Order for Protection (OFP) is a separate civil order. The restrictions and procedures are different, so it is important to read the actual order and understand which type applies to your situation."
+        },
+        {
+          "q": "Can third-party contact count as a DANCO violation?",
+          "a": "Yes. A DANCO can prohibit indirect contact, including asking another person to deliver a message to the protected person. Whether a violation can be proven depends on the facts, including what was said, who delivered the message, and what evidence shows where the communication originated."
         }
       ],
       "ctaLabel": "Speak to a DANCO Defense Lawyer Today",
@@ -2065,6 +2073,18 @@
             "Being near the person’s home, workplace, or vehicle",
             "Receiving or answering calls from the protected person"
           ]
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "DANCO vs. Order for Protection: What’s the Difference?",
+          "body": "A Domestic Abuse No Contact Order (DANCO) is a criminal court order that can restrict contact while a criminal case is pending. It is different from an Order for Protection (OFP), which is handled through a separate civil process. The exact restrictions depend on the order itself, so Andrew reviews the language of the order, the underlying case, and the alleged contact before deciding how to respond."
+        },
+        {
+          "type": "section",
+          "image": "",
+          "title": "Can Third-Party Contact Violate a DANCO?",
+          "body": "A DANCO can prohibit indirect contact as well as direct contact. Asking a friend, family member, or another person to deliver a message to the protected person can create a violation allegation. Andrew looks closely at what was actually said, who delivered the message, text or social media evidence, and whether the state can show that the communication originated with the person subject to the DANCO."
         },
         {
           "type": "section",
@@ -2098,7 +2118,7 @@
           "type": "list-section",
           "image": "",
           "title": "Why These Cases Are So Easy to Violate",
-          "body": "Most violations are not intentional. They happen because:",
+          "body": "DANCO violations often arise from situations people do not realize can create a problem. The protected person contacting first does not automatically make a response lawful, and indirect messages through other people can also lead to allegations. Common situations include:",
           "items": [
             "The alleged victim reaches out first",
             "Parents share children and need to coordinate schedules",
@@ -2112,14 +2132,16 @@
           "type": "list-section",
           "image": "",
           "title": "How We Defend DANCO & OFP Violations",
-          "body": "We look at every detail of your case, including:",
+          "body": "Andrew looks at the facts surrounding the alleged contact and what the state can actually prove. That may include:",
           "items": [
-            "Whether the contact was accidental or unavoidable",
-            "Whether police or prosecutors misinterpreted communications",
+            "Whether the contact was direct, indirect, accidental, or unavoidable",
+            "Whether the protected person initiated the contact",
+            "Whether a third party actually delivered a message and where that message originated",
+            "Text messages, screenshots, social media activity, phone logs, or other digital evidence",
+            "Whether police or prosecutors misinterpreted the communication",
             "Whether law enforcement had probable cause for the arrest",
-            "Whether the protected party initiated the contact, which can help your defense",
-            "Whether your underlying domestic assault case is weak",
-            "Whether a motion to modify the order is appropriate"
+            "Whether a motion to modify the order is appropriate",
+            "How the alleged violation relates to the underlying domestic or criminal case"
           ]
         },
         {
@@ -2130,22 +2152,22 @@
           "type": "steps-section",
           "image": "",
           "title": "If You Have a DANCO or OFP, Do This Immediately",
-          "body": "To protect yourself from further charges, follow these steps:",
+          "body": "If you are accused of violating a DANCO or believe contact may have created a problem, take these steps:",
           "steps": [
             {
-              "step": "Do not communicate with the protected person in any form   even if they contact you."
+              "step": "Stop communicating with the protected person, even if they contact you first."
             },
             {
-              "step": "Block the number and all social media channels to prevent accidental contact."
+              "step": "Save texts, messages, social media records, voicemails, and other evidence related to the contact."
             },
             {
-              "step": "Call a defense lawyer who can file motions, communicate on your behalf, and potentially modify the order."
+              "step": "Do not send follow-up explanations, apologies, or messages trying to fix the situation."
             },
             {
-              "step": "Document any unintentional contact or unexpected run-ins."
+              "step": "Exercise your right to remain silent and avoid discussing the allegation with law enforcement before speaking with a lawyer."
             },
             {
-              "step": "Stay patient   violations often happen when people feel pressured or emotional. Protecting your record comes first."
+              "step": "Contact a criminal defense attorney who can review the order, the alleged communication, and whether the order should be modified."
             }
           ]
         },
