@@ -8,6 +8,11 @@ const nextConfig = {
         permanent: true, // 301
       },
       {
+        source: "/interference-with-an-911-call",
+        destination: "/interference-with-911-call",
+        permanent: true,
+      },
+      {
         source: "/hennepin-county-mn",
         destination: "/areas-we-serve",
         permanent: true,
