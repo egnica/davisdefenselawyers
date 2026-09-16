@@ -14,10 +14,8 @@ import VideoPlayer from "../components/video";
 const practiceAreas = rawData.practiceAreas || [];
 const serviceAreas = Location.areas || [];
 
-// ✅ Change this to your real domain (no trailing slash)
 const SITE_URL = "https://www.davisdefenselawyers.com";
 
-// Pre-generate all slugs from the JSON
 export function generateStaticParams() {
   return practiceAreas.map((area) => ({
     slug: area.slug,
@@ -138,7 +136,6 @@ function buildBreadcrumbsJsonLd(area, slug) {
   };
 }
 
-// Page
 export default async function Page({ params }) {
   const { slug } = await params;
 
@@ -153,7 +150,6 @@ export default async function Page({ params }) {
 
   return (
     <>
-      {/* JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
@@ -169,10 +165,9 @@ export default async function Page({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsJsonLd) }}
       />
 
-      {/* Page UI */}
       <Hero title={area.pageTitle} tag={area.tagline} />
 
-      <main className={styles.mainContain}>
+      <div className={styles.mainContain}>
         {videoFind ? (
           <Link
             href={`/video/${videoFind.slug}`}
@@ -221,7 +216,7 @@ export default async function Page({ params }) {
             <Locations areaObj={serviceAreas} />
           </div>
         </section>
-      </main>
+      </div>
     </>
   );
 }
