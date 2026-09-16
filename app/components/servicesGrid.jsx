@@ -15,11 +15,17 @@ function servicesGrid({ obj }) {
             className={styles.servicesItem}
             key={item.slug}
           >
-            <h3>{item.navTitle}</h3>
+            <h3 style={{ width: "100%", margin: 0, textAlign: "center" }}>
+              {item.navTitle}
+            </h3>
           </Link>
         ))}
       </div>
-      <Link className={styles.homeServiceBtn} href="/criminal-defense">
+      <Link
+        className={styles.homeServiceBtn}
+        href="/criminal-defense"
+        style={{ textAlign: "center" }}
+      >
         Explore all
         <span aria-hidden="true">→</span>
       </Link>
