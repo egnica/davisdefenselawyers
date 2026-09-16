@@ -42,8 +42,7 @@
 .heroImage {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: auto;
 }
 
 .lead {
