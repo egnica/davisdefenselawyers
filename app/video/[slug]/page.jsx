@@ -1,5 +1,6 @@
 // Watch Page
 import React from "react";
+import { notFound } from "next/navigation";
 import videoList from "../../data/videos.json";
 import VideoPlayer from "@/app/components/video";
 import styles from "../../page.module.css";
@@ -16,6 +17,7 @@ export async function generateMetadata({ params }) {
     return {
       title: "Video Not Found",
       description: "The requested video could not be found.",
+      robots: { index: false, follow: false },
     };
   }
 
@@ -50,15 +52,13 @@ export async function generateMetadata({ params }) {
   };
 }
 
-
-
 export default async function Page({ params, searchParams }) {
   const { slug } = await params;
   const { t } = await searchParams;
 
   const video = videoList.find((item) => item.slug === slug);
 
-  if (!video) return <div>Video not found {slug}</div>;
+  if (!video) notFound();
 
   const startTime = Number(t || 0);
 
@@ -88,10 +88,6 @@ export default async function Page({ params, searchParams }) {
     ]),
   ];
 
-
-
-
-
   function normalizeVideoDuration(input) {
     const value = String(input || "").trim().toUpperCase();
     const validIsoDuration =
@@ -105,7 +101,6 @@ export default async function Page({ params, searchParams }) {
   function normalizeSchemaDate(dateString) {
     if (!dateString) return "";
 
-    // If it already includes a time, leave it alone
     if (dateString.includes("T")) return dateString;
 
     return `${dateString}T00:00:00+00:00`;
@@ -164,7 +159,7 @@ export default async function Page({ params, searchParams }) {
     ],
   };
   return (
-    <main className={styles.videoWatchPage}>
+    <div className={styles.videoWatchPage}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -259,6 +254,6 @@ export default async function Page({ params, searchParams }) {
           ))}
         </div>
       </section>
-    </main>
+    </div>
   );
 }
