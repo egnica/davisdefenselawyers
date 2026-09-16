@@ -174,22 +174,6 @@ export default async function LocationPage({ params }) {
             <p className={styles.eyebrow}>Local criminal defense</p>
             <h2 className={styles.h2}>Focused guidance when the stakes are high</h2>
             <p className={styles.lead}>{area.metaDescription}</p>
-
-            <div className={styles.ctas}>
-              <a className={styles.primaryBtn} href="tel:+19529941568">
-                Call Now: (952) 994-1568
-              </a>
-              <Link className={styles.secondaryBtn} href="/contact">
-                Free Case Evaluation
-              </Link>
-            </div>
-
-            {area.nearbyCities?.length > 0 && (
-              <p className={styles.serviceLine}>
-                Serving {area.city} and {area.county}, including{" "}
-                {area.nearbyCities.slice(0, 5).join(", ")}.
-              </p>
-            )}
           </div>
 
           {area.heroImage && (
@@ -200,6 +184,22 @@ export default async function LocationPage({ params }) {
                 className={styles.heroImage}
               />
             </div>
+          )}
+
+          <div className={styles.ctas}>
+            <a className={styles.primaryBtn} href="tel:+19529941568">
+              Call Now: (952) 994-1568
+            </a>
+            <Link className={styles.secondaryBtn} href="/contact">
+              Free Case Evaluation
+            </Link>
+          </div>
+
+          {area.nearbyCities?.length > 0 && (
+            <p className={styles.serviceLine}>
+              Serving {area.city} and {area.county}, including{" "}
+              {area.nearbyCities.slice(0, 5).join(", ")}.
+            </p>
           )}
         </section>
 
