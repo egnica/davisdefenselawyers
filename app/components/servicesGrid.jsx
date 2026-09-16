@@ -6,7 +6,7 @@ function servicesGrid({ obj }) {
   return (
     <div
       className={styles.serviceContain}
-      style={{ width: "auto", margin: "0 12px" }}
+      style={{ width: "auto", margin: "12px 12px 0" }}
     >
       <div className={styles.servicesHomepageGrid}>
         {obj.map((item) => (
