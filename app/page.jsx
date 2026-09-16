@@ -10,6 +10,42 @@ import Area from "./data/service-areas.json";
 import video from "./data/videos.json";
 import VideoCard from "./components/videoCard";
 
+const SITE_URL = "https://www.davisdefenselawyers.com";
+
+export const metadata = {
+  title: "Minnesota Criminal Defense Lawyer | Davis Defense Lawyers",
+  description:
+    "Minnesota criminal defense attorney Andrew Davis represents clients facing DWI, assault, drug, theft, traffic, domestic violence, and other criminal charges across the Twin Cities and Minnesota.",
+  alternates: {
+    canonical: `${SITE_URL}/`,
+  },
+  openGraph: {
+    title: "Minnesota Criminal Defense Lawyer | Davis Defense Lawyers",
+    description:
+      "Minnesota criminal defense attorney Andrew Davis represents clients facing serious misdemeanor and felony charges across the Twin Cities and Minnesota.",
+    url: `${SITE_URL}/`,
+    siteName: "Davis Defense Lawyers",
+    type: "website",
+    images: [
+      {
+        url: "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-3.webp",
+        width: 900,
+        height: 1350,
+        alt: "Andrew Davis, Minnesota criminal defense attorney",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Minnesota Criminal Defense Lawyer | Davis Defense Lawyers",
+    description:
+      "Minnesota criminal defense attorney Andrew Davis represents clients facing serious misdemeanor and felony charges across Minnesota.",
+    images: [
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/andrew-3.webp",
+    ],
+  },
+};
+
 const practiceAreas = Practices.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
 const areasServiced = Area.areas || [];
@@ -21,7 +57,7 @@ const mostRecentVideo = video.reduce((max, current) =>
 export default function Home() {
   return (
     <>
-<Hero />
+      <Hero />
 
       <Grid obj={filter} />
 
