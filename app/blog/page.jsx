@@ -2,9 +2,17 @@ import React from "react";
 
 import Link from "next/link";
 
+export const metadata = {
+  title: "Blog Coming Soon | Davis Defense Lawyers",
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
+
 export default function BlogComingSoon() {
   return (
-    <main style={styles.main}>
+    <div style={styles.main}>
       <section style={styles.card}>
         <h1 style={styles.h1}>Blog Coming Soon</h1>
         <p style={styles.p}>
@@ -15,7 +23,7 @@ export default function BlogComingSoon() {
           ← Back to Home
         </Link>
       </section>
-    </main>
+    </div>
   );
 }
 
