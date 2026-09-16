@@ -4,7 +4,10 @@ import styles from "../page.module.css";
 
 function servicesGrid({ obj }) {
   return (
-    <div className={styles.serviceContain}>
+    <div
+      className={styles.serviceContain}
+      style={{ width: "auto", margin: "0 12px" }}
+    >
       <div className={styles.servicesHomepageGrid}>
         {obj.map((item) => (
           <Link
