@@ -18,10 +18,6 @@
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(340px, 1.1fr);
-  gap: clamp(2rem, 5vw, 4.5rem);
-  align-items: center;
   margin-bottom: clamp(4.5rem, 9vw, 7rem);
   padding: clamp(1.5rem, 4vw, 3rem);
   border: 1px solid var(--line);
@@ -30,10 +26,12 @@
 }
 
 .heroText {
-  max-width: 620px;
+  max-width: 800px;
 }
 
 .heroImageWrap {
+  width: 100%;
+  margin-top: clamp(1.75rem, 4vw, 2.75rem);
   overflow: hidden;
   border-radius: 18px;
   box-shadow: var(--shadow-soft);
@@ -47,12 +45,14 @@
 
 .lead {
   margin: 0;
+  max-width: 760px;
   color: var(--muted);
   font-size: clamp(1.08rem, 1.5vw, 1.22rem);
 }
 
 .serviceLine {
   margin: 1.5rem 0 0;
+  max-width: 800px;
   padding-top: 1.25rem;
   border-top: 1px solid var(--line);
   color: var(--muted);
@@ -200,16 +200,6 @@
   color: #fff;
 }
 
-@media (max-width: 800px) {
-  .hero {
-    grid-template-columns: 1fr;
-  }
-
-  .heroImageWrap {
-    grid-row: 1;
-  }
-}
-
 @media (max-width: 645px) {
   .main {
     padding: 3.25rem 18px;
@@ -222,8 +212,16 @@
     border-radius: 18px;
   }
 
+  .heroImageWrap {
+    border-radius: 12px;
+  }
+
   .gridButtons {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .ctas {
+    flex-direction: column;
   }
 
   .primaryBtn,
