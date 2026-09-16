@@ -16,7 +16,7 @@ const nextConfig = {
       {
         source: "/drug-charges",
         destination: "/drug-crimes",
-        permanent: true, // 301
+        permanent: true,
       },
       {
         source: "/interference-with-an-911-call",
@@ -35,12 +35,12 @@ const nextConfig = {
       },
       {
         source: "/areas-we-serve/chanhassen-mn",
-        destination: "/areas-we-serve",
+        destination: "/locations/chanhassen-mn",
         permanent: true,
       },
       {
         source: "/areas-we-serve/bloomington-mn",
-        destination: "/areas-we-serve",
+        destination: "/locations/bloomington-mn",
         permanent: true,
       },
       {
