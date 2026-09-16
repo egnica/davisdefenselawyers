@@ -50,84 +50,90 @@ export default function ContactForm() {
 
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
-      <h2 className={styles.formTitle}>FREE CASE REVIEW</h2>
+      <div className={styles.formInner}>
+        <p className={styles.formEyebrow}>Free and confidential</p>
+        <h2 className={styles.formTitle}>Talk directly with Andrew</h2>
+        <p className={styles.formIntro}>
+          Tell Andrew what happened and how to reach you. If the matter is
+          urgent, call or text (952) 994-1568.
+        </p>
 
-      <div className={styles.topRow}>
-        <label className={styles.field}>
-          Name
-          <input
-          className={styles.input}
-            name="name"
-            value={form.name}
+        <div className={styles.topRow}>
+          <label className={styles.field}>
+            Name
+            <input
+              className={styles.input}
+              name="name"
+              value={form.name}
+              onChange={handleChange}
+              required
+            />
+          </label>
+
+          <label className={styles.field}>
+            Phone
+            <input
+              className={styles.input}
+              name="phone"
+              type="tel"
+              value={form.phone}
+              onChange={handleChange}
+              required
+            />
+          </label>
+
+          <label className={styles.field}>
+            Email
+            <input
+              className={styles.input}
+              name="email"
+              type="email"
+              value={form.email}
+              onChange={handleChange}
+              required
+            />
+          </label>
+        </div>
+
+        {/* Honeypot (doesn't affect layout) */}
+        <div className={styles.honeypot} aria-hidden="true">
+          <label>
+            Company
+            <input
+              name="company"
+              value={form.company}
+              onChange={handleChange}
+              tabIndex={-1}
+              autoComplete="off"
+            />
+          </label>
+        </div>
+
+        <label className={styles.messageField}>
+          Message
+          <textarea
+            className={styles.textarea}
+            name="message"
+            value={form.message}
             onChange={handleChange}
             required
+            rows={6}
           />
         </label>
 
-        <label className={styles.field}>
-          Phone
-          <input
-          className={styles.input}
-            name="phone"
-            type="tel"
-            value={form.phone}
-            onChange={handleChange}
-            required
-          />
-        </label>
+        <button
+          className={styles.btnForm}
+          type="submit"
+          disabled={status === "sending"}
+        >
+          {status === "sending" ? "Sending..." : "Send confidential message"}
+        </button>
 
-        <label className={styles.field}>
-          Email
-          <input
-          className={styles.input}
-            name="email"
-            type="email"
-            value={form.email}
-            onChange={handleChange}
-            required
-          />
-        </label>
+        {status === "success" && (
+          <p className={styles.success}>Sent. We’ll get back to you soon.</p>
+        )}
+        {status === "error" && <p className={styles.error}>{error}</p>}
       </div>
-
-      {/* Honeypot (doesn't affect layout) */}
-      <div className={styles.honeypot} aria-hidden="true">
-        <label>
-          Company
-          <input
-            
-            name="company"
-            value={form.company}
-            onChange={handleChange}
-            tabIndex={-1}
-            autoComplete="off"
-          />
-        </label>
-      </div>
-
-      <label className={styles.messageField}>
-        Message
-        <textarea
-        className={styles.textarea}
-          name="message"
-          value={form.message}
-          onChange={handleChange}
-          required
-          rows={6}
-        />
-      </label>
-
-      <button
-        className={styles.btnForm}
-        type="submit"
-        disabled={status === "sending"}
-      >
-        {status === "sending" ? "Sending..." : "SEND MESSAGE"}
-      </button>
-
-      {status === "success" && (
-        <p className={styles.success}>✅ Sent. We’ll get back to you soon.</p>
-      )}
-      {status === "error" && <p className={styles.error}>❌ {error}</p>}
     </form>
   );
 }

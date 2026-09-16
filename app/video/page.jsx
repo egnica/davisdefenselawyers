@@ -2,7 +2,6 @@
 
 import styles from "../page.module.css";
 import videosObject from "../data/videos.json";
-import Image from "next/image";
 import Link from "next/link";
 import VideoCard from "../components/videoCard";
 
@@ -55,14 +54,30 @@ export const metadata = {
 
 function page() {
   return (
-    <div className={styles.videoPageContainer}>
-      <h1>Video Collection</h1>
+    <div className={styles.videoHub}>
+      <header className={styles.videoHubHeader}>
+        <p className={styles.eyebrow}>Minnesota criminal defense</p>
+        <h1>Video Library</h1>
+        <p>
+          Andrew Davis explains criminal charges, court processes, and the
+          practical questions people face after an arrest. Choose a topic for
+          straightforward guidance in plain language.
+        </p>
+      </header>
 
       <div className={styles.videoGrid}>
-        {videosObject.map((item, index) => (
-          <div key={index} className={styles.videoCard}>
+        {videosObject.map((item) => (
+          <div key={item.slug} className={styles.videoCard}>
             <VideoCard item={item} />
-            <h3 className={styles.videoCardTitle}>{item.title}</h3>
+            <div className={styles.videoCardBody}>
+              <h3 className={styles.videoCardTitle}>{item.title}</h3>
+              <Link
+                className={styles.videoCardLink}
+                href={`/video/${item.slug}`}
+              >
+                Watch video →
+              </Link>
+            </div>
           </div>
         ))}
       </div>

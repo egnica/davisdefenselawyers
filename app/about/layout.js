@@ -1,4 +1,3 @@
-import Nav from "../components/nav";
 import Hero from "../components/heroPractice.jsx";
 export const metadata = {
   title: "About Andrew Davis | Minnesota Criminal Defense Lawyer",
@@ -9,7 +8,6 @@ export const metadata = {
 export default function AboutLayout({ children }) {
   return (
     <>
-   
       <Hero
         title={"About Andrew Davis"}
         tag={

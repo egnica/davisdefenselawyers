@@ -8,6 +8,7 @@ import Form from "../../components/ContactForm";
 import LocationGrip from "../../components/areaGrid";
 import ServicesGrid from "../../components/servicesGrid";
 import Link from "next/link";
+import Image from "next/image";
 
 const practiceAreas = services.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
@@ -162,13 +163,16 @@ export default async function LocationPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbsLd) }}
       />
 
-      <Hero title={area.city} tag={area.county} />
+      <Hero
+        title={area.pageTitle}
+        tag={`${area.city} · ${area.county}`}
+      />
 
       <main className={styles.main}>
-        <h1 className={styles.h1}>{area.pageTitle}</h1>
-
         <section className={styles.hero}>
           <div className={styles.heroText}>
+            <p className={styles.eyebrow}>Local criminal defense</p>
+            <h2 className={styles.h2}>Focused guidance when the stakes are high</h2>
             <p className={styles.lead}>{area.metaDescription}</p>
 
             <div className={styles.ctas}>
@@ -190,10 +194,12 @@ export default async function LocationPage({ params }) {
 
           {area.heroImage && (
             <div className={styles.heroImageWrap}>
-              <img
+              <Image
                 src={area.heroImage}
                 alt={area.heroImageAlt || area.pageTitle}
                 className={styles.heroImage}
+                width={1200}
+                height={750}
               />
             </div>
           )}
@@ -201,6 +207,7 @@ export default async function LocationPage({ params }) {
 
         {/* 2) SERVICES GRID (dynamic) */}
         <section className={styles.services}>
+          <p className={styles.eyebrow}>How Andrew can help</p>
           <h2 className={styles.h2}>Practice Areas</h2>
           <p className={styles.sectionIntro}>
             Defense for DUI, assault, domestic allegations, drug charges, theft,
@@ -213,6 +220,7 @@ export default async function LocationPage({ params }) {
         {/* 3) UNIQUE ANGLE */}
         {area.uniqueAngle && (
           <section className={styles.uniqueAngle}>
+            <p className={styles.eyebrow}>Local perspective</p>
             <h2 className={styles.h2}>
               Local experience matters in {area.city}
             </h2>
@@ -236,6 +244,7 @@ export default async function LocationPage({ params }) {
         {/* 5) FAQ */}
         {area.faq?.length > 0 && (
           <section className={styles.faq}>
+            <p className={styles.eyebrow}>Clear answers</p>
             <h2 className={styles.h2}>Frequently Asked Questions</h2>
             <div className={styles.faqList}>
               {area.faq.map((item, i) => (
@@ -249,10 +258,15 @@ export default async function LocationPage({ params }) {
             </div>
           </section>
         )}
-        <LocationGrip areaObj={AREAS} />
+        <section className={styles.locations}>
+          <p className={styles.eyebrow}>Minnesota communities</p>
+          <h2 className={styles.h2}>Other areas we serve</h2>
+          <LocationGrip areaObj={AREAS} />
+        </section>
 
         {/* 6) FINAL CTA */}
         <section className={styles.finalCta}>
+          <p className={styles.eyebrow}>Free and confidential</p>
           <h2 className={styles.h2}>Talk to a criminal defense lawyer today</h2>
           <p>
             If you’ve been charged in {area.city} or anywhere in {area.county},
@@ -262,9 +276,9 @@ export default async function LocationPage({ params }) {
             <a className={styles.primaryBtn} href="tel:+19529941568">
               Call Now: (952) 994-1568
             </a>
-            <a className={styles.secondaryBtn} href="/contact">
+            <Link className={styles.secondaryBtn} href="/contact">
               Free Case Evaluation
-            </a>
+            </Link>
           </div>
         </section>
       </main>

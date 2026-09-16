@@ -13,8 +13,10 @@ export default function ListSection({ object, index }) {
   ) : null;
 
   return (
-    <div>
-      {object.title && <h2>{object.title}</h2>}
+    <section className={styles.contentSection}>
+      {object.title && (
+        <h2 className={styles.contentSectionTitle}>{object.title}</h2>
+      )}
 
       <div className={bodyClass}>
         {/* Left / Right layout */}
@@ -24,7 +26,7 @@ export default function ListSection({ object, index }) {
               {object.body && <p>{object.body}</p>}
 
               {hasItems && (
-                <ul>
+                <ul className={styles.contentList}>
                   {object.items.map((item, i) => {
                     // 1) Normal bullet: string
                     if (typeof item === "string") {
@@ -56,7 +58,7 @@ export default function ListSection({ object, index }) {
               {object.body && <p>{object.body}</p>}
 
               {hasItems && (
-                <ul>
+                <ul className={styles.contentList}>
                   {object.items.map((item, i) => {
                     if (typeof item === "string") {
                       return <li key={i}>{item}</li>;
@@ -78,6 +80,6 @@ export default function ListSection({ object, index }) {
           </>
         )}
       </div>
-    </div>
+    </section>
   );
 }

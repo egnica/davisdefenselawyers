@@ -20,8 +20,8 @@ function VideoCard({ item }) {
 
   return (
     <Link
-      href={`video/${item.slug}`}
-      className={styles.videoCard}
+      href={`/video/${item.slug}`}
+      className={styles.videoCardMediaLink}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

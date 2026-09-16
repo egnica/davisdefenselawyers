@@ -16,6 +16,16 @@ export default function Nav({ practiceAreas = [], serviceAreas = [] }) {
     setOpenDropdown((current) => (current === name ? null : name));
   };
 
+  const closeMobileMenu = () => {
+    setMobileOpen(false);
+    setOpenDropdown(null);
+  };
+
+  const toggleMobileMenu = () => {
+    if (mobileOpen) setOpenDropdown(null);
+    setMobileOpen((current) => !current);
+  };
+
   // close dropdown if you click outside
   useEffect(() => {
     function handleClickOutside(e) {
@@ -29,11 +39,6 @@ export default function Nav({ practiceAreas = [], serviceAreas = [] }) {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
-  // if mobile menu closes, also close any open dropdown
-  useEffect(() => {
-    if (!mobileOpen) setOpenDropdown(null);
-  }, [mobileOpen]);
 
   const phone = "(952) 994-1568";
   const tel = "+19529941568";
@@ -209,7 +214,7 @@ export default function Nav({ practiceAreas = [], serviceAreas = [] }) {
             className={styles.menuBtn}
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
             aria-expanded={mobileOpen}
-            onClick={() => setMobileOpen((v) => !v)}
+            onClick={toggleMobileMenu}
           >
             <span className={styles.menuLines} aria-hidden="true" />
           </button>
@@ -219,22 +224,22 @@ export default function Nav({ practiceAreas = [], serviceAreas = [] }) {
       {/* Mobile panel */}
       <div className={`${styles.mobilePanel} ${mobileOpen ? styles.open : ""}`}>
         <div className={styles.mobileLinks}>
-          <Link onClick={() => setMobileOpen(false)} href="/">
+          <Link onClick={closeMobileMenu} href="/">
             Home
           </Link>
-          <Link onClick={() => setMobileOpen(false)} href="/about">
+          <Link onClick={closeMobileMenu} href="/about">
             About
           </Link>
-          <Link onClick={() => setMobileOpen(false)} href="/criminal-defense">
+          <Link onClick={closeMobileMenu} href="/criminal-defense">
             Practice Areas
           </Link>
-          <Link onClick={() => setMobileOpen(false)} href="/areas-we-serve">
+          <Link onClick={closeMobileMenu} href="/areas-we-serve">
             Areas We Serve
           </Link>
-          <Link onClick={() => setMobileOpen(false)} href="/video">
+          <Link onClick={closeMobileMenu} href="/video">
             Videos
           </Link>
-          <Link onClick={() => setMobileOpen(false)} href="/contact">
+          <Link onClick={closeMobileMenu} href="/contact">
             Contact
           </Link>
 

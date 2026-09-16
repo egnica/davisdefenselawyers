@@ -16,12 +16,9 @@ function servicesGrid({ obj }) {
           </Link>
         ))}
       </div>
-      <Link className={styles.homeServiceBtn} href="../criminal-defense">
-
-      MORE
-        
-        
-    
+      <Link className={styles.homeServiceBtn} href="/criminal-defense">
+        Explore all
+        <span aria-hidden="true">→</span>
       </Link>
     </div>
   );

@@ -1,201 +1,353 @@
 .mainContain {
-  padding: 2% 5%;
-  background-color: #f6f6f6;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: clamp(3.5rem, 7vw, 6rem) 24px;
 }
 
 .mainH1 {
-  margin: 20px 0 0 0;
-}
-.tagline {
   margin: 0;
-  font-style: italic;
 }
 
-/* HERO COMPONENT */
+.tagline {
+  max-width: 760px;
+  margin: 0.65rem 0 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(1rem, 1.2vw, 1.15rem);
+  font-style: normal;
+  line-height: 1.55;
+}
+
+/* SHARED INNER-PAGE HERO */
 .heroPractice {
-  background-image: url("https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/minneapolis-skyline-night.webp");
-  background-attachment: fixed;
+  min-height: 390px;
+  overflow: hidden;
+  background-image:
+    linear-gradient(90deg, rgba(7, 26, 54, 0.2), rgba(7, 26, 54, 0)),
+    url("https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/minneapolis-skyline-night.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  height: 350px;
-  display: flex;
-  align-items: center;
 }
 
 .heroInner {
-  width: 100%;
-
-  margin: 0 auto;
-  padding: 0 2%;
-  height: 100%;
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  align-items: center;
+  grid-template-columns: minmax(0, 1.65fr) minmax(280px, 0.7fr);
+  align-items: end;
+  width: min(100%, 1380px);
+  min-height: 390px;
+  margin: 0 auto;
+  padding: 0 32px;
 }
 
 .heroText {
   position: relative;
-  color: #fff;
-  padding: 42px;
-  border-radius: 12px;
+  z-index: 2;
+  align-self: center;
+  max-width: 900px;
   overflow: hidden;
-}
-
-.heroText::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-
+  padding: clamp(28px, 4vw, 48px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
   background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 0, 0, 0.4) 60%,
-    rgba(0, 0, 0, 0) 100%
+    110deg,
+    rgba(5, 17, 36, 0.9) 0%,
+    rgba(5, 17, 36, 0.7) 72%,
+    rgba(5, 17, 36, 0.2) 100%
   );
-}
-
-.heroText > * {
-  position: relative;
-  z-index: 1; /* keeps text above blur/tint */
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.2);
+  color: #fff;
 }
 
 .heroText h1 {
   margin: 0;
-  font-size: 3rem;
+  color: #fff;
+  font-size: clamp(2.25rem, 4vw, 3.7rem);
+  line-height: 1.08;
 }
 
-/* Right side */
 .heroImage {
-  height: 100%;
+  position: relative;
+  z-index: 1;
   display: flex;
-  justify-content: left; /* or flex-end if you want him tighter right */
-  align-items: flex-end; /* THIS pins him to the bottom */
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
 }
 
 .heroImage :global(img) {
-  height: auto;
-  max-height: 340px;
   width: auto;
+  height: auto;
+  max-height: 380px;
+  filter: drop-shadow(0 18px 22px rgba(0, 0, 0, 0.22));
 }
 
-.heroPractice h1 {
-  margin: 0;
+/* PRACTICE PAGE INTRO / VIDEO */
+.videoCallout {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--red);
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  color: var(--ink);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.videoCallout:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 55px rgba(10, 35, 71, 0.14);
+}
+
+.videoCalloutLabel {
+  color: var(--red-dark);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.videoCalloutTitle {
+  font-family: var(--font-merriweather), serif;
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  line-height: 1.35;
+}
+
+.videoCalloutAction {
+  color: var(--blue);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+/* JSON-DRIVEN CONTENT BLOCKS */
+.contentSection {
+  margin: 0 0 clamp(3.75rem, 7vw, 6rem);
+}
+
+.contentSection:last-child {
+  margin-bottom: 0;
+}
+
+.contentSectionTitle {
+  max-width: 920px;
+  margin: 0 0 1.6rem;
+  font-size: clamp(1.8rem, 3vw, 2.55rem);
 }
 
 .bodyImage {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface-soft);
 }
+
 .bodyImage > img {
-  width: 300px;
+  width: 100%;
+  max-width: 460px;
+  aspect-ratio: 4 / 3;
   margin: auto;
+  border-radius: 16px;
+  box-shadow: 0 16px 36px rgba(10, 35, 71, 0.14);
+  object-fit: cover;
 }
 
 .bodyNoImage {
-  margin: 4%;
-}
-.faqSection {
-  margin-top: 4rem;
+  max-width: 780px;
+  margin: 0 auto;
+  padding-left: clamp(1.25rem, 3vw, 2rem);
+  border-left: 3px solid rgba(23, 107, 152, 0.25);
 }
 
+.bodyImage p,
+.bodyNoImage p {
+  margin: 0;
+}
+
+.contentList,
+.stepsList {
+  display: grid;
+  gap: 0.7rem;
+  margin: 1.4rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.contentList li,
+.stepsList li {
+  padding-left: 0.35rem;
+}
+
+.stepsList {
+  list-style: none;
+  counter-reset: practice-step;
+  padding: 0;
+}
+
+.stepsList li {
+  position: relative;
+  min-height: 42px;
+  padding: 0.45rem 0 0.45rem 3.25rem;
+  counter-increment: practice-step;
+}
+
+.stepsList li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 50%;
+  background: var(--navy);
+  color: #fff;
+  content: counter(practice-step);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.featuredVideo,
+.relatedSection,
+.faqSection {
+  margin-top: clamp(4rem, 8vw, 7rem);
+}
+
+.sectionEyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--red-dark);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.sectionHeading,
 .faqHeading {
-  margin-bottom: 1.5rem;
+  margin: 0 0 1.5rem;
+}
+
+.faqSection {
+  padding: clamp(2rem, 5vw, 4rem);
+  border-radius: 24px;
+  background: var(--surface-soft);
 }
 
 .faqItem {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+  padding: 0;
+}
+
+.faqItem:last-of-type {
+  border-bottom: 1px solid var(--line);
 }
 
 .faqQuestion {
+  position: relative;
   cursor: pointer;
-  font-weight: 500;
-  font-size: 1rem;
+  padding: 1.25rem 2.5rem 1.25rem 0;
+  color: var(--ink);
+  font-family: var(--font-merriweather), serif;
+  font-size: clamp(1rem, 1.2vw, 1.15rem);
+  font-weight: 700;
+  line-height: 1.45;
 }
 
 .faqAnswer {
-  margin-top: 0.75rem;
-  line-height: 1.6;
+  max-width: 760px;
+  margin: 0 0 1.25rem;
+  color: var(--muted);
 }
-@media (max-width: 900px) {
-  .heroPractice {
-    background-image: url("https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/skyline-mobile.webp");
-    background-attachment: unset;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    height: 350px;
-    display: flex;
-    align-items: stretch;
+.locationsBlock {
+  margin-top: 4rem;
+}
+
+@media (max-width: 900px) {
+  .heroPractice,
+  .heroInner {
+    min-height: 350px;
+  }
+
+  .heroPractice {
+    background-image:
+      linear-gradient(90deg, rgba(7, 26, 54, 0.28), rgba(7, 26, 54, 0)),
+      url("https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/skyline-mobile.webp");
   }
 
   .heroInner {
     position: relative;
-    width: 100%;
-    height: 100%;
-    padding: 0 2%;
-
-    display: grid;
-    grid-template-columns: 1fr auto; /* left space + Andrew */
-    align-items: end;
+    grid-template-columns: 1fr minmax(150px, 0.45fr);
+    padding: 0 14px;
   }
 
-  .heroImage {
-    height: 100%;
-    display: flex;
-    justify-content: flex-end; /* keep him on the right */
-    align-items: flex-end; /* keep him on the bottom */
-    z-index: 1;
-    padding-right: 4px; /* tiny breathing room from edge */
-  }
-
-  .heroImage :global(img) {
-    width: auto;
-    height: auto;
-    max-height: 340px;
-  }
-
-  /* full-width bottom overlay */
   .heroText {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    z-index: 2;
-    width: 100%;
-
-    padding: 14px 16px;
-    border-radius: 0;
-    overflow: hidden;
-  }
-
-  /* mobile-friendly gradient: bottom-up */
-  .heroText::after {
-    background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.78) 0%,
-      rgba(0, 0, 0, 0.45) 60%,
-      rgba(0, 0, 0, 0) 100%
-    );
+    right: 14px;
+    bottom: 18px;
+    left: 14px;
+    padding: 22px;
   }
 
   .heroText h1 {
-    font-size: 1.6rem;
-    margin: 0;
-    padding-right: 100px;
+    max-width: calc(100% - 120px);
+    font-size: clamp(1.7rem, 6vw, 2.45rem);
   }
 
   .tagline {
-    font-size: 0.9rem;
-    margin: 4px 0 0 0;
-    padding-right: 100px;
+    max-width: calc(100% - 110px);
+    font-size: 0.95rem;
   }
+
+  .heroImage {
+    grid-column: 2;
+    justify-content: flex-end;
+  }
+
+  .heroImage :global(img) {
+    max-height: 335px;
+  }
+
   .bodyImage {
     grid-template-columns: 1fr;
+  }
+
+  .bodyImage > img {
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .mainContain {
+    padding: 3.25rem 18px;
+  }
+
+  .videoCallout {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .videoCalloutAction {
+    margin-top: 4px;
+  }
+
+  .bodyImage {
+    padding: 1rem;
+    border-radius: 16px;
+  }
+
+  .bodyNoImage {
+    padding-left: 1rem;
+  }
+
+  .faqSection {
+    padding: 2rem 1.15rem;
+    border-radius: 18px;
   }
 }

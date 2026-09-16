@@ -174,8 +174,13 @@ export default async function Page({ params }) {
 
       <main className={styles.mainContain}>
         {videoFind ? (
-          <Link href={`../video/${videoFind.slug}`}>
-            Watch: {videoFind.title}
+          <Link
+            href={`/video/${videoFind.slug}`}
+            className={styles.videoCallout}
+          >
+            <span className={styles.videoCalloutLabel}>Video guide</span>
+            <span className={styles.videoCalloutTitle}>{videoFind.title}</span>
+            <span className={styles.videoCalloutAction}>Watch now →</span>
           </Link>
         ) : null}
         {area.contentBlocks.map((item, index) => (
@@ -183,16 +188,24 @@ export default async function Page({ params }) {
         ))}
 
         {videoFind ? (
-          <VideoPlayer
-            src={videoFind.videoUrl}
-            poster={videoFind.thumbnail}
-            startTime={videoFind.startTime}
-            postedDate={videoFind.uploadDate}
-          />
+          <section className={styles.featuredVideo}>
+            <p className={styles.sectionEyebrow}>From Andrew Davis</p>
+            <h2 className={styles.sectionHeading}>Understand the charge</h2>
+            <VideoPlayer
+              src={videoFind.videoUrl}
+              poster={videoFind.thumbnail}
+              startTime={videoFind.startTime}
+              postedDate={videoFind.uploadDate}
+            />
+          </section>
         ) : null}
-        <br />
-        <ServicesGrid obj={practiceAreas} />
+        <section className={styles.relatedSection}>
+          <p className={styles.sectionEyebrow}>Related services</p>
+          <h2 className={styles.sectionHeading}>Explore practice areas</h2>
+          <ServicesGrid obj={practiceAreas} />
+        </section>
         <section className={styles.faqSection}>
+          <p className={styles.sectionEyebrow}>Common questions</p>
           <h2 className={styles.faqHeading}>{area.faqTitle}</h2>
 
           {area.faq.map((item, index) => (
@@ -202,8 +215,11 @@ export default async function Page({ params }) {
             </details>
           ))}
 
-          <h2>Locations Covered</h2>
-          <Locations areaObj={serviceAreas} />
+          <div className={styles.locationsBlock}>
+            <p className={styles.sectionEyebrow}>Minnesota communities</p>
+            <h2>Locations Covered</h2>
+            <Locations areaObj={serviceAreas} />
+          </div>
         </section>
       </main>
     </>

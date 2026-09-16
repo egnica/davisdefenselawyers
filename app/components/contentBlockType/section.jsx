@@ -6,8 +6,10 @@ function Section({ object, index }) {
   const bodyClass =
     object.image && object.image !== "" ? styles.bodyImage : styles.bodyNoImage;
   return (
-    <div>
-      {object.title && <h2>{object.title}</h2>}
+    <section className={styles.contentSection}>
+      {object.title && (
+        <h2 className={styles.contentSectionTitle}>{object.title}</h2>
+      )}
       <div className={bodyClass}>
         <>
           {index % 2 === 0 ? (
@@ -23,7 +25,7 @@ function Section({ object, index }) {
           )}
         </>
       </div>
-    </div>
+    </section>
   );
 }
 

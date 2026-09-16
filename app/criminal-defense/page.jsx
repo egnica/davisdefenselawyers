@@ -20,14 +20,18 @@ function criminalDefense() {
   return (
     <>
       <Hero title={"Minnesota Criminal Defense"} tag={"Practice Areas"} />
-      <div className={styles.defenseContain}>
-        <p>
+      <section className={styles.contentPage}>
+        <div className={styles.pageIntro}>
+          <p className={styles.eyebrow}>Minnesota criminal defense</p>
+          <h2>Focused representation for serious situations</h2>
+          <p>
           Andrew Davis provides aggressive, experienced criminal defense
           representation for clients across Minnesota. If you’ve been charged
           with a crime or believe charges may be coming you deserve an attorney
           who understands both the law and the real-world consequences you’re
           facing.
-        </p>
+          </p>
+        </div>
         <div className={styles.defenseGrid}>
           {serviceAreas.map((item) => (
             <Link
@@ -42,7 +46,7 @@ function criminalDefense() {
             </Link>
           ))}
         </div>
-      </div>
+      </section>
       <Form />
     </>
   );

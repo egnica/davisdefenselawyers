@@ -17,7 +17,7 @@ function Steps({ object, index = 0 }) {
       {object?.body ? <p>{object.body}</p> : null}
 
       {steps.length ? (
-        <ol>
+        <ol className={styles.stepsList}>
           {steps.map((s, i) => {
             const text =
               typeof s === "string" ? s : s?.step || s?.text || s?.body || "";
@@ -32,8 +32,10 @@ function Steps({ object, index = 0 }) {
   );
 
   return (
-    <div>
-      {object?.title ? <h2>{object.title}</h2> : null}
+    <section className={styles.contentSection}>
+      {object?.title ? (
+        <h2 className={styles.contentSectionTitle}>{object.title}</h2>
+      ) : null}
 
       <div className={bodyClass}>
         {index % 2 === 0 ? (
@@ -48,7 +50,7 @@ function Steps({ object, index = 0 }) {
           </>
         )}
       </div>
-    </div>
+    </section>
   );
 }
 

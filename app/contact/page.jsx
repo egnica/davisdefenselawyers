@@ -19,7 +19,10 @@ function contact() {
         title={"Contact Andrew Davis Minnesota Defense Attorney"}
         tag={"Confidential, judgment-free legal guidance when it matters most"}
       />
-      <div className={styles.defenseContain}>
+      <section className={styles.contentPage}>
+        <div className={styles.contentNarrow}>
+          <p className={styles.eyebrow}>Confidential case evaluation</p>
+          <h2>Start with a direct conversation</h2>
         <p>
           Being charged with a crime or even facing the possibility can feel
           overwhelming. You may be unsure of your rights, worried about what
@@ -39,9 +42,13 @@ function contact() {
           Your information is kept private, and there is no obligation. If your
           situation is urgent, calling or texting directly is always encouraged.
         </p>
-      </div>
+        </div>
+      </section>
       <Form />
-      <div className={styles.defenseContain}>
+      <section className={styles.contentPage}>
+        <div className={styles.contentNarrow}>
+          <p className={styles.eyebrow}>What happens next</p>
+          <h2>Clear guidance from the beginning</h2>
         <p>
           Once your message is received, our office will review your information
           promptly and reach out to discuss next steps. You will speak directly
@@ -57,7 +64,8 @@ function contact() {
           <strong>Call or text today</strong> to take the first step toward
           protecting your rights and your future.
         </p>
-      </div>
+        </div>
+      </section>
     </>
   );
 }

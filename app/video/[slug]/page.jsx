@@ -4,6 +4,7 @@ import videoList from "../../data/videos.json";
 import VideoPlayer from "@/app/components/video";
 import styles from "../../page.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const SITE_URL = "https://www.davisdefenselawyers.com";
 
@@ -162,17 +163,8 @@ export default async function Page({ params, searchParams }) {
       },
     ],
   };
-  /* 
-  const serviceObject = areasContent.practiceAreas.find(
-    (item) => item.slug == video.practiceArea,
-  );
-
-  const firstSection = serviceObject.contentBlocks.find(
-    (item) => item.type === "section",
-  ); */
-
   return (
-    <div>
+    <main className={styles.videoWatchPage}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -186,7 +178,7 @@ export default async function Page({ params, searchParams }) {
         }}
       />
 
-      <div className={styles.videoContainer}>
+      <section className={styles.videoContainer}>
         <VideoPlayer
           src={video.videoUrl}
           poster={video.thumbnail}
@@ -195,93 +187,78 @@ export default async function Page({ params, searchParams }) {
         />
 
         {video.clips?.length > 0 && (
-          <div className={styles.chaptersContainer}>
-            <h3>Chapters</h3>
+          <aside className={styles.chaptersContainer}>
+            <p className={styles.eyebrow}>Jump to a topic</p>
+            <h2>Chapters</h2>
             <ul className={styles.chapterList}>
               {video.clips.map((clip) => (
                 <li key={`${clip.name}-${clip.startOffset}`}>
-                  {" "}
                   <a href={`?t=${Math.round(clip.startOffset)}`}>{clip.name}</a>
                 </li>
               ))}
             </ul>
 
-            <hr />
-
             <div className={styles.ctaChapterContain}>
-              <p style={{ marginBottom: "10px" }}>{video.cta}</p>
-              <p>
-                <a className={styles.ctaChaptersBtn} href="tel:+1-952-944-1568">
-                  Call Andrew Davis
-                  <br />
-                  (952) 994-1568
-                </a>
-              </p>
-              <br />
-              <Link href={`/${video.practiceArea}`}>{video.linkPractice}</Link>
+              <p>{video.cta}</p>
+              <a className={styles.ctaChaptersBtn} href="tel:+19529941568">
+                Call Andrew Davis
+                <span>(952) 994-1568</span>
+              </a>
+              <Link className={styles.practiceTextLink} href={`/${video.practiceArea}`}>
+                {video.linkPractice} →
+              </Link>
             </div>
-          </div>
+          </aside>
         )}
-      </div>
+      </section>
 
-      <div className={styles.videoPageContainer}>
+      <article className={styles.videoArticle}>
+        <p className={styles.eyebrow}>Minnesota criminal defense video</p>
         <h1>{video.title}</h1>
-        <section style={{ padding: "0 30px" }}>
-          <p>{video.description}</p>
+        <p className={styles.videoDescription}>{video.description}</p>
 
-          {video.watchHighlights?.length > 0 && (
-            <>
-              <h2 style={{ fontSize: "1.25rem", marginTop: "20px" }}>
-                What Andrew Covers
-              </h2>
-              <ul>
-                {video.watchHighlights.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </>
-          )}
-        </section>
+        {video.watchHighlights?.length > 0 && (
+          <section className={styles.videoHighlights}>
+            <h2>What Andrew Covers</h2>
+            <ul>
+              {video.watchHighlights.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {youtubeWatchUrl && (
-          <a href={youtubeWatchUrl}>
-            <span style={{ color: "red" }}>▶</span> Watch On YouTube
+          <a className={styles.youtubeLink} href={youtubeWatchUrl}>
+            <span>▶</span> Watch on YouTube
           </a>
         )}
-      </div>
+      </article>
 
-      {/*       {firstSection && (
-        <div className={styles.videoPageContainer}>
-          <h2 style={{ fontSize: "1.5rem" }}>{firstSection.title}</h2>
-          <p>{firstSection.body}</p>
-        </div>
-      )} */}
-
-      <div style={{ padding: "0px 20px 20px 20px" }}>
-        <h2 style={{ fontSize: "1.5rem", margin: "0" }}>Other Video Links:</h2>
+      <section className={styles.relatedVideos}>
+        <p className={styles.eyebrow}>Keep learning</p>
+        <h2>More criminal defense videos</h2>
         <div className={styles.videoLinkContain}>
-          {Object.values(videoList).map((item, index) => (
-            <div className={styles.videoLinkCard} key={index}>
-              <Link
-                href={`https://www.davisdefenselawyers.com/video/${item.slug}`}
-              >
-                <img
-                  src={item.thumbnail}
-                  width={150}
-                  alt={`video thumbnail for ${item.title}`}
-                />
-              </Link>
-              <br />
-
-              <Link
-                href={`https://www.davisdefenselawyers.com/video/${item.slug}`}
-              >
-                {item.title}
-              </Link>
-            </div>
+          {videoList
+            .filter((item) => item.slug !== video.slug)
+            .slice(0, 6)
+            .map((item) => (
+            <Link
+              className={styles.videoLinkCard}
+              key={item.slug}
+              href={`/video/${item.slug}`}
+            >
+              <Image
+                src={item.thumbnail}
+                width={640}
+                height={360}
+                alt={`Video thumbnail for ${item.title}`}
+              />
+              <span>{item.title}</span>
+            </Link>
           ))}
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
