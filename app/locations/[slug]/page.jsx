@@ -8,7 +8,6 @@ import Form from "../../components/ContactForm";
 import LocationGrip from "../../components/areaGrid";
 import ServicesGrid from "../../components/servicesGrid";
 import Link from "next/link";
-import Image from "next/image";
 
 const practiceAreas = services.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
@@ -168,7 +167,7 @@ export default async function LocationPage({ params }) {
         tag={`${area.city} · ${area.county}`}
       />
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         <section className={styles.hero}>
           <div className={styles.heroText}>
             <p className={styles.eyebrow}>Local criminal defense</p>
@@ -194,18 +193,15 @@ export default async function LocationPage({ params }) {
 
           {area.heroImage && (
             <div className={styles.heroImageWrap}>
-              <Image
+              <img
                 src={area.heroImage}
                 alt={area.heroImageAlt || area.pageTitle}
                 className={styles.heroImage}
-                width={1200}
-                height={750}
               />
             </div>
           )}
         </section>
 
-        {/* 2) SERVICES GRID (dynamic) */}
         <section className={styles.services}>
           <p className={styles.eyebrow}>How Andrew can help</p>
           <h2 className={styles.h2}>Practice Areas</h2>
@@ -217,7 +213,6 @@ export default async function LocationPage({ params }) {
           <ServicesGrid obj={filter} />
         </section>
 
-        {/* 3) UNIQUE ANGLE */}
         {area.uniqueAngle && (
           <section className={styles.uniqueAngle}>
             <p className={styles.eyebrow}>Local perspective</p>
@@ -228,7 +223,6 @@ export default async function LocationPage({ params }) {
           </section>
         )}
 
-        {/* 4) CONTENT BLOCKS */}
         {area.contentBlocks?.map((block, idx) => {
           if (block.type === "section") {
             return (
@@ -241,7 +235,6 @@ export default async function LocationPage({ params }) {
           return null;
         })}
 
-        {/* 5) FAQ */}
         {area.faq?.length > 0 && (
           <section className={styles.faq}>
             <p className={styles.eyebrow}>Clear answers</p>
@@ -264,7 +257,6 @@ export default async function LocationPage({ params }) {
           <LocationGrip areaObj={AREAS} />
         </section>
 
-        {/* 6) FINAL CTA */}
         <section className={styles.finalCta}>
           <p className={styles.eyebrow}>Free and confidential</p>
           <h2 className={styles.h2}>Talk to a criminal defense lawyer today</h2>
@@ -281,7 +273,7 @@ export default async function LocationPage({ params }) {
             </Link>
           </div>
         </section>
-      </main>
+      </div>
 
       <Form />
     </>
