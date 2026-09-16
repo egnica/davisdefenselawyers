@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../page.module.css";
 
 export default function Hero() {
@@ -44,7 +45,9 @@ export default function Hero() {
             defense attorney who knows how to fight and win.
           </p>
           <div className={styles.btnContain}>
-            <button className={styles.btnHero}>FREE CASE EVALUATION</button>
+            <Link href="/contact" className={styles.btnHero}>
+              FREE CASE EVALUATION
+            </Link>
           </div>
         </div>
         <div className={styles.heroAndrew}>
