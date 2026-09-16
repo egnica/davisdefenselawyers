@@ -45,7 +45,11 @@ export default function Hero() {
             defense attorney who knows how to fight and win.
           </p>
           <div className={styles.btnContain}>
-            <Link href="/contact" className={styles.btnHero}>
+            <Link
+              href="/contact"
+              className={styles.btnHero}
+              style={{ display: "inline-block", width: "fit-content" }}
+            >
               FREE CASE EVALUATION
             </Link>
           </div>
