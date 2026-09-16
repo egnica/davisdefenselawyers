@@ -272,7 +272,7 @@
 @media (max-width: 900px) {
   .heroPractice,
   .heroInner {
-    min-height: 350px;
+    min-height: 310px;
   }
 
   .heroPractice {
@@ -283,35 +283,38 @@
 
   .heroInner {
     position: relative;
-    grid-template-columns: 1fr minmax(150px, 0.45fr);
-    padding: 0 14px;
+    grid-template-columns: 1fr minmax(145px, 0.42fr);
+    padding: 0 12px;
   }
 
   .heroText {
     position: absolute;
-    right: 14px;
-    bottom: 18px;
-    left: 14px;
-    padding: 22px;
+    z-index: 2;
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    padding: 18px 20px;
   }
 
   .heroText h1 {
-    max-width: calc(100% - 120px);
-    font-size: clamp(1.7rem, 6vw, 2.45rem);
+    max-width: calc(100% - 145px);
+    font-size: clamp(1.55rem, 5.8vw, 2.15rem);
   }
 
   .tagline {
-    max-width: calc(100% - 110px);
-    font-size: 0.95rem;
+    max-width: calc(100% - 140px);
+    font-size: 0.9rem;
   }
 
   .heroImage {
+    z-index: 3;
     grid-column: 2;
     justify-content: flex-end;
+    pointer-events: none;
   }
 
   .heroImage :global(img) {
-    max-height: 335px;
+    max-height: 300px;
   }
 
   .bodyImage {
@@ -326,6 +329,33 @@
 @media (max-width: 640px) {
   .mainContain {
     padding: 3.25rem 18px;
+  }
+
+  .heroPractice,
+  .heroInner {
+    min-height: 290px;
+  }
+
+  .heroText {
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    padding: 16px 18px;
+  }
+
+  .heroText h1 {
+    max-width: calc(100% - 138px);
+    font-size: clamp(1.45rem, 6.8vw, 1.95rem);
+  }
+
+  .tagline {
+    max-width: calc(100% - 132px);
+    font-size: 0.88rem;
+    line-height: 1.45;
+  }
+
+  .heroImage :global(img) {
+    max-height: 280px;
   }
 
   .videoCallout {
