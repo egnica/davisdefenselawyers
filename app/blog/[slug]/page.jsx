@@ -1,5 +1,5 @@
-import React from "react";
+import { notFound } from "next/navigation";
 
-export default function blogPost() {
-  return <div>blog post</div>;
+export default function BlogPost() {
+  notFound();
 }
