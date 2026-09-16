@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <main style={styles.container}>
+    <div style={styles.container}>
       <h1 style={styles.heading}>Page Not Found</h1>
 
       <p style={styles.text}>
@@ -12,7 +12,7 @@ export default function NotFound() {
       <Link href="/" style={styles.button}>
         Return to Home
       </Link>
-    </main>
+    </div>
   );
 }
 
@@ -38,7 +38,7 @@ const styles = {
   },
   button: {
     padding: "12px 24px",
-    backgroundColor: "#b30000", // firm red
+    backgroundColor: "#b30000",
     color: "#fff",
     textDecoration: "none",
     borderRadius: "4px",
