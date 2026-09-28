@@ -571,6 +571,7 @@
       "icon": "",
       "relatedAreas": [
         "drug-crimes",
+        "implied-consent-test-refusal",
         "traffic-offenses"
       ],
       "contentBlocks": [
@@ -1671,6 +1672,7 @@
       "icon": "",
       "relatedAreas": [
         "dwi-dui",
+        "implied-consent-test-refusal",
         "probation-violation",
         "assault"
       ],

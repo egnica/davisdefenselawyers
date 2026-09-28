@@ -13,12 +13,19 @@ export default function VideoPlayer({
 }) {
   const videoRef = useRef(null);
 
-  const postDate = new Date(postedDate);
-  const formattedDate = postDate.toLocaleDateString("en-US", {
-    month: "long",
-    day: "numeric",
-    year: "numeric",
-  });
+  const dateParts = postedDate?.split("-").map(Number);
+  const postDate =
+    dateParts?.length === 3 && dateParts.every(Number.isFinite)
+      ? new Date(Date.UTC(dateParts[0], dateParts[1] - 1, dateParts[2]))
+      : null;
+  const formattedDate = postDate
+    ? postDate.toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+        timeZone: "UTC",
+      })
+    : "";
 
   useEffect(() => {
     const node = videoRef.current;
@@ -65,9 +72,11 @@ export default function VideoPlayer({
       <Link className={styles.videoBackLink} href="/video">
         ← Back to videos
       </Link>
-      <p style={{ padding: "0 0 0 20px", fontSize: "1rem", margin: 0 }}>
-        Published: {formattedDate}
-      </p>
+      {formattedDate ? (
+        <p style={{ padding: "0 0 0 20px", fontSize: "1rem", margin: 0 }}>
+          Published: <time dateTime={postedDate}>{formattedDate}</time>
+        </p>
+      ) : null}
     </div>
   );
 }
