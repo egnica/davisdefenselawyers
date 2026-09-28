@@ -2,6 +2,7 @@
 import practiceAreas from "./data/practice-areas_clean.json";
 import serviceAreas from "./data/service-areas.json";
 import videos from "./data/videos.json";
+import { getLocalSeoPages } from "./lib/localSeo";
 
 const SITE_URL = "https://www.davisdefenselawyers.com";
 
@@ -54,10 +55,17 @@ export default function sitemap() {
       ...(video.uploadDate ? { lastModified: new Date(video.uploadDate) } : {}),
     }));
 
+  const localSeoRoutes = getLocalSeoPages({ publishedOnly: true }).map(
+    (page) => ({
+      url: `${SITE_URL}/${page.slug}`,
+    }),
+  );
+
   return [
     ...staticRoutes,
     ...practiceRoutes,
     ...locationRoutes,
+    ...localSeoRoutes,
     ...videoRoutes,
   ];
 }

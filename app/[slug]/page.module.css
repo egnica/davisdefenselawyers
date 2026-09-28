@@ -269,6 +269,219 @@
   margin-top: 4rem;
 }
 
+/* LOCAL SEO PAGES */
+.breadcrumbs {
+  margin: -1.5rem 0 clamp(2.5rem, 5vw, 4rem);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  margin-left: 0.45rem;
+  color: #9aa3af;
+  content: "/";
+}
+
+.breadcrumbs a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-color: rgba(23, 107, 152, 0.28);
+  text-underline-offset: 3px;
+}
+
+.localIntro {
+  max-width: 900px;
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface-soft);
+}
+
+.localIntro > p:not(.sectionEyebrow),
+.localLegalIntro p,
+.localResourcesIntro,
+.localFinalCta p {
+  max-width: 790px;
+  color: var(--muted);
+}
+
+.localLead {
+  color: var(--ink) !important;
+  font-size: clamp(1.08rem, 1.4vw, 1.2rem);
+  font-weight: 650;
+}
+
+.statewideGuideLink {
+  display: inline-flex;
+  margin-top: 0.5rem;
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.localResources,
+.localLegalIntro,
+.localRelatedSection,
+.localFinalCta {
+  margin-top: clamp(4rem, 8vw, 7rem);
+}
+
+.localResourceCards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.localResourceCard {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface-soft);
+}
+
+.localResourceCard h3 {
+  margin: 0 0 1rem;
+}
+
+.localResourceCard p {
+  margin: 0.35rem 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.localResourceCard .localResourceLabel {
+  margin: 0 0 0.5rem;
+  color: var(--red-dark);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.localResourceCard a,
+.verifiedResourceList a {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.verifiedResourceList {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.verifiedResourceList li {
+  padding: 1rem;
+  border-top: 3px solid rgba(23, 107, 152, 0.25);
+  background: #fff;
+}
+
+.verifiedResourceList a {
+  margin-top: 0;
+}
+
+.verifiedResourceList p {
+  margin: 0.55rem 0 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.localLegalIntro {
+  max-width: 840px;
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+  padding-left: clamp(1.25rem, 3vw, 2rem);
+  border-left: 3px solid rgba(23, 107, 152, 0.25);
+}
+
+.localRelatedLinks {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.localRelatedLinks a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 60px;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--navy);
+  font-weight: 750;
+}
+
+.localRelatedLinks a:hover {
+  border-color: rgba(23, 107, 152, 0.45);
+  box-shadow: 0 12px 24px rgba(10, 35, 71, 0.08);
+}
+
+.localRelatedLinks span {
+  color: var(--red-dark);
+}
+
+.localFinalCta {
+  padding: clamp(2rem, 5vw, 4rem);
+  border-radius: 24px;
+  background: var(--navy-deep);
+  color: #fff;
+}
+
+.localFinalCta h2,
+.localFinalCta p {
+  color: #fff;
+}
+
+.localFinalCta .sectionEyebrow {
+  color: #f1a39f;
+}
+
+.localCtaButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1.5rem;
+}
+
+.localCtaButtons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0.75rem 1.15rem;
+  border-radius: 8px;
+  font-size: 0.96rem;
+  font-weight: 800;
+}
+
+.localCtaButtons a:first-child {
+  background: var(--red);
+  color: #fff;
+}
+
+.localCtaButtons a:last-child {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+}
+
 @media (max-width: 900px) {
   .heroPractice,
   .heroInner {
@@ -318,6 +531,10 @@
   }
 
   .bodyImage {
+    grid-template-columns: 1fr;
+  }
+
+  .verifiedResourceList {
     grid-template-columns: 1fr;
   }
 
@@ -379,5 +596,28 @@
   .faqSection {
     padding: 2rem 1.15rem;
     border-radius: 18px;
+  }
+
+  .breadcrumbs {
+    margin-top: -1rem;
+  }
+
+  .localIntro,
+  .localFinalCta {
+    padding: 1.25rem;
+    border-radius: 18px;
+  }
+
+  .localResourceCards,
+  .localRelatedLinks {
+    grid-template-columns: 1fr;
+  }
+
+  .localCtaButtons {
+    flex-direction: column;
+  }
+
+  .localCtaButtons a {
+    width: 100%;
   }
 }

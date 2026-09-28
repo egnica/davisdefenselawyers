@@ -2,6 +2,7 @@
   "key": [
     {
       "slug": "",
+      "localSeoPublished": false,
       "city": "",
       "county": "",
       "nearbyCities": [],
@@ -11,6 +12,12 @@
       "heroImage": "",
       "heroImageAlt": "",
       "uniqueAngle": "",
+      "localSeo": {
+        "judicialDistrict": "",
+        "court": { "name": "", "address": "", "phone": "", "url": "" },
+        "agency": { "name": "", "address": "", "phone": "", "url": "" },
+        "resources": [{ "name": "", "description": "", "url": "" }]
+      },
       "faq": [{ "q": "", "a": "" }],
       "contentBlocks": [{ "type": "section", "title": "", "body": "" }]
     }
@@ -18,6 +25,7 @@
   "areas": [
     {
       "slug": "minneapolis-mn",
+      "localSeoPublished": false,
       "city": "Minneapolis",
       "county": "Hennepin County",
       "nearbyCities": [
@@ -65,6 +73,7 @@
     },
     {
       "slug": "st-paul-mn",
+      "localSeoPublished": false,
       "city": "St. Paul",
       "county": "Ramsey County",
       "nearbyCities": [
@@ -112,6 +121,7 @@
     },
     {
       "slug": "bloomington-mn",
+      "localSeoPublished": false,
       "city": "Bloomington",
       "county": "Hennepin County",
       "nearbyCities": [
@@ -159,6 +169,7 @@
     },
     {
       "slug": "waconia-mn",
+      "localSeoPublished": false,
       "city": "Waconia",
       "county": "Carver County",
       "nearbyCities": [
@@ -206,6 +217,7 @@
     },
     {
       "slug": "eden-prairie-mn",
+      "localSeoPublished": false,
       "city": "Eden Prairie",
       "county": "Hennepin County",
       "nearbyCities": [
@@ -253,6 +265,7 @@
     },
     {
       "slug": "minnetonka-mn",
+      "localSeoPublished": false,
       "city": "Minnetonka",
       "county": "Hennepin County",
       "nearbyCities": [
@@ -300,6 +313,7 @@
     },
     {
       "slug": "plymouth-mn",
+      "localSeoPublished": false,
       "city": "Plymouth",
       "county": "Hennepin County",
       "nearbyCities": [
@@ -315,6 +329,38 @@
       "heroImage": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/Plymouth.webp",
       "heroImageAlt": "Attorney Andrew Davis, Plymouth criminal defense lawyer",
       "uniqueAngle": "Plymouth cases often involve busy professionals and families looking to resolve matters efficiently and protect their records. Early legal guidance can help reduce disruption and avoid long-term consequences.",
+      "localSeo": {
+        "judicialDistrict": "Minnesota Fourth Judicial District",
+        "court": {
+          "name": "Hennepin County District Court – Criminal and Traffic Division",
+          "address": "300 South 6th Street, C-11, Minneapolis, MN 55487",
+          "phone": "(612) 348-6000",
+          "url": "https://mncourts.gov/find-courts/hennepin/hennepincriminaltrafficcourt"
+        },
+        "agency": {
+          "name": "Plymouth Police Department",
+          "address": "3400 Plymouth Boulevard, Plymouth, MN 55447",
+          "phone": "(763) 509-5160",
+          "url": "https://www.plymouthmn.gov/services/police"
+        },
+        "resources": [
+          {
+            "name": "Minnesota Fourth Judicial District",
+            "description": "Official court information for Hennepin County, including court programs, policies, and contacts.",
+            "url": "https://mncourts.gov/find-courts/fourth-judicial-district"
+          },
+          {
+            "name": "Hennepin County Attorney’s Office",
+            "description": "Official information and resources from the prosecutor’s office serving Hennepin County.",
+            "url": "https://www.hennepinattorney.org/"
+          },
+          {
+            "name": "Plymouth Police Reports",
+            "description": "Official City of Plymouth information about requesting police reports and records.",
+            "url": "https://www.plymouthmn.gov/departments/public-safety/police/police-reports"
+          }
+        ]
+      },
       "faq": [
         {
           "q": "What should I do after being charged in Plymouth?",
@@ -347,6 +393,7 @@
     },
     {
       "slug": "chanhassen-mn",
+      "localSeoPublished": false,
       "city": "Chanhassen",
       "county": "Carver County",
       "nearbyCities": [
@@ -394,6 +441,7 @@
     },
     {
       "slug": "chaska-mn",
+      "localSeoPublished": false,
       "city": "Chaska",
       "county": "Carver County",
       "nearbyCities": [

@@ -9,6 +9,11 @@ import Form from "../../components/ContactForm";
 import LocationGrip from "../../components/areaGrid";
 import ServicesGrid from "../../components/servicesGrid";
 import Link from "next/link";
+import {
+  buildLocalSeoSlug,
+  getLocalSeoTitle,
+  isLocalSeoPublished,
+} from "../../lib/localSeo";
 
 const practiceAreas = services.practiceAreas || [];
 const filter = practiceAreas.slice(0, 12);
@@ -203,16 +208,44 @@ export default async function LocationPage({ params }) {
           )}
         </section>
 
-        <section className={styles.services}>
-          <p className={styles.eyebrow}>How Andrew can help</p>
-          <h2 className={styles.h2}>Practice Areas</h2>
-          <p className={styles.sectionIntro}>
-            Defense for DUI, assault, domestic allegations, drug charges, theft,
-            and more. Select a practice area to learn more.
-          </p>
+        {isLocalSeoPublished(area) ? (
+          <section className={styles.services}>
+            <p className={styles.eyebrow}>How Andrew can help</p>
+            <h2 className={styles.h2}>
+              Criminal Defense Services in {area.city}
+            </h2>
+            <p className={styles.sectionIntro}>
+              Explore local information for each criminal defense service Andrew
+              Davis provides in {area.city} and {area.county}.
+            </p>
 
-          <ServicesGrid obj={filter} />
-        </section>
+            <div className={styles.localServicesGrid}>
+              {practiceAreas.map((practice) => (
+                <Link
+                  className={styles.localServiceLink}
+                  href={`/${buildLocalSeoSlug(area, practice)}`}
+                  key={practice.slug}
+                >
+                  <span>
+                    {area.city} {getLocalSeoTitle(practice)}
+                  </span>
+                  <span aria-hidden="true">→</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : (
+          <section className={styles.services}>
+            <p className={styles.eyebrow}>How Andrew can help</p>
+            <h2 className={styles.h2}>Practice Areas</h2>
+            <p className={styles.sectionIntro}>
+              Defense for DUI, assault, domestic allegations, drug charges,
+              theft, and more. Select a practice area to learn more.
+            </p>
+
+            <ServicesGrid obj={filter} />
+          </section>
+        )}
 
         {area.uniqueAngle && (
           <section className={styles.uniqueAngle}>

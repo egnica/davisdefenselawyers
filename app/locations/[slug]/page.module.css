@@ -112,6 +112,41 @@
   color: var(--muted);
 }
 
+.localServicesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.localServiceLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 62px;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--navy);
+  font-weight: 750;
+  line-height: 1.35;
+  transition: transform 160ms ease, border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.localServiceLink:hover {
+  transform: translateY(-2px);
+  border-color: rgba(23, 107, 152, 0.45);
+  box-shadow: 0 12px 24px rgba(10, 35, 71, 0.08);
+}
+
+.localServiceLink span:last-child {
+  flex: 0 0 auto;
+  color: var(--red-dark);
+}
+
 .uniqueAngle,
 .section {
   max-width: 820px;
@@ -218,6 +253,10 @@
 
   .gridButtons {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .localServicesGrid {
+    grid-template-columns: 1fr;
   }
 
   .ctas {
