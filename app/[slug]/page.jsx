@@ -27,6 +27,14 @@ const serviceAreas = Location.areas || [];
 
 const SITE_URL = "https://www.davisdefenselawyers.com";
 
+function normalizeSchemaDate(dateString) {
+  if (!dateString) return undefined;
+
+  if (dateString.includes("T")) return dateString;
+
+  return `${dateString}T00:00:00+00:00`;
+}
+
 export const dynamicParams = true;
 
 export function generateStaticParams() {
@@ -282,7 +290,7 @@ function buildLocalSeoJsonLd(area, practice, slug, video) {
       name: video.title,
       description: video.description,
       thumbnailUrl: [video.thumbnail],
-      uploadDate: video.uploadDate,
+      uploadDate: normalizeSchemaDate(video.uploadDate),
       duration: video.duration,
       contentUrl: video.videoUrl,
       ...(video.youtubeId
