@@ -121,7 +121,7 @@
     },
     {
       "slug": "bloomington-mn",
-      "localSeoPublished": false,
+      "localSeoPublished": true,
       "city": "Bloomington",
       "county": "Hennepin County",
       "nearbyCities": [
