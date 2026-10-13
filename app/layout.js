@@ -6,6 +6,7 @@ import Data from "./data/practice-areas_clean.json";
 import Areas from "./data/service-areas.json";
 import Footer from "./components/footer";
 import Script from "next/script";
+import ContactTracking from "./components/ContactTracking";
 
 const SITE_URL = "https://www.davisdefenselawyers.com";
 const FIRM_ID = `${SITE_URL}/#firm`;
@@ -101,11 +102,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${merriweather.variable}`}>
-        <Script
+        {process.env.NODE_ENV === "production" && <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-12V935FH19"
           strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
+        /> }
+        {process.env.NODE_ENV === "production" && <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -113,7 +114,8 @@ export default function RootLayout({ children }) {
 
             gtag('config', 'G-12V935FH19');
           `}
-        </Script>
+        </Script> }
+        <ContactTracking />
 
         <script
           type="application/ld+json"
