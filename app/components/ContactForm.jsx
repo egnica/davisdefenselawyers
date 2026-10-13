@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import styles from "../page.module.css";
+import { trackEvent } from "../lib/analytics";
 
 export default function ContactForm() {
   const [form, setForm] = useState({
@@ -39,12 +40,14 @@ export default function ContactForm() {
         throw new Error(data?.error || "Something went wrong.");
       }
 
+      if (data?.accepted === false) { throw new Error("Your message could not be confirmed. Please call or text Andrew directly."); }
+      trackEvent("generate_lead", { method: "contact_form" });
       setStatus("success");
       startedAt.current = Date.now();
       setForm({ name: "", email: "", phone: "", message: "", company: "" });
     } catch (err) {
       setStatus("error");
-      setError(err.message);
+      setError(err?.message || "Unable to send. Please call or text Andrew directly.");
     }
   }
 
