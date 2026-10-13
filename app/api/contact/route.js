@@ -18,13 +18,13 @@ export async function POST(req) {
     }
 
     // Basic anti-spam heuristics
-    if (String(message).length > 3000) {
+    if (String(message || "").length > 3000) {
       return NextResponse.json({ ok: true, accepted: false }, { status: 200 });
     }
 
     const urlCount = (String(message || "").match(/https?:\/\/|www\./gi) || []).length;
     if (urlCount >= 3) {
-      return NextResponse.json({ ok: true }, { status: 200 });
+      return NextResponse.json({ ok: true, accepted: false }, { status: 200 });
     }
 
     // Basic validation (keep it simple for now)
