@@ -375,6 +375,7 @@ function PracticePage({ area, slug }) {
             <Locations areaObj={serviceAreas} />
           </div>
         </section>
+        <Form />
       </div>
     </>
   );
