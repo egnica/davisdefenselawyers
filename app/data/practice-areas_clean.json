@@ -1631,6 +1631,10 @@
       "faqTitle": "Minnesota Traffic Offense FAQ",
       "faq": [
         {
+          "q": "Is a speeding ticket a misdemeanor in Minnesota?",
+          "a": "An ordinary speeding ticket in Minnesota is generally a petty misdemeanor, which does not carry jail time. Under Minnesota Statutes section 169.89, a violation can become a misdemeanor when it endangers or is likely to endanger a person or property, or when qualifying prior convictions trigger an enhancement. The charge listed on your citation and the circumstances matter. Andrew can review the citation and explain the potential consequences before you decide how to respond."
+        },
+        {
           "q": "Can a traffic ticket really affect my criminal record?",
           "a": "Yes. While some traffic tickets are minor, others carry misdemeanor or even gross misdemeanor penalties that can leave a permanent criminal record. Even simple citations can increase insurance rates or lead to license suspension if too many accumulate."
         },
@@ -1792,7 +1796,7 @@
               "step": "Challenge the legality of the traffic stop."
             },
             {
-              "step": "Negotiate for reduced charges or no-point violations."
+              "step": "Seek reduced charges or other available resolutions that limit the impact on your driving record."
             },
             {
               "step": "Work to avoid license suspensions or revocations."
@@ -2341,7 +2345,7 @@
       "metaDescription": "Charged with a DANCO, OFP, or restraining order violation in Minnesota? Davis Defense defends clients accused of no-contact violations, false accusations, and accidental contact. Serving clients in Hennepin County and throughout the Twin Cities metro.",
       "schemaServiceType": "LegalService",
       "pageTitle": "Minnesota DANCO, OFP & Restraining Order Violations",
-      "tagline": "These charges are common   and easy to accidentally violate. We protect your rights and defend your future.",
+      "tagline": "A Domestic Abuse No-Contact Order (DANCO) restricts contact with a protected person in a qualifying criminal case. Accused of violating one? Andrew Davis reviews the order and alleged contact and explains your defense options.",
       "heroImage": "",
       "heroImageAlt": "",
       "heroSummary": "Domestic Abuse No-Contact Orders (DANCOs), Orders for Protection (OFPs), and Harassment Restraining Orders (HROs) are issued quickly and often without your input. A simple text message, a misunderstood social interaction, or even a call your partner initiated can lead to criminal charges. Because prosecutors take these violations seriously   sometimes more seriously than the underlying case   you need an attorney who understands how these situations actually happen and how to fight back. At Davis Defense Lawyers, we’ve handled hundreds of these cases and know what it takes to protect your record, your freedom, and your future.",
