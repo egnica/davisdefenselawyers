@@ -165,7 +165,30 @@
           "title": "Preparing for a Bloomington Criminal Court Case",
           "body": "Keep your citation or complaint, hearing notice, and any release or no-contact orders together. Note your case number and upcoming dates before speaking with Andrew. Hennepin County Criminal Court administration can help confirm hearing details; Andrew can review the allegations, explain the conditions that apply to your case, and discuss defense options. Follow the instructions on your court notice for whether and how to appear."
         }
-      ]
+      ],
+      "localSeo": {
+        "judicialDistrict": "Minnesota Fourth Judicial District",
+        "court": {
+          "name": "Hennepin County District Court – Criminal and Traffic Division",
+          "address": "300 South 6th Street, C-11, Minneapolis, MN 55487",
+          "phone": "(612) 348-6000",
+          "url": "https://mncourts.gov/find-courts/hennepin/hennepincriminaltrafficcourt",
+          "note": "General Criminal and Traffic Division contact. This address is not a confirmation of your assigned hearing location; follow your court notice."
+        },
+        "agency": {
+          "name": "Bloomington Police Department",
+          "address": "1800 West Old Shakopee Road, Bloomington, MN 55431",
+          "phone": "(952) 563-4900",
+          "url": "https://www.bloomingtonmn.gov/pd/BPD"
+        },
+        "resources": [
+          {
+            "name": "Minnesota Fourth Judicial District",
+            "description": "Official court information for Hennepin County, including court programs, policies, and contacts.",
+            "url": "https://mncourts.gov/find-courts/fourth-judicial-district"
+          }
+        ]
+      }
     },
     {
       "slug": "waconia-mn",
@@ -261,7 +284,30 @@
           "title": "Criminal Defense Representation in Eden Prairie",
           "body": "Being charged with a crime in Eden Prairie can put your career, family, and future at risk. Davis Defense Lawyers represents clients throughout Eden Prairie and Hennepin County in cases involving DUI/DWI, assault, domestic violence allegations, drug charges, theft, and other criminal matters. We focus on clear communication, early action, and building a defense strategy that fits the facts of your case—starting with a free, confidential case evaluation."
         }
-      ]
+      ],
+      "localSeo": {
+        "judicialDistrict": "Minnesota Fourth Judicial District",
+        "court": {
+          "name": "Hennepin County District Court – Criminal and Traffic Division",
+          "address": "300 South 6th Street, C-11, Minneapolis, MN 55487",
+          "phone": "(612) 348-6000",
+          "url": "https://mncourts.gov/find-courts/hennepin/hennepincriminaltrafficcourt",
+          "note": "General Criminal and Traffic Division contact. This address is not a confirmation of your assigned hearing location; follow your court notice."
+        },
+        "agency": {
+          "name": "Eden Prairie Police Department",
+          "address": "8080 Mitchell Road, Eden Prairie, MN 55344",
+          "phone": "(952) 949-6200",
+          "url": "https://www.edenprairiemn.gov/city-government/departments/police-department"
+        },
+        "resources": [
+          {
+            "name": "Minnesota Fourth Judicial District",
+            "description": "Official court information for Hennepin County, including court programs, policies, and contacts.",
+            "url": "https://mncourts.gov/find-courts/fourth-judicial-district"
+          }
+        ]
+      }
     },
     {
       "slug": "minnetonka-mn",
@@ -335,7 +381,8 @@
           "name": "Hennepin County District Court – Criminal and Traffic Division",
           "address": "300 South 6th Street, C-11, Minneapolis, MN 55487",
           "phone": "(612) 348-6000",
-          "url": "https://mncourts.gov/find-courts/hennepin/hennepincriminaltrafficcourt"
+          "url": "https://mncourts.gov/find-courts/hennepin/hennepincriminaltrafficcourt",
+          "note": "General Criminal and Traffic Division contact. This address is not a confirmation of your assigned hearing location; follow your court notice."
         },
         "agency": {
           "name": "Plymouth Police Department",

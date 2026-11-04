@@ -15,6 +15,8 @@ import {
   buildLocalSeoSlug,
   findLocalSeoPage,
   getLocalSeoContentBlocks,
+  getLocalSeoCopy,
+  getLocalSeoFaq,
   getLocalSeoH1,
   getLocalSeoMetaDescription,
   getLocalSeoPages,
@@ -193,7 +195,7 @@ function buildLocalSeoJsonLd(area, practice, slug, video) {
   const locationUrl = `${SITE_URL}/locations/${area.slug}`;
   const title = getLocalSeoH1(area, practice);
   const description = getLocalSeoMetaDescription(area, practice);
-  const faq = practice.faq?.slice(0, 5) || [];
+  const faq = getLocalSeoFaq(practice);
   const breadcrumbId = `${pageUrl}#breadcrumbs`;
   const serviceId = `${pageUrl}#service`;
   const webpageId = `${pageUrl}#webpage`;
@@ -393,9 +395,9 @@ function LocalResources({ area }) {
       </h2>
       <p className={styles.localResourcesIntro}>
         {area.city} is located in {area.county} and served by the{" "}
-        {localSeo.judicialDistrict}. Confirm the location listed on your court
-        notice before appearing, because {area.county} criminal matters may be
-        assigned to different court facilities.
+        {localSeo.judicialDistrict} for state district-court matters. These are
+        general contacts, not a hearing assignment. Confirm the court, location,
+        and appearance instructions on your notice before attending.
       </p>
 
       <div className={styles.localResourceCards}>
@@ -405,6 +407,7 @@ function LocalResources({ area }) {
             <h3>{localSeo.court.name}</h3>
             <p>{localSeo.court.address}</p>
             <p>{localSeo.court.phone}</p>
+            {localSeo.court.note && <p>{localSeo.court.note}</p>}
             <a
               href={localSeo.court.url}
               target="_blank"
@@ -457,7 +460,8 @@ function LocalSeoPage({ area, practice, slug }) {
   const video = videos.find((item) => practice.slug === item.practiceArea);
   const jsonLd = buildLocalSeoJsonLd(area, practice, slug, video);
   const contentBlocks = getLocalSeoContentBlocks(practice);
-  const faq = practice.faq?.slice(0, 5) || [];
+  const faq = getLocalSeoFaq(practice);
+  const copy = getLocalSeoCopy(area, practice);
   const relatedPractices = (practice.relatedAreas || [])
     .map((relatedSlug) =>
       practiceAreas.find((item) => item.slug === relatedSlug),
@@ -473,7 +477,7 @@ function LocalSeoPage({ area, practice, slug }) {
 
       <Hero
         title={title}
-        tag={`Defense for ${practice.navTitle.toLowerCase()} matters in ${area.city} and ${area.county}.`}
+        tag={`${copy.serviceLabel} for clients in ${area.city} and ${area.county}.`}
       />
 
       <div className={styles.mainContain}>
@@ -493,11 +497,11 @@ function LocalSeoPage({ area, practice, slug }) {
         </nav>
 
         <section className={styles.localIntro}>
-          <p className={styles.sectionEyebrow}>Local criminal defense</p>
+          <p className={styles.sectionEyebrow}>{copy.eyebrow}</p>
           <h2 className={styles.sectionHeading}>
-            {practice.navTitle} Defense in {area.city}, Minnesota
+            {copy.serviceLabel} in {area.city}, Minnesota
           </h2>
-          <p className={styles.localLead}>{area.uniqueAngle}</p>
+          <p className={styles.localLead}>{copy.cityIntro}</p>
           <p>{practice.heroSummary}</p>
           <Link className={styles.statewideGuideLink} href={`/${practice.slug}`}>
             Read the complete Minnesota {practice.navTitle} guide →
@@ -512,19 +516,14 @@ function LocalSeoPage({ area, practice, slug }) {
           </Link>
         ) : null}
 
-        <LocalResources area={area} />
+        {copy.showLocalResources && <LocalResources area={area} />}
 
         <section className={styles.localLegalIntro}>
-          <p className={styles.sectionEyebrow}>Minnesota law and defense</p>
+          <p className={styles.sectionEyebrow}>{copy.legalEyebrow}</p>
           <h2 className={styles.sectionHeading}>
             Understanding {practice.navTitle} in {area.city}
           </h2>
-          <p>
-            Minnesota criminal law applies statewide, but the court process,
-            local agency records, and practical details of a case depend on
-            where it is filed. The information below explains important issues
-            Andrew reviews when defending {practice.navTitle.toLowerCase()} cases.
-          </p>
+          <p>{copy.legalIntro}</p>
         </section>
 
         {contentBlocks.map((item, index) => (
@@ -550,7 +549,7 @@ function LocalSeoPage({ area, practice, slug }) {
           <section className={styles.localRelatedSection}>
             <p className={styles.sectionEyebrow}>Related local services</p>
             <h2 className={styles.sectionHeading}>
-              Other Criminal Defense Services in {area.city}
+              Related Legal Services in {area.city}
             </h2>
             <div className={styles.localRelatedLinks}>
               {relatedPractices.map((related) => (
@@ -583,7 +582,7 @@ function LocalSeoPage({ area, practice, slug }) {
 
         <section className={styles.localFinalCta}>
           <p className={styles.sectionEyebrow}>Free and confidential</p>
-          <h2>Talk to a {area.city} Criminal Defense Lawyer</h2>
+          <h2>Talk to a {area.city} {getLocalSeoTitle(practice)}</h2>
           <p>
             If you need help with {practice.navTitle.toLowerCase()} in {area.city}
             or {area.county}, contact Andrew Davis to discuss what happened and

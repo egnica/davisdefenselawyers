@@ -17,6 +17,24 @@ export function getLocalSeoTitle(practice) {
   return practice?.localSeoTitle || `${practice?.navTitle || "Criminal Defense"} Lawyer`;
 }
 
+export function getLocalSeoFaq(practice) {
+  const faq = Array.isArray(practice?.faq) ? practice.faq : [];
+  const featured = faq.filter((item) => item.localSeoFeatured === true);
+  return featured.length ? featured : faq.slice(0, 5);
+}
+
+export function getLocalSeoCopy(area, practice) {
+  return {
+    eyebrow: "Local criminal defense",
+    serviceLabel: `${practice.navTitle} Defense`,
+    legalEyebrow: "Minnesota law and defense",
+    legalIntro: `Minnesota criminal law applies statewide, but the court process, local agency records, and practical details of a case depend on where it is filed. The information below explains important issues Andrew reviews when defending ${practice.navTitle.toLowerCase()} cases.`,
+    cityIntro: area.uniqueAngle,
+    showLocalResources: true,
+    ...practice.localSeo,
+  };
+}
+
 export function getLocalSeoH1(area, practice) {
   return `${area.city} ${getLocalSeoTitle(practice)}`;
 }

@@ -65,15 +65,18 @@
       "faq": [
         {
           "q": "What is the difference between assault and domestic assault?",
-          "a": "Domestic assault applies when the alleged assault is committed against a family or household member as defined by Minnesota law. The underlying assault concepts are similar, but domestic cases can involve additional consequences and court orders, including a possible DANCO or other no-contact restrictions depending on the case."
+          "a": "Domestic assault applies when the alleged assault is committed against a family or household member as defined by Minnesota law. The underlying assault concepts are similar, but domestic cases can involve additional consequences and court orders, including a possible DANCO or other no-contact restrictions depending on the case.",
+          "localSeoFeatured": true
         },
         {
           "q": "What penalties could I face?",
-          "a": "Penalties depend on the degree of assault. Fifth-degree assault (misdemeanor) carries up to 90 days in jail, while first-degree assault (felony) can result in up to 20 years in prison. The severity hinges on the level of harm, the use of a weapon, and the status of the alleged victim."
+          "a": "Penalties depend on the exact subdivision, injury, weapon allegations, protected status of the alleged victim, and qualifying history. A misdemeanor fifth-degree charge carries up to 90 days in jail. Second-degree assault can carry a seven- or ten-year maximum, depending on whether substantial bodily harm is alleged. First-degree assault generally carries up to 20 years, with certain protected-person variants carrying 25- or 30-year maximums. Andrew reviews the precise charge and sentencing rules.",
+          "localSeoFeatured": true
         },
         {
           "q": "What if I acted in self-defense?",
-          "a": "Self-defense is one of the most common and strongest defenses to assault charges. If you reasonably believed harm was coming to you or someone else, your actions may be legally justified. Andrew will evaluate all evidence to determine whether self-defense applies."
+          "a": "Self-defense is one of the most common and strongest defenses to assault charges. If you reasonably believed harm was coming to you or someone else, your actions may be legally justified. Andrew will evaluate all evidence to determine whether self-defense applies.",
+          "localSeoFeatured": true
         },
         {
           "q": "How does a no-contact order work?",
@@ -85,11 +88,13 @@
         },
         {
           "q": "Can I be charged with assault in Minnesota if no one was injured?",
-          "a": "Yes. Minnesota defines assault to include an act done with intent to cause fear of immediate bodily harm or death, so an actual physical injury is not required for every assault charge. The prosecution still has to prove the required intent and conduct."
+          "a": "Yes. Minnesota defines assault to include an act done with intent to cause fear of immediate bodily harm or death, so an actual physical injury is not required for every assault charge. The prosecution still has to prove the required intent and conduct.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can the alleged victim drop assault charges in Minnesota?",
-          "a": "The alleged victim can tell the prosecutor what they want, but the prosecutor decides whether the criminal case continues. The person's wishes, safety concerns, statements, and the available evidence can all affect that decision, but the case is prosecuted by the state."
+          "a": "The alleged victim can tell the prosecutor what they want, but the prosecutor decides whether the criminal case continues. The person's wishes, safety concerns, statements, and the available evidence can all affect that decision, but the case is prosecuted by the state.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is a DANCO in a Minnesota assault case?",
@@ -130,11 +135,11 @@
           "type": "list-section",
           "image": "",
           "title": "Degrees of Assault in Minnesota",
-          "body": "Minnesota has five degrees of assault, ranging from misdemeanors to serious felonies. Here’s what each level means:",
+          "body": "Minnesota has five degrees of assault. These are general statutory categories, not a prediction of a sentence. The exact subdivision and any enhancements or mandatory minimums matter:",
           "items": [
             {
               "lead": "Fifth-Degree Assault (§ 609.224):",
-              "text": "Intent to cause fear or bodily harm; misdemeanor; up to 90 days in jail."
+              "text": "Fear of immediate bodily harm or death, or intentionally inflicting or attempting bodily harm. The misdemeanor form carries up to 90 days; qualifying prior convictions can increase the charge."
             },
             {
               "lead": "Fourth-Degree Assault (§ 609.2231):",
@@ -146,11 +151,11 @@
             },
             {
               "lead": "Second-Degree Assault (§ 609.222):",
-              "text": "Assault with a dangerous weapon; felony; up to 7 years in prison."
+              "text": "Assault with a dangerous weapon carries up to seven years; the variant involving substantial bodily harm carries up to ten years."
             },
             {
               "lead": "First-Degree Assault (§ 609.221):",
-              "text": "Great bodily harm or deadly force used against a police officer; felony; up to 20 years in prison."
+              "text": "Great bodily harm generally carries up to 20 years. Certain offenses involving peace officers, prosecutors, judges, or correctional employees carry 25- or 30-year maximums, depending on the subdivision."
             }
           ]
         },
@@ -237,19 +242,23 @@
       "faq": [
         {
           "q": "What types of drug charges does Davis Defense handle?",
-          "a": "We handle the full range of Minnesota drug crimes, including possession, possession with intent to sell or deliver, sale and distribution, manufacturing, trafficking, conspiracy, paraphernalia charges, and prescription drug offenses involving painkillers or other controlled substances."
+          "a": "We handle the full range of Minnesota drug crimes, including possession, possession with intent to sell or deliver, sale and distribution, manufacturing, trafficking, conspiracy, and prescription drug offenses involving painkillers or other controlled substances.",
+          "localSeoFeatured": true
         },
         {
           "q": "What are the possible penalties for a drug conviction?",
-          "a": "Penalties depend on the degree of the offense, the type and amount of the drug, whether there was an alleged intent to sell, and your prior record. A low-level possession case may carry the possibility of diversion or probation, while higher-degree controlled substance crimes can involve years in prison, heavy fines, forfeiture of property, and a permanent felony record."
+          "a": "Penalties depend on the degree of the offense, the type and amount of the drug, whether there was an alleged intent to sell, and your prior record. A low-level possession case may carry the possibility of diversion or probation, while higher-degree controlled substance crimes can involve years in prison, heavy fines, forfeiture of property, and a permanent felony record.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can a drug conviction affect my job, housing, or education?",
-          "a": "Yes. A drug conviction can make it harder to find employment, qualify for housing, or receive student financial aid. It may also affect professional licenses. That’s why it’s critical to work with a lawyer focused not just on the criminal case, but on protecting your long-term future."
+          "a": "A drug conviction can affect employment, housing, professional licensing, and some educational opportunities. A drug conviction alone no longer disqualifies a student from federal Title IV financial aid, although particular court orders or other program rules may matter. Andrew reviews the consequences relevant to your circumstances.",
+          "localSeoFeatured": true
         },
         {
           "q": "What if the police searched my car or home can that be challenged?",
-          "a": "Often. Many drug cases turn on whether the police had a lawful reason to stop your vehicle, enter your home, or search your belongings. If your rights were violated, Andrew may be able to challenge the search and move to suppress illegally obtained evidence."
+          "a": "Often. Many drug cases turn on whether the police had a lawful reason to stop your vehicle, enter your home, or search your belongings. If your rights were violated, Andrew may be able to challenge the search and move to suppress illegally obtained evidence.",
+          "localSeoFeatured": true
         },
         {
           "q": "Do I need a lawyer if I think I’m guilty?",
@@ -257,7 +266,8 @@
         },
         {
           "q": "Can I be charged if drugs were found in a shared car or apartment?",
-          "a": "You can be accused, but drugs being found in a shared space does not automatically establish who possessed them. Important facts may include where the drugs were located, who owned or controlled that area, who else had access, what statements were made, and what other evidence connects the drugs to a particular person."
+          "a": "You can be accused, but drugs being found in a shared space does not automatically establish who possessed them. Important facts may include where the drugs were located, who owned or controlled that area, who else had access, what statements were made, and what other evidence connects the drugs to a particular person.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is the difference between drug possession and drug sale charges in Minnesota?",
@@ -293,7 +303,6 @@
             "Sale, distribution, or trafficking of drugs",
             "Manufacturing or cultivation offenses",
             "Conspiracy to commit a drug crime",
-            "Drug paraphernalia charges",
             "Marijuana and THC-related offenses",
             "Cocaine, heroin, methamphetamine, and other street drugs",
             "Synthetic drugs such as K2, Spice, or bath salts",
@@ -336,7 +345,7 @@
           "items": [
             "Jail or prison time",
             "Significant fines and court costs",
-            "Loss of eligibility for certain student loans or financial aid",
+            "Education or program-eligibility consequences under specific rules or court orders; a drug conviction alone no longer disqualifies a student from federal Title IV aid",
             "Forfeiture of cash, vehicles, or other property",
             "Long probation terms with strict conditions",
             "A criminal record that can limit employment and housing options"
@@ -388,23 +397,28 @@
       "faq": [
         {
           "q": "How much cannabis can an adult legally possess in Minnesota?",
-          "a": "Minnesota law generally allows a person age 21 or older to possess or transport up to two ounces of adult-use cannabis flower in a public place and to possess up to two pounds of cannabis flower in a private residence. Separate limits apply to concentrates and edible products: up to eight grams of adult-use cannabis concentrate and edible or lower-potency hemp products containing a combined total of up to 800 milligrams of THC. The exact facts and product involved still matter."
+          "a": "Minnesota law generally allows a person age 21 or older to possess or transport up to two ounces of adult-use cannabis flower in a public place and to possess up to two pounds of cannabis flower in a private residence. Separate limits apply to concentrates and edible products: up to eight grams of adult-use cannabis concentrate and edible or lower-potency hemp products containing a combined total of up to 800 milligrams of THC. The exact facts and product involved still matter.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I get in trouble for cannabis that I legally purchased?",
-          "a": "Yes. A legal purchase does not make every later use, possession, or transportation lawful. The amount, form of the product, age of the person possessing it, where it is located, whether packaging has been opened, and whether someone is driving can all affect the legal analysis."
+          "a": "Yes. A legal purchase does not make every later use, possession, or transportation lawful. The amount, form of the product, age of the person possessing it, where it is located, whether packaging has been opened, and whether someone is driving can all affect the legal analysis.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I have cannabis in my car in Minnesota?",
-          "a": "Minnesota has an open-package law for cannabis in private motor vehicles on streets and highways. Opened, partially used, removed-from-original-packaging, or otherwise noncompliant cannabis products can create criminal exposure when kept in the passenger area. The law includes exceptions for items stored in a trunk or, in a vehicle without a trunk, an area not normally occupied by the driver or passengers."
+          "a": "Minnesota has an open-package law for cannabis in private motor vehicles on streets and highways. Opened, partially used, removed-from-original-packaging, or otherwise noncompliant cannabis products can create criminal exposure when kept in the passenger area. The law includes exceptions for items stored in a trunk or, in a vehicle without a trunk, an area not normally occupied by the driver or passengers.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I be charged with DWI for driving after using cannabis in Minnesota?",
-          "a": "Yes. Minnesota law prohibits driving, operating, or being in physical control of a motor vehicle while under the influence of cannabis or THC. Unlike alcohol, the issue is not simply whether cannabis was legally purchased or possessed. The state may focus on alleged impairment, driving behavior, officer observations, testing, and other surrounding evidence."
+          "a": "Yes. Minnesota law prohibits driving, operating, or being in physical control of a motor vehicle while under the influence of cannabis or THC. Unlike alcohol, the issue is not simply whether cannabis was legally purchased or possessed. The state may focus on alleged impairment, driving behavior, officer observations, testing, and other surrounding evidence.",
+          "localSeoFeatured": true
         },
         {
           "q": "What if the cannabis was found in a shared vehicle or belonged to someone else?",
-          "a": "Location alone does not always answer who possessed an item. Andrew looks at where the cannabis was found, who owned or controlled the area, who had access, what statements were made, how the product was packaged, and what other evidence connects it to a particular person."
+          "a": "Location alone does not always answer who possessed an item. Andrew looks at where the cannabis was found, who owned or controlled the area, who had access, what statements were made, how the product was packaged, and what other evidence connects it to a particular person.",
+          "localSeoFeatured": true
         },
         {
           "q": "What should I do if police question me about marijuana or THC?",
@@ -523,7 +537,8 @@
       "faq": [
         {
           "q": "Will I go to jail if I am charged with DWI in Minnesota?",
-          "a": "Not necessarily. Many people spend a night in jail after arrest, but that may be the only time behind bars depending on the facts of the case, your prior record, and how the case is handled. Some cases resolve with probation, treatment, or reduced charges instead of lengthy jail time. An experienced DWI defense lawyer can help you understand realistic outcomes for your situation."
+          "a": "Not necessarily. Many people spend a night in jail after arrest, but that may be the only time behind bars depending on the facts of the case, your prior record, and how the case is handled. Some cases resolve with probation, treatment, or reduced charges instead of lengthy jail time. An experienced DWI defense lawyer can help you understand realistic outcomes for your situation.",
+          "localSeoFeatured": true
         },
         {
           "q": "What should I do if I am pulled over for suspected DWI in Minnesota?",
@@ -535,7 +550,8 @@
         },
         {
           "q": "What is Minnesota’s implied consent law?",
-          "a": "Minnesota's implied-consent law allows chemical testing in specified DWI circumstances. When an evidentiary breath test is requested, the driver must be advised that the test is required, that refusing the breath test is a crime, and that the driver has a limited right to consult with an attorney before testing. Blood and urine tests are treated differently and generally require a search warrant or a recognized exception to the warrant requirement."
+          "a": "Minnesota's implied-consent law allows chemical testing in specified DWI circumstances. When an evidentiary breath test is requested, the driver must be advised that the test is required, that refusing the breath test is a crime, and that the driver has a limited right to consult with an attorney before testing. Blood and urine tests are treated differently and generally require a search warrant or a recognized exception to the warrant requirement. Refusing blood or urine testing required by a search warrant can also be a crime when the statutory conditions are met.",
+          "localSeoFeatured": true
         },
         {
           "q": "Do you handle DWI cases involving drugs or prescription medications?",
@@ -543,7 +559,8 @@
         },
         {
           "q": "What should I do right after a DWI arrest in Minnesota?",
-          "a": "Avoid volunteering additional information about drinking, drugs, or what happened. Preserve any paperwork you were given, write down what you remember about the stop and testing, and contact a DWI attorney promptly. The criminal case and driver's-license process can have separate deadlines, so early review matters."
+          "a": "Avoid volunteering additional information about drinking, drugs, or what happened. Preserve any paperwork you were given, write down what you remember about the stop and testing, and contact a DWI attorney promptly. The criminal case and driver's-license process can have separate deadlines, so early review matters.",
+          "localSeoFeatured": true
         },
         {
           "q": "What does a .16 alcohol concentration mean in a Minnesota DWI case?",
@@ -555,11 +572,13 @@
         },
         {
           "q": "How long do I have to challenge a DWI license revocation in Minnesota?",
-          "a": "A person generally has 60 days after receiving a notice and order of revocation or disqualification under Minnesota's implied-consent law to petition the district court for judicial review. The license matter can proceed separately from the criminal case, so waiting for the criminal case to finish can be a mistake."
+          "a": "A person generally has 60 days after receiving a notice and order of revocation or disqualification under Minnesota's implied-consent law to petition the district court for judicial review. The license matter can proceed separately from the criminal case, so waiting for the criminal case to finish can be a mistake.",
+          "localSeoFeatured": true
         },
         {
           "q": "What makes a DWI a felony in Minnesota?",
-          "a": "First-degree DWI is a felony when Minnesota's statutory prior-history requirements are met. This can include committing a new DWI within ten years of the first of three or more qualified prior impaired-driving incidents, a prior felony DWI conviction, or certain qualifying prior felony vehicular-crime convictions."
+          "a": "First-degree DWI is a felony when Minnesota's statutory prior-history requirements are met. This can include committing a new DWI within ten years of the first of three or more qualified prior impaired-driving incidents, a prior felony DWI conviction, or certain qualifying prior felony vehicular-crime convictions.",
+          "localSeoFeatured": true
         },
         {
           "q": "Is DUI the same as DWI in Minnesota?",
@@ -619,7 +638,7 @@
           "type": "section",
           "image": "",
           "title": "Should I Take or Refuse a Breath Test in Minnesota?",
-          "body": "There is no useful one-size-fits-all answer to every testing question. When an evidentiary breath test is requested under Minnesota's implied-consent law, the driver must be advised that Minnesota law requires the test, that refusing a breath test is a crime, and that the driver has a limited right to consult with an attorney before testing so long as the consultation does not unreasonably delay the test. Blood and urine testing are treated differently and generally require a search warrant or a recognized exception. Andrew's point is that testing decisions are highly fact-dependent, which is why getting legal advice as early as possible matters."
+          "body": "There is no useful one-size-fits-all answer to every testing question. When an evidentiary breath test is requested under Minnesota's implied-consent law, the driver must be advised that Minnesota law requires the test, that refusing a breath test is a crime, and that the driver has a limited right to consult with an attorney before testing so long as the consultation does not unreasonably delay the test. Blood and urine testing follow different procedures. Refusing testing required by a search warrant can also be a crime when the statutory conditions are met. Andrew's point is that testing decisions are highly fact-dependent, which is why getting legal advice as early as possible matters."
         },
         {
           "type": "section",
@@ -692,7 +711,8 @@
       "faq": [
         {
           "q": "What is an expungement in Minnesota?",
-          "a": "An expungement is a court order sealing your criminal record from public view. It does not physically destroy the record, but it removes it from most background checks and generally means you no longer have to disclose it on job or housing applications unless specifically required by law."
+          "a": "Expungement seals eligible criminal records from public access; it does not destroy them. Minnesota provides both automatic and petition-based relief. The records covered, lawful access by particular agencies, and any disclosure obligations depend on the applicable law and the relief granted.",
+          "localSeoFeatured": true
         },
         {
           "q": "If I was arrested but never charged, can I get an expungement?",
@@ -700,23 +720,27 @@
         },
         {
           "q": "Can I get an expungement if I was convicted?",
-          "a": "Possibly. Minnesota law permits expungement of many convictions, but eligibility depends on the exact offense, the case disposition, the applicable waiting period, and later criminal history. Current law uses different waiting periods for misdemeanors, gross misdemeanors, and qualifying felonies, and some offenses remain excluded or subject to separate rules."
+          "a": "Possibly. Minnesota law permits expungement of many convictions, but eligibility depends on the exact offense, the case disposition, the applicable waiting period, and later criminal history. Current law uses different waiting periods for misdemeanors, gross misdemeanors, and qualifying felonies, and some offenses remain excluded or subject to separate rules.",
+          "localSeoFeatured": true
         },
         {
           "q": "Does an expungement erase my record completely?",
-          "a": "No. The record typically still exists but is sealed from public access. Certain government agencies may still be able to view the record under limited circumstances, but employers, landlords, and most background checks will no longer see it."
+          "a": "No. Sealed records still exist, and the law permits access in certain circumstances. Expungement can reduce what appears in public background checks, but the records covered and any reporting or disclosure duties depend on the specific relief and the purpose of the check."
         },
         {
           "q": "How long does the expungement process take?",
-          "a": "Most expungement cases take several months. The process includes drafting a detailed petition, notifying all agencies that hold your records, attending a court hearing, and waiting for the court’s decision and appeal period. Timelines can vary by county and by the specific facts of your case."
+          "a": "The timeline depends on the route. Eligible records may qualify for automatic expungement without a petition, although eligibility and implementation should be confirmed. Petition-based cases commonly take several months and may involve service on agencies, a hearing, and an appeal period before an order takes effect.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can some Minnesota records be expunged automatically?",
-          "a": "Yes. Minnesota law provides automatic expungement for several categories of eligible records, including some dismissed or favorably resolved cases and certain qualifying offenses after statutory conditions and waiting periods are satisfied. Other cases still require a petition, so the exact case outcome and statute matter."
+          "a": "Yes. Minnesota law provides automatic expungement for several categories of eligible records, including some dismissed or favorably resolved cases and certain qualifying offenses after statutory conditions and waiting periods are satisfied. Other cases still require a petition, so the exact case outcome and statute matter.",
+          "localSeoFeatured": true
         },
         {
           "q": "How long do I have to wait for a Minnesota expungement?",
-          "a": "The waiting period depends on the type of case and the expungement path. Under current Minnesota law, many petty misdemeanor and misdemeanor cases use a two-year period after discharge, many qualifying gross misdemeanors use three years, and qualifying felony categories can use four- or five-year periods. Diversion or stay-of-adjudication cases can have different rules. Eligibility should be checked against the exact offense and case disposition."
+          "a": "The waiting period depends on the type of case and the expungement path. Under current Minnesota law, many petty misdemeanor and misdemeanor cases use a two-year period after discharge, many qualifying gross misdemeanors use three years, and qualifying felony categories can use four- or five-year periods. Diversion or stay-of-adjudication cases can have different rules. Eligibility should be checked against the exact offense and case disposition.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Find Out If You Qualify for Expungement",
@@ -770,14 +794,14 @@
             "Make it hard to pass employment background checks",
             "Limit housing options",
             "Complicate applications for professional licenses",
-            "Interfere with certain educational and financial aid opportunities"
+            "Complicate educational applications or particular program eligibility, depending on the rules that apply"
           ]
         },
         {
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/andrew-1.webp",
-          "title": "How Andrew Builds Your Expungement Case",
-          "body": "There is no automatic right to expungement. Judges weigh your request against public safety concerns and the interests of agencies holding the records. Andrew helps you present the strongest possible case by:",
+          "title": "How Andrew Builds a Petition-Based Expungement Case",
+          "body": "Andrew first checks whether the record qualifies for automatic relief. If a petition is needed, eligibility does not always guarantee that it will be granted. Depending on the statutory route, the court considers factors such as public safety, rehabilitation, and the interests of agencies holding the records. Andrew helps by:",
           "items": [
             "Confirming your eligibility under Minnesota expungement laws",
             "Gathering records of your original case and outcome",
@@ -789,8 +813,8 @@
         {
           "type": "steps-section",
           "image": "",
-          "title": "What to Expect in the Expungement Process",
-          "body": "Expungement is a formal legal process, but you don’t have to navigate it alone. Here’s how it typically works:",
+          "title": "What to Expect When an Expungement Petition Is Needed",
+          "body": "Some eligible records qualify for automatic relief without these steps. When a petition is appropriate, the process generally includes:",
           "steps": [
             {
               "step": "Initial Consultation – Andrew reviews your criminal history and helps determine whether expungement is possible and which cases to target."
@@ -805,11 +829,19 @@
               "step": "Court Hearing – Andrew appears with you in court, presents arguments on your behalf, and responds to any objections from the prosecutor or government agencies."
             },
             {
-              "step": "Order and Implementation – If the judge grants your expungement, agencies are ordered to seal the records. Over the following months, your record becomes inaccessible to most public background checks."
+              "step": "Order and Implementation – If relief is granted, review when the order takes effect, which records and agencies it covers, and whether the covered records have been sealed. Some access and disclosure rules may still apply."
             }
           ]
         }
-      ]
+      ],
+      "localSeo": {
+        "eyebrow": "Criminal record sealing",
+        "serviceLabel": "Expungement Help",
+        "legalEyebrow": "Eligibility and record sealing",
+        "legalIntro": "Expungement depends on the case outcome, offense, waiting period, later history, and records involved. Andrew checks automatic eligibility first, then considers whether petition-based relief is appropriate. The court connected to the original case may matter more than where you currently live.",
+        "cityIntro": "Have your case numbers, court records, and discharge information ready. Andrew can help identify which records may qualify for sealing and which agencies hold them. Confirm the proper court and procedure for each case.",
+        "showLocalResources": false
+      }
     },
     {
       "slug": "implied-consent-test-refusal",
@@ -817,31 +849,35 @@
       "navTitle": "Implied Consent / Test Refusal",
       "localSeoTitle": "Implied Consent and Test Refusal Lawyer",
       "metaTitle": "Minnesota Test Refusal Lawyer | Implied Consent & License Revocation",
-      "metaDescription": "Accused of refusing a breath test in a Minnesota DWI case? Andrew Davis defends criminal test-refusal charges and challenges implied-consent license revocations.",
+      "metaDescription": "Accused of refusing a chemical test in a Minnesota DWI case? Andrew Davis reviews breath, blood and urine refusal allegations and related license revocations.",
       "schemaServiceType": "LegalService",
-      "pageTitle": "Minnesota Implied Consent & Breath Test Refusal Defense",
-      "tagline": "Refusing the test doesn’t end the case it often creates a new one. Get help before you make another move.",
+      "pageTitle": "Minnesota Implied Consent & Test Refusal Defense",
+      "tagline": "A test-refusal allegation can affect both your criminal case and your driver’s license. Get the testing procedure and deadlines reviewed.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "Minnesota's implied-consent law creates two different problems after many DWI arrests: a criminal case and a separate driver's-license process. Refusing a lawfully requested evidentiary breath test can itself be a crime. Blood and urine testing are treated differently and generally involve a search warrant or a recognized exception. Andrew Davis reviews the stop, probable cause, advisory, right-to-counsel opportunity, testing request, alleged refusal, and the deadline to challenge a license revocation.",
+      "heroSummary": "A test-refusal allegation can create a criminal case and a separate driver’s-license case. Minnesota law covers refusal of an evidentiary breath test under the applicable statutes and refusal of blood or urine testing required by a search warrant. The test requested, warrant, advisory, and statutory conditions matter. Andrew Davis reviews those details and the deadlines for challenging license action.",
       "audience": "Drivers in Minnesota who refused a breath, blood, or urine test after a DWI arrest, or who are worried about implied consent penalties, license revocation, or facing both DWI and test refusal charges.",
       "faqTitle": "Minnesota Implied Consent & Test Refusal FAQ",
       "faq": [
         {
           "q": "What does “implied consent” mean in Minnesota?",
-          "a": "Minnesota's implied-consent law authorizes chemical testing in specified DWI circumstances. The rules differ by test type. A lawfully requested evidentiary breath test can carry a criminal refusal consequence, while blood and urine testing generally involves warrant requirements or a recognized exception."
+          "a": "Minnesota’s implied-consent law governs chemical testing in specified DWI circumstances. Breath testing and warrant-based blood or urine testing follow different procedures. Refusing an evidentiary breath test, or blood or urine testing required by a search warrant, can be a crime when the statutory requirements are met.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I be charged with both DWI and test refusal?",
-          "a": "Yes. A person may face an underlying DWI charge and a separate criminal charge for refusing a lawfully requested breath test when the statutory elements are met. The refusal offense is found in Minnesota's DWI statute, while the implied-consent provisions also govern the separate license process."
+          "a": "Yes. A person may face both a DWI allegation and a separate test-refusal charge. Minnesota Statutes section 169A.20 covers qualifying breath-test refusals and refusals of blood or urine testing required by a search warrant. Andrew reviews the legal basis for each charge.",
+          "localSeoFeatured": true
         },
         {
           "q": "What are the penalties for refusing a breath test?",
-          "a": "A criminal breath-test refusal is commonly a gross misdemeanor when no higher enhancement applies, with a maximum of up to 364 days in jail and a $3,000 fine. It can also trigger separate driver's-license consequences. Prior impaired-driving history and other facts can change the exposure."
+          "a": "A criminal breath-test refusal is commonly a gross misdemeanor when no higher enhancement applies, with a maximum of up to 364 days in jail and a $3,000 fine. It can also trigger separate driver's-license consequences. Prior impaired-driving history and other facts can change the exposure.",
+          "localSeoFeatured": true
         },
         {
           "q": "Are blood and urine test refusals treated the same as breath test refusals?",
-          "a": "No. Minnesota's criminal test-refusal rule specifically addresses breath-test refusal under the statutory requirements. Blood and urine tests generally require a search warrant or a recognized exception, so the legality of the request and any claimed refusal must be analyzed differently."
+          "a": "The procedures differ, but criminal refusal is not limited to breath tests. Minnesota law also criminalizes refusal of blood or urine testing required by a search warrant when the statutory conditions are met. The warrant, advisory, test offered, and any requirement to offer an alternative test must be reviewed.",
+          "localSeoFeatured": true
         },
         {
           "q": "Does a test refusal automatically mean I lose my license?",
@@ -849,7 +885,8 @@
         },
         {
           "q": "How long do I have to challenge an implied-consent license revocation?",
-          "a": "A person generally has 60 days after receiving the notice and order of revocation or disqualification to petition for judicial review in district court. Because the license case can move separately from the criminal case, it is important to identify the deadline immediately."
+          "a": "A person generally has 60 days after receiving the notice and order of revocation or disqualification to petition for judicial review in district court. Because the license case can move separately from the criminal case, it is important to identify the deadline immediately.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Talk to a Minnesota Implied Consent Lawyer",
@@ -863,14 +900,14 @@
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/ic-1.webp",
-          "title": "Can I Be Punished for Refusing the Breath Test?",
-          "body": "In Minnesota, the answer is often yes. Under the implied consent law, if you are lawfully arrested on suspicion of DWI and refuse a requested breath test, you can be charged with a separate crime test refusal on top of any impaired driving charge. Many people believe that refusing to blow will protect them from a DWI conviction. In reality, refusal frequently leads to harsher penalties, both in criminal court and with the Department of Public Safety. Davis Defense helps you understand exactly what you are facing and how best to respond."
+          "title": "Can Refusing a Chemical Test Lead to a Separate Charge?",
+          "body": "Yes. Minnesota law can make refusal of an evidentiary breath test, or blood or urine testing required by a search warrant, a separate crime when the statutory requirements are satisfied. Refusal may also trigger a separate license action. Andrew reviews what was requested, the legal authority for testing, the advisory, and the evidence of refusal before explaining the defense options."
         },
         {
           "type": "section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/ic-2.webp",
           "title": "How Minnesota’s Implied Consent Law Works",
-          "body": "Minnesota law provides for chemical testing when an officer has probable cause to believe a person was driving, operating, or in physical control of a vehicle while impaired and the statutory conditions are met. For an evidentiary breath test, the driver is advised that the test is required, that refusal is a crime, and that there is a limited right to consult an attorney before deciding, so long as the consultation does not unreasonably delay testing. Blood and urine tests are governed by different warrant rules."
+          "body": "Minnesota law provides for chemical testing when an officer has probable cause to believe a person was driving, operating, or in physical control of a vehicle while impaired and the statutory conditions are met. For an evidentiary breath test, the driver is advised that the test is required, that refusal is a crime, and that there is a limited right to consult an attorney before deciding, so long as the consultation does not unreasonably delay testing. Blood and urine tests are governed by different warrant rules. Refusing blood or urine testing required by a search warrant can also support a criminal charge when the statutory conditions are met."
         },
         {
           "type": "section",
@@ -895,7 +932,7 @@
           "type": "section",
           "image": "",
           "title": "Breath Tests Are Different From Blood and Urine Tests",
-          "body": "The criminal refusal rules are not identical for every type of chemical test. Minnesota specifically criminalizes refusal of a breath test when the statutory requirements are met. Blood and urine testing generally requires a search warrant or a recognized exception to the warrant requirement. That distinction matters when reviewing what the officer requested, what advisory was given, whether a warrant existed, and whether the alleged refusal can legally support a separate charge."
+          "body": "Breath tests and warrant-based blood or urine tests follow different procedures, but either can lead to a criminal refusal allegation. For blood or urine testing, Andrew reviews the search warrant, the required advisory, what test was offered, and whether an alternative test had to be offered. For breath testing, he reviews the statutory basis for the request and the limited opportunity to consult counsel. The legality of the testing request and the evidence of refusal both matter."
         },
         {
           "type": "section",
@@ -959,15 +996,18 @@
       "faq": [
         {
           "q": "What is a probation violation?",
-          "a": "A probation violation happens when you do not follow the conditions the court ordered as part of your sentence. That might include new criminal charges, missed appointments with your probation officer, failed drug or alcohol tests, not completing treatment, or not paying fines or restitution, depending on your specific terms."
+          "a": "A probation violation happens when you do not follow the conditions the court ordered as part of your sentence. That might include new criminal charges, missed appointments with your probation officer, failed drug or alcohol tests, not completing treatment, or not paying fines or restitution, depending on your specific terms.",
+          "localSeoFeatured": true
         },
         {
           "q": "What can happen at a probation violation or revocation hearing?",
-          "a": "At a violation hearing, the judge reviews the probation officer’s report and any evidence about the alleged violation. The judge can dismiss the violation, give you another chance with modified conditions, or revoke probation and impose some or all of the jail or prison time that was previously stayed. Because judges have wide discretion, having a defense lawyer is critical."
+          "a": "At a violation hearing, the judge reviews the probation officer’s report and any evidence about the alleged violation. The judge can dismiss the violation, give you another chance with modified conditions, or revoke probation and impose some or all of the jail or prison time that was previously stayed. Because judges have wide discretion, having a defense lawyer is critical.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is the burden of proof for a probation violation?",
-          "a": "At a contested Minnesota probation revocation hearing, the alleged violation must be proved by clear and convincing evidence. The probationer also has the right to counsel, disclosure of the evidence, to present evidence and witnesses, and to offer mitigation or reasons why probation should not be revoked."
+          "a": "At a contested Minnesota probation revocation hearing, the alleged violation must be proved by clear and convincing evidence. The probationer also has the right to counsel, disclosure of the evidence, to present evidence and witnesses, and to offer mitigation or reasons why probation should not be revoked.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can one violation send me to jail?",
@@ -979,11 +1019,13 @@
         },
         {
           "q": "Does every probation violation result in revocation?",
-          "a": "No. Minnesota law says revocation should be used only as a last resort when rehabilitation has failed. A court can find a violation and still continue probation, modify conditions, or impose another response depending on the violation, history, public-safety concerns, and mitigation."
+          "a": "No. Minnesota law says revocation should be used only as a last resort when rehabilitation has failed. A court can find a violation and still continue probation, modify conditions, or impose another response depending on the violation, history, public-safety concerns, and mitigation.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is a technical probation violation?",
-          "a": "A technical violation generally involves failure to comply with a supervision condition rather than a new criminal offense. Minnesota law allows probation agencies to use a sanctions-conference process for some technical violations unless the court directs otherwise. The correct process depends on the case and supervising agency."
+          "a": "A technical violation generally involves failure to comply with a supervision condition rather than a new criminal offense. Minnesota law allows probation agencies to use a sanctions-conference process for some technical violations unless the court directs otherwise. The correct process depends on the case and supervising agency.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Talk to a Minnesota Probation Violation Lawyer",
@@ -1102,11 +1144,13 @@
       "faq": [
         {
           "q": "What counts as a “sex crime” or criminal sexual conduct in Minnesota?",
-          "a": "Sex offenses include a wide range of allegations: rape, sexual assault, criminal sexual conduct (1st–5th degree), child molestation, statutory rape, solicitation of a minor, indecent exposure, possession or distribution of child pornography, prostitution, and solicitation of prostitution. The exact charge depends on factors like age, alleged conduct, use of force, and relationship between the parties."
+          "a": "Sex offenses include a wide range of allegations: rape, sexual assault, criminal sexual conduct (1st–5th degree), child molestation, statutory rape, solicitation of a minor, indecent exposure, possession or distribution of child pornography, prostitution, and solicitation of prostitution. The exact charge depends on factors like age, alleged conduct, use of force, and relationship between the parties.",
+          "localSeoFeatured": true
         },
         {
           "q": "Do I need a lawyer before talking to police about a sex-offense allegation?",
-          "a": "Getting legal advice before an interview is important because investigators may already have statements, messages, digital records, or other evidence you have not seen. A lawyer can help determine whether an interview is in your interest, communicate with investigators, and protect against unnecessary or misunderstood statements."
+          "a": "Getting legal advice before an interview is important because investigators may already have statements, messages, digital records, or other evidence you have not seen. A lawyer can help determine whether an interview is in your interest, communicate with investigators, and protect against unnecessary or misunderstood statements.",
+          "localSeoFeatured": true
         },
         {
           "q": "What are the consequences if I’m convicted of a sex offense?",
@@ -1114,7 +1158,8 @@
         },
         {
           "q": "What are the degrees of criminal sexual conduct?",
-          "a": "Minnesota has five degrees of Criminal Sexual Conduct (CSC). First Degree is the most serious and can involve sexual penetration with a minor or with an adult under circumstances like force, weapons, or severe injury. Fifth Degree is still serious, but carries the lowest maximum penalty. The degree charged depends on factors like age, whether the conduct was contact or penetration, use of force, alleged mental or physical helplessness, and any position of authority or significant relationship."
+          "a": "Minnesota has five degrees of Criminal Sexual Conduct (CSC). First Degree is the most serious and can involve sexual penetration with a minor or with an adult under circumstances like force, weapons, or severe injury. Fifth Degree is still serious, but carries the lowest maximum penalty. The degree charged depends on factors like age, whether the conduct was contact or penetration, use of force, alleged mental or physical helplessness, and any position of authority or significant relationship.",
+          "localSeoFeatured": true
         },
         {
           "q": "Do you handle prostitution and solicitation cases too?",
@@ -1122,11 +1167,13 @@
         },
         {
           "q": "How does Minnesota define consent in a criminal sexual conduct case?",
-          "a": "Minnesota defines consent as words or overt actions indicating a freely given present agreement to perform a particular sexual act. A prior or current relationship does not by itself establish consent, and failure to resist does not by itself establish consent. Some age- or relationship-based offenses do not permit consent as a defense."
+          "a": "Minnesota defines consent as words or overt actions indicating a freely given present agreement to perform a particular sexual act. A prior or current relationship does not by itself establish consent, and failure to resist does not by itself establish consent. Some age- or relationship-based offenses do not permit consent as a defense.",
+          "localSeoFeatured": true
         },
         {
           "q": "Does every Minnesota sex-offense conviction require lifetime registration?",
-          "a": "No. Registration depends on the qualifying offense, procedural history, and other statutory factors, and the duration is not the same in every case. The exact conviction must be reviewed before determining whether registration applies and for how long."
+          "a": "No. Registration depends on the qualifying offense, procedural history, and other statutory factors, and the duration is not the same in every case. The exact conviction must be reviewed before determining whether registration applies and for how long.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Talk to a Minnesota Sex Crimes Defense Lawyer",
@@ -1186,7 +1233,7 @@
             },
             {
               "lead": "Fifth-Degree Criminal Sexual Conduct",
-              "text": "Covers specified nonconsensual sexual-contact conduct and certain lewd-conduct allegations. It remains a criminal sexual conduct charge even though it is the lowest numbered degree."
+              "text": "Covers specified nonconsensual sexual-contact conduct and certain lewd-conduct allegations. The exact conduct and any applicable enhancements determine the charge and potential penalties."
             }
           ]
         },
@@ -1298,15 +1345,18 @@
       "faq": [
         {
           "q": "What counts as a theft crime in Minnesota?",
-          "a": "Theft in Minnesota covers a wide range of conduct: shoplifting, taking someone else’s property without permission, writing bad checks, using someone’s services without paying, embezzling funds from an employer, receiving stolen property, motor vehicle theft, and more. Burglary and robbery are related but involve entering buildings or using force."
+          "a": "Theft in Minnesota covers a wide range of conduct: shoplifting, taking someone else’s property without permission, writing bad checks, using someone’s services without paying, embezzling funds from an employer, receiving stolen property, motor vehicle theft, and more. Burglary and robbery are related but involve entering buildings or using force.",
+          "localSeoFeatured": true
         },
         {
           "q": "When does theft become a felony in Minnesota?",
-          "a": "For many ordinary theft cases, property or services valued at more than $1,000 can fall into a felony sentencing range. Theft of more than $1,000 but not more than $5,000 can carry up to 5 years in prison, while theft above $5,000 can carry up to 10 years. Certain types of property, prior convictions, and other statutory circumstances can make lower-value theft more serious, so dollar value is not the only factor."
+          "a": "For many ordinary theft cases, property or services valued at more than $1,000 can fall into a felony sentencing range. Theft of more than $1,000 but not more than $5,000 can carry up to 5 years in prison, while theft above $5,000 can carry up to 10 years. Certain types of property, prior convictions, and other statutory circumstances can make lower-value theft more serious, so dollar value is not the only factor.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is the difference between theft, burglary, and robbery?",
-          "a": "Theft usually involves taking property without consent. Burglary typically means entering a building without permission with the intent to commit a crime inside. Robbery involves taking property from a person using force or the threat of force. All are serious, but burglary and robbery charges often carry higher penalties."
+          "a": "Theft usually involves taking property without consent. Burglary typically means entering a building without permission with the intent to commit a crime inside. Robbery involves taking property from a person using force or the threat of force. All are serious, but burglary and robbery charges often carry higher penalties.",
+          "localSeoFeatured": true
         },
         {
           "q": "Will a theft conviction stay on my record?",
@@ -1318,11 +1368,13 @@
         },
         {
           "q": "What does the state have to prove in a Minnesota theft case?",
-          "a": "The exact elements depend on the type of theft charged. In a common property-theft case, the state may need to prove an intentional taking, use, transfer, concealment, or retention of another person’s property without consent and with the required intent to deprive the owner of it. Andrew reviews the specific charge, video, receipts, statements, ownership questions, value, and other evidence to determine whether those elements can actually be proven."
+          "a": "The exact elements depend on the type of theft charged. In a common property-theft case, the state may need to prove an intentional taking, use, transfer, concealment, or retention of another person’s property without consent and with the required intent to deprive the owner of it. Andrew reviews the specific charge, video, receipts, statements, ownership questions, value, and other evidence to determine whether those elements can actually be proven.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I be charged with shoplifting if I did not leave the store?",
-          "a": "Potentially. Minnesota theft law is broader than simply walking out of a store with unpaid merchandise. Depending on the facts, allegations involving intentionally taking, concealing, using, transferring, or retaining property without consent may be charged as theft. Surveillance footage, receipts, self-checkout records, store-security reports, and intent can all matter."
+          "a": "Potentially. Minnesota theft law is broader than simply walking out of a store with unpaid merchandise. Depending on the facts, allegations involving intentionally taking, concealing, using, transferring, or retaining property without consent may be charged as theft. Surveillance footage, receipts, self-checkout records, store-security reports, and intent can all matter.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Talk to a Minnesota Theft Crimes Lawyer",
@@ -1386,7 +1438,7 @@
             },
             {
               "lead": "Third-Degree Burglary",
-              "text": "Involves entering a building to commit a felony or gross misdemeanor."
+              "text": "Entering a building without consent with intent to steal or commit a felony or gross misdemeanor, or committing theft or a felony or gross misdemeanor while inside without consent."
             },
             {
               "lead": "Fourth-Degree Burglary",
@@ -1483,11 +1535,13 @@
       "faq": [
         {
           "q": "What is “interference with a 911 call” in Minnesota?",
-          "a": "Interference with a 911 call generally means intentionally blocking or interrupting someone’s attempt to contact emergency services. This can include grabbing a phone, hanging up, breaking the phone, hiding it, or threatening someone to stop them from calling 911 during an emergency situation."
+          "a": "Interference with a 911 call generally means intentionally blocking or interrupting someone’s attempt to contact emergency services. This can include grabbing a phone, hanging up, breaking the phone, hiding it, or threatening someone to stop them from calling 911 during an emergency situation.",
+          "localSeoFeatured": true
         },
         {
           "q": "Is interference with a 911 call a felony?",
-          "a": "The common charge for intentionally interfering with another person's emergency call is a gross misdemeanor, carrying up to 364 days in jail and a fine of up to $3,000. Minnesota's emergency-call statute also contains separate felony provisions for certain false-emergency and system-interference conduct, so the exact subdivision charged matters."
+          "a": "The common charge for intentionally interfering with another person's emergency call is a gross misdemeanor, carrying up to 364 days in jail and a fine of up to $3,000. Minnesota's emergency-call statute also contains separate felony provisions for certain false-emergency and system-interference conduct, so the exact subdivision charged matters.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I be charged even if no one was hurt?",
@@ -1495,15 +1549,18 @@
         },
         {
           "q": "What if I only took the phone for a second or hung up once?",
-          "a": "The law focuses on intent. If the state claims you intentionally interfered with someone’s attempt to call for help, they may still file charges. A defense lawyer can argue that any interference was accidental, brief, or not intended to stop a legitimate emergency call."
+          "a": "The law focuses on intent. If the state claims you intentionally interfered with someone’s attempt to call for help, they may still file charges. A defense lawyer can argue that any interference was accidental, brief, or not intended to stop a legitimate emergency call.",
+          "localSeoFeatured": true
         },
         {
           "q": "Do I need a lawyer if it’s “just” a gross misdemeanor?",
-          "a": "Yes. A gross misdemeanor still carries up to a year in jail, thousands of dollars in fines, and a permanent criminal record. Because interference with a 911 call is often tied to domestic allegations, it can also affect no-contact orders, housing, employment, and family court issues."
+          "a": "Yes. A gross misdemeanor still carries up to 364 days in jail and a $3,000 fine, and a permanent criminal record. Because interference with a 911 call is often tied to domestic allegations, it can also affect no-contact orders, housing, employment, and family court issues.",
+          "localSeoFeatured": true
         },
         {
           "q": "What does the state have to prove for interference with an emergency call?",
-          "a": "For the common gross-misdemeanor form of the offense, the state must prove intentional interruption, disruption, impediment, or interference with an emergency call, or that the defendant intentionally prevented or hindered another person from placing an emergency call. Intent and whether the communication qualifies under the statute can be important issues."
+          "a": "For the common gross-misdemeanor form of the offense, the state must prove intentional interruption, disruption, impediment, or interference with an emergency call, or that the defendant intentionally prevented or hindered another person from placing an emergency call. Intent and whether the communication qualifies under the statute can be important issues.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Talk to a Minnesota 911 Interference Defense Lawyer",
@@ -1632,7 +1689,8 @@
       "faq": [
         {
           "q": "Is a speeding ticket a misdemeanor in Minnesota?",
-          "a": "An ordinary speeding ticket in Minnesota is generally a petty misdemeanor, which does not carry jail time. Under Minnesota Statutes section 169.89, a violation can become a misdemeanor when it endangers or is likely to endanger a person or property, or when qualifying prior convictions trigger an enhancement. The charge listed on your citation and the circumstances matter. Andrew can review the citation and explain the potential consequences before you decide how to respond."
+          "a": "An ordinary speeding ticket in Minnesota is generally a petty misdemeanor, which does not carry jail time. Under Minnesota Statutes section 169.89, a violation can become a misdemeanor when it endangers or is likely to endanger a person or property, or when qualifying prior convictions trigger an enhancement. The charge listed on your citation and the circumstances matter. Andrew can review the citation and explain the potential consequences before you decide how to respond.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can a traffic ticket really affect my criminal record?",
@@ -1640,7 +1698,8 @@
         },
         {
           "q": "What should I do if my license was revoked or suspended?",
-          "a": "Do not drive. Driving after revocation, suspension, or cancellation is a criminal offense in Minnesota. Contact a defense attorney to help resolve the issue and work toward getting your driving privileges restored."
+          "a": "Do not drive. Driving after revocation, suspension, or cancellation is a criminal offense in Minnesota. Contact a defense attorney to help resolve the issue and work toward getting your driving privileges restored.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can a lawyer help me avoid insurance increases?",
@@ -1656,7 +1715,8 @@
         },
         {
           "q": "What happens if I am convicted of speeding over 100 MPH in Minnesota?",
-          "a": "Minnesota law requires a six-month driver's license revocation for a conviction involving driving in excess of 100 MPH, or a longer minimum period if another applicable law requires it."
+          "a": "Minnesota law requires a six-month driver's license revocation for a conviction involving driving in excess of 100 MPH, or a longer minimum period if another applicable law requires it.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I use my phone while stopped at a red light in Minnesota?",
@@ -1664,11 +1724,13 @@
         },
         {
           "q": "Can radar evidence be challenged in a Minnesota speeding case?",
-          "a": "Yes. Minnesota law sets conditions for the use of radar and other speed-measuring evidence, including operator training, proper setup and operation, minimal interference, and reliable testing of the device. Whether those issues create a viable defense depends on the facts of the case."
+          "a": "Yes. Minnesota law sets conditions for the use of radar and other speed-measuring evidence, including operator training, proper setup and operation, minimal interference, and reliable testing of the device. Whether those issues create a viable defense depends on the facts of the case.",
+          "localSeoFeatured": true
         },
         {
           "q": "Does a traffic ticket matter more if I have a CDL?",
-          "a": "It can. Commercial drivers and CDL holders may face employment, insurance, licensing, and commercial-driving consequences that make even a seemingly routine citation more important. The effect depends on the specific violation and circumstances."
+          "a": "It can. Commercial drivers and CDL holders may face employment, insurance, licensing, and commercial-driving consequences that make even a seemingly routine citation more important. The effect depends on the specific violation and circumstances.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Speak With a Minnesota Traffic Defense Attorney",
@@ -1826,7 +1888,8 @@
       "faq": [
         {
           "q": "What is criminal vehicular homicide in Minnesota?",
-          "a": "Criminal vehicular homicide generally involves causing the death of another person while operating a motor vehicle in a criminally negligent manner or while committing certain offenses, such as driving while impaired (DWI), leaving the scene of a crash, or grossly disregarding the safety of others. The exact definition and elements depend on the specific statute charged."
+          "a": "Criminal vehicular homicide generally involves causing the death of another person while operating a motor vehicle in a criminally negligent manner or while committing certain offenses, such as driving while impaired (DWI), leaving the scene of a crash, or grossly disregarding the safety of others. The exact definition and elements depend on the specific statute charged.",
+          "localSeoFeatured": true
         },
         {
           "q": "Is criminal vehicular homicide the same as murder?",
@@ -1834,7 +1897,8 @@
         },
         {
           "q": "Do I automatically go to prison if I am charged?",
-          "a": "A charge is not a conviction. While criminal vehicular homicide carries the possibility of a lengthy prison sentence, the outcome depends on the facts of your case, your prior record, how the incident is charged, and the strength of your defense. An experienced defense lawyer can often make a significant difference in the result."
+          "a": "A charge is not a conviction. While criminal vehicular homicide carries the possibility of a lengthy prison sentence, the outcome depends on the facts of your case, your prior record, how the incident is charged, and the strength of your defense. An experienced defense lawyer can often make a significant difference in the result.",
+          "localSeoFeatured": true
         },
         {
           "q": "How does DWI affect a criminal vehicular homicide case?",
@@ -1842,15 +1906,18 @@
         },
         {
           "q": "What should I do if I am being investigated after a fatal crash?",
-          "a": "Do not discuss the incident with law enforcement, insurance companies, or anyone else about what happened before speaking with an attorney. Anything you say may be used against you later. Contact a criminal defense lawyer immediately to protect your rights and guide you through the investigation."
+          "a": "Do not discuss the incident with law enforcement, insurance companies, or anyone else about what happened before speaking with an attorney. Anything you say may be used against you later. Contact a criminal defense lawyer immediately to protect your rights and guide you through the investigation.",
+          "localSeoFeatured": true
         },
         {
           "q": "What does the state have to prove in a Minnesota criminal vehicular homicide case?",
-          "a": "The state must prove the death was caused by operation of a motor vehicle under one of the statutory criminal-vehicular-homicide theories, such as gross negligence, specified impaired-driving conduct, an alcohol concentration of .08 or more, leaving the scene, or certain known vehicle defects. The exact elements depend on the theory charged."
+          "a": "The state must prove the death was caused by operation of a motor vehicle under one of the statutory criminal-vehicular-homicide theories, such as gross negligence, specified impaired-driving conduct, an alcohol concentration of .08 or more, leaving the scene, or certain known vehicle defects. The exact elements depend on the theory charged.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is the maximum penalty for criminal vehicular homicide in Minnesota?",
-          "a": "The standard statutory maximum is up to 10 years in prison and a fine of up to $20,000. For certain alcohol- or drug-related forms of the offense committed within ten years of a qualified prior driving offense, the statutory maximum imprisonment can increase to 15 years. Sentencing in an individual case depends on more than the statutory maximum."
+          "a": "The standard statutory maximum is up to 10 years in prison and a fine of up to $20,000. For certain alcohol- or drug-related forms of the offense committed within ten years of a qualified prior driving offense, the statutory maximum imprisonment can increase to 15 years. Sentencing in an individual case depends on more than the statutory maximum.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Talk to a Minnesota Criminal Vehicular Homicide Attorney",
@@ -1998,11 +2065,13 @@
       "faq": [
         {
           "q": "What is Criminal Vehicular Operation in Minnesota?",
-          "a": "Criminal Vehicular Operation is Minnesota's offense for causing bodily harm, substantial bodily harm, or great bodily harm through one of the forms of motor-vehicle operation listed in the statute, such as gross negligence, specified impaired-driving conduct, leaving the scene, or certain known vehicle-defect circumstances. Fatal cases are addressed separately under criminal vehicular homicide."
+          "a": "Criminal Vehicular Operation is Minnesota's offense for causing bodily harm, substantial bodily harm, or great bodily harm through one of the forms of motor-vehicle operation listed in the statute, such as gross negligence, specified impaired-driving conduct, leaving the scene, or certain known vehicle-defect circumstances. Fatal cases are addressed separately under criminal vehicular homicide.",
+          "localSeoFeatured": true
         },
         {
           "q": "Is Criminal Vehicular Operation always a felony?",
-          "a": "Many CVO charges are felonies, especially those involving substantial bodily harm, great bodily harm, or death. Some cases involving lower-level injuries may be charged as gross misdemeanors."
+          "a": "No. The degree depends on the injury and the statutory circumstances. CVO involving substantial or great bodily harm can be a felony, while qualifying bodily-harm cases can be gross misdemeanors. A death is addressed under the separate criminal vehicular homicide statute.",
+          "localSeoFeatured": true
         },
         {
           "q": "Does a DWI automatically mean I’ll be charged with CVO?",
@@ -2010,15 +2079,18 @@
         },
         {
           "q": "What are the penalties for a CVO conviction?",
-          "a": "The statutory maximum depends on the injury level: up to 5 years for great bodily harm, up to 3 years for substantial bodily harm, and up to 364 days for bodily harm, with fines also authorized. The actual sentence depends on the facts, criminal history, and sentencing rules."
+          "a": "The statutory maximum depends on the injury level: up to 5 years for great bodily harm, up to 3 years for substantial bodily harm, and up to 364 days for bodily harm, with fines also authorized. The actual sentence depends on the facts, criminal history, and sentencing rules.",
+          "localSeoFeatured": true
         },
         {
           "q": "What should I do if I’m under investigation for CVO?",
-          "a": "Do not speak to law enforcement or insurance investigators without a lawyer. Contact a criminal defense attorney immediately so evidence can be preserved and your rights protected."
+          "a": "Do not speak to law enforcement or insurance investigators without a lawyer. Contact a criminal defense attorney immediately so evidence can be preserved and your rights protected.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is the difference between Criminal Vehicular Operation and Criminal Vehicular Homicide?",
-          "a": "CVO addresses cases in which another person suffers bodily harm, substantial bodily harm, or great bodily harm. Criminal vehicular homicide is the separate offense used when the alleged vehicle conduct causes a death."
+          "a": "CVO addresses cases in which another person suffers bodily harm, substantial bodily harm, or great bodily harm. Criminal vehicular homicide is the separate offense used when the alleged vehicle conduct causes a death.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Talk to a Criminal Vehicular Operation Attorney",
@@ -2157,11 +2229,13 @@
       "faq": [
         {
           "q": "Can I restore my gun rights in Minnesota after a felony conviction?",
-          "a": "Sometimes, but the answer depends on the conviction and the specific state and federal prohibition. Minnesota provides a judicial restoration process for a person prohibited under state law because of a crime-of-violence conviction or delinquency adjudication if the statutory requirements are met and the court finds good cause. Other felony-related prohibitions may require a different analysis."
+          "a": "Sometimes, but the answer depends on the conviction and the specific state and federal prohibition. Minnesota provides a judicial restoration process for a person prohibited under state law because of a crime-of-violence conviction or delinquency adjudication if the statutory requirements are met and the court finds good cause. Other felony-related prohibitions may require a different analysis.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I own a gun after a domestic assault conviction in Minnesota?",
-          "a": "Domestic assault convictions often trigger both state and federal firearm prohibitions. In some situations, you may be able to seek restoration through the court or challenge how the conviction is classified. Because federal law can still apply even if a state court restores your rights, it’s critical to have a lawyer who understands both layers. We look at the exact statute you were convicted under and how it interacts with federal law before taking any steps."
+          "a": "Domestic assault convictions often trigger both state and federal firearm prohibitions. In some situations, you may be able to seek restoration through the court or challenge how the conviction is classified. Because federal law can still apply even if a state court restores your rights, it’s critical to have a lawyer who understands both layers. We look at the exact statute you were convicted under and how it interacts with federal law before taking any steps.",
+          "localSeoFeatured": true
         },
         {
           "q": "What if my gun rights were taken because of an order for protection (OFP) or DANCO?",
@@ -2169,7 +2243,8 @@
         },
         {
           "q": "What is the difference between state gun rights and federal gun rights?",
-          "a": "Minnesota law and federal law do not always line up. You could be eligible to restore your firearm rights under Minnesota law, but still be barred from possessing a firearm under federal law and the NICS background check system. A smart strategy considers both systems together so you don’t unintentionally commit a new crime by possessing a gun when federal law still says you cannot."
+          "a": "Minnesota law and federal law do not always line up. You could be eligible to restore your firearm rights under Minnesota law, but still be barred from possessing a firearm under federal law and the NICS background check system. A smart strategy considers both systems together so you don’t unintentionally commit a new crime by possessing a gun when federal law still says you cannot.",
+          "localSeoFeatured": true
         },
         {
           "q": "Do I need a lawyer for a weapons charge like carrying without a permit?",
@@ -2177,11 +2252,13 @@
         },
         {
           "q": "How long does gun rights restoration take?",
-          "a": "There is no one-size-fits-all timeline. Most restoration petitions take several months because they involve gathering records, preparing a detailed petition, notifying agencies, and appearing in court. The more complex your history, the more preparation is required. We walk you through each step and give you a realistic sense of the process."
+          "a": "There is no one-size-fits-all timeline. Most restoration petitions take several months because they involve gathering records, preparing a detailed petition, notifying agencies, and appearing in court. The more complex your history, the more preparation is required. We walk you through each step and give you a realistic sense of the process.",
+          "localSeoFeatured": true
         },
         {
           "q": "Does expungement automatically restore gun rights in Minnesota?",
-          "a": "No. Sealing or expunging a criminal record should not be assumed to restore firearm eligibility. Firearm prohibitions and restoration are governed by separate state and federal laws. The exact conviction and legal basis for the prohibition need to be reviewed independently."
+          "a": "No. Sealing or expunging a criminal record should not be assumed to restore firearm eligibility. Firearm prohibitions and restoration are governed by separate state and federal laws. The exact conviction and legal basis for the prohibition need to be reviewed independently.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Talk to a Gun Rights Lawyer Today",
@@ -2334,7 +2411,15 @@
             "Connect the dots between your rehabilitation, your need for firearms, and public safety"
           ]
         }
-      ]
+      ],
+      "localSeo": {
+        "eyebrow": "Firearm rights and eligibility",
+        "serviceLabel": "Gun Rights Restoration Help",
+        "legalEyebrow": "State and federal firearm restrictions",
+        "legalIntro": "Firearm eligibility can involve both Minnesota and federal law. Relief under one system does not necessarily remove every restriction. Andrew reviews the conviction, court orders, and available restoration procedure before advising on eligibility.",
+        "cityIntro": "Gather the conviction and sentencing records, discharge paperwork, and any protective orders that may affect firearm eligibility. The original case and the source of the restriction determine the next steps. Do not assume a change of residence or an expungement restores firearm rights.",
+        "showLocalResources": false
+      }
     },
     {
       "slug": "danco-ofp-violations",
@@ -2348,21 +2433,24 @@
       "tagline": "A Domestic Abuse No-Contact Order (DANCO) restricts contact with a protected person in a qualifying criminal case. Accused of violating one? Andrew Davis reviews the order and alleged contact and explains your defense options.",
       "heroImage": "",
       "heroImageAlt": "",
-      "heroSummary": "Domestic Abuse No-Contact Orders (DANCOs), Orders for Protection (OFPs), and Harassment Restraining Orders (HROs) are issued quickly and often without your input. A simple text message, a misunderstood social interaction, or even a call your partner initiated can lead to criminal charges. Because prosecutors take these violations seriously   sometimes more seriously than the underlying case   you need an attorney who understands how these situations actually happen and how to fight back. At Davis Defense Lawyers, we’ve handled hundreds of these cases and know what it takes to protect your record, your freedom, and your future.",
+      "heroSummary": "A Domestic Abuse No-Contact Order (DANCO), Order for Protection (OFP), or Harassment Restraining Order (HRO) can restrict contact, but these orders arise through different procedures and their exact terms matter. Messages, calls, or communication through another person can lead to a violation allegation. The protected person initiating contact does not automatically make a response lawful. Andrew Davis reviews the order, the alleged conduct, and the evidence to explain your options.",
       "audience": "Individuals accused of violating a Domestic Abuse No-Contact Order (DANCO), Order for Protection (OFP), or Harassment Restraining Order (HRO)   including those facing domestic assault, 911 interference, probation violations, or ongoing family disputes.",
       "faqTitle": "Minnesota DANCO & OFP Violation FAQ",
       "faq": [
         {
           "q": "What exactly is a DANCO in Minnesota?",
-          "a": "A Domestic Abuse No-Contact Order (DANCO) is a court order prohibiting any contact   direct or indirect   with the alleged victim in a domestic-related case. This includes texts, calls, social media, being physically near them, or communication through third parties. Only a judge can modify or remove a DANCO, even if the alleged victim wants contact."
+          "a": "A DANCO is a court order issued in a qualifying criminal or juvenile proceeding that can prohibit direct or indirect contact with a protected person. Restrictions may cover calls, messages, third-party communication, or proximity to specified places. Read the exact order: only the court can change or remove its restrictions, even if the protected person wants contact.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I be charged if the alleged victim contacted me first?",
-          "a": "Yes. The protected person contacting first does not automatically make responding lawful. A DANCO remains in effect until the court changes or removes it. If the protected person reaches out, the safest course is to stop communication, preserve the messages, and speak with an attorney before responding further."
+          "a": "Yes. The protected person contacting first does not automatically make responding lawful. A DANCO remains in effect until the court changes or removes it. If the protected person reaches out, the safest course is to stop communication, preserve the messages, and speak with an attorney before responding further.",
+          "localSeoFeatured": true
         },
         {
           "q": "Is a DANCO violation a felony?",
-          "a": "It depends on your history. A first-time violation is a misdemeanor (up to 90 days in jail and a $1,000 fine). One prior within 10 years makes the new charge a gross misdemeanor (up to one year in jail and a $3,000 fine). Two or more priors within 10 years make it a felony (up to 5 years in prison and a $10,000 fine)."
+          "a": "A knowing violation is generally a misdemeanor unless an enhancement applies. A qualifying domestic-violence-related conviction or juvenile adjudication within ten years can make it a gross misdemeanor, with up to 364 days in jail and a $3,000 fine. Two or more qualifying priors within the statutory ten-year period, or possessing a dangerous weapon during the violation, can make it a felony with up to five years in prison and a $10,000 fine. The exact history and circumstances matter.",
+          "localSeoFeatured": true
         },
         {
           "q": "How can the state prove a DANCO violation?",
@@ -2370,7 +2458,8 @@
         },
         {
           "q": "Can a DANCO be modified or removed?",
-          "a": "Yes, but only by a judge. Your attorney can file a motion to modify the order, which may allow contact, limited contact, or contact regarding children. The alleged victim cannot remove the order themselves."
+          "a": "Yes, but only by a judge. Your attorney can file a motion to modify the order, which may allow contact, limited contact, or contact regarding children. The alleged victim cannot remove the order themselves.",
+          "localSeoFeatured": true
         },
         {
           "q": "What should I do if I accidentally violated the order?",
@@ -2382,7 +2471,8 @@
         },
         {
           "q": "Can third-party contact count as a DANCO violation?",
-          "a": "Yes. A DANCO can prohibit indirect contact, including asking another person to deliver a message to the protected person. Whether a violation can be proven depends on the facts, including what was said, who delivered the message, and what evidence shows where the communication originated."
+          "a": "Yes. A DANCO can prohibit indirect contact, including asking another person to deliver a message to the protected person. Whether a violation can be proven depends on the facts, including what was said, who delivered the message, and what evidence shows where the communication originated.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Speak to a DANCO Defense Lawyer Today",
@@ -2398,13 +2488,13 @@
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/danco-2.webp",
           "title": "Understanding DANCO, OFP, and Restraining Orders in Minnesota",
-          "body": "These orders are issued quickly, sometimes at arraignment, sometimes as bail conditions, and sometimes without your input. They prohibit all contact in almost every form:",
+          "body": "DANCOs arise in qualifying criminal or juvenile proceedings; OFPs and HROs have separate civil procedures. Restrictions depend on the order. Conduct that may be prohibited includes:",
           "items": [
-            "Texts, calls, emails, and social media messages",
-            "Liking or commenting on posts",
-            "Third-party messages sent through friends or family",
-            "Being near the person’s home, workplace, or vehicle",
-            "Receiving or answering calls from the protected person"
+            "Direct communication by text, phone, email, or social media",
+            "Indirect messages sent through friends, relatives, or other people",
+            "Social-media interactions that amount to prohibited contact",
+            "Entering or approaching places identified in the order",
+            "Responding to the protected person when the order prohibits that communication"
           ]
         },
         {
@@ -2427,19 +2517,19 @@
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/danco-3.webp",
           "title": "Penalties for DANCO Violations in Minnesota",
-          "body": "Penalties increase dramatically based on your record:",
+          "body": "The charge depends on qualifying prior convictions or adjudications and the circumstances of the alleged violation. These are maximum penalties; mandatory minimums and other sentencing rules can also apply:",
           "items": [
             {
-              "lead": "Misdemeanor (first offense)",
+              "lead": "Misdemeanor (no enhancement applies)",
               "text": "Up to 90 days in jail and a $1,000 fine."
             },
             {
-              "lead": "Gross Misdemeanor (one prior within 10 years)",
-              "text": "Up to 1 year in jail and a $3,000 fine."
+              "lead": "Gross misdemeanor (qualifying prior within ten years)",
+              "text": "Up to 364 days in jail and a $3,000 fine. The prior must be a qualified domestic violence-related conviction or juvenile adjudication."
             },
             {
-              "lead": "Felony (two or more priors within 10 years)",
-              "text": "Up to 5 years in prison and a $10,000 fine."
+              "lead": "Felony (qualifying history or dangerous weapon)",
+              "text": "Up to five years in prison and a $10,000 fine. This can apply with two or more qualifying priors within the statutory ten-year period, or possession of a dangerous weapon during the violation."
             }
           ]
         },
@@ -2508,7 +2598,7 @@
           "type": "list-section",
           "image": "https://nciholasegner.s3.us-east-2.amazonaws.com/andrewDavis/practice_areas/andrew-9.webp",
           "title": "Why Clients Trust Davis Defense",
-          "body": "Andrew has handled hundreds of domestic-related cases, including DANCO violations, domestic assault, 911 interference, and probation violations. He knows how emotional, confusing, and high-stakes these cases can be. We focus on:",
+          "body": "Andrew represents clients facing DANCO violations, domestic assault, 911 interference, and probation violations. These cases can affect housing, family contact, and release conditions. His approach focuses on:",
           "items": [
             "Fast intervention, including help with bail",
             "Preventing additional charges",
@@ -2520,7 +2610,7 @@
         },
         {
           "type": "section",
-          "body": "A DANCO or OFP violation doesn’t make you a criminal—it makes you human. Let us help protect your future."
+          "body": "If you are accused of violating a DANCO or OFP, get the order and the allegation reviewed promptly so you understand the restrictions and your next steps."
         }
       ]
     },
@@ -2542,15 +2632,18 @@
       "faq": [
         {
           "q": "Can I be charged even if there was no injury?",
-          "a": "Yes. Minnesota domestic assault includes intentionally causing fear of immediate bodily harm or death, so the state does not need to prove a physical injury in every case."
+          "a": "Yes. Minnesota domestic assault includes intentionally causing fear of immediate bodily harm or death, so the state does not need to prove a physical injury in every case.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can the alleged victim drop domestic assault charges?",
-          "a": "The alleged victim can tell the prosecutor what they want, but the prosecutor decides whether the criminal case continues. A request to dismiss can be important information, but it does not automatically end the prosecution or lift a DANCO or other court order."
+          "a": "The alleged victim can tell the prosecutor what they want, but the prosecutor decides whether the criminal case continues. A request to dismiss can be important information, but it does not automatically end the prosecution or lift a DANCO or other court order.",
+          "localSeoFeatured": true
         },
         {
           "q": "Will I lose my gun rights?",
-          "a": "Possibly. Domestic assault convictions can trigger firearm bans or forfeiture depending on the circumstances."
+          "a": "Possibly. Domestic assault convictions can trigger firearm bans or forfeiture depending on the circumstances.",
+          "localSeoFeatured": true
         },
         {
           "q": "What if the allegations are false?",
@@ -2558,11 +2651,13 @@
         },
         {
           "q": "What makes a domestic assault a felony in Minnesota?",
-          "a": "A domestic assault can become a felony when the new offense occurs within ten years of the first of two or more previous qualified domestic-violence-related offense convictions or delinquency adjudications. The exact prior history must be reviewed because the enhancement rules are specific."
+          "a": "A domestic assault can become a felony when the new offense occurs within ten years of the first of two or more previous qualified domestic-violence-related offense convictions or delinquency adjudications. The exact prior history must be reviewed because the enhancement rules are specific.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is the maximum penalty for a gross-misdemeanor domestic assault in Minnesota?",
-          "a": "The gross-misdemeanor maximum is up to 364 days in jail and a fine of up to $3,000. The actual outcome depends on the charge, prior history, facts, and sentencing decisions."
+          "a": "The gross-misdemeanor maximum is up to 364 days in jail and a fine of up to $3,000. The actual outcome depends on the charge, prior history, facts, and sentencing decisions.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Request a Free Consultation",
@@ -2687,7 +2782,8 @@
         },
         {
           "q": "Do I need a lawyer if I’ve only received a subpoena or target letter?",
-          "a": "Absolutely. If you’re being asked for records or called in for an interview, you’re already on the radar. A lawyer can deal with investigators for you, protect your rights, and sometimes resolve matters before charges are filed."
+          "a": "Absolutely. If you’re being asked for records or called in for an interview, you’re already on the radar. A lawyer can deal with investigators for you, protect your rights, and sometimes resolve matters before charges are filed.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I talk to my employer or coworkers about the investigation?",
@@ -2695,19 +2791,23 @@
         },
         {
           "q": "Are white collar cases always federal?",
-          "a": "No. Many financial crimes are charged in Minnesota state court. Others are brought federally, and some involve both. Your defense strategy will depend on where the case is filed and which agencies are involved."
+          "a": "No. Many financial crimes are charged in Minnesota state court. Others are brought federally, and some involve both. Your defense strategy will depend on where the case is filed and which agencies are involved.",
+          "localSeoFeatured": true
         },
         {
           "q": "Should I talk to investigators before I hire a lawyer?",
-          "a": "It is almost always better to speak with a lawyer before you talk with law enforcement, auditors, or investigators about suspected fraud or financial misconduct. Even statements you believe are harmless can be misunderstood or taken out of context. Andrew can help you decide whether to give a statement, how to do so safely, or whether it is better to decline an interview altogether."
+          "a": "It is almost always better to speak with a lawyer before you talk with law enforcement, auditors, or investigators about suspected fraud or financial misconduct. Even statements you believe are harmless can be misunderstood or taken out of context. Andrew can help you decide whether to give a statement, how to do so safely, or whether it is better to decline an interview altogether.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is the difference between a subpoena, search warrant, and target letter?",
-          "a": "A subpoena generally requires testimony or production of specified records. A search warrant authorizes law enforcement to search for items within the warrant's scope. A federal target letter can notify a person that prosecutors consider them a target of a grand-jury investigation. Each calls for a different response, and it is useful to have counsel review the document before acting."
+          "a": "A subpoena generally requires testimony or production of specified records. A search warrant authorizes law enforcement to search for items within the warrant's scope. A federal target letter can notify a person that prosecutors consider them a target of a grand-jury investigation. Each calls for a different response, and it is useful to have counsel review the document before acting.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can a bookkeeping mistake become a criminal fraud case?",
-          "a": "A mistake by itself is not the same as criminal intent. The government must prove the elements of the specific offense charged, which can include knowledge or intent requirements. Accounting records, authorization, communications, business practices, and who controlled the money can be important in distinguishing a mistake or dispute from criminal conduct."
+          "a": "A mistake by itself is not the same as criminal intent. The government must prove the elements of the specific offense charged, which can include knowledge or intent requirements. Accounting records, authorization, communications, business practices, and who controlled the money can be important in distinguishing a mistake or dispute from criminal conduct.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Schedule a Free Confidential Consultation",
@@ -2824,15 +2924,18 @@
       "faq": [
         {
           "q": "What makes a crime a federal case instead of a state case?",
-          "a": "A case may go federal when it involves federal statutes, federal land, crosses state lines, uses federal systems like the mail or wire transfers, or involves large-scale drug, fraud, or conspiracy allegations. Some conduct can be charged in either state or federal court or both depending on how the government chooses to proceed."
+          "a": "A case may go federal when it involves federal statutes, federal land, crosses state lines, uses federal systems like the mail or wire transfers, or involves large-scale drug, fraud, or conspiracy allegations. Some conduct can be charged in either state or federal court or both depending on how the government chooses to proceed.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can I be prosecuted in both federal and state court for the same conduct?",
-          "a": "Yes. Under the “dual sovereignty” doctrine, state and federal governments are treated as separate sovereigns. That means the same conduct can lead to both state and federal prosecutions without violating the constitutional protection against double jeopardy. This is one reason you need a defense lawyer who understands both systems."
+          "a": "Yes. Under the “dual sovereignty” doctrine, state and federal governments are treated as separate sovereigns. That means the same conduct can lead to both state and federal prosecutions without violating the constitutional protection against double jeopardy. This is one reason you need a defense lawyer who understands both systems.",
+          "localSeoFeatured": true
         },
         {
           "q": "Should I talk to federal agents if they want to interview me?",
-          "a": "You should not speak with federal agents or investigators without a lawyer present. Even honest, innocent answers can be misunderstood or used against you later. A federal criminal defense attorney can communicate with agents on your behalf, control the flow of information, and help protect you from accidental self-incrimination."
+          "a": "You should not speak with federal agents or investigators without a lawyer present. Even honest, innocent answers can be misunderstood or used against you later. A federal criminal defense attorney can communicate with agents on your behalf, control the flow of information, and help protect you from accidental self-incrimination.",
+          "localSeoFeatured": true
         },
         {
           "q": "Are federal sentences always harsher than state sentences?",
@@ -2840,11 +2943,13 @@
         },
         {
           "q": "Are the Federal Sentencing Guidelines mandatory?",
-          "a": "No. The Federal Sentencing Guidelines are advisory, but a federal judge must correctly calculate and consider the applicable guideline range along with the other sentencing factors in 18 U.S.C. § 3553(a). Statutory mandatory minimums are separate and apply only when the charged and proven offense triggers one."
+          "a": "No. The Federal Sentencing Guidelines are advisory, but a federal judge must correctly calculate and consider the applicable guideline range along with the other sentencing factors in 18 U.S.C. § 3553(a). Statutory mandatory minimums are separate and apply only when the charged and proven offense triggers one.",
+          "localSeoFeatured": true
         },
         {
           "q": "What should I do if I receive a federal target letter or grand jury subpoena?",
-          "a": "Do not ignore it and do not assume you should immediately explain yourself to investigators. Preserve the letter or subpoena, note any deadline, avoid destroying or altering records, and have federal defense counsel review the document and contact the appropriate prosecutor or agent before you respond."
+          "a": "Do not ignore it and do not assume you should immediately explain yourself to investigators. Preserve the letter or subpoena, note any deadline, avoid destroying or altering records, and have federal defense counsel review the document and contact the appropriate prosecutor or agent before you respond.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Request a Free Federal Case Review",
@@ -2949,7 +3054,15 @@
           "title": "How Federal Sentencing Works",
           "body": "Federal sentencing begins with the statutes governing the conviction and a calculation of the advisory United States Sentencing Guidelines. The guideline calculation can depend on offense-specific factors and criminal history, while mandatory minimums apply only when a statute provides one. The judge must also consider the factors in 18 U.S.C. § 3553(a) before imposing a sentence that is sufficient but not greater than necessary. Andrew reviews the guideline calculation, challenges unsupported enhancements or factual assumptions, and develops mitigation and variance arguments grounded in the client's history and the circumstances of the case."
         }
-      ]
+      ],
+      "localSeo": {
+        "eyebrow": "Federal criminal defense",
+        "serviceLabel": "Federal Criminal Defense",
+        "legalEyebrow": "Federal law and procedure",
+        "legalIntro": "Federal investigations and prosecutions follow federal statutes, court rules, and sentencing procedures. Living in a particular Minnesota city does not make a federal case a county-court matter. Andrew reviews the investigating agency, court documents, allegations, and deadlines to explain the next steps.",
+        "cityIntro": "Federal allegations can affect people throughout Minnesota. Keep any subpoena, target letter, warrant, or court notice and get advice before speaking with investigators. Confirm the assigned federal court and hearing location from your case documents.",
+        "showLocalResources": false
+      }
     },
     {
       "slug": "juvenile-crimes",
@@ -2969,11 +3082,13 @@
       "faq": [
         {
           "q": "What is considered a juvenile case in Minnesota?",
-          "a": "In Minnesota, a juvenile case generally involves a person under 18 who is accused of conduct that would be a crime if committed by an adult. These cases are handled in juvenile court, which is a separate system focused on accountability and rehabilitation rather than pure punishment."
+          "a": "In Minnesota, a juvenile case generally involves a person under 18 who is accused of conduct that would be a crime if committed by an adult. These cases are handled in juvenile court, which is a separate system focused on accountability and rehabilitation rather than pure punishment.",
+          "localSeoFeatured": true
         },
         {
           "q": "Can my child be tried as an adult?",
-          "a": "Yes, in qualifying felony cases. Minnesota law permits adult certification proceedings for children age 14 or older, with different presumptions and burdens depending on age, offense, prior history, and other statutory factors. Some serious cases may instead proceed as Extended Jurisdiction Juvenile matters."
+          "a": "Yes, in qualifying felony cases. Minnesota law permits adult certification proceedings for children age 14 or older, with different presumptions and burdens depending on age, offense, prior history, and other statutory factors. Some serious cases may instead proceed as Extended Jurisdiction Juvenile matters.",
+          "localSeoFeatured": true
         },
         {
           "q": "Will a juvenile case be part of my child’s permanent record?",
@@ -2981,7 +3096,8 @@
         },
         {
           "q": "What is Extended Jurisdiction Juvenile (EJJ)?",
-          "a": "EJJ is a special prosecution path for specified felony cases involving a child who was 14 to 17 at the time of the alleged offense. An EJJ prosecution includes a right to a jury trial, and a conviction can result in a juvenile disposition plus a stayed adult criminal sentence that can be put at risk if the juvenile disposition is later revoked."
+          "a": "EJJ is a special prosecution path for specified felony cases involving a child who was 14 to 17 at the time of the alleged offense. An EJJ prosecution includes a right to a jury trial, and a conviction can result in a juvenile disposition plus a stayed adult criminal sentence that can be put at risk if the juvenile disposition is later revoked.",
+          "localSeoFeatured": true
         },
         {
           "q": "Do we really need a lawyer if it’s ‘just’ juvenile court?",
@@ -2989,11 +3105,13 @@
         },
         {
           "q": "Does my child have a right to a jury trial in juvenile court?",
-          "a": "Ordinary juvenile delinquency trials are generally tried to a judge rather than a jury. Extended Jurisdiction Juvenile prosecutions are different: Minnesota law provides a right to a jury trial in EJJ proceedings."
+          "a": "Ordinary juvenile delinquency trials are generally tried to a judge rather than a jury. Extended Jurisdiction Juvenile prosecutions are different: Minnesota law provides a right to a jury trial in EJJ proceedings.",
+          "localSeoFeatured": true
         },
         {
           "q": "What is the difference between EJJ and adult certification?",
-          "a": "EJJ keeps the case in a special juvenile-court track but can impose a juvenile disposition together with a stayed adult sentence. Adult certification moves a qualifying felony case into adult criminal court. The applicable standards depend on the child's age, the offense, and other statutory factors."
+          "a": "EJJ keeps the case in a special juvenile-court track but can impose a juvenile disposition together with a stayed adult sentence. Adult certification moves a qualifying felony case into adult criminal court. The applicable standards depend on the child's age, the offense, and other statutory factors.",
+          "localSeoFeatured": true
         }
       ],
       "ctaLabel": "Protect Your Child’s Future",
@@ -3080,7 +3198,7 @@
         },
         {
           "type": "section",
-          "body": "In serious cases, the court can also consider Extended Jurisdiction Juvenile (EJJ), which combines a juvenile disposition with a stayed adult sentence that can remain in place until approximately age 21."
+          "body": "Extended Jurisdiction Juvenile (EJJ) prosecution can combine a juvenile disposition with a stayed adult sentence. Juvenile-court jurisdiction can continue to age 21. That jurisdictional age limit is distinct from the adult sentence: a violation can lead to revocation of the stay and execution of the adult sentence under the applicable rules."
         },
         {
           "type": "list-section",
@@ -3132,7 +3250,14 @@
             "Have counsel determine whether the case is ordinary delinquency, EJJ, or at risk of adult certification and build strategy around that path."
           ]
         }
-      ]
+      ],
+      "localSeo": {
+        "eyebrow": "Juvenile defense",
+        "serviceLabel": "Juvenile Defense",
+        "legalEyebrow": "Juvenile court and family questions",
+        "legalIntro": "Juvenile proceedings use different rules and terminology from adult criminal court. Andrew reviews the child’s age, petition, release conditions, and whether EJJ or adult certification is at issue. Follow the juvenile hearing notice rather than assuming the adult criminal court location applies.",
+        "showLocalResources": false
+      }
     }
   ]
 }

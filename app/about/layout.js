@@ -1,6 +1,9 @@
 import Hero from "../components/heroPractice.jsx";
 export const metadata = {
   title: "About Andrew Davis | Minnesota Criminal Defense Lawyer",
+  alternates: {
+    canonical: "https://www.davisdefenselawyers.com/about",
+  },
   description:
     "Learn about Andrew Davis, a Minnesota criminal defense attorney dedicated to protecting clients facing serious criminal charges across Hennepin County and the Twin Cities.",
 };
