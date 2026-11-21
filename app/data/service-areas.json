@@ -25,7 +25,7 @@
   "areas": [
     {
       "slug": "minneapolis-mn",
-      "localSeoPublished": false,
+      "localSeoPublished": true,
       "city": "Minneapolis",
       "county": "Hennepin County",
       "nearbyCities": [
