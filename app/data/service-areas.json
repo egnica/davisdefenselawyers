@@ -73,7 +73,7 @@
     },
     {
       "slug": "st-paul-mn",
-      "localSeoPublished": false,
+      "localSeoPublished": true,
       "city": "St. Paul",
       "county": "Ramsey County",
       "nearbyCities": [
