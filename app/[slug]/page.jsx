@@ -53,15 +53,39 @@ export async function generateMetadata({ params }) {
   const statewidePage = practiceAreas.find((item) => item.slug === slug);
 
   if (statewidePage) {
+    const title = statewidePage.metaTitle || `${statewidePage.title} in Minnesota`;
+    const description = statewidePage.metaDescription ||
+      `Learn about ${statewidePage.title.toLowerCase()} in Minnesota, including penalties and defense strategies with attorney Andrew Davis.`;
+    // The DWI page already uses this image in its content. Expose it to
+    // link preview services without changing how other practice pages render.
+    const dwiPreviewImage = slug === "dwi-dui"
+      ? statewidePage.contentBlocks?.find((block) => block.image)?.image
+      : null;
+
     return {
-      title:
-        statewidePage.metaTitle || `${statewidePage.title} in Minnesota`,
-      description:
-        statewidePage.metaDescription ||
-        `Learn about ${statewidePage.title.toLowerCase()} in Minnesota, including penalties and defense strategies with attorney Andrew Davis.`,
+      title,
+      description,
       alternates: {
         canonical: `${SITE_URL}/${slug}`,
       },
+      ...(dwiPreviewImage ? {
+        openGraph: {
+          type: "website",
+          title,
+          description,
+          url: `${SITE_URL}/${slug}`,
+          images: [{
+            url: dwiPreviewImage,
+            alt: "Minnesota DWI defense with attorney Andrew Davis",
+          }],
+        },
+        twitter: {
+          card: "summary_large_image",
+          title,
+          description,
+          images: [dwiPreviewImage],
+        },
+      } : {}),
     };
   }
 
